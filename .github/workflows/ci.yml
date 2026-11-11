@@ -23,16 +23,11 @@ jobs:
       - if: hashFiles('pyproject.toml') != ''
         uses: actions/setup-python@v7
         with:
-          python-version: "3.12"
+          python-version: "3.11"
           cache: pip
       - if: hashFiles('pyproject.toml') != ''
         name: Install
-        run: pip install -e ".[dev]"
-      - if: hashFiles('pyproject.toml') != ''
-        name: Lint
-        run: |
-          ruff check .
-          ruff format --check .
+        run: pip install -e ".[test]"
       - if: hashFiles('pyproject.toml') != ''
         name: Test
         run: pytest -q

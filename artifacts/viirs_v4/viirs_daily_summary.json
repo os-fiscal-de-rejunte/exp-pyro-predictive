@@ -1,0 +1,65 @@
+{
+  "product": "VJ114A1.002",
+  "input_sha256": {
+    "progress": "448fa826b60c78b7cc34466a2b863af4a0e2c4b8e6a7781d92f3386c8bd5189e",
+    "manifest": "4fa480bbd73ae9c478c7f6273a85b98b9e1b7c9cd562822c1ba0001a64d27a0c",
+    "code": "b506643f0048c84978f673b3158fcddf0d9033a28e14d646c2c53bb6b422134e",
+    "halo_progress": "a5e65c5768f4269c393b2f1e5a8534fa586c8da2242c9ce8b9922da4d91a82b0",
+    "extra_validation_progress": "59a338ce54e5c36da38a7809db3d4718ee626f0ecf25116c856c99b23ba49f41",
+    "modis_masks": "9e22ccc3df7eefaaaf1f1081420b9b50823784669d02ad9c9baa8585dd0dda22",
+    "satellite_records": "959326ffe5f455fdf4399941449b3298ca4a4d39c188c97aadb46b50842b8c1e",
+    "viirs_2023": "363ec65eaa216833e78f838cef5188c0b122f7f39f6ad6704dea80ea8deeb8f3",
+    "weather": "0edc7bf29e0b0f370c0a8eaec2e1201d52200ffbdde195e9b68e8380467e48b2"
+  },
+  "examples_sha256": "61d9a46678ec665b7c49681524e84ac650b2b08255661a197b981ede6fe65f36",
+  "rows": 1144,
+  "unknown_coverage": 570,
+  "split_counts": {
+    "test/holdout": 35,
+    "test/train": 96,
+    "train/holdout": 81,
+    "train/train": 232,
+    "unknown_coverage/holdout": 133,
+    "unknown_coverage/train": 437,
+    "validation/holdout": 37,
+    "validation/train": 93
+  },
+  "events": {
+    "test/holdout": {
+      "0": 30,
+      "1": 5
+    },
+    "test/train": {
+      "0": 87,
+      "1": 9
+    },
+    "train/holdout": {
+      "0": 73,
+      "1": 8
+    },
+    "train/train": {
+      "0": 207,
+      "1": 25
+    },
+    "unknown_coverage/holdout": {},
+    "unknown_coverage/train": {},
+    "validation/holdout": {
+      "0": 32,
+      "1": 5
+    },
+    "validation/train": {
+      "0": 88,
+      "1": 5
+    }
+  },
+  "missing_days_catalog_or_download": 8,
+  "ambiguous_days": 0,
+  "weather_fields": [
+    "T2M",
+    "RH2M",
+    "PRECTOTCORR",
+    "WS10M",
+    "GWETROOT"
+  ],
+  "limitation": "Evento VIIRS de 1 km condicionado à máscara diária integralmente válida; não é o produto FIRMS de 375 m."
+}

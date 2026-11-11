@@ -1,0 +1,6 @@
+{
+  "temperature_delta_c": 1.0,
+  "relative_humidity_delta_percentage_points": -3.0,
+  "precipitation_multiplier": 0.9,
+  "wind_multiplier": 1.05
+}

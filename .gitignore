@@ -1,40 +1,35 @@
-# Segredos
-.env
-*.pem
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.firecrawl/
 
-# Dados (só amostras em data/sample/ são versionadas)
-data/raw/
-data/processed/
-data/cache/
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dados e execuções locais volumosas
+/DATA/
+/runs/
 *.parquet
 *.nc
 *.hdf
 *.h5
-!data/sample/**
+*.zip
 
-# Modelos
-models/
-*.pkl
-*.joblib
-*.ckpt
-
-# Python
-__pycache__/
-*.py[cod]
-.venv/
+# Arquivos de desenvolvimento
 *.egg-info/
-.pytest_cache/
 .ruff_cache/
 .ipynb_checkpoints/
-
-# Node
-node_modules/
-dist/
-build/
-.next/
-
-# SO / editor
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+node_modules/
+dist/
+build/

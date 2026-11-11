@@ -1,0 +1,119 @@
+{
+  "data_dir": "DATA",
+  "runs_dir": "runs",
+  "seed": 20261111,
+  "operational": {
+    "total_seconds": 28800,
+    "reserve_seconds": 1800,
+    "training_seconds": 5400,
+    "max_training_runs": 3,
+    "max_cpu_threads": 6,
+    "memory_fraction_initial_available": 0.6,
+    "new_files_fraction_initial_free": 0.2,
+    "new_files_max_bytes": 21474836480,
+    "nasa_power_requests": 500,
+    "network_retries": 3,
+    "network_timeout_seconds": 45,
+    "checkpoint_seconds": 900,
+    "earthdata_max_requests": 1300,
+    "earthdata_max_query_days": 366,
+    "earthdata_max_query_granules": 500
+  },
+  "mask": {
+    "product": "MOD14A2",
+    "radius_km": 20,
+    "start_year": 2018,
+    "end_year": 2025,
+    "max_requests": 360,
+    "min_interval_seconds": 1.0,
+    "min_valid_fraction": 1.0
+  },
+  "regions": [
+    {
+      "name": "holdout_sul",
+      "latitude": -31.0,
+      "longitude": -52.5,
+      "group": "holdout"
+    },
+    {
+      "name": "norte_oeste",
+      "latitude": -7.5,
+      "longitude": -61.875,
+      "group": "train"
+    },
+    {
+      "name": "sudeste",
+      "latitude": -22.0,
+      "longitude": -45.0,
+      "group": "train"
+    },
+    {
+      "name": "norte",
+      "latitude": 3.5,
+      "longitude": -60.0,
+      "group": "train"
+    },
+    {
+      "name": "centro_oeste",
+      "latitude": -16.0,
+      "longitude": -58.75,
+      "group": "train"
+    },
+    {
+      "name": "holdout_nordeste",
+      "latitude": -4.5,
+      "longitude": -44.375,
+      "group": "holdout"
+    },
+    {
+      "name": "leste",
+      "latitude": -15.5,
+      "longitude": -39.375,
+      "group": "train"
+    },
+    {
+      "name": "centro_norte",
+      "latitude": -11.5,
+      "longitude": -46.875,
+      "group": "train"
+    }
+  ],
+  "split": {
+    "train_end": "2022-12-31",
+    "validation_end": "2023-12-31",
+    "test_start": "2024-01-01",
+    "test_end": "2025-12-31"
+  },
+  "weather_run": "zarr_brasil_v2_20261111",
+  "satellite_run": "sat_zarr_v2_20261111",
+  "firms_run": "nasa_complement_v3_20261111",
+  "viirs_daily": {
+    "start_year": 2018,
+    "end_year": 2025,
+    "days_of_month": [
+      1,
+      8,
+      15,
+      22
+    ],
+    "bbox_half_width_degrees": 0.001,
+    "source": "VJ114A1.002",
+    "coverage_radius_km": 20,
+    "months": [
+      1,
+      4,
+      7,
+      10
+    ],
+    "year_order": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2018,
+      2019,
+      2020
+    ]
+  }
+}
