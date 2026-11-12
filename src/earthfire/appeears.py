@@ -263,6 +263,8 @@ class AppEEARSClient:
         return task_id
 
     def task(self, task_id: str) -> dict:
+        if not re.fullmatch(r"[A-Za-z0-9_-]+", task_id):
+            raise ValueError("Identificador de tarefa inválido.")
         return self._request("GET", "task/" + task_id, protected=True).json()
 
     def wait(self, task_id: str, *, max_seconds: float = 300) -> dict:
@@ -286,6 +288,8 @@ class AppEEARSClient:
             time.sleep(min(30, max(0, deadline - time.monotonic())))
 
     def download_csv(self, task_id: str) -> list[Path]:
+        if not re.fullmatch(r"[A-Za-z0-9_-]+", task_id):
+            raise ValueError("Identificador de tarefa inválido.")
         bundle = self._request("GET", "bundle/" + task_id, protected=True).json()
         folder = self.cache / "downloads" / task_id
         folder.mkdir(parents=True, exist_ok=True)
@@ -324,8 +328,16 @@ class AppEEARSClient:
                 stream=True,
             )
             tmp = path.with_suffix(".csv.part")
+            started, checked = time.monotonic(), time.monotonic()
             with response, tmp.open("wb") as output:
                 for chunk in response.iter_content(65536):
+                    if time.monotonic() - started > max(60, self.timeout * 3):
+                        raise AppEEARSError(
+                            "Tempo total do download atingido; temporário preservado."
+                        )
+                    if self.guard and time.monotonic() - checked >= 5:
+                        self.guard()
+                        checked = time.monotonic()
                     total += len(chunk)
                     if total > self.max_download_bytes:
                         raise AppEEARSError(

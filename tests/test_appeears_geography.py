@@ -7,11 +7,19 @@ from pathlib import Path
 import pandas as pd
 import pytest
 import requests
+from types import SimpleNamespace
 
 from earthfire.appeears import AppEEARSClient, AppEEARSError, AuthenticationRequired
-from earthfire.geography import parse_csv, sampling_grid, snapshot, tasks_for_points
+from earthfire.geography import (
+    collect,
+    parse_csv,
+    sampling_grid,
+    snapshot,
+    tasks_for_points,
+)
 from earthfire.geography_view import export_view
 from earthfire.io import read_json
+from earthfire.runtime import ResourceLimit
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -66,6 +74,8 @@ def test_idempotent_submission_does_not_duplicate_tasks(tmp_path):
     assert len(session.calls) == 1
     with pytest.raises(ValueError):
         client.metadata("../../escape")
+    with pytest.raises(ValueError):
+        client.download_csv("../../escape")
 
 
 def test_ambiguous_post_is_not_retried(tmp_path):
@@ -265,3 +275,53 @@ def test_annual_composite_ends_one_year_after_actual_start(tmp_path):
     )
     assert data.period_end_exclusive.iloc[0] == pd.Timestamp("2021-03-05")
     assert snapshot(data, [point], "2022-02-01")["status"] == "insufficient_data"
+
+
+def test_resource_stop_is_structured_without_synthetic_observations(tmp_path):
+    def stop(_):
+        raise ResourceLimit("fixture budget exhausted")
+
+    client = SimpleNamespace(
+        cache=tmp_path, metadata=lambda _: {"value": {}}, submit=stop
+    )
+    cfg = {
+        "products": {"fixture": {"layers": ["value"], "temporal": "16day"}},
+        "max_points_per_task": 100,
+        "wait_seconds": 0,
+    }
+    result = collect(
+        client, sampling_grid(-21.0, -54.0, side=1), "2020-01-01", "2020-12-31", cfg
+    )
+    assert result["status"] == "resource_limit" and result["files"] == []
+
+
+def test_view_network_failure_is_not_a_zero_geographic_measurement(
+    tmp_path, monkeypatch
+):
+    from earthfire import geography_view as view
+
+    def offline(_):
+        raise AppEEARSError("fixture offline")
+
+    monkeypatch.setattr(
+        view, "AppEEARSClient", lambda *a, **kw: SimpleNamespace(metadata=offline)
+    )
+    value = view.describe_geography(
+        -21.0, -54.0, "2026-11-12", cache_dir=tmp_path, fetch=False
+    )
+    assert value["status"] == "source_unavailable" and value["features"] == {}
+
+
+def test_view_labels_partially_finished_collection(tmp_path, monkeypatch):
+    from earthfire import geography_view as view
+
+    data, _, _, _ = fixture_data(tmp_path)
+    monkeypatch.setattr(
+        view, "AppEEARSClient", lambda *a, **kw: SimpleNamespace(metadata=lambda _: {})
+    )
+    monkeypatch.setattr(view, "collect", lambda *a, **kw: {"status": "pending"})
+    monkeypatch.setattr(view, "parse_csv", lambda *a, **kw: data)
+    value = view.describe_geography(
+        -21.229167, -54.341825, "2020-02-20", cache_dir=tmp_path
+    )
+    assert value["status"] == "partial" and not value["collection_complete"]

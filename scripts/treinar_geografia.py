@@ -16,7 +16,7 @@ import pandas as pd
 from earthfire.appeears import AppEEARSClient
 from earthfire.geography import collect, parse_csv, sampling_grid, snapshot
 from earthfire.io import read_json, sha256_file, utc_now, write_json
-from earthfire.runtime import Run
+from earthfire.runtime import Run, ResourceLimit
 
 
 def main():
@@ -86,6 +86,25 @@ def main():
         write_json(plan_path, plan)
     if plan["source_registry_sha256"] != sha256_file(source / "model_registry.json"):
         raise ValueError("Dados de origem mudaram.")
+    metrics_path = output / "models/metrics.json"
+    if metrics_path.exists():
+        registry = read_json(output / "models/registry.json")
+        for filename, digest in registry["artifacts"].items():
+            if sha256_file(output / "models" / filename) != digest:
+                raise ValueError("Modelo geográfico concluído foi alterado.")
+        if (
+            sha256_file(output / "models/examples.parquet")
+            != registry["examples_sha256"]
+        ):
+            raise ValueError("Exemplos do modelo concluído foram alterados.")
+        for module, digest in registry["code"].items():
+            if sha256_file(ROOT / "src/earthfire" / (module + ".py")) != digest:
+                raise ValueError("Código incompatível com o modelo concluído.")
+        print(
+            {"stage": "complete", "cached": True, "metrics": read_json(metrics_path)},
+            flush=True,
+        )
+        return
     points = [
         p
         for rid in plan["cells"]
@@ -110,6 +129,12 @@ def main():
         flush=True,
     )
     write_json(output / "status.json", result)
+    if result["status"] in (
+        "authentication_required",
+        "source_unavailable",
+        "resource_limit",
+    ):
+        raise SystemExit(2)
     if args.collect_only or result["status"] != "ok":
         return
     metadata = {p: client.metadata(p) for p in config["products"]}
@@ -120,6 +145,38 @@ def main():
             "Não houve observações AppEEARS utilizáveis; treinamento não iniciado."
         )
     observations.to_parquet(output / "observations.parquet", index=False)
+    import importlib.metadata
+
+    write_json(
+        output / "environment.json",
+        {
+            name: importlib.metadata.version(name)
+            for name in (
+                "numpy",
+                "pandas",
+                "pyarrow",
+                "torch",
+                "pyro-ppl",
+                "requests",
+                "scipy",
+            )
+        },
+    )
+    write_json(
+        output / "input_manifest.json",
+        {
+            "created_utc": utc_now(),
+            "source_registry_sha256": plan["source_registry_sha256"],
+            "observations_sha256": sha256_file(output / "observations.parquet"),
+            "metadata": {
+                product: sha256_file(client.cache / ("layers_" + product + ".json"))
+                for product in config["products"]
+            },
+            "raw_csv": {
+                p.relative_to(client.cache).as_posix(): sha256_file(p) for p in paths
+            },
+        },
+    )
     registry = read_json(source / "model_registry.json")
     tables = []
     for filename in sorted({catalog[rid]["feature_file"] for rid in plan["cells"]}):
@@ -155,4 +212,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except ResourceLimit as exc:
+        print({"status": "resource_limit", "reason": str(exc)})
+        raise SystemExit(2) from None

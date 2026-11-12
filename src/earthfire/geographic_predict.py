@@ -6,6 +6,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from scipy.stats import bernoulli
 
 from .geography_view import describe_geography, export_view
 from .io import read_json, sha256_file
@@ -28,6 +29,16 @@ def forecast_with_geography(
     result = forecast(
         latitude, longitude, run_dir, issued, allow_exploratory=allow_exploratory
     )
+    if result["status"] == "out_of_distribution" and result.get("probability") is None:
+        result.update(
+            geography_model_used=False,
+            primary_prediction_uses_geography=False,
+            geographic_context={
+                "status": "not_requested",
+                "reason": "Emissão fora da janela do modelo; nenhuma extração geográfica futura foi solicitada.",
+            },
+        )
+        return result
     context = describe_geography(
         latitude, longitude, issued, cache_dir=cache_dir, fetch=fetch
     )
@@ -35,6 +46,7 @@ def forecast_with_geography(
         result["geography_view"] = str(export_view(context, view_dir))
     result["geographic_context"] = context
     result["geography_model_used"] = False
+    result["primary_prediction_uses_geography"] = False
     if geography_model_dir is None or context["status"] not in ("ok", "partial"):
         return result
     root = Path(geography_model_dir)
@@ -77,6 +89,10 @@ def forecast_with_geography(
         "season_cos": np.cos(phase),
         **{k: features.get(k) for k in GEO_FEATURES},
     }
+    data.update(
+        latitude_season_sin=data["latitude"] * data["season_sin"],
+        latitude_season_cos=data["latitude"] * data["season_cos"],
+    )
     selected = registry["selected"]
     values = posterior(root / (selected + ".pt"), pd.DataFrame([data]), samples=400)[
         :, 0
@@ -102,9 +118,20 @@ def forecast_with_geography(
         "selected_model": selected,
         "probability": float(values.mean()),
         "probability_interval_95": np.quantile(values, [0.025, 0.975]).tolist(),
+        "predictive_event_interval_95": bernoulli.ppf(
+            [0.025, 0.975], float(values.mean())
+        )
+        .astype(int)
+        .tolist(),
+        "uncertainty_method": "Posterior variacional Pyro; não inclui toda a incerteza de transferência para regiões novas.",
         "uses_geography": selected == "with_geography",
         "locally_calibrated": False,
         "outside_training_feature_range": ood,
+        "ignored_features_not_observed_in_training": [
+            name
+            for name in GEO_FEATURES
+            if data.get(name) is not None and not training[name].notna().any()
+        ],
         "registry_sha256": sha256_file(root / "registry.json"),
         "interpretation": "Candidato comparável; não substitui silenciosamente a previsão v6 validada. Veja métricas e limites do experimento.",
     }

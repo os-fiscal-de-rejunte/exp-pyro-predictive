@@ -14,6 +14,7 @@ import pandas as pd
 from .appeears import AppEEARSClient, AppEEARSError, AuthenticationRequired
 from .expansion_grid import PIXEL, RADIUS, point_cell
 from .io import sha256_file, utc_now, write_json
+from .runtime import ResourceLimit
 
 LAND_CLASSES = {
     1: "Floresta de coníferas perene",
@@ -159,8 +160,13 @@ def collect(
                 reason="Execute scripts/configurar_appeears.py no terminal local.",
             )
             break
-        except AppEEARSError as exc:
-            result.update(status="source_unavailable", reason=str(exc))
+        except (AppEEARSError, ResourceLimit) as exc:
+            result.update(
+                status="resource_limit"
+                if isinstance(exc, ResourceLimit)
+                else "source_unavailable",
+                reason=str(exc),
+            )
             break
     deadline = time.monotonic() + config["wait_seconds"]
     for identifier in identifiers:
@@ -180,8 +186,13 @@ def collect(
                 reason="Execute scripts/configurar_appeears.py no terminal local.",
             )
             break
-        except AppEEARSError as exc:
-            result.update(status="source_unavailable", reason=str(exc))
+        except (AppEEARSError, ResourceLimit) as exc:
+            result.update(
+                status="resource_limit"
+                if isinstance(exc, ResourceLimit)
+                else "source_unavailable",
+                reason=str(exc),
+            )
             break
     write_json(client.cache / "collection.json", result)
     return result

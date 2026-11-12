@@ -5,7 +5,7 @@ import pandas as pd
 import pytest
 import torch
 
-from earthfire.geo_model import GEO_FEATURES, experiment, posterior
+from earthfire.geo_model import GEO_FEATURES, experiment, posterior, transform
 from earthfire.io import read_json
 
 
@@ -49,6 +49,11 @@ def test_geographic_training_preserves_temporal_spatial_boundaries(tmp_path):
     )
     assert saved["training_regions"] == ["train"] and saved["training_n"] == 120
     assert saved["mean"][0] == 10.0
+    new_input = frame.iloc[:2].copy()
+    new_input["geo_tree_percent"] = 80.0
+    np.testing.assert_array_equal(
+        transform(new_input, saved), transform(frame.iloc[:2], saved)
+    )
     assert result["test"]["with_geography"]["n"] == 80
     assert result["spatial_test"]["with_geography"]["n"] == 40
     values = posterior(tmp_path / "with_geography.pt", frame.iloc[:2], 10)

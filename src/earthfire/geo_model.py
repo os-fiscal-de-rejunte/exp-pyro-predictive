@@ -18,7 +18,14 @@ from pyro.optim import ClippedAdam
 from .expansion_evaluate import summarize
 from .io import sha256_file, utc_now, write_json
 
-BASE_FEATURES = ["latitude", "longitude", "season_sin", "season_cos"]
+BASE_FEATURES = [
+    "latitude",
+    "longitude",
+    "season_sin",
+    "season_cos",
+    "latitude_season_sin",
+    "latitude_season_cos",
+]
 GEO_FEATURES = [
     "geo_ndvi",
     "geo_evi",
@@ -47,10 +54,21 @@ def model(x, y=None, prior=0.0):
             )
 
 
+def with_temporal_interactions(frame: pd.DataFrame) -> pd.DataFrame:
+    """Permite sazonalidade diferente entre hemisférios sem usar dados futuros."""
+    return frame.assign(
+        latitude_season_sin=frame.latitude * frame.season_sin,
+        latitude_season_cos=frame.latitude * frame.season_cos,
+    )
+
+
 def transform(frame: pd.DataFrame, saved: dict) -> np.ndarray:
-    raw = frame[saved["features"]].to_numpy(float)
+    frame = with_temporal_interactions(frame)
+    raw = frame[saved["features"]].to_numpy(float, copy=True)
     if np.isinf(raw).any():
         raise ValueError("Features geográficas infinitas.")
+    for column in saved.get("unobserved_features", []):
+        raw[:, saved["features"].index(column)] = np.nan
     clean = np.where(np.isnan(raw), np.array(saved["fill"]), raw)
     # Indicadores de ausência são parte do treinamento, não observações inventadas.
     data = np.column_stack([clean, np.isnan(raw).astype(float)])
@@ -67,6 +85,7 @@ def train(
     data_hash: str,
     guard=None,
 ) -> Path:
+    frame = with_temporal_interactions(frame)
     torch.set_num_threads(2)
     fit = frame.loc[
         (frame.split == "train")
@@ -92,6 +111,11 @@ def train(
     scale[scale < 1e-6] = 1
     saved = {
         "features": features,
+        "unobserved_features": [
+            name
+            for name, values in zip(features, raw.T)
+            if not np.isfinite(values).any()
+        ],
         "fill": fill.tolist(),
         "mean": mean.tolist(),
         "scale": scale.tolist(),
@@ -190,6 +214,7 @@ def posterior(path: Path, frame: pd.DataFrame, samples: int = 200) -> np.ndarray
 
 
 def experiment(frame: pd.DataFrame, output: Path, config: dict, run=None) -> dict:
+    frame = with_temporal_interactions(frame)
     output.mkdir(parents=True, exist_ok=True)
     if (output / "metrics.json").exists():
         raise ValueError("Experimento concluído está congelado; use outro diretório.")
@@ -247,6 +272,15 @@ def experiment(frame: pd.DataFrame, output: Path, config: dict, run=None) -> dic
         "validation": validation,
         "test": {},
         "spatial_test": {},
+        "test_by_continent": {},
+        "cohort": {
+            str(split): {
+                "n": len(part),
+                "positive": int(part.event.sum()),
+                "cells": int(part.region_id.nunique()),
+            }
+            for split, part in selected.groupby("split")
+        },
         "interpretation": "Experimento retrospectivo em recortes; teste v6 já conhecido. Não demonstra acurácia mundial ou validação operacional.",
         "data_n": len(selected),
         "trained_utc": utc_now(),
@@ -269,6 +303,14 @@ def experiment(frame: pd.DataFrame, output: Path, config: dict, run=None) -> dic
         metrics["spatial_test"][name] = summarize(
             test.loc[heldout].event, values[heldout]
         )
+        if "continent" in test:
+            metrics["test_by_continent"][name] = {
+                str(continent): summarize(
+                    test.loc[test.continent == continent].event,
+                    values[(test.continent == continent).to_numpy()],
+                )
+                for continent in sorted(test.continent.unique())
+            }
         predictions[name] = values
     test = test[["region_id", "period_start", "spatial_group", "event"]].copy()
     for name, values in predictions.items():

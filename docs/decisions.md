@@ -68,3 +68,14 @@
 ## Adaptador espacial exploratorio — 12/11/2026
 
 Por solicitacao do usuario, a consulta passa a permitir novas localizacoes com saida explicitamente exploratoria. Usa o Pyro sem clima existente, coordenadas, sazonalidade e indicadores aprendidos de historico ausente. Artefatos e motor v6 permanecem congelados. Nao se remove a distincao entre cobertura validada e extrapolacao. Nenhuma meteorologia e inventada ou baixada nesta consulta. Foram aprovados 79 testes na suite e repetidos os cinco contratos do novo adaptador apos os ajustes finais de metadados. Demonstracao real: Nova York, sem historico local registrado; resultado em docs/examples/forecast_unseen_new_york.json.
+
+
+## Integração geográfica AppEEARS — 2026-11-12T15:16:08+00:00
+
+Catálogo oficial e quatro produtos reais verificados. CSVs de pontos já são escalados: não multiplicar NDVI/EVI outra vez. O exemplo real com nove pontos contém 1.719 observações; escalas, checksums, máscaras de qualidade e datas foram auditados. Token guardado apenas no cofre local. Os dados não modificam automaticamente a previsão v6.
+
+A coleta maior escolheu 24 células e 216 pontos com suporte do treino, seis continentes e grupos espaciais preservados. Como duas extrações longas de NDVI continuaram em processamento, foi registrada antes de qualquer novo teste real uma variante anual em geography_annual_v1, excluindo MOD13Q1 da coleta e reaproveitando os três trabalhos DEM já concluídos. Este primeiro experimento não usa NDVI no treinamento; o modelo ignora variáveis nunca observadas no treino, mesmo quando elas aparecem depois na consulta.
+
+Ambas as variantes da ablação usam as mesmas coordenadas, sazonalidade e interações latitude × seno/cosseno para permitir sazonalidade diferente nos hemisférios. As entradas geográficas adicionais usam frações amostrais das classes, cobertura arbórea e descritores de altitude. Seleção por Brier na validação; teste histórico v6 já conhecido não é uma confirmação independente. Sem promessa de melhora mundial ou causalidade.
+
+A janela inicial configurada de 90 minutos expirou sem treinamento real. Registrou-se uma janela separada geography_app_closing_20261112 para finalizar dentro das oito horas gerais autorizadas nesta tarefa. As tarefas e caches anteriores foram preservados, sem reenvio dos trabalhos confirmados.

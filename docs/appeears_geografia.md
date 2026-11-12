@@ -61,6 +61,18 @@ O piloto usa 24 células, com dois recortes por continente e grupo espacial, esc
 
 São treinadas duas regressões Bernoulli em Pyro/PyTorch: coordenadas+sazonalidade e as mesmas entradas acrescidas das features geográficas. Indicadores de dados ausentes e imputadores são ajustados no treino. Não há histórico local obrigatório na inferência. As categorias de solo são frações amostrais de classes fixas, sem codificação ordinal artificial. Este experimento geográfico não usa clima atual; os modelos climáticos anteriores permanecem preservados.
 
+As duas variantes incluem latitude × seno/cosseno da época do ano, para permitir sazonalidade diferente entre hemisférios. Variáveis nunca observadas no treino são ignoradas também na inferência; o preenchimento não cria uma relação aprendida para uma variável ausente.
+
+Foi preparado um recorte alternativo mais leve em `config/geography_annual.json`, sem MOD13Q1, pois as extrações longas de NDVI permaneceram na fila NASA. Ele conserva as mesmas 24 células, divisões e critérios de seleção; utiliza cobertura do solo, cobertura arbórea e altitude. Os três trabalhos de relevo são reaproveitados com seus hashes. NDVI/EVI continuam disponíveis na visualização, mas não são usados por um modelo treinado exclusivamente com essa configuração. O resultado efetivamente executado consta em `REPORT_APPEEARS.md`.
+
+Para retomar esse recorte em uma nova execução explicitamente iniciada pelo responsável:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/treinar_geografia.py --run-dir runs/geography_annual_v1 --config config/geography_annual.json --budget-id geography_annual_resume_01 --no-wait
+```
+
+O ID identifica o orçamento daquela execução. Não o troque automaticamente quando o limite expirar. A coleta é serial; não execute dois processos sobre o mesmo cache. O controle de requisições é persistente por cache, não um limite compartilhado por todos os caches. Downloads só seguem HTTPS para a NASA, S3 ou o hostname CDN observado no próprio redirecionamento oficial; o token Bearer nunca é encaminhado ao CDN. Os CSVs são conferidos com o checksum do bundle.
+
 A ablação usa exatamente a mesma coorte com geografia suficiente. Treino 2020–2022, validação 2023 e teste 2024–2025; regiões `holdout` não entram no ajuste nem na seleção global. A seleção pelo Brier usa somente validação e é gravada antes da avaliação final. Porém esse teste histórico já foi conhecido durante o desenvolvimento v6: a comparação é retrospectiva, não uma nova confirmação independente. O experimento não autoriza anunciar acurácia mundial.
 
 Se a coleta estiver pendente, retome sem espera longa:

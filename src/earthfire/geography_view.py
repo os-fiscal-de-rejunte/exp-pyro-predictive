@@ -13,9 +13,10 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.colors import BoundaryNorm, ListedColormap
 
-from .appeears import AppEEARSClient
+from .appeears import AppEEARSClient, AppEEARSError
 from .geography import LAND_CLASSES, collect, parse_csv, sampling_grid, snapshot
 from .io import read_json, utc_now, write_json
+from .runtime import ResourceLimit
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -41,17 +42,27 @@ def describe_geography(
     issued = pd.Timestamp(reference_date)
     issued = issued.tz_convert("UTC").tz_localize(None) if issued.tz else issued
     state = {"status": "cache_only"}
-    if fetch:
-        state = collect(
-            client,
-            points,
-            f"{issued.year-3}-01-01",
-            str((issued - pd.Timedelta(days=1)).date()),
-            config,
-        )
     paths = sorted((cache_dir / "downloads").glob("*/*.csv"))
-    metadata = {product: client.metadata(product) for product in config["products"]}
-    observations = parse_csv(paths, config, metadata, retrieved_at=utc_now())
+    try:
+        if fetch:
+            last_observed = min(
+                (issued - pd.Timedelta(days=1)).date(),
+                pd.Timestamp.now(tz="UTC").date(),
+            )
+            state = collect(
+                client, points, f"{issued.year-3}-01-01", str(last_observed), config
+            )
+            paths = sorted((cache_dir / "downloads").glob("*/*.csv"))
+        metadata = {product: client.metadata(product) for product in config["products"]}
+        observations = parse_csv(paths, config, metadata, retrieved_at=utc_now())
+    except (AppEEARSError, ResourceLimit) as exc:
+        state = {
+            "status": "resource_limit"
+            if isinstance(exc, ResourceLimit)
+            else "source_unavailable",
+            "reason": str(exc),
+        }
+        observations = pd.DataFrame()
     if not observations.empty:
         # Usa a data efetiva de obtenção de cada arquivo para o contrato operacional.
         for path in paths:
@@ -67,11 +78,22 @@ def describe_geography(
                 ] = obtained
         observations.to_parquet(cache_dir / "observations.parquet", index=False)
     result = snapshot(observations, points, reference_date)
+    for sample in result.get("samples", []):
+        for entry in sample.get("layers", {}).values():
+            entry["resolution_nominal_m"] = config["products"][entry["product"]][
+                "resolution_m"
+            ]
+            entry["date_kind"] = "nominal_product_period_start"
+            entry["spatial_support"] = "nearest_product_pixel"
     if result["status"] == "ok" and state["status"] == "pending":
         result["status"] = "partial"
-    if result["status"] != "ok" and state["status"] not in ("ok", "cache_only"):
+    if result["status"] == "insufficient_data" and state["status"] not in (
+        "ok",
+        "cache_only",
+    ):
         result["status"] = state["status"]
     result.update(
+        schema_version="geographic-context-1.0",
         requested_location={"latitude": latitude, "longitude": longitude},
         collection=state,
         source="NASA AppEEARS",
