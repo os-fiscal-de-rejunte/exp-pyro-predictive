@@ -192,7 +192,7 @@ def test_synthetic_finalization_and_future_projection(project, weather_available
                 item.update(
                     parent_id=f"synthetic_{index}",
                     continent="synthetic",
-                    spatial_group="train",
+                    spatial_group="train" if index == 0 else "holdout",
                     legacy_context=False,
                     period_start=day,
                     period_end_exclusive=day + pd.Timedelta(days=8),
@@ -207,6 +207,15 @@ def test_synthetic_finalization_and_future_projection(project, weather_available
         write_json(path.with_suffix(".json"), {"sha256": sha256_file(path)})
     result = finalize(project)
     assert result["test_n"] == 78 and result["released_cells"] == 2
+    import json
+
+    baselines = json.loads(
+        (project.path / "baseline_model.json").read_text(encoding="utf-8")
+    )
+    assert len(baselines["region_month"]) == 1
+    trained = pd.read_parquet(project.path / "processed/mask_examples.parquet")
+    assert (trained.spatial_group == "train").all()
+    assert len(trained) == (120 if weather_available else 0)
     prediction = forecast(
         first["latitude"], first["longitude"], project.path, "2026-01-11T12:00:00Z"
     )
@@ -237,3 +246,30 @@ def test_probability_scores_for_balanced_constant_prediction():
     assert result["average_precision"] == pytest.approx(0.5)
     with pytest.raises(ValueError):
         summarize([0], [np.nan])
+
+
+def test_regional_seasonality_uses_training_continent_for_unseen_cell():
+    from earthfire.expansion_evaluate import baseline_probabilities
+    from earthfire.expansion_predict import baseline_parameters
+
+    model = {
+        "global": [2.0, 8.0],
+        "month": {},
+        "region_month": {},
+        "transition": {},
+        "continent_month": {"Africa": {"1": [9.0, 1.0]}, "Asia": {"1": [1.0, 9.0]}},
+    }
+    rows = pd.DataFrame(
+        {
+            "region_id": ["unseen_africa", "unseen_asia"],
+            "continent": ["Africa", "Asia"],
+            "period_start": pd.to_datetime(["2024-01-01"] * 2),
+            "past_modis_event": [np.nan] * 2,
+        }
+    )
+    predictions = baseline_probabilities(model, rows)
+    assert predictions["regional_seasonal"].tolist() == pytest.approx([0.9, 0.1])
+    assert predictions["seasonal"].tolist() == pytest.approx([0.2, 0.2])
+    assert baseline_parameters(
+        model, "regional_seasonal", "unseen_africa", 1, continent="Africa"
+    ) == [9.0, 1.0]

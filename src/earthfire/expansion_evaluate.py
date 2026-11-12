@@ -11,7 +11,7 @@ import pandas as pd
 from .io import read_json, sha256_file, utc_now, write_json
 from .runtime import Run, ResourceLimit
 
-BASES = ("global_frequency", "seasonal", "persistence")
+BASES = ("global_frequency", "seasonal", "regional_seasonal", "persistence")
 
 
 def partitions(run):
@@ -39,6 +39,12 @@ def baseline_probabilities(model, frame):
         transition = model["transition"].get(past, model["global"])
         result["global_frequency"].append(global_rate)
         result["seasonal"].append(ab[0] / sum(ab))
+        regional = (
+            model.get("continent_month", {})
+            .get(str(row.continent), {})
+            .get(month, model["month"].get(month, model["global"]))
+        )
+        result["regional_seasonal"].append(regional[0] / sum(regional))
         result["persistence"].append(transition[0] / sum(transition))
     return {key: np.asarray(value) for key, value in result.items()}
 
@@ -109,6 +115,9 @@ def finalize(run: Run) -> dict:
             raise ResourceLimit(
                 "Avaliação concluída está congelada; novas partições exigem outro run_id."
             )
+        from .expansion_predict import load
+
+        load(run.path)
         return read_json(directory / "metrics.json")
     meta = {}
     assets = run.root / "runs" / run.config.get("mask_storage_run", run.run_id)
@@ -219,6 +228,7 @@ def finalize(run: Run) -> dict:
     counts = {}
     transitions = {}
     months = {}
+    continent_months = {}
     total = [0, 0]
     bounds = {c: [float("inf"), float("-inf")] for c in FEATURES_WEATHER}
     for path in files:
@@ -235,6 +245,12 @@ def finalize(run: Run) -> dict:
             counts[(str(rid), int(m))] = [int(g.event.sum()), len(g)]
         for m, g in fit.groupby(fit.period_start.dt.month):
             old = months.setdefault(int(m), [0, 0])
+            old[0] += int(g.event.sum())
+            old[1] += len(g)
+        for (continent, month), g in fit.groupby(
+            ["continent", fit.period_start.dt.month]
+        ):
+            old = continent_months.setdefault((str(continent), int(month)), [0, 0])
             old[0] += int(g.event.sum())
             old[1] += len(g)
         for past, g in fit.dropna(subset=["past_modis_event"]).groupby(
@@ -266,10 +282,13 @@ def finalize(run: Run) -> dict:
         "global": [float(total[0] + 0.5), float(total[1] - total[0] + 0.5)],
         "month": {str(m): beta(v) for m, v in months.items()},
         "region_month": {},
+        "continent_month": {},
         "transition": {str(p): beta(v) for p, v in transitions.items()},
     }
     for (rid, m), pair in counts.items():
         model["region_month"].setdefault(rid, {})[str(m)] = beta(pair)
+    for (continent, month), pair in continent_months.items():
+        model["continent_month"].setdefault(continent, {})[str(month)] = beta(pair)
     write_json(run.path / "baseline_model.json", model)
     write_json(
         run.path / "feature_bounds.json",
@@ -443,7 +462,7 @@ def finalize(run: Run) -> dict:
         static = {
             name: s
             for name, s in valid.items()
-            if name in ("seasonal", "global_frequency")
+            if name in ("seasonal", "regional_seasonal", "global_frequency")
         }
         projection = min(static, key=lambda k: static[k]["brier"]) if static else None
         supported_months = [
@@ -490,9 +509,12 @@ def finalize(run: Run) -> dict:
                     is not None,
                     "historical_observed_periods": info["training_n"],
                     "historical_positive_periods": info["training_positive"],
+                    "historical_information_supported": info["training_n"] > 0,
                     "value_kind": "conditional_forecast"
                     if info["release"].get("eligible")
-                    else "observed_history_only",
+                    else "observed_history_only"
+                    if info["training_n"] > 0
+                    else "insufficient_data",
                 },
             }
         )
@@ -556,8 +578,24 @@ def finalize(run: Run) -> dict:
         "studied_feature_cells": sum(
             not v.get("history_only", False) for v in meta.values()
         ),
-        "historical_cells": len(meta),
-        "historical_area_km2": sum(v["area_km2"] for v in meta.values()),
+        "catalog_cells": len(meta),
+        "historical_cells": sum(
+            v["training_n"] > 0
+            and all(
+                abs(x) <= 180 and abs(y) <= 90
+                for x, y in footprint(v)["coordinates"][0]
+            )
+            for v in meta.values()
+        ),
+        "historical_area_km2": sum(
+            v["area_km2"]
+            for v in meta.values()
+            if v["training_n"] > 0
+            and all(
+                abs(x) <= 180 and abs(y) <= 90
+                for x, y in footprint(v)["coordinates"][0]
+            )
+        ),
         "test_n": len(test),
         "test_positive": int(test.event.sum()),
         "by_continent": {},
@@ -577,6 +615,19 @@ def finalize(run: Run) -> dict:
     result["released_test_spatial_holdout"] = summarize(
         heldout.event, heldout.routed_probability
     )
+    spatial_all = test.loc[(test.spatial_group == "holdout") & ~test.legacy_context]
+    spatial_weather = spatial_all.loc[spatial_all.weather_complete]
+    result["spatial_holdout_unfiltered"] = {
+        "interpretation": "Regiões novas; sem filtrar pela liberação local. Modelos globais escolhidos na validação das regiões de treino. A liberação local, separadamente, utiliza a validação 2023 da própria célula.",
+        "all_baselines": {
+            name: summarize(spatial_all.event, spatial_all[name]) for name in BASES
+        },
+        "common_weather": {
+            name: summarize(spatial_weather.event, spatial_weather[name])
+            for name in names
+            if spatial_weather[name].notna().all()
+        },
+    }
     for column, key in [("continent", "by_continent"), ("spatial_group", "by_group")]:
         for name, g in eligible.groupby(column):
             result[key][str(name)] = summarize(g.event, g.routed_probability)

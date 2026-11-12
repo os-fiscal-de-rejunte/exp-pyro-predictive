@@ -97,6 +97,10 @@ def world_map(root: Path, metrics: dict) -> None:
     grouped = {"history": [], "validated": [], "current": []}
     for feature in coverage["features"]:
         prop = feature["properties"]
+        if not prop.get(
+            "historical_information_supported", prop["historical_observed_periods"] > 0
+        ):
+            continue
         group = (
             "current"
             if prop["cell_id"] in current
@@ -215,6 +219,7 @@ def report(root: Path) -> dict:
             for name in [
                 "global_frequency",
                 "seasonal",
+                "regional_seasonal",
                 "persistence",
                 "routed_probability",
             ]
@@ -224,6 +229,8 @@ def report(root: Path) -> dict:
         "by_month": {},
         "by_horizon_days": {},
         "by_parent": {},
+        "coverage_by_continent": {},
+        "full_test_baselines_by_continent": {},
     }
     eligible["month"] = eligible.period_start.dt.month
     following_year = pd.to_datetime(
@@ -255,6 +262,26 @@ def report(root: Path) -> dict:
     write_json(root / "evaluation/diagnostics.json", result)
     # JSON de tamanho previsível para integração; não exporta todos os exemplos em uma resposta.
     catalog = read_json(root / "cell_catalog.json")
+    for continent in sorted({v["continent"] for v in catalog.values()}):
+        cells = [v for v in catalog.values() if v["continent"] == continent]
+        released = [v for v in cells if v["release"].get("eligible", False)]
+        result["coverage_by_continent"][continent] = {
+            "catalog_cells": len(cells),
+            "cells_with_observed_training": sum(v["training_n"] > 0 for v in cells),
+            "released_cells": len(released),
+            "released_area_km2": sum(v["area_km2"] for v in released),
+        }
+    for continent, part in frame.groupby("continent"):
+        result["full_test_baselines_by_continent"][str(continent)] = {
+            name: summarize(part.event, part[name])
+            for name in [
+                "global_frequency",
+                "seasonal",
+                "regional_seasonal",
+                "persistence",
+            ]
+        }
+    write_json(root / "evaluation/diagnostics.json", result)
     export = [
         {
             "cell_id": rid,
@@ -282,7 +309,7 @@ def report(root: Path) -> dict:
     axes[0].barh(
         labels,
         [scores[k]["brier"] for k in labels],
-        color=["#81939c"] * 3 + ["#ce2137"],
+        color=["#81939c"] * (len(labels) - 1) + ["#ce2137"],
     )
     axes[0].set(
         xlabel="Brier score · menor é melhor",

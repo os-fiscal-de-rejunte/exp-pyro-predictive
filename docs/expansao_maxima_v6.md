@@ -20,9 +20,13 @@ O planejamento resultou em 531 blocos candidatos, escolhidos com diversidade con
 
 Um em cada cinco blocos é reservado espacialmente. Células de treino adjacentes a células reservadas na grade nativa são retiradas do ajuste como buffer. As localidades próximas dos recortes v5 recebem `legacy_context`; seus testes ficam separados dos contextos geográficos novos.
 
+A seleção do campeão global não usa a validação das regiões reservadas. A liberação local, porém, consulta os rótulos de validação 2023 de cada célula: seu teste é uma avaliação com adaptação local, não transferência sem rótulos. Por isso, `spatial_holdout_unfiltered` também avalia todos os casos de teste das regiões novas reservadas, sem filtrar pela política local; essa é a comparação apropriada de generalização geográfica dos modelos globais.
+
 ## Observabilidade, clima e exemplos
 
 O alvo é binário: ao menos um pixel com foco no composto MOD14A2 de até oito dias, **condicionado a todos os pixels da célula terem classificação válida**. Uma máscara incompleta não produz um negativo. Os últimos compostos do ano podem ter menos de oito dias. Não se estima ignição, propagação, área queimada ou todo fogo não observado.
+
+Uma classificação válida no composto não comprova que houve oportunidade de observação válida em todos os dias. O composto e suas classes são a referência observacional; não se reconstrói uma cobertura diária inexistente. Condicionar a avaliação à máscara válida também seleciona condições de observabilidade e pode limitar a transferência para períodos nublados. A probabilidade não é a chance incondicional de fogo físico.
 
 Primeiro são coletados os anos de treino. Para avançar ao restante do histórico, uma célula precisa de pelo menos 60 compostos válidos no treino, três de cada classe e fração média de água ≤20%. Os outros recortes podem fornecer somente contagens/frequências históricas observadas; isso não será chamado de previsão.
 
@@ -37,6 +41,8 @@ VIIRS permanece fora dos regressores v6 devido à lacuna 2023, que mudava a disp
 Treino: 2020–2022. Validação: 2023. Teste: 2024–2025, acessado para avaliação de desempenho somente após persistir a política de seleção. Compostos que atravessam os cortes são excluídos. Normalizadores, imputadores, priors empíricos e parâmetros aprendidos usam somente o treino.
 
 São comparados frequência global, sazonalidade, persistência, regressão logística e regressão Bernoulli Pyro/PyTorch, com e sem clima. A amostra computacional dos modelos globais fica limitada a 12.000 exemplos de treino, por amostragem uniforme determinística. As referências agregadas usam o histórico de treino disponível. Essa diferença de custo/amostragem será declarada. Comparações de contribuição meteorológica usam a mesma amostra de avaliação com clima completo.
+
+Antes de abrir o teste, acrescentou-se uma quarta referência, `regional_seasonal`: frequência regularizada por continente e mês, ajustada exclusivamente nas regiões de treino. Ela evita impor a mesma sazonalidade global a continentes distintos e permite avaliar transferência para células reservadas. A referência sazonal original por célula permanece como comparador e limite de Brier. A opção regional passa pelos mesmos critérios de liberação e não pressupõe que um continente inteiro tenha cobertura.
 
 Quando o clima faltar ou atingir seu orçamento, os rótulos observacionais não são descartados. Uma referência sem clima pode fornecer uma estimativa **marginal histórica**, se ela passar nos mesmos critérios de validação. A saída identifica que não usa meteorologia atual ou futura. Não há imputação de clima fictício nem ajuste arbitrário da probabilidade.
 

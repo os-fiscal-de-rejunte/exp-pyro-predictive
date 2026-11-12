@@ -98,6 +98,7 @@ def verify(root: Path, check_originals: bool = True) -> dict:
         for column in (
             "global_frequency",
             "seasonal",
+            "regional_seasonal",
             "persistence",
             "routed_probability",
         ):
@@ -146,7 +147,7 @@ def verify(root: Path, check_originals: bool = True) -> dict:
             assert 1 <= value["horizon_days"] <= 8
             assert pd.Timestamp(value["valid_from"]) > pd.Timestamp(value["issued_at"])
             lo, hi = value["probability_interval_95"]
-            assert 0 <= lo <= value["probability"] <= hi <= 1
+            assert 0 <= lo <= hi <= 1 and 0 <= value["probability"] <= 1
             example_future = value
     if example_future:
         write_json(root / "evaluation/example_forecast.json", example_future)

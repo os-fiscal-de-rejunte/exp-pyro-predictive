@@ -31,11 +31,17 @@ def load(root: Path):
     )
 
 
-def baseline_parameters(model, method, rid, month, past=None):
+def baseline_parameters(model, method, rid, month, past=None, continent=None):
     if method == "seasonal":
         return (
             model["region_month"]
             .get(rid, {})
+            .get(str(month), model["month"].get(str(month), model["global"]))
+        )
+    if method == "regional_seasonal":
+        return (
+            model["continent_month"]
+            .get(str(continent), {})
             .get(str(month), model["month"].get(str(month), model["global"]))
         )
     if method == "persistence" and past is not None and pd.notna(past):
@@ -120,9 +126,14 @@ def predict(
         result["fallback_reason"] = (
             "Meteorologia indisponível ou extrapolada; referência estática validada."
         )
-    if method in ("global_frequency", "seasonal", "persistence"):
+    if method in ("global_frequency", "seasonal", "regional_seasonal", "persistence"):
         ab = baseline_parameters(
-            model, method, rid, issued.month, row.iloc[0].past_modis_event
+            model,
+            method,
+            rid,
+            issued.month,
+            row.iloc[0].past_modis_event,
+            info["continent"],
         )
         central = float(ab[0] / sum(ab))
         interval = beta.ppf([0.025, 0.975], *ab).tolist()
@@ -232,7 +243,9 @@ def forecast(
     end = min(
         start + timedelta(days=8), start.replace(year=start.year + 1, month=1, day=1)
     )
-    ab = baseline_parameters(model, method, rid, start.month)
+    ab = baseline_parameters(
+        model, method, rid, start.month, continent=info["continent"]
+    )
     if start.month not in info["release"].get("static_projection_months", []):
         result["reason"] = (
             "Mês sem suporte observacional suficiente no treino e na validação."
