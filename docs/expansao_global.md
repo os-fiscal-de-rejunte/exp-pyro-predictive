@@ -27,9 +27,15 @@ Os dados por país são usados como histórico positivo e não como comprovaçã
 
 As features incluem posição, seno/cosseno da sazonalidade, última máscara MODIS produzida antes da emissão, detecções VIIRS anteriores e indicadores de ausência. O clima usa oito dias terminados três dias antes da emissão. Este atraso é uma hipótese conservadora; sem arquivo de disponibilização histórica, não demonstra reprodução operacional completa. Não se usa clima futuro observado.
 
+O histórico VIIRS termina dois dias antes da emissão. Esse atraso é uma hipótese de disponibilidade, não uma comprovação de que os arquivos científicos reprocessados já existiam naquela data. Os testes verificam as datas de aquisição e produção disponíveis; a latência dos registros FIRMS históricos permanece desconhecida. O experimento deve ser classificado como retrospectivo com disponibilidade hipotética desse histórico.
+
 São treinadas duas regressões Bayesianas Bernoulli em Pyro/PyTorch, com e sem clima, com regularização e transformações aprendidas somente no treino. Persistência, frequência global, sazonalidade e regressões logísticas regularizadas usam os mesmos exemplos. O vencedor é selecionado por Brier na validação das áreas de treino **antes** da avaliação de teste. Um baseline pode ser o modelo publicado. O teste não altera a política de seleção ou liberação.
 
+A verossimilhança é condicionalmente independente dados os regressores. A dependência residual entre compostos e a aproximação variacional podem produzir intervalos estreitos demais. O bootstrap em blocos regionais descreve incerteza das métricas, sem corrigir automaticamente a posterior do modelo.
+
 A liberação por área usa somente validação: pelo menos 30 exemplos e cinco de cada classe, erro médio de calibração ≤0,10 e Brier não superior ao sazonal. São requisitos demonstrativos, não uma certificação. Valores meteorológicos fora dos limites do treino produzem `out_of_distribution`. Demais locais e datas sem features preparadas recebem `insufficient_data` e probabilidade nula.
+
+Para ampliar a disponibilidade sem impor o modelo probabilístico onde ele perde, uma área pode usar a referência sazonal se ela tiver Brier menor que o campeão global na sua validação. Essa escolha e a liberação são fixadas antes do teste; o conjunto de teste inclui métricas da política por região, além dos candidatos individuais. O relatório distingue a amostra completa da parte elegível para consulta e dos períodos bloqueados por extrapolação.
 
 Relatam-se Brier, log loss, ROC AUC, average precision, calibração, acurácia no limiar 0,5 e desempenho por região/continente. O Brier e sua diferença para o sazonal têm intervalos por bootstrap de blocos regionais; isso não mede incerteza sobre todas as regiões do mundo.
 

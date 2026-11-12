@@ -1,0 +1,221 @@
+{
+  "rows": 3301,
+  "unknown": 858,
+  "weather_errors": {},
+  "examples_sha256": "efc5d94261fa2bfc52bbb595ff0badf97f41d0b94549a8b0f969c5bf8dbeb4b3",
+  "masks_sha256": "02574b972db488c5a7fcc7ee21a4f2974ecbea3cffe81f957e02d87205a54e20",
+  "satellite_manifest_sha256": "86dde7042e1f1faa95e142f56c1be7d2e8d9aded0047c60d00fdd2969a96df75",
+  "code_sha256": "e78fc12f36b583f5666156602c5fe3e726171b5db8a32f65623085bdc8d4d52e",
+  "groups": [
+    {
+      "continent": "Africa",
+      "split": "test",
+      "spatial_group": "train",
+      "count": 180,
+      "sum": 59
+    },
+    {
+      "continent": "Africa",
+      "split": "train",
+      "spatial_group": "train",
+      "count": 268,
+      "sum": 110
+    },
+    {
+      "continent": "Africa",
+      "split": "validation",
+      "spatial_group": "train",
+      "count": 87,
+      "sum": 32
+    },
+    {
+      "continent": "Asia",
+      "split": "test",
+      "spatial_group": "holdout",
+      "count": 84,
+      "sum": 19
+    },
+    {
+      "continent": "Asia",
+      "split": "test",
+      "spatial_group": "train",
+      "count": 60,
+      "sum": 12
+    },
+    {
+      "continent": "Asia",
+      "split": "train",
+      "spatial_group": "holdout",
+      "count": 130,
+      "sum": 49
+    },
+    {
+      "continent": "Asia",
+      "split": "train",
+      "spatial_group": "train",
+      "count": 106,
+      "sum": 17
+    },
+    {
+      "continent": "Asia",
+      "split": "validation",
+      "spatial_group": "holdout",
+      "count": 43,
+      "sum": 14
+    },
+    {
+      "continent": "Asia",
+      "split": "validation",
+      "spatial_group": "train",
+      "count": 34,
+      "sum": 6
+    },
+    {
+      "continent": "Europe",
+      "split": "test",
+      "spatial_group": "holdout",
+      "count": 32,
+      "sum": 2
+    },
+    {
+      "continent": "Europe",
+      "split": "test",
+      "spatial_group": "train",
+      "count": 65,
+      "sum": 0
+    },
+    {
+      "continent": "Europe",
+      "split": "train",
+      "spatial_group": "holdout",
+      "count": 46,
+      "sum": 3
+    },
+    {
+      "continent": "Europe",
+      "split": "train",
+      "spatial_group": "train",
+      "count": 91,
+      "sum": 4
+    },
+    {
+      "continent": "Europe",
+      "split": "validation",
+      "spatial_group": "holdout",
+      "count": 18,
+      "sum": 5
+    },
+    {
+      "continent": "Europe",
+      "split": "validation",
+      "spatial_group": "train",
+      "count": 35,
+      "sum": 0
+    },
+    {
+      "continent": "North America",
+      "split": "test",
+      "spatial_group": "holdout",
+      "count": 7,
+      "sum": 0
+    },
+    {
+      "continent": "North America",
+      "split": "test",
+      "spatial_group": "train",
+      "count": 45,
+      "sum": 16
+    },
+    {
+      "continent": "North America",
+      "split": "train",
+      "spatial_group": "holdout",
+      "count": 14,
+      "sum": 0
+    },
+    {
+      "continent": "North America",
+      "split": "train",
+      "spatial_group": "train",
+      "count": 63,
+      "sum": 22
+    },
+    {
+      "continent": "North America",
+      "split": "validation",
+      "spatial_group": "holdout",
+      "count": 7,
+      "sum": 0
+    },
+    {
+      "continent": "North America",
+      "split": "validation",
+      "spatial_group": "train",
+      "count": 20,
+      "sum": 8
+    },
+    {
+      "continent": "Oceania",
+      "split": "test",
+      "spatial_group": "train",
+      "count": 153,
+      "sum": 28
+    },
+    {
+      "continent": "Oceania",
+      "split": "train",
+      "spatial_group": "train",
+      "count": 235,
+      "sum": 54
+    },
+    {
+      "continent": "Oceania",
+      "split": "validation",
+      "spatial_group": "train",
+      "count": 81,
+      "sum": 18
+    },
+    {
+      "continent": "South America",
+      "split": "test",
+      "spatial_group": "holdout",
+      "count": 92,
+      "sum": 0
+    },
+    {
+      "continent": "South America",
+      "split": "test",
+      "spatial_group": "train",
+      "count": 89,
+      "sum": 2
+    },
+    {
+      "continent": "South America",
+      "split": "train",
+      "spatial_group": "holdout",
+      "count": 137,
+      "sum": 1
+    },
+    {
+      "continent": "South America",
+      "split": "train",
+      "spatial_group": "train",
+      "count": 129,
+      "sum": 13
+    },
+    {
+      "continent": "South America",
+      "split": "validation",
+      "spatial_group": "holdout",
+      "count": 46,
+      "sum": 0
+    },
+    {
+      "continent": "South America",
+      "split": "validation",
+      "spatial_group": "train",
+      "count": 46,
+      "sum": 2
+    }
+  ]
+}

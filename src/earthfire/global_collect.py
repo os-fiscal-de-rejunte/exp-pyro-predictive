@@ -161,7 +161,7 @@ def collect(run: Run) -> dict:
         stopped.set()
         executor.shutdown(wait=True, cancel_futures=True)
         if rows:
-            frame = pd.DataFrame(rows)
+            frame = pd.DataFrame(rows).sort_values(["region_id", "period_start"]).reset_index(drop=True)
             if frame.duplicated(["region_id", "period_start"]).any():
                 raise ValueError("Compostos duplicados.")
             frame["event"] = pd.array(frame.event, dtype="Int64")

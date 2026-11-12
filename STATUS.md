@@ -1,15 +1,19 @@
 # Estado da execução
 
-## Expansão v5 em execução — atualização 12/11/2026 UTC
+## Expansão v5 concluída — 2026-11-12T00:53:59+00:00
 
-- Coleta: piloto em 12 áreas e seis continentes; configuração `config/global_v5b.json`, duas requisições simultâneas após o piloto serial.
-- Checkpoints finais em `runs/global_v5b_20261111`; caches anteriores de `global_v5_20261111` reaproveitados com hashes.
-- Histórico local: 122.536 registros selecionados em blocos, preservando produto e origem, em `runs/global_v5_20261111_records`.
-- Testes: 61 aprovados; inclui integração sintética de treinamento, retomada e inferência, sem usar esses números como evidência científica.
-- Etapas seguintes encadeadas: `runs/global_v5_continue.py`; log em `runs/global_v5_continue.log`.
-- Orçamento compartilhado: `runs/budget_global_v5_20261111.json`; 8 horas desde 11/11/2026 20:34 UTC, com reserva final de 30 minutos.
-- Limitação: alvo novo MOD14A2 de até oito dias; não representa expansão validada da referência VIIRS diária 375 m.
-- Próxima ação: concluir coleta, preparar clima e exemplos, treinar e avaliar antes de liberar áreas.
+- Etapa: coleta, preparação, treinamento, avaliação e verificação final concluídos. Nenhum treinamento ou download permanece ativo.
+- Recorte: 12 áreas em seis continentes; MOD14A2 de até oito dias, 2020–2025. Referência VIIRS diária v4 preservada e separada.
+- Dados: 3.301 área-compostos, 2.443 máscaras integralmente válidas, 858 desconhecidos; 122.536 registros locais selecionados; 12 consultas POWER, cinco variáveis. Onze datas de máscara esperadas sem imagem.
+- Treino: 892 exemplos, 220 positivos; dois ajustes Pyro de 1.500 passos. Teste final: 807 exemplos, 138 positivos. A contagem antecipada de 862 foi corrigida.
+- Seleção na validação: sazonal; Brier 0,11695 e acurácia 86,25% no teste completo, recall 47,10%. Pyro com clima: Brier 0,10258 no teste, sem promoção após observar o teste.
+- Liberação: cinco recortes, aproximadamente 7.217 km²; 376 exemplos de teste elegíveis após limites climáticos. Não há cobertura operacional mundial.
+- Verificações: 63 testes aprovados; verificação real conferiu 31 hashes dos originais, splits, features, artefatos e consulta com resultado `ok`.
+- Checkpoints: `runs/global_v5b_20261111/models`; conjunto compacto para teste offline: `artifacts/global_v5`.
+- Recursos: CPU, sem GPU; limite compartilhado de RAM de 1,24 GB e até três threads configuradas. SVI de aproximadamente 98,5 s sem clima e 43,0 s com clima. Pacote congelado de aproximadamente 1,69 MiB; pico de RAM não foi persistido.
+- Bloqueios científicos: cobertura VIIRS 375 m mundial, histórico de publicação, previsões meteorológicas emitidas, expansão sistemática de terras e atualização operacional ainda pendentes.
+- Relatórios: `REPORT_GLOBAL_V5.md`, `docs/expansao_global.md`, `docs/model_card_global_v5.md`.
+- Próxima ação: completar VIIRS 2023 e obter cobertura compatível do VIIRS em novas áreas/datas, reservando uma avaliação prospectiva nova.
 
 ## Atualização final de 11/11/2026, 16h26 — acesso VIIRS
 

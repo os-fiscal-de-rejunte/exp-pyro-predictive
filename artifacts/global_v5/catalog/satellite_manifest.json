@@ -1,0 +1,122 @@
+{
+  "files": {
+    "modis_2019_all_countries.zip": {
+      "source_sha256": "13a581b5d6b28741c81bf01bd27195cf3226b85a29102337f2cd3b2cabf1a517",
+      "source_bytes": 80447291,
+      "rows_read": 1393811,
+      "invalid": 0,
+      "selected": 4179,
+      "exact_duplicates": 0,
+      "output_sha256": "6db2159def21caed3a4311f53acefa555e6604c09a205547adde498d5f68bd84"
+    },
+    "modis_2020_all_countries.zip": {
+      "source_sha256": "bb4c7012b8f4d89dbf24da49143c4cecbaef90cc5f504433642189201d6c0ddb",
+      "source_bytes": 77958638,
+      "rows_read": 1288803,
+      "invalid": 0,
+      "selected": 3692,
+      "exact_duplicates": 0,
+      "output_sha256": "05d2efb9c6c95cd6aecd45a401978bb7b3c76764f501835dfdbe7f7f9e3d6b75"
+    },
+    "modis_2021_all_countries.zip": {
+      "source_sha256": "3bef964afea2d29506ede25b2299a478fa7d96a06b93bc7fc20297794979710e",
+      "source_bytes": 77277752,
+      "rows_read": 1309164,
+      "invalid": 0,
+      "selected": 3478,
+      "exact_duplicates": 0,
+      "output_sha256": "26d7a80bb5f0e4757f3acea5e8a1047fd53cd313f567d0565811049915d80ed1"
+    },
+    "modis_2022_all_countries.zip": {
+      "source_sha256": "99b365825aa9df0638e64006af7ecadc38ccc7c14bb91bc7b16aa541be8377a0",
+      "source_bytes": 66472304,
+      "rows_read": 1190018,
+      "invalid": 0,
+      "selected": 2951,
+      "exact_duplicates": 0,
+      "output_sha256": "c0edb62fd08e137175e7df99b7faf1d3b9afc237e93ebf9b466896420682fcfd"
+    },
+    "modis_2023_all_countries.zip": {
+      "source_sha256": "1fdd2cb87c6303dd609e2aa197e5d0ec5057921e240db51fed2f24b6d971a2e4",
+      "source_bytes": 81766470,
+      "rows_read": 1726646,
+      "invalid": 0,
+      "selected": 3594,
+      "exact_duplicates": 0,
+      "output_sha256": "cfe2050f0199982e249b8cc1790665badd6351a3fbcc7e1c82663a18298413d1"
+    },
+    "modis_2024_all_countries.zip": {
+      "source_sha256": "034f357da2022202fec7c4a2916e4128f29536cc1578aef9b04bbf7fd6901389",
+      "source_bytes": 84548676,
+      "rows_read": 1593836,
+      "invalid": 0,
+      "selected": 3435,
+      "exact_duplicates": 0,
+      "output_sha256": "727f8580f5cdcb04ace120e54a3ca3077c50315f05f809d4c6afb30fe068e7da"
+    },
+    "modis_2025_all_countries.zip": {
+      "source_sha256": "e4dfcfe082422625aa858c8fb0672eb8b3d0b881f3cc4b6960a85a7666ca9ab7",
+      "source_bytes": 64771492,
+      "rows_read": 1270539,
+      "invalid": 0,
+      "selected": 3271,
+      "exact_duplicates": 0,
+      "output_sha256": "3dca2942487c1ce2f3cda0055be19623ab80a5718f4e6b7fd8fe8a7c871b5eea"
+    },
+    "viirs-jpss1_2019_all_countries.zip": {
+      "source_sha256": "57b710c98b70defbd4bf28304704adbdb64a9621f54fac651908556c71204320",
+      "source_bytes": 370806690,
+      "rows_read": 6147962,
+      "invalid": 0,
+      "selected": 18713,
+      "exact_duplicates": 0,
+      "output_sha256": "a424a26b5d3dd135db1af6b6f45fee5a494a63763d65d9d7e46894e5ca048513"
+    },
+    "viirs-jpss1_2020_all_countries.zip": {
+      "source_sha256": "3ef226fc817647c1f5c276eaaf732a8bf1b2fbcf0c89eecd7d8ca0ee81aa8325",
+      "source_bytes": 365551116,
+      "rows_read": 5713826,
+      "invalid": 0,
+      "selected": 17514,
+      "exact_duplicates": 0,
+      "output_sha256": "7f0ddff01863ba69cd357bc89847036d53dbce0a7296bd5e38fb977757b29c11"
+    },
+    "viirs-jpss1_2021_all_countries.zip": {
+      "source_sha256": "875468c497227aad8fbe9c6967c9eb05e5a37a2255085a26ef9748b65f48202e",
+      "source_bytes": 358433386,
+      "rows_read": 5788621,
+      "invalid": 0,
+      "selected": 16234,
+      "exact_duplicates": 0,
+      "output_sha256": "e92c7e77afc8b59e1a111d5b485591f5bcd280908197f63424e2a76ecc51b922"
+    },
+    "viirs-jpss1_2022_all_countries.zip": {
+      "source_sha256": "e6144d08da0a2c2dfb4acb989b89c68193c2207881eaba6a92b9663e1e1dc224",
+      "source_bytes": 324844239,
+      "rows_read": 5341718,
+      "invalid": 0,
+      "selected": 14313,
+      "exact_duplicates": 0,
+      "output_sha256": "45896821acb8aeafba45c15000ef533e8cefcea2823d320092eb81a692d4eb46"
+    },
+    "viirs-jpss1_2024_all_countries.zip": {
+      "source_sha256": "43a49b1d5ffd7607662c936909fa4761af3b382976145e2cfa86563a252e585c",
+      "source_bytes": 401156384,
+      "rows_read": 7035575,
+      "invalid": 0,
+      "selected": 15569,
+      "exact_duplicates": 0,
+      "output_sha256": "73bacf514731862a3f9f3d13db13ecaa5f68461e91c92f52a999c947e7c7f77e"
+    },
+    "viirs-jpss1_2025_all_countries.zip": {
+      "source_sha256": "c52dcf311ff809adb2be0cfd5f169634a7c465d0eb55de4088cc5ebe95a6b50c",
+      "source_bytes": 328649496,
+      "rows_read": 6001371,
+      "invalid": 0,
+      "selected": 15593,
+      "exact_duplicates": 0,
+      "output_sha256": "dda4c34884adcfee4e99be540c673907307fc9925f4d53bbd84552a6a98bfbc0"
+    }
+  },
+  "code_sha256": "6b1679206973a3068486af87846e257a7fc767890e1210fdedc34248c8b5db2f"
+}

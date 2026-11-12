@@ -1,0 +1,2116 @@
+{
+  "files": {
+    "0df0de957191daa2551150ab0fc19c37a4ed68e78dbb022262bc2fbe298825a0": {
+      "sha256": "f1d849ac38e3ab3277d3788423f9896ca63cf0bc0d0d829362600b7f8b4af1ac",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "ee8a0151fe95e8d0a092071ccd55557c97feccdec61cd9c43e73b79934ba7d86": {
+      "sha256": "882f4ffc203a1ed849a882361d93560ab658e11cbb8afe02b66c37d43b1af512",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "31991e3243eb333317f4d0ca4bfe850ea85e9e341dde39bf9bd279d324f03c35": {
+      "sha256": "0212adc68d4ff10930fb1f82202823eafa9b28abb867309868686f04a156d1e5",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "a0a5bddecbd1332a2f995cd651ef0410e2d69edd2afef7addb3e9bc36c849054": {
+      "sha256": "c1243f6e955b5eef70930f54ba332a2bc9ddbe65db18e421d310af909e8983c6",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "8cd518313d8ba70e80dd34ada95fc8706ae7db5939e8f0d806cfe92d85d13da8": {
+      "sha256": "d7322517e1ad6f36d94a97a742dafa4b4bf4ce27fc3f134d653179ca5f3f56f6",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "eb6a0e8ef8f8e95c4ff402846d88e1c055d99f59be2b9cb4bd60666f2d9c4514": {
+      "sha256": "3b322153687aa1450d5667457d4549daca0c642619f2f020ec6dd2bad794e010",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "0cc80e4caef77aa803d18bf66a04d480fb12a65800fbc95e65159bf668de6f81": {
+      "sha256": "8f039da2061d60abbfcd06dfef776549f541b67efa5794d5277da98d5490ef6d",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "cd90328ec64eeb41df8c9a1204385adaaeec84323fa29a3022cfee4d0f66aa16": {
+      "sha256": "8fc325b58e567a143eea6aafef0ef06310376f4da0e1f93bd95cb2e154e3b94c",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "e398cbe3317725e028d5372b4c5e6cd421a49449d4375fca2278d452e17bf0cd": {
+      "sha256": "35cf689999c78afd74aede1065aa117a57fe24d54e718df6e5b4b407c03d1cbf",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "133d18dc725c6b8303ce3ddd2cbafe20f31bd9510f52827541d79865ef50689a": {
+      "sha256": "821903e23ac352940e964753b1853e99926503cc4b4857a5065fca3e3f9e4f88",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "7df941e0ea996ed132ef965a202e07f2db491fb56ad56c651505124a009f8779": {
+      "sha256": "295e9a84dd34a3f08f7cd02582ca95fa1b0a521c0243ce5fbad1dfd2dbe8745f",
+      "region": "california",
+      "start": "2020-01-01",
+      "end": "2020-03-13"
+    },
+    "5429ab16d1e7036a9379886d6c8149f59727ca01fb6c0ec36690b12fe030ccf3": {
+      "sha256": "fe38c43462282bfd1acd96dc7e960a03b06628fd406b7fb925d09d28c99d9569",
+      "region": "california",
+      "start": "2020-03-21",
+      "end": "2020-06-01"
+    },
+    "fdc2cc464b0693173ff630edf37c991f92c5d7283247c6e43263785c5d4c28e2": {
+      "sha256": "3c25a6564afa4e0cd639b53b69de7523f365e225b3cce765ba6d55360ea8f655",
+      "region": "california",
+      "start": "2020-06-09",
+      "end": "2020-08-20"
+    },
+    "88b4db0aff1cac6776325fad4965d2e942784f1f217b627a4b65ab87b40995e8": {
+      "sha256": "51f57f1d247c00bf9752f2cb080a38ef1cc375fe9ac970c5bb8df234cab46471",
+      "region": "california",
+      "start": "2020-08-28",
+      "end": "2020-11-08"
+    },
+    "5970dc774a3d9af2e44b2fbdc7ce661f53345d6f06c34ca37fa388028c65deb8": {
+      "sha256": "e88f55cfec48c5ff3675af205377e4dd4cb6f148b47ee59d0ceb066428562ede",
+      "region": "california",
+      "start": "2020-11-16",
+      "end": "2020-12-31"
+    },
+    "ecc05bc5d9abb60dea09f2106fed07964412d509cf6d57f416daf584a77c7341": {
+      "sha256": "145658c80c8f41234805b78d947bb69d8d608288cbf96b72e3a3c2d034a16f3e",
+      "region": "canada_boreal",
+      "start": "2020-01-01",
+      "end": "2020-03-13"
+    },
+    "b0826064b0fd6b4394659f4c29367e0fcd14e32f6602b9aa6111424683239e1c": {
+      "sha256": "cbc31800191a91199527c56e81d8f00b0dba655e4076dd853f36df51c9fe261d",
+      "region": "canada_boreal",
+      "start": "2020-03-21",
+      "end": "2020-06-01"
+    },
+    "8b15dbb395b87d2d00616c09acfc5dc213ad0d8a58000e895746e84801f7e832": {
+      "sha256": "f50a9399cc3856edee90a98e6c04a56def3defa009a31cec970bd7af320c451b",
+      "region": "canada_boreal",
+      "start": "2020-06-09",
+      "end": "2020-08-20"
+    },
+    "40be6a3d60d5666b41b768b207e8688b399f6fe60678f67943ca7608006e2998": {
+      "sha256": "b95862be5a629b0516dadb067affc2a0eac2f76fa94166f0d4e92fbfc106a564",
+      "region": "canada_boreal",
+      "start": "2020-08-28",
+      "end": "2020-11-08"
+    },
+    "ffdde46e244e0938497549ea4e7ba0d5dce0cc2656398cf0b0cda25244257101": {
+      "sha256": "3119a2a2310c3e70419d7518710f42bf1e80f84325d7254c283461d956e295dc",
+      "region": "canada_boreal",
+      "start": "2020-11-16",
+      "end": "2020-12-31"
+    },
+    "df23ca381a029af3e6d28f19027816f158800d8a1a8a41d3f88e7f65c9e9d89d": {
+      "sha256": "d79131bd4bdbdc72eb612b95d27f9deb38d95de050275d073f532bce2e21b60b",
+      "region": "portugal",
+      "start": "2020-01-01",
+      "end": "2020-03-13"
+    },
+    "7fd4b90fd99fa7827950dc2f9ecb112e1f889bd37de231863d9b2a6528f9a49b": {
+      "sha256": "ad9aa18c960aeed512d79f48e29dd2a59d23d001809e2a3458d4cfd72769c8f6",
+      "region": "portugal",
+      "start": "2020-03-21",
+      "end": "2020-06-01"
+    },
+    "2d07f8bdfd45c9a17f3be160ed98413fb7e50a18e0f477549dc1f9de33f0f703": {
+      "sha256": "02f8feae25f195bf2891ae60a8eeddb81c71a32e88c2d6a96924517d4df36568",
+      "region": "portugal",
+      "start": "2020-06-09",
+      "end": "2020-08-20"
+    },
+    "5962330126eeeeec2592d0b2ddcb5654d9e571f81d1403e73920757e579554a0": {
+      "sha256": "bf428ce6dad64ea5c7f349fa23fd4374d10de286e4262ada227c8d0ea95f230e",
+      "region": "portugal",
+      "start": "2020-08-28",
+      "end": "2020-11-08"
+    },
+    "817b63c8e2b28ab290e53e097ee9c186aba7e07bb0e8f89d9a3649637a019592": {
+      "sha256": "a17eedcbcfa1b4f142755301c321c745a96c95395583515a5ce0877509b3a7a7",
+      "region": "portugal",
+      "start": "2020-11-16",
+      "end": "2020-12-31"
+    },
+    "c8f534d21ffb5a2906a6ae14cc8e549ed27fca00c9764cd95beb40b65086828e": {
+      "sha256": "ded22f3e03c27a5fb52e12ba8f97938cea2a17ec4c7f38aa8784758f43bc26e5",
+      "region": "grecia",
+      "start": "2020-01-01",
+      "end": "2020-03-13"
+    },
+    "49e2ada23b445049eed2b5746674e3bbdafaacd187692a42c4bbcadc34f339db": {
+      "sha256": "bb33c69e3cb9c9936f403ca46e528ba9fd438c387c7594ae77c6e4a9ee53904b",
+      "region": "grecia",
+      "start": "2020-03-21",
+      "end": "2020-06-01"
+    },
+    "b93d205a71d9618d95f58fc1ce69d451d6fea0a17cfee91f2b51e39ca7dd8807": {
+      "sha256": "c1218b8e49f49ceda2dcd7b69e9471710349b8f655f21ff5acfc336599cea979",
+      "region": "grecia",
+      "start": "2020-06-09",
+      "end": "2020-08-20"
+    },
+    "5cef094f4f68fef516ecd66fec7590052044b86abceec9c13535e385f87a65d6": {
+      "sha256": "6cf9d19a8e7d266c919378f2bbe98284d544317ac03586e4de81050a6dbf2c25",
+      "region": "grecia",
+      "start": "2020-08-28",
+      "end": "2020-11-08"
+    },
+    "c214abbc0706d1ea751ed77e02c49adb0f1c9e9f7cf0b62aa427136b2e7eb939": {
+      "sha256": "7ba23cec538ce28c9021d5bca726017f3fe917eb2d9d8cdb9d10132b9d4ddf21",
+      "region": "grecia",
+      "start": "2020-11-16",
+      "end": "2020-12-31"
+    },
+    "5d7110b52f7bf424239a6287ef2c72486cba1a735a42c58d87bccef98e97896a": {
+      "sha256": "29667bf6d46d64b0450ff53115c5643aea61be0627893170c1520db2be72b765",
+      "region": "angola",
+      "start": "2020-01-01",
+      "end": "2020-03-13"
+    },
+    "b11ca6d701d38de9539b953a5057f242a0ce04668b648fa006c4297d98a775ca": {
+      "sha256": "ed1fe208ce911ccbd3c9c95a2c8d9dddb4ce8c7a75f78121733cdf33483871c4",
+      "region": "angola",
+      "start": "2020-03-21",
+      "end": "2020-06-01"
+    },
+    "c7e2432946a8fa6b9a6975b67b34bdbaf38306337836829bbe5fc0db18ba2d65": {
+      "sha256": "c332f87b9e17ef92644f94d76bf57ac9f7e399d04299ad50aa3330140e24e4d5",
+      "region": "angola",
+      "start": "2020-06-09",
+      "end": "2020-08-20"
+    },
+    "7c986dc2e2d24b544975ce741be3692f22bc84597c93c8e6cec5707ca2b3163d": {
+      "sha256": "4a68aef8a8b538e4dc188f234f1ecb0f568aa2cc718b20c75a967eca3cfe79e3",
+      "region": "angola",
+      "start": "2020-08-28",
+      "end": "2020-11-08"
+    },
+    "b5f1f729179b40a7fddc744de240874a1f1e0cc3ee428cc7e402613c79086bb5": {
+      "sha256": "a46e7403ec5cf5f815977767055ab4675357321b4eb92343e197d7b93c99eb3e",
+      "region": "angola",
+      "start": "2020-11-16",
+      "end": "2020-12-31"
+    },
+    "d0aeb95533cd4cd1999487caff189768ac1c14a346ff3182434955073a4e93d7": {
+      "sha256": "179dafbf67f195be3c5fa629d1f674213576546568d34fdde01f50bb7dc4c3d4",
+      "region": "sudao",
+      "start": "2020-01-01",
+      "end": "2020-03-13"
+    },
+    "47f2d917efc1edb78076b9b03b14a4f8379b19c5f679820253854d4eb2d01fad": {
+      "sha256": "334a9f90ebd0bd983cea949a6959b9819914fa37c3b27f61ae3b19b2b6841953",
+      "region": "sudao",
+      "start": "2020-03-21",
+      "end": "2020-06-01"
+    },
+    "18218e89f143d5697a14df76244986e8c9a96bd65834f80c8aeabbe3b1caa192": {
+      "sha256": "b17ec5a74555ec7d3dc881ce67d8989e09ca31820832c3715292deb990110cbc",
+      "region": "sudao",
+      "start": "2020-06-09",
+      "end": "2020-08-20"
+    },
+    "87c91b943d5ecb8bd5c3beb0f3402a024db14f72c48d3bf2c4b13e1f4ca1987a": {
+      "sha256": "fc9d868c1bdd942da7ae078ee8fc8dd2bbf9053fffd8fb77b5137a0594b8324d",
+      "region": "sudao",
+      "start": "2020-08-28",
+      "end": "2020-11-08"
+    },
+    "234a6312cf190c10467d1364d1bb88fbce149718ea407779576f28976f276836": {
+      "sha256": "dcc6a1d26116f609b41ecfe2e1864ad0fdddc7fb08a1b9ed0701958abdc26b7c",
+      "region": "sudao",
+      "start": "2020-11-16",
+      "end": "2020-12-31"
+    },
+    "c682c5a94c8bb6065378011f46183e6872f714af4714beffdd6418fac0af252e": {
+      "sha256": "a95ff91c6da84256e44a1d433956dea5e74813e6d7911ee8e6aa4b358e9e965c",
+      "region": "india",
+      "start": "2020-01-01",
+      "end": "2020-03-13"
+    },
+    "5b9f4d4d48337765a099b65b8c696c9903ea858d68566c12751db2aa266651b7": {
+      "sha256": "6ee8563afb81ffbb36b1952dc6f0ada23c38b8cf4b7ddfe26f44cc387c85f2cd",
+      "region": "india",
+      "start": "2020-03-21",
+      "end": "2020-06-01"
+    },
+    "f92c93f99ea5d6cc198f562932a380f21f5b00bfee6dd99346e68a4ee377f687": {
+      "sha256": "102f1d175958dd9ed4fa6dc879723dbe01484209b291380721e19600ce007bfb",
+      "region": "india",
+      "start": "2020-06-09",
+      "end": "2020-08-20"
+    },
+    "76a9d8c8ad19006aeb7a1f566aa8fc70c13df6c395056690a597fa1ada04cc99": {
+      "sha256": "3fa10555896a7cba0f2067ed21ac8b4df94d83415bce206f7ddc7ab6791702a0",
+      "region": "india",
+      "start": "2020-08-28",
+      "end": "2020-11-08"
+    },
+    "ef55804b3a8b000fefc845d578b20005b20e84236b5bad5f11f830892234d4ac": {
+      "sha256": "96e6c969df886b517598af4ff557406df985d9457247dc792c932f4c77c0d38f",
+      "region": "india",
+      "start": "2020-11-16",
+      "end": "2020-12-31"
+    },
+    "8b5ae1efd55bf666472e23ea7823a5f807d556703feb9fb569f1843f9fcc5cb9": {
+      "sha256": "79db084541d669d0c0c1b78a2be98175f451943addb6eb9513b5c7ec7728b23f",
+      "region": "tailandia",
+      "start": "2020-01-01",
+      "end": "2020-03-13"
+    },
+    "0e1830ee7e57246f1d2b3a51ed2e98c68fe7eacb934cbb666639f2878609665c": {
+      "sha256": "6eddfffd8b90dcb99d4013481e9d77ef3ffad55e3e70268776f13f09c6b4285c",
+      "region": "tailandia",
+      "start": "2020-03-21",
+      "end": "2020-06-01"
+    },
+    "7cfe9142f9afa361fb1f35612658e315e709f470a99a2a89d8d98d969311f317": {
+      "sha256": "d6d4762c2d272fa5233f9480f4e0234ba9dcfb2bb53f219951c45f05f249aff4",
+      "region": "tailandia",
+      "start": "2020-06-09",
+      "end": "2020-08-20"
+    },
+    "89d3f5d2472f4e35b9d04d16f0cd317aa7329f85ae4f7866790b309e6135a934": {
+      "sha256": "91d0b73d36007a71053ba8f7115ebe038cdd1439c8051247d1a773128e2591c3",
+      "region": "tailandia",
+      "start": "2020-08-28",
+      "end": "2020-11-08"
+    },
+    "be7563eff0af72eac601d3381161bce9d5163ae53cad8e8527c1e1ef5d85e123": {
+      "sha256": "02e855cec898e31b39fce1ba09f4a282732b086ab24a6f2e5317588dd091d74a",
+      "region": "tailandia",
+      "start": "2020-11-16",
+      "end": "2020-12-31"
+    },
+    "bace37b04cec185ffdaa3d10af2b209fea132274fd2315c261cdce43486c43dd": {
+      "sha256": "74cd558b7e73662ce7d19e680acfc61d94fa0746fdbf4a43a1b2d70a61889504",
+      "region": "australia_norte",
+      "start": "2020-01-01",
+      "end": "2020-03-13"
+    },
+    "a7ee2a139a8400d6beede3017fde9b7f0bda102eac5f1e0eaf6f47cfd371b8b9": {
+      "sha256": "eddd86602388f180de5a013b98e8ceff77a9ba00e3a87b1f2a0252d864735c28",
+      "region": "australia_norte",
+      "start": "2020-03-21",
+      "end": "2020-06-01"
+    },
+    "d0e3aae1658238554e41fe860050add1063dd099bac694ae2557a649fe8ff13d": {
+      "sha256": "90bd0f7b25768443d95e5dd1ccc2122dde0cc4f335a5cd0e3c212ed77a0905c0",
+      "region": "australia_norte",
+      "start": "2020-06-09",
+      "end": "2020-08-20"
+    },
+    "263ef1ada9040f447c12d945985fa95a6553bda941a6e54d89ded6699c92feaf": {
+      "sha256": "72d5cb0061bcab8acaaf0ae1f11ed76e2f48a10b20637ed04eaf66802e3b7929",
+      "region": "australia_norte",
+      "start": "2020-08-28",
+      "end": "2020-11-08"
+    },
+    "06acedf3a17cdf486441ba340e34152ce94e664884ff2404231c1586febb3a21": {
+      "sha256": "13728b68bd3bd1cc398484b76d350cce8322d2151bd88bf2a96a3e7d5e17f001",
+      "region": "australia_norte",
+      "start": "2020-11-16",
+      "end": "2020-12-31"
+    },
+    "a9c258a2418d40878db9e91fa2843e39d8702703aa36a8f47d30f0c38312c984": {
+      "sha256": "bc6189ebf7fff88edebd753c46cc994c70082847e05b3e86a6229fc5533a0943",
+      "region": "australia_leste",
+      "start": "2020-01-01",
+      "end": "2020-03-13"
+    },
+    "51309ff817f9223449a16c83cd8825c0ed6353c46e876714956fbfc3a3fd6a4b": {
+      "sha256": "c32abc5095b752940985fc6f65bed2052a64e42bdf1bf110dc2bf2f11c9638c8",
+      "region": "australia_leste",
+      "start": "2020-03-21",
+      "end": "2020-06-01"
+    },
+    "87a65f3d9bffb3dd7581e141bc3ae63e7f3486863cbe00287288d85d5ec65dd4": {
+      "sha256": "e4e75e59c53c212b59c601ae13784127ec8824c288400ccdcd9ba28d13f4afd2",
+      "region": "australia_leste",
+      "start": "2020-06-09",
+      "end": "2020-08-20"
+    },
+    "dca08aae44c0821f7e72e2f6a8986dc1a64be446e2980dd1dc36442ebef5f926": {
+      "sha256": "d45c260a73176912840824337f5e2c2e9555e034ab2ddba027b204ed9d6735a6",
+      "region": "australia_leste",
+      "start": "2020-08-28",
+      "end": "2020-11-08"
+    },
+    "f6e3ecbc7839aebc2afd737843977cb3ed2d18010775e30443fa8153d22ee4ef": {
+      "sha256": "8e581369dcf7fd8a57c1b0c21ada34cc74196796850df8c5a30f13193ab8eb44",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "9900faddf8b96aa2006048fcefc036504325cc29a36b1b15e0c6485fdc1a3919": {
+      "sha256": "02b0fd83cd5632003293c9ef46fbe078d63e3fa689b45759ef713f824fee7754",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "ce398fcbcc672f72e1b1b3c042c1cc0fed891e65d07b4c5625b906904d3ad00f": {
+      "sha256": "5ff4bcba72c372787dff972e44a64ee1eb8e315ff5f540d899ff0b4f59682f77",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "c05746fd89d9ae26952def18ee7854e4567ae4c43ee69a6e24e8cd4568ed7dfd": {
+      "sha256": "b1dc4df426c97fd0bf613437cc4164abd8fdc85c9add3b2a8fff918f7bceba5f",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "9def11a52d681472a082716291668f6bccb0dbcfd00ba02938a719d1d4a30afd": {
+      "sha256": "c34fd1b03d9a70341ca804147b1c43aab15eaa3af1cbeed314a9d85769c5fc16",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "6894c23719be96e4207fdc88b644aa976027ce08b6313c8a15ec3bed367aeca1": {
+      "sha256": "88ce4b3506bfba593b04f06a33198a1c7dc74e76314cff0154c42448ec876c33",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "8772a8ffe386dd212f139aaf682d781a38716ba9cfa84741c5f6894e361670b4": {
+      "sha256": "9a98181f3a68155532aaff082f06dacc8e552326c6bc7012bc02f527cf8c9b45",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "0f2f5f6286fa2d5325dffe3c75f2e283d6c441852a30152a4602e6ad3b0a8014": {
+      "sha256": "096a90f41a4ee746a264b17d2087a457f001d8b8de3f11375a8e2fa5b24bcf33",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "7b640975b82cb16b453cf52977a0b099339073dbd837a7eae67eba99a5122954": {
+      "sha256": "90e00d8d5fd543ca2fe7b4f0336a556aad8e52e48acba036f5068ca7de271895",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "53d80029efc145597f4dc63de91d655a4e9f57a0329036b3e15cae2873811453": {
+      "sha256": "accd3220b25ace7221d92ec93a3063b2c315e4fbb337e0b4480d73cb3aa9f6a5",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "89571110c32daabfc32553f4415eb81a635841cc19b3b918fa3ce72660cf36a2": {
+      "sha256": "5b299e611afcdfedeeb8086f32f50bccfc3394453cda4bf4ebff26fbbe1868b3",
+      "region": "australia_leste",
+      "start": "2020-11-16",
+      "end": "2020-12-31"
+    },
+    "886274e14020692bc890e5663c017ccf2f72266f40f71633caa74461e6e98889": {
+      "sha256": "ee75495b22650cceacc419e9e93dfefd4ec240f47f8d5352cfbd327ac63a3575",
+      "region": "california",
+      "start": "2021-01-01",
+      "end": "2021-03-14"
+    },
+    "9c2a3ef42958ec43a72b1999c61e5e90cf1fe9f8a287834bba1657b3b013e30a": {
+      "sha256": "fb735bd7d3d9c80dab34ec6523b5fe70d01c52106c745656b65b2005d340a210",
+      "region": "california",
+      "start": "2021-03-22",
+      "end": "2021-06-02"
+    },
+    "43d2763f85b0d7bb432bb8cc1847e1d6eca29504fe8dadca0fea0d382c2a50e9": {
+      "sha256": "4e80e38058df49923ec429a81a5bc697d4110c968a7188caa187cd932db7af3c",
+      "region": "california",
+      "start": "2021-06-10",
+      "end": "2021-08-21"
+    },
+    "426f350ef922fbc6fabdb0a5ac6ca997599f9e627e1dcdf6202ab05234a31b58": {
+      "sha256": "6288fce3631e39747cd3cc500f990262638f1bf22de36fb95271a4eec8fc6477",
+      "region": "california",
+      "start": "2021-08-29",
+      "end": "2021-11-09"
+    },
+    "9180ed5358ecf4bc7592358cd31209fd9cde4684bcaba26fe2cb394473d1d5b1": {
+      "sha256": "c86b4583258ed426b2b02292f6e1ce2daedd7b976305c1751dd65a12adf411f9",
+      "region": "california",
+      "start": "2021-11-17",
+      "end": "2021-12-31"
+    },
+    "22b20d776bc124db2d267b9d4216c2ed806f00ea18fce01becee76a6e332c5c8": {
+      "sha256": "df0ed11f19182189066af4d60eeea9d0eace27b8dc99fed03d468562d234c8fc",
+      "region": "canada_boreal",
+      "start": "2021-01-01",
+      "end": "2021-03-14"
+    },
+    "394743026ab54b47e45f9d777d47a5f3517e2606296b461c79b14e0bc6ccf070": {
+      "sha256": "1c65fe2c37e29141ae9ae436faa0b3b674875ba63ca808358e2074b9b4eb4af1",
+      "region": "canada_boreal",
+      "start": "2021-03-22",
+      "end": "2021-06-02"
+    },
+    "511712d1161bde2ab6de0400b1555462fdb9a11ad908c6ec63fde453c9f25469": {
+      "sha256": "91a0c5052ec0623ba41efdc0f2a353cd0d843e85b56aa43a2d63bab239bc80e2",
+      "region": "canada_boreal",
+      "start": "2021-06-10",
+      "end": "2021-08-21"
+    },
+    "d59da4336cda957feedcf492119cdbfe6fa83b2bba0033739ee2d7ba98dce621": {
+      "sha256": "591e4dcee0ce72a7a7beceecd793d78cf8ec21f986f7d86797c8a141e2ba7f4d",
+      "region": "canada_boreal",
+      "start": "2021-08-29",
+      "end": "2021-11-09"
+    },
+    "379f59248799b7c4be2f9c0c8be8bfd1d5d613b60795a88d557d6db705be726d": {
+      "sha256": "938aa43612f7b43c614b172af006558631ecf1481eac5a74479b7dd7e275ad7a",
+      "region": "canada_boreal",
+      "start": "2021-11-17",
+      "end": "2021-12-31"
+    },
+    "f9d957d6caeaabf698d41d59f0b56f211f7e4bc1a0b630fb309d579910881c1c": {
+      "sha256": "c3bae36ce601bc54882ab11305f826d505e1f20a235ee9a074e17160ba391807",
+      "region": "portugal",
+      "start": "2021-01-01",
+      "end": "2021-03-14"
+    },
+    "80f71c0d2aded89dc54f4a6d5aca5f278553c76f8fd802c55ac67731ba6746c8": {
+      "sha256": "c8433d0553401b0bce190b8555d96ef1fdb8899602cc5a02aa6aa4ffcd879699",
+      "region": "portugal",
+      "start": "2021-03-22",
+      "end": "2021-06-02"
+    },
+    "9191af8aec7ec8a3fd3f94e37303283b55196966d69f133c3d73ea3d78534d48": {
+      "sha256": "5ff93b35fe29982a8f235ac9b77a9f0b58f27b148ad096cd3684a2da25276302",
+      "region": "portugal",
+      "start": "2021-06-10",
+      "end": "2021-08-21"
+    },
+    "e1a8e20914fc534d68a268e8ed63d0b32eba51af01de996f2d42bdca686bc3c3": {
+      "sha256": "5d19f5abafedbb3d6351b808508c2bf2536b4b8a893cda61599c624a04b41d64",
+      "region": "portugal",
+      "start": "2021-08-29",
+      "end": "2021-11-09"
+    },
+    "a554c46e4cfa25ce294b7379ccc7b0b19d35f9fa97730321704e0351354c3a05": {
+      "sha256": "7f6443daa81e13a0c65fa397eec1992b673f05cde58c7372b4a1e5d411f59c56",
+      "region": "portugal",
+      "start": "2021-11-17",
+      "end": "2021-12-31"
+    },
+    "027fbea816636f5ab3a5c58e8d8f8aa3a62aa4f023f3cb8d4399a19157bec11b": {
+      "sha256": "58a81b72919710f422c2fbd456369640073139d314c88b2d69c9a378e8db0e49",
+      "region": "grecia",
+      "start": "2021-01-01",
+      "end": "2021-03-14"
+    },
+    "f03d656e0de13a6edd5aaae3fd1cba26f840a716f4700ad60df15a8adf3c39ae": {
+      "sha256": "0c5be86589d0120151cd667c66c1b80ed22e5f159a06030c82337fb920bfeaf5",
+      "region": "grecia",
+      "start": "2021-03-22",
+      "end": "2021-06-02"
+    },
+    "d8da591471c9dece26ed698ee6db5114b03fc0554e4b53268e79f47cda19d8b8": {
+      "sha256": "df7e9980f18b744076f01c2cb02c1cfb1bd6b4f5ff19b762a3352fb955d4e644",
+      "region": "grecia",
+      "start": "2021-06-10",
+      "end": "2021-08-21"
+    },
+    "2987b3dae6743b316b1cb7cadc390eaac418926131649db4c58de4284f2ff0b5": {
+      "sha256": "68369b61c2ad4750b6889122f25cd92dd5c00d94a25ce5a164f14da0d0b769e9",
+      "region": "grecia",
+      "start": "2021-08-29",
+      "end": "2021-11-09"
+    },
+    "7576e8f228772424a3504fddabe90a20199d3dec8c23e9e090e633165ea73b5a": {
+      "sha256": "f1cc5abe9929ab4c05948e6e2dbb11e4f6d5cff09bdf80b9e6ee433a17bdd6a7",
+      "region": "grecia",
+      "start": "2021-11-17",
+      "end": "2021-12-31"
+    },
+    "c81c20c5f501e8a23b045d68f69546bef918f193a439750cd5d399af5e6b8561": {
+      "sha256": "7c825f0804361d717338b1bb70f073d828933492a7818a4952044fae05dcf35c",
+      "region": "angola",
+      "start": "2021-01-01",
+      "end": "2021-03-14"
+    },
+    "e481177faeec902152a28dda63ab122e8e966fee3a8b67cf6782c6119c339b32": {
+      "sha256": "a2405a2f64b089fd68b5873e7ba5d1e4f40431483c3230a8d6d6924cee5065f9",
+      "region": "angola",
+      "start": "2021-03-22",
+      "end": "2021-06-02"
+    },
+    "017a2240cc0b308012b17cd7cce61022536165f00c1dea6bb19a66c090c5eda1": {
+      "sha256": "babc955ab9415ddb1d012b92d7c3061a59a6a7c33b870f0de009ab073d357059",
+      "region": "angola",
+      "start": "2021-06-10",
+      "end": "2021-08-21"
+    },
+    "4218e409e0ab88d814204929bc44a1bbb8b7e13e6e1f0683d2ee1f6a123678ac": {
+      "sha256": "fdbd2016144ae642614b428799e68701e178f56bca97c71b7a4c9b46fd3a8788",
+      "region": "angola",
+      "start": "2021-08-29",
+      "end": "2021-11-09"
+    },
+    "5b7342c12295864420abf666d704241251523df5f4897ef648fd0f8b3d42c2fb": {
+      "sha256": "224c51d7576b9c69f50b44805552102c5b4305b7a96c76b48162efa293018b37",
+      "region": "angola",
+      "start": "2021-11-17",
+      "end": "2021-12-31"
+    },
+    "1984eeb6cd79ef65c75a307bf4fd5daca4dadc0b7c0e1e42d6c82d1d569dad2b": {
+      "sha256": "2d8f0bcc15d2426e956dfebcb90e45cdf932d970bdedfc2ac55423d1884224aa",
+      "region": "sudao",
+      "start": "2021-01-01",
+      "end": "2021-03-14"
+    },
+    "3787eb9ae174efbcd2a33eda52294bf9c28a249e0ed668fa3240327176ceeb8f": {
+      "sha256": "cd01d2bb3cf43ca8b2eaacd97cb4ff3274100bd87230b59d77a303dc77764fa7",
+      "region": "sudao",
+      "start": "2021-03-22",
+      "end": "2021-06-02"
+    },
+    "0072b8de683a25702a28c45377f50fcb9249a0e4b76deeed34c45714d6e4c774": {
+      "sha256": "79a125421507e43f31cbbcf7fc79d3d5c5e74eb98309efcd8922bdc97be06519",
+      "region": "sudao",
+      "start": "2021-06-10",
+      "end": "2021-08-21"
+    },
+    "c772235764a9a2dca27f2ebca6c3c70878f19fcb6fec90f543df710e396c95a7": {
+      "sha256": "3f767ff60257897fc67f11bf113320cb951d2ef0af528143c7e98d3ca058a8ee",
+      "region": "sudao",
+      "start": "2021-08-29",
+      "end": "2021-11-09"
+    },
+    "eff630c6b05e130e74ce900f40ba65cc6e1c1e673f263bcbf4fb361b7c544ecf": {
+      "sha256": "ae7762dbc7ea74b54eb573c768b76c089bbe86a2911f97434fa45c84c83aa93b",
+      "region": "sudao",
+      "start": "2021-11-17",
+      "end": "2021-12-31"
+    },
+    "e9d44042b343a5726ed432acec9767329c26868f39c707a20a99ab969347802e": {
+      "sha256": "4a8b8ce39127d48ed727195af5f012aa41bf64901f3e7af2919fdc8e6fdc8598",
+      "region": "india",
+      "start": "2021-01-01",
+      "end": "2021-03-14"
+    },
+    "c7434bfd5ba2a8eb93b4b3c31c5d5d018c84141b45b3de018474d8954639ad23": {
+      "sha256": "5ca20be18cc7286330cfa3fb5318dd39ccc9d4b996b1d3a9e33271271cc864b0",
+      "region": "india",
+      "start": "2021-03-22",
+      "end": "2021-06-02"
+    },
+    "695178731c671c26db20bae6cd139c1f1796c029414a3f0645160eabeb8c9fc9": {
+      "sha256": "0fde33c37d24e45b8d7b6a03074971a0feb1f51c0e16c304801e38de8259d3d1",
+      "region": "india",
+      "start": "2021-06-10",
+      "end": "2021-08-21"
+    },
+    "6b862662ae5f192cc6966eae0e40a445df9ee984da7d226949a0af40387a4a3c": {
+      "sha256": "deb064781e4a910f9d7d4dac4cd279cad3df82694510a17b7abccd18c4d326c7",
+      "region": "india",
+      "start": "2021-08-29",
+      "end": "2021-11-09"
+    },
+    "31777310d2045170de8a0122fac07ca024178fca873d529eb26b4cb9acf38620": {
+      "sha256": "ff0cb406ccbee1f3372bdd23034e2371322726a351ff686b133e000e0e40743c",
+      "region": "india",
+      "start": "2021-11-17",
+      "end": "2021-12-31"
+    },
+    "6c5e4b868a9de7cdc7fdd1a81815b112b172b8f2dc2576c804db1250e5274fb4": {
+      "sha256": "b7b9d07e0c4905efc8fbe580869fe3c62a220a82bcc503af490156931bf49f56",
+      "region": "tailandia",
+      "start": "2021-01-01",
+      "end": "2021-03-14"
+    },
+    "7f90c49635184fdf07a0ca820d3c10834e74b2e7127645bedd21866e1593f11e": {
+      "sha256": "e0a15a263a617c2966c3ecc7d082afe79c4990d0383775c807cb17f1d39507eb",
+      "region": "tailandia",
+      "start": "2021-03-22",
+      "end": "2021-06-02"
+    },
+    "a75c6a1294ff58d762ce414c95522a6f73abfdb0b5f0ba1f37a1457716981198": {
+      "sha256": "fe9ea3e4bee2dae404ac62fa507ad1d23a3020462805aed7c51e52a7b1b89d6c",
+      "region": "tailandia",
+      "start": "2021-06-10",
+      "end": "2021-08-21"
+    },
+    "f6f81c0885359f5b263ae235fa3ed4cf0e81056d5355f0b0c58e6d76dbd417a1": {
+      "sha256": "d5294096d72af1acde04c4a2e2c7109e96a6353b455be376fccabd4d6763f5b2",
+      "region": "tailandia",
+      "start": "2021-08-29",
+      "end": "2021-11-09"
+    },
+    "d2af9b97b66801e3dd59487b70c87ab34de7847458b00107d7b3fe5827380b54": {
+      "sha256": "0b5b86caa46be26c2026091915941e5f3ee2611bcb2671637f6f3e7dfa14c2c7",
+      "region": "tailandia",
+      "start": "2021-11-17",
+      "end": "2021-12-31"
+    },
+    "6677265c434cb0071836c4ff7637f3b95b21522b6992f10515e90bb235fc443c": {
+      "sha256": "b7735973a2feb915fa7e311da3dc5015e4339aed8dd95aafb61bfe18a10b7305",
+      "region": "australia_norte",
+      "start": "2021-01-01",
+      "end": "2021-03-14"
+    },
+    "bb8bb0cc8c5f12cde744b133d0953e785fce0646a076ff1dad3dab73e8412964": {
+      "sha256": "eddeb6f7918dd7831ccc5bb983040119f86ccea474d4b286f51b9f4a8d626958",
+      "region": "australia_norte",
+      "start": "2021-03-22",
+      "end": "2021-06-02"
+    },
+    "7a3f634733106542e58053154a963a5e189ece5210fd2dd5008b60a23c3c1a33": {
+      "sha256": "0b835cee1c1a7bd00e651fd7c4134159f45e54bae83bb654ab7bb04c1e29c0d1",
+      "region": "australia_norte",
+      "start": "2021-06-10",
+      "end": "2021-08-21"
+    },
+    "285b043aa8eaa94ea88e272f4f279d996f5f2f6e9945ed337e3ac9305f5bdb80": {
+      "sha256": "d15d69fb70e87614e8359ce228198eafb8cb921836c672e6af2f4587e91e3aeb",
+      "region": "australia_norte",
+      "start": "2021-08-29",
+      "end": "2021-11-09"
+    },
+    "62b01cd7b3636859611e41a30a33bf7820ebe046f6e79ff57659a82a909e5ca8": {
+      "sha256": "04bc3b6770cecf524851288ac751f8b9197f132bf83f106992864fb042eb8bb0",
+      "region": "australia_norte",
+      "start": "2021-11-17",
+      "end": "2021-12-31"
+    },
+    "acc2015cda8b0f2e32d0e9ae91b99f2e2cd2ec92bcbd8dd160a185b883209c42": {
+      "sha256": "815a96c59d1308ef1a52264bb4f8908224fbe7a2be117c086f892555af603683",
+      "region": "australia_leste",
+      "start": "2021-01-01",
+      "end": "2021-03-14"
+    },
+    "2c9433e2c6fbd205544b3acd13b10c984a1dd947a4115f7005c64158a2dd1951": {
+      "sha256": "2128da8651d5bc425cab7eb4152ebe7d2120a1e1b75c32a6fa53fb3b42d956fd",
+      "region": "australia_leste",
+      "start": "2021-03-22",
+      "end": "2021-06-02"
+    },
+    "b06594d8959d0f15ea198043e9d091c968e4fc0ab8041079e3bcaa8beed09c78": {
+      "sha256": "de2b74814909520f75b8867673aa50441ef550c65170a03c3ff0749ad61a9628",
+      "region": "australia_leste",
+      "start": "2021-06-10",
+      "end": "2021-08-21"
+    },
+    "9bc64572e3ef5de229c01f44135054aa67de061800bcb53aa6cddaa46a052116": {
+      "sha256": "369761fe48d2a152e8558451f186ba600356bbc3e5436f6d0465e2b1a2bf11ab",
+      "region": "australia_leste",
+      "start": "2021-08-29",
+      "end": "2021-11-09"
+    },
+    "8747c3be49cb971764b77dcc0007d1ba8db993926e2a62aec65153b07b7c4e3e": {
+      "sha256": "822075af57fc7077660b6a9627c739408778002cf2d2ea43e6e40d9c6de729b3",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "3cfff925dbb1dcbe228773867ddb3484ccd34fe91c9fa43cc2d4f72b51c27e9c": {
+      "sha256": "96abc63d90e9e37ac95f7435e1512582854bd126e8be78c6b0ee1709e7baa53f",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "202349997530e3365da88bf8a094afd2576d8e71b93f9355f34b8b7050a816fd": {
+      "sha256": "3ae5c051bc27fd24ea2917d4305951c8d0ea4a95779d226033e95ecb0103c9c6",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "575c9191e1cf75fffa42410c86448b0f6dc00920b3b24f128a27539c9536119b": {
+      "sha256": "87a28134002359d03a64f5ac096af022838a6d1c651bf678fd669d6428192f96",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "7fcf2496eb27de315349e4243c0182bee8ba2bfecf7bc29ed80969cd016ea308": {
+      "sha256": "911efa1c2a8c09c636790984174ea46d4df28444c2e5d5be9df76f88ac8091e3",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "82e5a2fbc7f446c649b144e42e070b973a888fe06b52ebf6d4229b512b78ad11": {
+      "sha256": "663879d024934052f7a160b29db3b1464759b30b4bcef5c77c10fd38db537727",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "3e634343f6bf922b717969a575f9f336477fc18cd1ae668227bb6ad0e39bbe59": {
+      "sha256": "908b1fe1f4302af229b4bdc06ae4714bd9e26c5de7d652a6c2983a75c495073a",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "c6a60a09434fb5b22af66df3029ca5664f6e2adc7ba7fc873e8fb93a7f0d1a5b": {
+      "sha256": "918133691672652b244161422496aef702963b49414122e681154f81c00a1cda",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "a53aec9fe1b0b362adf324b22515a2c1bf9fc3c148bd8441ac18ad4a3399752f": {
+      "sha256": "e6eaedc52fe31a2efcb59446005e3cdbd4a1592e085d1425a5695f5c32deafa4",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "9d3a39894e09b6c74446eb5078e65256aea2dcea690b9ae9a22ab0454812068a": {
+      "sha256": "2fe8ba832954c7fa23cbb6f626bffa0a88f3177105a084f147ad04925146d107",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "3779793a01584ac623de509de24c979c3ca9c15ac8aaeda49b01d03c0fe9955d": {
+      "sha256": "ec1c0c1085f57ba14f05b87a2993dd8b75a3e4c4665d8dc02f5a5507c820774e",
+      "region": "australia_leste",
+      "start": "2021-11-17",
+      "end": "2021-12-31"
+    },
+    "2432daf01e8a7b887c58e0d0a33739581c08c5954fdc0e32d0c16f12ccd714b6": {
+      "sha256": "ce334b5cf7722204cbdf472a2658e96e78b2f5fc2a259b08a44ba22514ca9588",
+      "region": "california",
+      "start": "2022-01-01",
+      "end": "2022-03-14"
+    },
+    "cad794fb4222332420d2328901bc8c6601c54859feeee404f26439797b8b581c": {
+      "sha256": "72f1238237de014a456dad53473447cad4a06358a5ffa43b460e96f700fe4b66",
+      "region": "california",
+      "start": "2022-03-22",
+      "end": "2022-06-02"
+    },
+    "133382deb94775663590f5c1baf35a35b08f818c9f38dae8a3baa5fe5e9b281b": {
+      "sha256": "48f8ce1553f549a669d11aa4714e600e70f0b7408cd77953a5176cfff9fe5274",
+      "region": "california",
+      "start": "2022-06-10",
+      "end": "2022-08-21"
+    },
+    "e3bb40d0878a3ae399d75ebb4d6f72db27bf70a334b86dd090cdf24ae109873b": {
+      "sha256": "8a9d65e05c42b4ed2099875a2f5083a8cd9fbc251d43ad4375d4fa9cb63ca14e",
+      "region": "california",
+      "start": "2022-08-29",
+      "end": "2022-11-09"
+    },
+    "574eb244718d1526be63ba28dc4acb53ce99ca57721e53addd85bc97eced6f32": {
+      "sha256": "739cd407930b55124decfd88e77aeaf16d05af9d87396b4c1197c17514143a20",
+      "region": "california",
+      "start": "2022-11-17",
+      "end": "2022-12-31"
+    },
+    "de047f2e9cb726fc425a9c8a0f53351516aa8aa9178f4d49967f333e307d616d": {
+      "sha256": "048bf9335417fa304c4589924343dc3b6c49465f667707c587180afa6d898f88",
+      "region": "canada_boreal",
+      "start": "2022-01-01",
+      "end": "2022-03-14"
+    },
+    "d028896134f9324f62c2bdd40150e51170d974c2d4539e89bc72818bce99aed4": {
+      "sha256": "42fd54aa0c6f5e531353ba701406fbe1b7487593c5999157cf4bae5a51a7cb1a",
+      "region": "canada_boreal",
+      "start": "2022-03-22",
+      "end": "2022-06-02"
+    },
+    "436e58ed313db35e86d49fcf322294ce942ad6615ff0e0dd6595aed66019f0f3": {
+      "sha256": "c21a93d1f356ddd9aabaf10a2490d086cee0a9e14f9f74e534233f7623b0063c",
+      "region": "canada_boreal",
+      "start": "2022-06-10",
+      "end": "2022-08-21"
+    },
+    "ddfc0ab0152abe1f63787d4ff240603fc0136b7790b8c04e8fb4f06dd1bcb128": {
+      "sha256": "16adef06151cf8adb4797762aa3f0b91274519534e093ee49b47b4b340082033",
+      "region": "canada_boreal",
+      "start": "2022-08-29",
+      "end": "2022-11-09"
+    },
+    "3f1c2ef733d822e24965557b9e04b1f08f9112ce6bc25cf6fccbc4011c7082ea": {
+      "sha256": "2f7956eedecc21b73ffe551ab88722c456f4a739659127a7642793507de91260",
+      "region": "canada_boreal",
+      "start": "2022-11-17",
+      "end": "2022-12-31"
+    },
+    "21dd71ce8160fd72d235b9120f630ffda68c43e795c64495faa83d6cf2bf0033": {
+      "sha256": "500dd34618ac8e9860c56ee1652ac77425099436d4eb09c91ec95669573ed457",
+      "region": "portugal",
+      "start": "2022-01-01",
+      "end": "2022-03-14"
+    },
+    "10a7e1da532fb02f4613e3c12ad851fedd4260a0d473dbf005570bcb9c7a6f02": {
+      "sha256": "10a8a569c2c6015a5ede646c8e9d25dc2964bce5a00a11b6eb1a19b182e48e04",
+      "region": "portugal",
+      "start": "2022-03-22",
+      "end": "2022-06-02"
+    },
+    "57dc82175bae45c9b3cc25c4537e447b1d22ae18dc28d027b196b314d23db043": {
+      "sha256": "a0727e4a46e3f7cb93cfd6aa698e01f49d9b2da97e322b7ad2945bf417b4c204",
+      "region": "portugal",
+      "start": "2022-06-10",
+      "end": "2022-08-21"
+    },
+    "cffb78495bfd081ebc2dcd45932a2b1d819a53fa950bb609fd12be7535d54123": {
+      "sha256": "c7a58f2088d9597378a5ae0d813f1d4df4b723cae7880610e7c6ec3f34154de3",
+      "region": "portugal",
+      "start": "2022-08-29",
+      "end": "2022-11-09"
+    },
+    "f3f835825fb14daad069d38eeafe57bc7574f381bf02aee1ed80d8fe4a00fbd3": {
+      "sha256": "b8c3b338a55d2d6bb040648d70ee7f13ba279195e0330317863727d5f0da0add",
+      "region": "portugal",
+      "start": "2022-11-17",
+      "end": "2022-12-31"
+    },
+    "9735c76f28353d42f6d65507cb8d6682ae98c9dfdb22a150d3bf300540007aad": {
+      "sha256": "36e946fbffebb4ad152b40ce6df228fbbce2bcbc8ab06fccbf758ae61ed601ef",
+      "region": "grecia",
+      "start": "2022-01-01",
+      "end": "2022-03-14"
+    },
+    "f9596d00e1df163709c30a8f8dc55737863f9d0dab49440328fa05080808c35c": {
+      "sha256": "690404a48ad859c305844b71d36bc663dab7bf5b67c9deb56e1d725e00a665a5",
+      "region": "grecia",
+      "start": "2022-03-22",
+      "end": "2022-06-02"
+    },
+    "b7eb2a29700a5fcde009afbb4bede848923e90cae1e8eb3791758614365a0002": {
+      "sha256": "061082856546ad380e9c880f9b559b2e4d2fce25dc4af21e66f2ab8c90496a2e",
+      "region": "grecia",
+      "start": "2022-06-10",
+      "end": "2022-08-21"
+    },
+    "30315b36322a15836598fce988b7db2e4fb61d5e0760a98bfb3050730a1f6d07": {
+      "sha256": "9c52907de966bb491d5a397ae9d88f611f19171d3e886f7f49aae3208aea112e",
+      "region": "grecia",
+      "start": "2022-08-29",
+      "end": "2022-11-09"
+    },
+    "1fece4f90767ab9f128c835c61af54ccbf58e95878d1cbd6c9ae0139eb3ba7b5": {
+      "sha256": "5e96e8506f0fb3af2ef34db9d59f5e91e8b0556ee8abd996e0be72da372bca20",
+      "region": "grecia",
+      "start": "2022-11-17",
+      "end": "2022-12-31"
+    },
+    "1060d8917d15baf715640c356da8206cb033a070e9e32b63b2bf46d099789dea": {
+      "sha256": "4e245813b7ae1a022ef4d63796e9cfc9394db76c4880db2fd37a4d1a40adc05a",
+      "region": "angola",
+      "start": "2022-01-01",
+      "end": "2022-03-14"
+    },
+    "d173ff0166c0cfa7cc9bc9c45538872fba9cf8355994e23ce8ba0dc48d2e3f52": {
+      "sha256": "0a3277482ffb229ac458e8f13512b5101efd598712fa937ac4984fd9281f8bcb",
+      "region": "angola",
+      "start": "2022-03-22",
+      "end": "2022-06-02"
+    },
+    "0dea52f971e0b10652cdbbe5efcb2cf22fb03cd7e38e0f0988f0ca1684e2e4a8": {
+      "sha256": "a468de341248cd0ae93a13ec30373ee0b37e4df7d46ae3d60053dfd0d81194aa",
+      "region": "angola",
+      "start": "2022-06-10",
+      "end": "2022-08-21"
+    },
+    "79ed86e66c364dd98b4d08378863e8ce0363be7dbbe965ca2b2d1027b991bb71": {
+      "sha256": "f419847dae318be3c48cfcdeaf66e80d64b7cc2e1f27203cb35fd4d46a9b7095",
+      "region": "angola",
+      "start": "2022-08-29",
+      "end": "2022-11-09"
+    },
+    "2797a30cceb14f9f72c18a706a28fb73e916dbd661d4324a04a82b671aa52c6f": {
+      "sha256": "dc3be6815b4448c7a15c05292cc3c280f9f45cebe6f2e5b53d9c0380d9f8e879",
+      "region": "angola",
+      "start": "2022-11-17",
+      "end": "2022-12-31"
+    },
+    "2cb0f5d845001a3fb63b9fb58aa6141844ae3addbf4a0e6831037445b410b7c9": {
+      "sha256": "5d926989b8b03b1284f6edccb533776cc071e3d86104488aa2c77009b81ea689",
+      "region": "sudao",
+      "start": "2022-01-01",
+      "end": "2022-03-14"
+    },
+    "cacacd1206f9434fbf70eed350fcee74b54bd4128f8269ddc62814df1866015a": {
+      "sha256": "bec4f6e89a297be7196e8d5a3cedf1f64818b88ef8bad5a1b694f2f808e1a0af",
+      "region": "sudao",
+      "start": "2022-03-22",
+      "end": "2022-06-02"
+    },
+    "1be3f3bcbf4151bb6fba0e68c620777b4603a5478bdb2f4015789cc42863204b": {
+      "sha256": "280c05b86127f27e855a593d487b28181a42d188590b212ac5cc764268d5e533",
+      "region": "sudao",
+      "start": "2022-06-10",
+      "end": "2022-08-21"
+    },
+    "0180463924eb5c4a37547042df33a086c0f3adc6bc0d9a47620439f31d63573e": {
+      "sha256": "14b04f8b713a66e0295264586d6c57f50e91bbedaf725f9ce110a2a5d18db169",
+      "region": "sudao",
+      "start": "2022-08-29",
+      "end": "2022-11-09"
+    },
+    "bcce9326308a139cd279cd4b0ed00a4e1aaeecc681e2335bf31eb3bde69d1e4d": {
+      "sha256": "fb3be9c3d316c01b8475f7a6d2943d55c75a4c8b061fcffaa414f93128a80ed2",
+      "region": "sudao",
+      "start": "2022-11-17",
+      "end": "2022-12-31"
+    },
+    "6fc9d4f1c66aa8cc784dac0cb08ec236708db56e669d7a3befa88380ad585b40": {
+      "sha256": "b924a320c022793c771c01d07167e374033518d20c63e2b1fb3dc4d1148e10dd",
+      "region": "india",
+      "start": "2022-01-01",
+      "end": "2022-03-14"
+    },
+    "16293f738974b05a90d66dee8182d4c0d1599b602920111e8a932b933068fbb5": {
+      "sha256": "96dcbf721df90e0ded994037f8d095e9eac82813e42c83a5b8b3d8ba96d8387e",
+      "region": "india",
+      "start": "2022-03-22",
+      "end": "2022-06-02"
+    },
+    "732a5280dda6c7fb3e7607c6f827a2c4b6f94a0bcd96a09d72d6781e2e7852ed": {
+      "sha256": "026dc8689d3b4bae470f8d46a6edef5ff32e83146ccb9ea2449bfec139360c41",
+      "region": "india",
+      "start": "2022-06-10",
+      "end": "2022-08-21"
+    },
+    "af8c34de650ec19ae04ccf06aee3ee5a5fea2dcb11a3f4c51f2bf40a7dd696ec": {
+      "sha256": "71384d2c14489aff6d7894abf87a25bc107e80f9ee2358d3f487b4db75c4cd77",
+      "region": "india",
+      "start": "2022-08-29",
+      "end": "2022-11-09"
+    },
+    "bdd8da33880259420f58dc31bc76309b81ad9bae6aa55f29fa4cd100250dc54f": {
+      "sha256": "3fc070f7c8b6bb5c48fd10d8c9910afc262b9e00af0e72245bcbb309af255a7e",
+      "region": "india",
+      "start": "2022-11-17",
+      "end": "2022-12-31"
+    },
+    "0b9c21a72ce0d09ffc2cef93b2604b86e63f5c5536355ab8d7d2027750be66d4": {
+      "sha256": "56ea3453ae3f6f4c6a9bad4c3fdc22c988e1b7136b79846df171cb0f0e915ae7",
+      "region": "tailandia",
+      "start": "2022-01-01",
+      "end": "2022-03-14"
+    },
+    "3b3a0e0bf93a29b65020c5e760665053d8c24f84a70d74b2cb89bfdd0111e131": {
+      "sha256": "14bce75209ced2817859e0b1f8f54e63fbd25c30cb9a3ae593a5a9db1b5e2561",
+      "region": "tailandia",
+      "start": "2022-03-22",
+      "end": "2022-06-02"
+    },
+    "a364599525d45287a3d2685fc8aca801d42e3f9eecc7a29d37c37b04c7ca26a2": {
+      "sha256": "e9d1c7b22d78c2a35de1b4bed803180cbbb5f7626053edecadf243e20cae570b",
+      "region": "tailandia",
+      "start": "2022-06-10",
+      "end": "2022-08-21"
+    },
+    "d7408b6c507e0aca8fc698e43e244683d67d163f8d6c9e62ac306e5135591c68": {
+      "sha256": "f1d679e439b5221d513aa2a06d2634eef9587abf95f3e34cf084214b1584d7c9",
+      "region": "tailandia",
+      "start": "2022-08-29",
+      "end": "2022-11-09"
+    },
+    "4e2857c061945c874bd6129c734bc40cdc5910b7ef2f8c30612da95fa4e709ec": {
+      "sha256": "114bf17f91eeebdfc3872fd43db0e2840f89c4e96399ca628442bd62595327ec",
+      "region": "tailandia",
+      "start": "2022-11-17",
+      "end": "2022-12-31"
+    },
+    "be0e51891441207306c3c68c6578e5515b3fd20d47e335a55d78fd10073f6eeb": {
+      "sha256": "8f7bce7a010f6eb9a10c5d7fc4032614e6636992a2d9cde05896407a9fe67d15",
+      "region": "australia_norte",
+      "start": "2022-01-01",
+      "end": "2022-03-14"
+    },
+    "6bbee7bf22f168acb4917d1318c502a782e390e2d0c2bc3a419ab33d8383f60e": {
+      "sha256": "3ec6abc80f9b3dc87e6684f43c7ffa02dd38e7ed1a3b4cd279bdfc1dd6f64209",
+      "region": "australia_norte",
+      "start": "2022-03-22",
+      "end": "2022-06-02"
+    },
+    "edf07e30d6c1f1e191dfe3ec18caf0fc015439e1d9fa81039b9642a32b310824": {
+      "sha256": "7dd235232289339295129297aceef58432f2b7f30a184a17e81b54eec65def37",
+      "region": "australia_norte",
+      "start": "2022-06-10",
+      "end": "2022-08-21"
+    },
+    "40fd6cf0e9ba1c90a85bf11f6e64fb50a20bf20de68d02cf0a45d9ded68e4a98": {
+      "sha256": "a948a87a8a4ab863ce80002a4f26937a687de1a461be19feb2b0d1e4bd659e23",
+      "region": "australia_norte",
+      "start": "2022-08-29",
+      "end": "2022-11-09"
+    },
+    "4b6587f3157a2b7d52a5a4a32659cfb0667451166d368b1869c1e3046a15e898": {
+      "sha256": "55f64a38ed59bf9d697ddb2f9fc0dc4cb7d2ef435d8bb062290bd47b463b6dc0",
+      "region": "australia_norte",
+      "start": "2022-11-17",
+      "end": "2022-12-31"
+    },
+    "81055a3dc1d8e3ab828878f1bf220468b62b2a4b2cd2833c4da009fa01d864d7": {
+      "sha256": "b6a5cc6edbcbffa69102690d12e0efba7a7f1ca7bfb5175f88960b892b427469",
+      "region": "australia_leste",
+      "start": "2022-01-01",
+      "end": "2022-03-14"
+    },
+    "9105dd50c407d30c8fa1eddf19680ff1400a7c3ff9dd11aae0074c461394906c": {
+      "sha256": "dba712311bf596cf0350eaf2775d4ee01bafb321e9e6f9d410ee591b71449376",
+      "region": "australia_leste",
+      "start": "2022-03-22",
+      "end": "2022-06-02"
+    },
+    "f52b4da22f3b88822110cfb861865706ceddb76f32cc345ac64a651227b338df": {
+      "sha256": "d5aa854be7189148b8642012538e39a218b15ba8201c4cae24d78292b9541d05",
+      "region": "australia_leste",
+      "start": "2022-06-10",
+      "end": "2022-08-21"
+    },
+    "67537651a77fefceb560aa3b3e13dea5896197a50357b85c61bf9768d4d314a6": {
+      "sha256": "d23703c4e343e79631c94b44ed7f32d02a2d194182c9c414bc902a133527196e",
+      "region": "australia_leste",
+      "start": "2022-08-29",
+      "end": "2022-11-09"
+    },
+    "3725080a210b503118b3de4a7e7566d6570f982a195bf81d38193b069cc98014": {
+      "sha256": "d06a1da7cde644cf1647bb59755a6baac10769c28dbcb556ff1e428968bff91f",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "86bca5b70e707461524c450de6deb129178a31c43a369c3747a61b608d7eabbc": {
+      "sha256": "b7e33dc107b5f163ea5a8886439535de8a43ea7a39c972d7735c6b9eb29b8518",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "6c5adae22948998afe7babd19ffe3ee17abb40cea8113b547e4202e91a2dc02b": {
+      "sha256": "a2e2c092446fe8d94629170b69117d1aa8a122693a5ed5fd850394da41fe121b",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "b5fba499dc9a82200b420212f23439065cbed9d0f7a29864545c0225f914d3fc": {
+      "sha256": "ef24fcec2672f059dbe3947e127c6175603f7c4f21e702e342e795f2b5f289b4",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "b8545219642a1e1e875e6734bd57236223223011d37f564e2f50c80f70cb2f80": {
+      "sha256": "d6a22ec05fc0676aa1b47cb136c10baf2f2bae4968390061177e58746e643e0f",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "24af29319fa84199c4f2d4700516afdecd1eb3b5ae1ecaae08f7304960595fd2": {
+      "sha256": "e342379c62f785dbffba8b5a48082fd971a47d3986b7fb0a9d4619dc5de7eed2",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "ac19520c6b1d0c52c49cbb0f7a265375ac589cf7668b1336da4302434ab7579d": {
+      "sha256": "66925b819b4ebd3160d2c3a450203d3cbad36094296efa63a7e948eb7690f202",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "d7163d94bb189592d146b0debcd4245ab43e66b27694c771ba79f69c58a4f2e0": {
+      "sha256": "fc3786b1f91330b72c9eb5123eeb0cc690423afca5b6ed6fcfdbdfa452b94cc7",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "b1e784d53caa19b636588b770d1ea2d448573a780e612df457ae42e2e6f6ea47": {
+      "sha256": "7c4fa3878bf2d03a3c16ce95903bd06df1cd57c5514f7575ecab8e0d9b34f1ee",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "c86af978fa0290ef2fe914a7d5b501537af51d668c10f2531b5dedf7f455e251": {
+      "sha256": "dcae9c1f0789d0ac04ca61d9d5b5201b84c05b5d0ce1c8e87d348f6167af479d",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "3c2bd9bcdf7e192f22af5118c07f23c050952078015721b65986e7124b7cfdf5": {
+      "sha256": "bb6f0c94eb8ed319902a1a54127b78beb5bdeebd5be369862cb73eaae4cbb447",
+      "region": "australia_leste",
+      "start": "2022-11-17",
+      "end": "2022-12-31"
+    },
+    "8523eca1f1b3990fc44ead0ee061078cdc8ee387582768109cac3d82b5af6d2b": {
+      "sha256": "c8af39c9104cf3eba9b11f2c57e7f5010e886f88b09c40c00b065e7836f2d8bb",
+      "region": "california",
+      "start": "2023-01-01",
+      "end": "2023-03-14"
+    },
+    "c557d748aa5a7961f731cb9c8ee5d2be846d22267ef4b2ab35a44c456079283e": {
+      "sha256": "3d3ebe00b35ae36dfec8d7983a21a0755aa34eba69c2d663d1923d8d74edfcc0",
+      "region": "california",
+      "start": "2023-03-22",
+      "end": "2023-06-02"
+    },
+    "d92646a38137588f9df79beb3a9a6f7a7912afcec0681c55e26011463b865e84": {
+      "sha256": "4574ddf8b10096da43b1dc6ec8edecb4cbb364c4b0ebe0ba745de88a4a0a8747",
+      "region": "california",
+      "start": "2023-06-10",
+      "end": "2023-08-21"
+    },
+    "dd81c3f6dcb0d8459b2a3e9c999817808cb65062b2a2e6ec9deaf71aa560b89e": {
+      "sha256": "733b70308da73db913bbce25544a589068606cc1bb4061129d4f8c80a2eaeb03",
+      "region": "california",
+      "start": "2023-08-29",
+      "end": "2023-11-09"
+    },
+    "490e8993f66f1cb31c48aae02c4df8a2e1a39c4f66a50eb052b2385c2ddbe22f": {
+      "sha256": "75e8e3aedd3a326c808777bf0169289568cea6a2e0f0883aca25d64fa0388167",
+      "region": "california",
+      "start": "2023-11-17",
+      "end": "2023-12-31"
+    },
+    "47b8e2b6d0e7e8b59a947fe255737efb614d2ca159f4191065f646cd24a14904": {
+      "sha256": "9762eb54c9e9c9359336d7465a7395a0b4288b39c16cfecafb1018279c467404",
+      "region": "canada_boreal",
+      "start": "2023-01-01",
+      "end": "2023-03-14"
+    },
+    "bb293ecf3378fdeabe5aa4ee5c914e7cf85e078f10c051a2625648cc0ed35ed7": {
+      "sha256": "dbff6e2ef02154d679709c52130fa1c513bb26af6d507c072f64cb6ced156bbb",
+      "region": "canada_boreal",
+      "start": "2023-03-22",
+      "end": "2023-06-02"
+    },
+    "1634ef70ca33af9caa4dd69319f18711d79d6b0d7324ac0e08b068fae1d0ca33": {
+      "sha256": "9d5bdaafd2e304df0748a03d22166bcfb3a999ef1652518349c1ae5098fdbd58",
+      "region": "canada_boreal",
+      "start": "2023-06-10",
+      "end": "2023-08-21"
+    },
+    "33e438396a6199b7dbc6bf644d956e7787e26d5d1158b9f125cdaac00fa491f5": {
+      "sha256": "b84b57f9aba9bea4a4d943a64b68edaa3bacea0c540cb9736c0a13c5f8bdc036",
+      "region": "canada_boreal",
+      "start": "2023-08-29",
+      "end": "2023-11-09"
+    },
+    "0c23f0b8c516c608b4c20abf98d9171c56c8ab837d12174149ac565f242adf0d": {
+      "sha256": "cb70b0c0a830c586e3ec919eb6c2579a6e84beaf1f8117f47912a3d125e34300",
+      "region": "canada_boreal",
+      "start": "2023-11-17",
+      "end": "2023-12-31"
+    },
+    "d84e12086de6488c2d2212ed2b2344ad4e532b529d0d621cbb73bb9e90d7d678": {
+      "sha256": "b380be71c52794950e54767d8a3c4830e82eec8dfdd86d2bfed22b22ef78fec8",
+      "region": "portugal",
+      "start": "2023-01-01",
+      "end": "2023-03-14"
+    },
+    "ddd9363005b9d11c876f309306237443cc5f2761227ddd39e3b3640d67d9a911": {
+      "sha256": "060a2830e9da94d9b20fdb51080211a830b71f285697ba08f0c265f57eb282fd",
+      "region": "portugal",
+      "start": "2023-03-22",
+      "end": "2023-06-02"
+    },
+    "96c1fa584119b0b0e041dcc5643ecd695bccb412108818064759b5df55c84e37": {
+      "sha256": "263a9da1fc7b794a77b2f94ad67718c26394b258b6c0cb73c3b2b233e7192a68",
+      "region": "portugal",
+      "start": "2023-06-10",
+      "end": "2023-08-21"
+    },
+    "fbafe24a4def0f2cb9547c045d096d72823a013a55806e608e83b159aee70987": {
+      "sha256": "7f691435b8a6f2d4e61ca63c9d0c56936aea93d9b6a5d28bdfbc1908d7cbb32f",
+      "region": "portugal",
+      "start": "2023-08-29",
+      "end": "2023-11-09"
+    },
+    "057ed1c6b09e3a3a76cda85421a6c284331d020fb3f02db780fec71eb104de4b": {
+      "sha256": "481ab172794f8117f5ea1fe80b5b787e5ccabb42cc371ab547b7bbe229981339",
+      "region": "portugal",
+      "start": "2023-11-17",
+      "end": "2023-12-31"
+    },
+    "c9384d06ece90466aca58674c4b10404ff502cf99875662eed78340a0af13ec8": {
+      "sha256": "9ac6d66f5aa6191f0858dfc2ebb7513f77b552fcb115f9160998c4fe9221e06b",
+      "region": "grecia",
+      "start": "2023-01-01",
+      "end": "2023-03-14"
+    },
+    "5fc99d7a34bbdecefdda8a9f5665b8b82178d3362939b1b2fcb4042f25fa5026": {
+      "sha256": "77affbf8dfbb4d891f768dddae31f6dd3b16f3130bdcd6cc9559837f619fa8a4",
+      "region": "grecia",
+      "start": "2023-03-22",
+      "end": "2023-06-02"
+    },
+    "d7fc1d2912c7474c57d8eedea523126cb89fc35c3c747a087a4199d810553df7": {
+      "sha256": "5cfb7c0c62c1872120cef497862f6ddab09ce4699f6ed7fac53babf8492ea63c",
+      "region": "grecia",
+      "start": "2023-06-10",
+      "end": "2023-08-21"
+    },
+    "22c3d1435594cdd1edcd713eacb367b5830acb8204d215957bf01ffa3d88c79d": {
+      "sha256": "034e7178dff7ca61cde3b30ad75f8ee68cfc1bda90eb9f320e276b9899f16bc5",
+      "region": "grecia",
+      "start": "2023-08-29",
+      "end": "2023-11-09"
+    },
+    "e4acad34681650dbe81a251347132171ff63e3dd6f1b03376720bbe2030f76f5": {
+      "sha256": "c1c40fa4fe4659c7b4d316a15629b632ea71ce0b95417a9aa907954efdefd939",
+      "region": "grecia",
+      "start": "2023-11-17",
+      "end": "2023-12-31"
+    },
+    "ee954a596ebc42a5fff746cf861b8dcc43817cc953ca207c974ed9ebf551be01": {
+      "sha256": "528b2c3e38266b40e87ce14fc1e30d921d82e72fb3c3ac7a346ff6d7006a3d87",
+      "region": "angola",
+      "start": "2023-01-01",
+      "end": "2023-03-14"
+    },
+    "b90e9e896100fca68d7e57bf2dac69a20dc1977244199476208bb2c54fea3f12": {
+      "sha256": "7e741559087c3399fa762117046a4d4b5b0ddaa1445b916ead14b1f8b8105ab5",
+      "region": "angola",
+      "start": "2023-03-22",
+      "end": "2023-06-02"
+    },
+    "1ff7a1187873671739e1f3b207f6503af5e7973eff2033a632eeff37c93e4ef6": {
+      "sha256": "d37e86f34b27f54ff67e532a708e85fc9d333407029defc391f89f5d413129ec",
+      "region": "angola",
+      "start": "2023-06-10",
+      "end": "2023-08-21"
+    },
+    "bd01f0c3bf1ca0deb8510317664a179c0a125c57a152fe817f5c8064cb42743e": {
+      "sha256": "4fb5618b8b036cbd5f288017936d837546c2810f0c1dc99cea539c9a78a7692c",
+      "region": "angola",
+      "start": "2023-08-29",
+      "end": "2023-11-09"
+    },
+    "2ba0b1bb8a6adf2b54f9148a62b15966cf567107d1e47d6014d854b8fd411c0a": {
+      "sha256": "57ad678a0ccaf4a3b0bf2a05b679e221b405682985f0b3c820b9ed07277a4743",
+      "region": "angola",
+      "start": "2023-11-17",
+      "end": "2023-12-31"
+    },
+    "e41abecfa51e602f9b6720f54a0acdec6537f821e4692c5450bb9718e6d06621": {
+      "sha256": "2eee99e991c2607e5a6c506017718a45defd013d4f8a716b36aeff567331ec04",
+      "region": "sudao",
+      "start": "2023-01-01",
+      "end": "2023-03-14"
+    },
+    "60d7fe7cbc730d7dc1fa4addc070c27a1ca503d9d123f4c0a086d789f0971b75": {
+      "sha256": "fe206b668e2cba30510d5031b66dcb5e27a8101c1fbba15bac91cac7bbbcba21",
+      "region": "sudao",
+      "start": "2023-03-22",
+      "end": "2023-06-02"
+    },
+    "e7e0d0a5c1dddf613130aaf7b470f3383afedf84847d8cefd297a151ac23e1c9": {
+      "sha256": "625c7b1718514113aab3dfb79673bc8e10bde728832a98cd15304877eb2b6b7c",
+      "region": "sudao",
+      "start": "2023-06-10",
+      "end": "2023-08-21"
+    },
+    "e301a241cd222becfc8a87fb9f2d86f32228d0066098b085d814878fb16a9d39": {
+      "sha256": "c318a483233c40fd7656cb0f91429736a4444bb79220fa3379d8e6b633f23004",
+      "region": "sudao",
+      "start": "2023-08-29",
+      "end": "2023-11-09"
+    },
+    "da1b7808a584338335c14fb3e245270280e425f42e4e0111b31ea4b63fea3991": {
+      "sha256": "b33642cbda273f03ee6ffbf98efa066c9bfde3c33d1c5a3bfbf2e8ee940bba81",
+      "region": "sudao",
+      "start": "2023-11-17",
+      "end": "2023-12-31"
+    },
+    "fccc5bf01887d5ac93c2ae2297ef8beedb11f8de3e28d37a0d78a9e0bf61c983": {
+      "sha256": "89f1e8c6c3bd931b0d436f46ef0e8a9b824be80dc9f943edec8f497af7cec322",
+      "region": "india",
+      "start": "2023-01-01",
+      "end": "2023-03-14"
+    },
+    "6a229068d95bed6f5be41ce34ee507540862797f5a8a8056aba7c76919180c2e": {
+      "sha256": "ba78947559e63c795bae941dcbd442d1661d205e7641d53e073e6088e8a03c43",
+      "region": "india",
+      "start": "2023-03-22",
+      "end": "2023-06-02"
+    },
+    "b8e645db02bf30238a653ac9e70946972ab5460dc04c76db9d9d34512a7f84f9": {
+      "sha256": "fed25190e585197342aac9c1f0b5e297aac7e4aa8247a619283d77e1db5d0a13",
+      "region": "india",
+      "start": "2023-06-10",
+      "end": "2023-08-21"
+    },
+    "a5266cf808442996e719424d2f6d9607e213a99dd8f665d9c23c65d280985096": {
+      "sha256": "fcb416bdb8c0429978a86268298d28718e2df7b94b43b130474ec79a2ee40574",
+      "region": "india",
+      "start": "2023-08-29",
+      "end": "2023-11-09"
+    },
+    "d6a494aad1b97eae94ff22f3db32586b388a9d983dfec5eebffe484d90a21023": {
+      "sha256": "62471d482541d8eb3207df8042905813ed50622464f5db74d3f6aa3040b4a169",
+      "region": "india",
+      "start": "2023-11-17",
+      "end": "2023-12-31"
+    },
+    "e6cb339c1cb8d73834513c1dadcf22ae1fe7483a4a992ecd457e04119a497a7a": {
+      "sha256": "ff2325c16de8a9c5294665d8d515e605e65b584011f64f5d2eb6ca1482ccfa64",
+      "region": "tailandia",
+      "start": "2023-01-01",
+      "end": "2023-03-14"
+    },
+    "a90553aa21e59f9f476d6dd2fc201b703ba89ada2926ca3bc0a38ab7144f07a2": {
+      "sha256": "1e923a1821cdccdacd45fc085a3fb04565be4e056ef35ab659a69ba976bdf2ee",
+      "region": "tailandia",
+      "start": "2023-03-22",
+      "end": "2023-06-02"
+    },
+    "11196ec620f68ef35accf280ed6f9c77ec26ce2e7105de7b0b8b826b50c1896c": {
+      "sha256": "5e7dd236114b565013e7e593f64550536638881fdac3d94fb8eb54a5163449bf",
+      "region": "tailandia",
+      "start": "2023-06-10",
+      "end": "2023-08-21"
+    },
+    "39321b3326fa1b851b67739a75e23ea97e8122faee95dc96b8043d52ce4f0ddd": {
+      "sha256": "ef652b1d0c28431c2b689354067688aca239afe791d26e7da92e4917019196a7",
+      "region": "tailandia",
+      "start": "2023-08-29",
+      "end": "2023-11-09"
+    },
+    "35b33d382b13af7fa4cd73af58a341b10a92ad84111a78dc148304cb9e920c84": {
+      "sha256": "316e842706c3caa4e25134a3ff538bac459f141b3f8b9d3a8903bca8d21a5c8e",
+      "region": "tailandia",
+      "start": "2023-11-17",
+      "end": "2023-12-31"
+    },
+    "81eabd2be8d28781a7542ea9522f4f0607de38e1f990db86cfc3788d638f0537": {
+      "sha256": "526d242e97d8894f3540792de234908812758e6d7cb271800f1784b62d89d016",
+      "region": "australia_norte",
+      "start": "2023-01-01",
+      "end": "2023-03-14"
+    },
+    "d8fcadfdeb91337b67874b987559760762ddc579b231c547f28b41f0d652cc42": {
+      "sha256": "1acfa44cced6de8f538ddb72f1331eeaebd5495c93ed45e492edaad6085417d7",
+      "region": "australia_norte",
+      "start": "2023-03-22",
+      "end": "2023-06-02"
+    },
+    "be8600175f51706ffbbf34faffc87dd131e8fd492195acc4c5eb504effa02ae7": {
+      "sha256": "4048f6aa15ed0178e6f6c644c20b4b8ced1f022e92f46f9be1763e7a09d75cb8",
+      "region": "australia_norte",
+      "start": "2023-06-10",
+      "end": "2023-08-21"
+    },
+    "3a37a8fa335be74c0df662e899f57fad9c5ded31d01c3e6dbc463b8521dfed18": {
+      "sha256": "f9c4d82fa7534132475664d68f10dce4806d28d04df132e69b0324e1f4c1543b",
+      "region": "australia_norte",
+      "start": "2023-08-29",
+      "end": "2023-11-09"
+    },
+    "35b6b18c49d4896271cb4a5b3d9f5e1b297397c45b7edfa019009da740fcd1bb": {
+      "sha256": "42628fb99f9a145db8fc8bf85d27af0d1af4eb0590942d2d15ffa1af93daaf6b",
+      "region": "australia_norte",
+      "start": "2023-11-17",
+      "end": "2023-12-31"
+    },
+    "cd94722bb61a5ff16072a719c6b5151b74106866d7308e4f3b827c4385e487e9": {
+      "sha256": "fc9e4b7a163242d5e563d0f56abe6dabcb371228def02e25bac9fc193150bb85",
+      "region": "australia_leste",
+      "start": "2023-01-01",
+      "end": "2023-03-14"
+    },
+    "70b3a51d3cedfed2f08cc7c00289aa37c644836498ff10d304e24a948759db93": {
+      "sha256": "8a3784addc99de5d049e42e143bf09e49f693ff5014e1fe8978af5377bf82c11",
+      "region": "australia_leste",
+      "start": "2023-06-10",
+      "end": "2023-08-21"
+    },
+    "faf927d683c757d5835363c09218bd79a7d0978f819ad2bda805f5857fade2a9": {
+      "sha256": "81f5c919a3fec64f8bb4104e19b2d0df790ad46bdb0d64d240e220ffe54f12c2",
+      "region": "australia_leste",
+      "start": "2023-03-22",
+      "end": "2023-06-02"
+    },
+    "621662474b7190d76453d6871920999cb890526c6d90a82db4ae4051552d5aaf": {
+      "sha256": "a4f50460c25dcb3c7388dd256c367a2adc62b5425829f56e4bfcddb86e000a5d",
+      "region": "australia_leste",
+      "start": "2023-11-17",
+      "end": "2023-12-31"
+    },
+    "20baca02a5b56543e0663900bc1289ceb0d9c40917243e45705e240b548543a6": {
+      "sha256": "014241e7c16bda65922b44e11c42ef8b931e28a1380a8720e8d875739af15716",
+      "region": "australia_leste",
+      "start": "2023-08-29",
+      "end": "2023-11-09"
+    },
+    "0cb2c2e0b7cd7d0b03cdd6383fbf5eabc07ce59492d17d40e3d649ac7139dd4d": {
+      "sha256": "5630c440a2517e7b92cc98a5584b02b599ddba0b3610c96a484916457009f360",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "10aef9c131a5f8e51a22524c43a78f728f82d906d85f959f20130cffabba3a25": {
+      "sha256": "c62cd2d4c268ec82d262a01b8e38fbf32b3cd69cf69bff9e3e8d07c787d145f0",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "ab9b47a885b43cd4043f2b4e6b02b7cc0c8d32e19094623c747ac405bbe55204": {
+      "sha256": "a1c72f28dbff84adf81a4e945ef25b9eeae0304eec2ce5a8a52715a9c3eeafde",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "b0679e4d58b6c738e8a19fb8930ea902db2977e90fb3ef1a6e9949bfb98c0422": {
+      "sha256": "324622f88822c82f8510641406396a3afcea6daf203382eac8cb06cfda67287a",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "418ec5d25b583fb9c5727d57ea0ac5d5b65c13d6c0e175a9710a79cc9043eb57": {
+      "sha256": "63e681788694eafb6d5c1e17885dfae65393160263659418742d2483346694c3",
+      "region": "argentina_chaco",
+      "reused_from": "global_v5_20261111"
+    },
+    "4be2c1e1f091c168e751420ffcf2855efeeb96d2a7e23d0d30041eb116fcd706": {
+      "sha256": "06031e5e0216bd3700619b401194d3b6574f2b1bbaead37be9635c1b9c11cf42",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "602986def78e83a7df0d46f1075d03f51ae13550bf3a215f615d06bfeceab623": {
+      "sha256": "4307b096aba89d2e2801cd049e41a0534ab2f45d8fb8299afa8ddecf965df5f1",
+      "region": "argentina_chaco",
+      "start": "2024-03-21",
+      "end": "2024-06-01"
+    },
+    "13541772aac0e18c19877d61392c92f63ffc22eafe24186b913ed0befe79c86e": {
+      "sha256": "467ba192787e692b81843091277b323bc1e585fd3d896f231f0bcb8f39c432d4",
+      "region": "argentina_chaco",
+      "start": "2024-06-09",
+      "end": "2024-08-20"
+    },
+    "4d9e0371ef38109b671002cbcea10f01f3b8cca7febdaea7796f5db1e469f4ec": {
+      "sha256": "709fc17eee04b3fdaa2dbbe11980de8509db99c50cf74480cf0080515c860253",
+      "region": "argentina_chaco",
+      "start": "2024-11-16",
+      "end": "2024-12-31"
+    },
+    "aa27be1cc6e29300383c2da6c034284783ec4e22fea911df5bf3bb63ada8e284": {
+      "sha256": "8770258fbf39d1a48497cfd5dcb06c3313cdab27cc4420b06f7efe63ad2c4960",
+      "region": "argentina_chaco",
+      "start": "2024-08-28",
+      "end": "2024-11-08"
+    },
+    "141a1f211f5017f28c2e97bc69cb2b213537f3a594127fc34db114b035786dfa": {
+      "sha256": "8d0210c6a4d3a83fcd0d7c4b3cc1dbe3265b2801507621028712a3271a8c8599",
+      "region": "california",
+      "start": "2024-01-01",
+      "end": "2024-03-13"
+    },
+    "b1a27d5f947ae7afce301fb3e689ab5df9f2cec571ca893176afbcb2ce21ca6c": {
+      "sha256": "233c22be21a639ba38c387bab5cd8df22faa034bcfe134646eea41016a68915b",
+      "region": "california",
+      "start": "2024-03-21",
+      "end": "2024-06-01"
+    },
+    "d4a2c1e0ad9f694a7f0c8bea6ac135448257180c6089ac55f4cfe894c1bd2df4": {
+      "sha256": "35e90b59299aa780978263df7c6dea4f0053f0ea4ace97aff355db2a9bc31933",
+      "region": "california",
+      "start": "2024-06-09",
+      "end": "2024-08-20"
+    },
+    "72b960a9b33655b6ecefa1dcf983e03c97dea2533e2a46a27d48f94dc318445e": {
+      "sha256": "41daa79c21dfd36a725adcdb0ed08116938f025786befe9f1c484b2540f924c5",
+      "region": "california",
+      "start": "2024-08-28",
+      "end": "2024-11-08"
+    },
+    "1b8cd3879854c2deacfdf114e9385c9eab970c72207820040b6250ba3b5f2bd6": {
+      "sha256": "770c81de1bbe63635a36882129f081b9da6e717d5646994987dbb8e2ba04cbf0",
+      "region": "california",
+      "start": "2024-11-16",
+      "end": "2024-12-31"
+    },
+    "e89bbe7d0846ded9224ae493e821b18f899f110e9c03ab37c3489c3e3a1477c3": {
+      "sha256": "6a4c9fec707312e4f8b74020fe58405f1796ddb47731729a75d068362fa0cb00",
+      "region": "canada_boreal",
+      "start": "2024-01-01",
+      "end": "2024-03-13"
+    },
+    "e7387794c436c03100a9ced929a13e1b339688f10c6245482b5a4c52ad80ba84": {
+      "sha256": "9d4b38345f63110af8bdb1c1eee5ef4fe3baf46a891e0b7e6a1c89dadca24bd3",
+      "region": "canada_boreal",
+      "start": "2024-03-21",
+      "end": "2024-06-01"
+    },
+    "34954be7dc1ba95f85e2a25e0894faa3e77e1f5a1710318c9930256faa51f4b0": {
+      "sha256": "081e01f763fea3e1a28b1a12c2f75341b97a052239446e04748231a44acfffad",
+      "region": "canada_boreal",
+      "start": "2024-06-09",
+      "end": "2024-08-20"
+    },
+    "8c02e8f601c5a986561ee47bb3efaebd9fe00f5b3739693933b59ef1e7f42837": {
+      "sha256": "28feeb1e900c6fe0ae8a0e41ece160847e1de77643d3fc39d13d6d1e5d8f0dce",
+      "region": "canada_boreal",
+      "start": "2024-11-16",
+      "end": "2024-12-31"
+    },
+    "e28d1575ebb278bd89f4b038ffb795c33e5466ca80272610a20b7464c96561c7": {
+      "sha256": "b35bbe7868d01670ecab65d0f5b6486f028bcda2714d3016487031332e9f8279",
+      "region": "canada_boreal",
+      "start": "2024-08-28",
+      "end": "2024-11-08"
+    },
+    "e5f0c365e68a1b06a6f112599cbc39b4599d60e8cc745d51ccef8756bdbe16c1": {
+      "sha256": "e606fa9084dec541989a5c8ad58e5c25c4462e213a444b845d5c1075287bc364",
+      "region": "portugal",
+      "start": "2024-01-01",
+      "end": "2024-03-13"
+    },
+    "80b94094089c2b77f1647b2c3ae0da89e3ff9f637808ead06532f01b21431c43": {
+      "sha256": "ce7982701c294768f93b43efd995fc69f79a641eb438a3c4f6410a2772498734",
+      "region": "portugal",
+      "start": "2024-03-21",
+      "end": "2024-06-01"
+    },
+    "2f79d671277b113a51cf81daf0ce7fca2e55bde38e80aa4f22e46d6dfeac2e46": {
+      "sha256": "0d76edc8f337143eaaa522dc2fe86da9bfd978e69d1d841c699288a7ebbd2dac",
+      "region": "portugal",
+      "start": "2024-06-09",
+      "end": "2024-08-20"
+    },
+    "29ad14f3858efb86dd55132ba1ec667bef8f48631c82b3a0afe603672671a907": {
+      "sha256": "e98ce5e28568ec8b7525aaaffe2edef0c2e9cd2f3a7a2c3f16513bb63fa36ff4",
+      "region": "portugal",
+      "start": "2024-08-28",
+      "end": "2024-11-08"
+    },
+    "09843c3bd857ebbe526d007e18bc0c18269825caf9e63d06758e4aef0730005a": {
+      "sha256": "257d7bd70be85ab0de0be61b53ccbfae032fc4d52a9f6ebc3a880f7498a8b43a",
+      "region": "portugal",
+      "start": "2024-11-16",
+      "end": "2024-12-31"
+    },
+    "a6c75e2d9c658eb7bf398a040cd61614f28c902871911cad654c63694e65a76a": {
+      "sha256": "59699c1a72a09c0c8ed3fd3e31ee188a3ad4c91465c10de45fb2f5c7fb1eaee3",
+      "region": "grecia",
+      "start": "2024-01-01",
+      "end": "2024-03-13"
+    },
+    "a46f2a7fa24e563a887343c7b49ba96c52ebb0925a3e5c1151c570d059b0ba79": {
+      "sha256": "69a660391ea98d255c094a6dba2dc7a9332c8f2ce3c45268944515f3dcc0ca3b",
+      "region": "grecia",
+      "start": "2024-03-21",
+      "end": "2024-06-01"
+    },
+    "b8878b6430d884369d1dc873b50d265f9ebbda733371535b5dda53113a8a6e19": {
+      "sha256": "d390e25c3481e2eecd550bf315830597989e25045e04e25f2653c129894e7dd2",
+      "region": "grecia",
+      "start": "2024-06-09",
+      "end": "2024-08-20"
+    },
+    "89c67477d6b11669a14a14359ef804d6f3620c27dc9b00e0c2cf0e51b0e57046": {
+      "sha256": "d619501876a652370dcbdb30aac24d622dfa5582045901e4cf2201a125143991",
+      "region": "grecia",
+      "start": "2024-11-16",
+      "end": "2024-12-31"
+    },
+    "91169019ac70ad50664c0e926bf05301bfb94f8edeafb5c59e553533cbceb5bb": {
+      "sha256": "8d50632b7428485a2f965d021ff6264e1f3be21879555534bd31571d762a6bae",
+      "region": "grecia",
+      "start": "2024-08-28",
+      "end": "2024-11-08"
+    },
+    "22490b481a78d537d79a19a4f50c875054eeeea88f77bd9974f6d96aa1036946": {
+      "sha256": "51256662e6a20183903c5e0984297ba9f82325b799955b4afeb2d1c032c44579",
+      "region": "angola",
+      "start": "2024-01-01",
+      "end": "2024-03-13"
+    },
+    "736b0dbc5208938634ceee5da0015d83d821f380497a8e8cba9fd8945d62c6c4": {
+      "sha256": "078d8f9e1b65b1486bea8b6299be2096e14c811e286663e3ac94bb95bfd61857",
+      "region": "angola",
+      "start": "2024-03-21",
+      "end": "2024-06-01"
+    },
+    "eaa6bd58274ad9f3018f0ce4c191cf39ab2d11f000f31ae88e43c1aea977e1c5": {
+      "sha256": "4f8e983d8a6010897980a439e32f6c078c88c8e17f6f07ac056f19355034cb6c",
+      "region": "angola",
+      "start": "2024-06-09",
+      "end": "2024-08-20"
+    },
+    "ff9654731675ed883571a08a422a0abee03add78d5dd7a36d16ec24f5973b532": {
+      "sha256": "4cbb49f0073096957909483239bcedb6096ba6b2c835a170b528ce5556046825",
+      "region": "angola",
+      "start": "2024-08-28",
+      "end": "2024-11-08"
+    },
+    "6dd69a08ed420b128fce709d599e854ff0afa1a74da280c608d1b733d200b852": {
+      "sha256": "c68594058a9cccb2e6d59a88a55b4645a857f8631692144807555663a8adc1a5",
+      "region": "angola",
+      "start": "2024-11-16",
+      "end": "2024-12-31"
+    },
+    "af1a2df9c21146a357de3d608768fdbc1f63aa9dc6c3743b543f26d3199d47c3": {
+      "sha256": "24066b83118b55af33e0fdddaf4005ed019fc2801057c4b1be2489877638f790",
+      "region": "sudao",
+      "start": "2024-01-01",
+      "end": "2024-03-13"
+    },
+    "7d96a67cedbfecea95a0611f51e037bdeda63f710fed175fb9b982887aa41dbe": {
+      "sha256": "70d2c1ebb15f2e6c91bd5805fb23089a364e0ec88bb98f5a11eadff559ddf718",
+      "region": "sudao",
+      "start": "2024-03-21",
+      "end": "2024-06-01"
+    },
+    "447523113b562181cdb75eb887c3168d5f88988b0310b27ffc2192d815cc9f5e": {
+      "sha256": "05c8668598f41d481c710610dee45ce3c2c9fb7dd6aa5d4fa11453f978c5004b",
+      "region": "sudao",
+      "start": "2024-06-09",
+      "end": "2024-08-20"
+    },
+    "508dc232bd205d57653e3032a096e9172c801f524851ae9ce6001642e591d419": {
+      "sha256": "649ff24c0d76f5f096c7a6bff8bde425312f37b085d97056cccc7f35b6ac1f0d",
+      "region": "sudao",
+      "start": "2024-11-16",
+      "end": "2024-12-31"
+    },
+    "955879c379191f0c026fe7e37be34371e5bd0c1adce8297ddb6939872654ad32": {
+      "sha256": "72c0a86b07cc7787cb5d3df57131e56715c64b76335bb6eb9ab9ddec49aa1788",
+      "region": "sudao",
+      "start": "2024-08-28",
+      "end": "2024-11-08"
+    },
+    "173b0a070fab55779e65e3cc3cb576119b7d5ae78881f1ede85c953af262bf0d": {
+      "sha256": "bca1972e3ed4a3b140ccd63850e339d5a21e980a847cb378efa227d3acec5e1f",
+      "region": "india",
+      "start": "2024-01-01",
+      "end": "2024-03-13"
+    },
+    "11d32293be21c94065a2abe6d5d08f352630a2e4ea1e48c65df745d92d246c6a": {
+      "sha256": "14c978d44610b88026920649e0fde1b3b6decfad5c841d54593b33723d03d92a",
+      "region": "india",
+      "start": "2024-03-21",
+      "end": "2024-06-01"
+    },
+    "824c820d40be5e273b289dbe7022ada2baecee07d4673898b23a0ea41db2f457": {
+      "sha256": "ebb6d1889aa3f39eed0e03896530907c88943fac6ac04c8937882ec25b066964",
+      "region": "india",
+      "start": "2024-06-09",
+      "end": "2024-08-20"
+    },
+    "b75f558f246f9a8913e9a40b7f23b422f2b8d6e0c4861b54d833a5f928b64384": {
+      "sha256": "690ea58e0f30345bd0ad98bddb86a207d41e270c5065ef9f1c3102a028da1e87",
+      "region": "india",
+      "start": "2024-08-28",
+      "end": "2024-11-08"
+    },
+    "aab35dcdc72bf601df3baae5f57a7a29261bcb51883d5ca0a444c948343aab3f": {
+      "sha256": "dd9b6e937e6a97ebe3a838f1bd940511d99c055f72c210cf636b7e3cbed07463",
+      "region": "india",
+      "start": "2024-11-16",
+      "end": "2024-12-31"
+    },
+    "dfa586a289924e3b53546722bdd26f8d38873e60870d375fe4748ac663becce2": {
+      "sha256": "6e05dfb7e6ca08aea59fcb346df028389d33c1a8c31e48d776da654a4d915fed",
+      "region": "tailandia",
+      "start": "2024-01-01",
+      "end": "2024-03-13"
+    },
+    "f0b08aaee052fc7c33d99b45282ae0c2274ec4e784d993f9eda0f7d6ed64ac74": {
+      "sha256": "a1568183e8209c7852c789a05f8ed2ee57323b88bfb0eb4d64bf003830c5d27d",
+      "region": "tailandia",
+      "start": "2024-03-21",
+      "end": "2024-06-01"
+    },
+    "fb3281f094cd2cf5c09b6b4c64307039e1b671e3f30a49570c5d486de9539f33": {
+      "sha256": "711acee00b3a1aff67ab8f8758e9cead1834572247d15c6526fc1772178153c4",
+      "region": "tailandia",
+      "start": "2024-06-09",
+      "end": "2024-08-20"
+    },
+    "1636cc95461e83ffea214a127bdc60e5c4a8461669357a15e7adc90d2c6db169": {
+      "sha256": "90cc08970659a66aa61779ac011eebdd1862e5fc908d12e8f4df1c4618eaa122",
+      "region": "tailandia",
+      "start": "2024-08-28",
+      "end": "2024-11-08"
+    },
+    "3dfc2c81745fafbf68460c6ecc559e91bfb0473ef756b232acad5d34ea9a6005": {
+      "sha256": "109d8a40ffc9afbb359a1d945b3ea1ba99aedec3ffde33471115601a6f6dd50d",
+      "region": "tailandia",
+      "start": "2024-11-16",
+      "end": "2024-12-31"
+    },
+    "0cd4eb9bec6d95dbb61ca0b4f5409729fc93d1d0e92c256c590ef837f95261bc": {
+      "sha256": "db757d0b9431d44fa3bf0fca285eadd765558eb8d06fb150418c11fd32bcd2c6",
+      "region": "australia_norte",
+      "start": "2024-01-01",
+      "end": "2024-03-13"
+    },
+    "26713ad9ab412c3a21793f24afde97706f3f0110f604243d77a1c61083884c2e": {
+      "sha256": "00a914801fca53a932fa3a96c0e220a9543cf1564d1336ce9e0c2e9f8c26220b",
+      "region": "australia_norte",
+      "start": "2024-03-21",
+      "end": "2024-06-01"
+    },
+    "f499d47ed34b27c565974ffae19fb7a6026b9207f49dc576dff2868842d156c4": {
+      "sha256": "1edb1f79f8e0dbd9fff960f3b9420debf036a13b55f956c5746c8eaad64e8a9d",
+      "region": "australia_norte",
+      "start": "2024-06-09",
+      "end": "2024-08-20"
+    },
+    "5969a3712a85eab3f26f2c1451e803073528a07e9e71c437c7b12bbba1f733ba": {
+      "sha256": "e6ca736dcea164074516bfb81854f0c3b33cd40fb8f44d0369a477c4a1df7379",
+      "region": "australia_norte",
+      "start": "2024-08-28",
+      "end": "2024-11-08"
+    },
+    "c5bfa8be8837e27ca271201310523dd8dc7661fb322098bf8134f50d4af83230": {
+      "sha256": "2ea1bfaa299f5358cbbcccce7a8d168a3ec3e85eab14947e880354af2fcbe298",
+      "region": "australia_norte",
+      "start": "2024-11-16",
+      "end": "2024-12-31"
+    },
+    "20acbaafb08c70002f5702f71c8c3cb42dd15c7c745b1a2a7c1f61f07c7f7b03": {
+      "sha256": "d642876af24f88530620586f95e06b1fc5d728d2a4d940f730448f5a7736ddaa",
+      "region": "australia_leste",
+      "start": "2024-01-01",
+      "end": "2024-03-13"
+    },
+    "fe22675ffc1df317aa4b66df1cce26853a53567d402dad367640e77ccb53a90a": {
+      "sha256": "65edd4472c636199def27e6bdc971b63ec95ad2b5fa2ddc3a430062c73e13ee7",
+      "region": "australia_leste",
+      "start": "2024-03-21",
+      "end": "2024-06-01"
+    },
+    "32961d608c3a1fe5cbc528f59aa2abb0dfa65a13a5f330f7a7c6bef4cbe62065": {
+      "sha256": "0bda3472cbca4f6ab0a1272c8624f695569d40e92cc9deaa0a90769d328a3d0a",
+      "region": "australia_leste",
+      "start": "2024-06-09",
+      "end": "2024-08-20"
+    },
+    "9ba176b94cc722da9eaa33da0d8e219ef006540936859848069661823f8b65b3": {
+      "sha256": "e01bbf98ea23a74ec3c81f6f864957b99c953597b094a183889b4446fd073162",
+      "region": "australia_leste",
+      "start": "2024-08-28",
+      "end": "2024-11-08"
+    },
+    "9632f665a66e4b044e6baecf07a4992e9f9aeb654ef2b43dfb07cca6fbe7c90b": {
+      "sha256": "de19659f328df3731b736dce1ddb797bef7267df45bf844ef169d398e932128f",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "f499c5e69972197a257922653f8788121051d61a62c601d1b41bc79932c1a9c9": {
+      "sha256": "7c31f15b947a9511240855109558e37e4d4049e78633dfd6cb89996826bf689f",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "2315916db594eb347c7db56491374cd959749d1f55cc63b8c9ad33d384ddb755": {
+      "sha256": "b7a162625fd3067f9054b5f552de27c43bc595b026a1151512147052a07e38b4",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "b1806ca552ed8d2b17498dc4baef067ed890122fed0b22602edd1751c78c3965": {
+      "sha256": "8890d8c372a995bb7c4c4cb0b80fb3ffe320f00bc4dca880e907c10187c54ee2",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "24f730eab785a8a60e310e96d0602b0f853483ac77b90f19f64c9beca45a451f": {
+      "sha256": "45ef20827e8fb59afbaae1faa8f0efeff5df68e5d889859c23abe6de8c0f3f2c",
+      "region": "brasil_cerrado",
+      "reused_from": "global_v5_20261111"
+    },
+    "4b33988c871a7e721852e2978c40a3a24097bbeb160af97ebba1292fe705b8c7": {
+      "sha256": "839ef50c87f074cea0fd65694d014e53dc2fd7f4ed1ecb33d32ef0018722e98f",
+      "region": "australia_leste",
+      "start": "2024-11-16",
+      "end": "2024-12-31"
+    },
+    "6186a2ddd8b007f86bd6a38e0b690d22e3e70d2c0103aba1445293e49af94e5f": {
+      "sha256": "f2ff35d4a29c15c3b4d25cd0f9daf850cdd6acf4b203050070f20fa6aac39f5a",
+      "region": "argentina_chaco",
+      "start": "2025-01-01",
+      "end": "2025-03-14"
+    },
+    "f9145e8dd14b7e1d53ad238ce261df6da38a7aeb314eb6896870ff0760c84fc0": {
+      "sha256": "9f136327fa8c90603687fc418068981a51b089e7c1879618dba495cfc5d8d9b7",
+      "region": "argentina_chaco",
+      "start": "2025-03-22",
+      "end": "2025-06-02"
+    },
+    "a11d98b9b501cf84c6dc04ebf96c024fcc418d7efba46a345e8bf4377184b4f7": {
+      "sha256": "41cd9560c61efe3c5928c1c12b47ec4fc4cfc4d8013de8dd909e79bf778274fc",
+      "region": "argentina_chaco",
+      "start": "2025-06-10",
+      "end": "2025-08-21"
+    },
+    "6ca45f702f6bc8ee1d568f74e427731a69517bda77a7e496208af56e295af917": {
+      "sha256": "183a627ab36c7525dc827288abf231191a19a636049c26c7d8b137e704f6d41b",
+      "region": "argentina_chaco",
+      "start": "2025-08-29",
+      "end": "2025-11-09"
+    },
+    "634bac4899c02ff0fa192ddb351fb516717a514149d69d94cd82087456740ce1": {
+      "sha256": "d363729010ade2d5d6a0141347be7bf325a9226084fcdab99e27ea708539274d",
+      "region": "argentina_chaco",
+      "start": "2025-11-17",
+      "end": "2025-12-31"
+    },
+    "0ca26c4052f1f1cb9d6aef4f565fe183c8c00e60033397cb7d4f879cc20e4893": {
+      "sha256": "0df848844079afa55b87d619951c6e4e8ebc659e10ba4512b86fbbbe235ff821",
+      "region": "california",
+      "start": "2025-01-01",
+      "end": "2025-03-14"
+    },
+    "4360f034c086bc280c7bec209424cdac8bc9c17b9aabf7cc4d8453c43bfae686": {
+      "sha256": "7aba78fa30390c7a600187461f71f9d9dea191293e6b81e06d95f82e94d333b1",
+      "region": "california",
+      "start": "2025-03-22",
+      "end": "2025-06-02"
+    },
+    "3cbde6582cdaa8ae2d4d26a2a123b7aed38734f93767ebbb663c2190ecd0f07f": {
+      "sha256": "13e893555b5f604d2a668fd56a23c57ecef3fcd5747aff7fd95a613337faa43c",
+      "region": "california",
+      "start": "2025-06-10",
+      "end": "2025-08-21"
+    },
+    "f809979fa82d8dfe4f66ae523641005b2b0cb9e9b62458878a887538b620266c": {
+      "sha256": "b1a81d0428efb43651888214a7acb7324de248c0482b27db3915798d8bb532f5",
+      "region": "california",
+      "start": "2025-08-29",
+      "end": "2025-11-09"
+    },
+    "542d8a68c639e0696065b22373e2ce16ea938c5fe35e1168ef40939373a96b3b": {
+      "sha256": "ed8cbdd6a58cedbd906646159650ba0c2d7c7388ef4cebd62fa63aadb73652a9",
+      "region": "california",
+      "start": "2025-11-17",
+      "end": "2025-12-31"
+    },
+    "b48cc678c0c3801afd203ec6f952a7a51cbf1579f1fcf74439683c3e48f45b93": {
+      "sha256": "6c42a935bc0a77ef41915675bd0fd44d0b1e6d71bb22cd8053d255c26b1cb082",
+      "region": "canada_boreal",
+      "start": "2025-01-01",
+      "end": "2025-03-14"
+    },
+    "621d932532d534737e2b3af8f9a78e86cc85516addc3e2a4502359e5ed9538bc": {
+      "sha256": "d884e958901b25caec51be73a74275b0166f75926b0c0a711a7387e012dacdc1",
+      "region": "canada_boreal",
+      "start": "2025-03-22",
+      "end": "2025-06-02"
+    },
+    "63dac9d030715b41617d4aa8c256b5fb3af44c3c943f03ac09875e742f02533d": {
+      "sha256": "38c24514f8129a04a414b667e01bb280a2ea37049df95f6e486ecddc6f6844e6",
+      "region": "canada_boreal",
+      "start": "2025-06-10",
+      "end": "2025-08-21"
+    },
+    "16f58a84901b0fc1db8745f90a38904494b40c4d806b2f2016a97b075bfca877": {
+      "sha256": "7c76986307e8a924b4a9a12a3a0cdbdcfd5923698fe53fa471e21d94881174ed",
+      "region": "canada_boreal",
+      "start": "2025-08-29",
+      "end": "2025-11-09"
+    },
+    "75077145d4dc422163c7b61db8cec1a146174ff3b845173e8e04ef6f517b1b4f": {
+      "sha256": "42d409ab8cfc87807d0a274f2902eeb91815a137cb9152ae271626adeace491d",
+      "region": "canada_boreal",
+      "start": "2025-11-17",
+      "end": "2025-12-31"
+    },
+    "e3f4dbf8e97d2bbe0d758227c385648c556f27eadd5add9fed3027054fc482fa": {
+      "sha256": "586a67d7f9d6f297fa200d12ef01e796d3e3f414a51336eb1fb95c36f98d66fc",
+      "region": "portugal",
+      "start": "2025-01-01",
+      "end": "2025-03-14"
+    },
+    "d32cda6295a5787373a2e6482fe53ac909e423ed67fb418690f82cf8ca67722b": {
+      "sha256": "8614ea6d7c09f8ceaa03e71a3abf88240ef794c5106bba93b77516833b1f2566",
+      "region": "portugal",
+      "start": "2025-03-22",
+      "end": "2025-06-02"
+    },
+    "cabf26714e63f6e20d0f28b19e69c302da49fbd2fc4fe59f8a876eeed3799e67": {
+      "sha256": "7339fc5b5a9a53a2f1ea18f643c7fa6c40dad5b3974112b3db2199657de6b992",
+      "region": "portugal",
+      "start": "2025-06-10",
+      "end": "2025-08-21"
+    },
+    "67589cfa20a50b8fd972b7beef5d61d05d8ccf6e465264cb9659ba4d73433c8e": {
+      "sha256": "c9478f40aed330930ce9e46e3ca3eae89eb65f446b4ff7f5105102c379ec96a0",
+      "region": "portugal",
+      "start": "2025-08-29",
+      "end": "2025-11-09"
+    },
+    "7efb03c3dbe4773495f541abf4432c2ad4a68d278d4e71097d5dba692abc5e62": {
+      "sha256": "e263a5f6d17556283e771393345ba02323578b27dae68e425bf988c35d893254",
+      "region": "portugal",
+      "start": "2025-11-17",
+      "end": "2025-12-31"
+    },
+    "e94ed1c4988c3e225d0a1559f3cb5e806baa49a6f9aa118a83d86853d387c868": {
+      "sha256": "f858e902b1cd1362b37cf35c381d2c14a5a83f2ee102cb8ad27a15cbd52d0e9e",
+      "region": "grecia",
+      "start": "2025-01-01",
+      "end": "2025-03-14"
+    },
+    "77940a930b6bd6472dcfc572565569cb3a59e2797c9a1a2555e2b8fc9f23896a": {
+      "sha256": "2d0f6d0218f60464725af805766493560e70be616e4a52acc2378e8f51fb66a1",
+      "region": "grecia",
+      "start": "2025-03-22",
+      "end": "2025-06-02"
+    },
+    "3c1f48a55e0f2f46e92af4a6ac96d46c80ed3fb757985ef770a5868285570310": {
+      "sha256": "58ae01cbd3fe72128a3cd0d88e08674b01fddc3236a65af6b0829e92d50c33b3",
+      "region": "grecia",
+      "start": "2025-08-29",
+      "end": "2025-11-09"
+    },
+    "f02ea44e87a27a6039480d97cf23b076b9628e8c5049425b77e9178a59f939d4": {
+      "sha256": "09915d083938d73bcb90cdc3d1e1d83291a635c18f8c0942e0c2fec69e2d218a",
+      "region": "grecia",
+      "start": "2025-06-10",
+      "end": "2025-08-21"
+    },
+    "6652123a1157cf872a2c03638306de6fc353983273b2f702556071387726639b": {
+      "sha256": "92905b6d3bdd7c70b55526737e4daa6cf57247fd00c2a8f31f949ed82ad9fde7",
+      "region": "grecia",
+      "start": "2025-11-17",
+      "end": "2025-12-31"
+    },
+    "b0b896bbdac5fc2ea774a84e6b0cdbe789fc12f87b00897ff7dee36393983d46": {
+      "sha256": "4670adfa9a786baed1af4660ebae402f79332d3610272781d20397aa3bbc45b0",
+      "region": "angola",
+      "start": "2025-01-01",
+      "end": "2025-03-14"
+    },
+    "57857a07b348fb44aa4dfa8bb823218d0ee38d6c115d2b1be42f49fd7c278aa4": {
+      "sha256": "e5e1ee596d68753f5a4677e068d2610d1a0ba5c1cd807e182f203d971f9afaf3",
+      "region": "angola",
+      "start": "2025-03-22",
+      "end": "2025-06-02"
+    },
+    "f5aaf5522f881ec47335a42403064532bf9e654abfff44927116edb03c70f3da": {
+      "sha256": "30c08d5a489d982ffff650674e3eb4d8365d33fbbe080065adfa13d9ae5ffd7b",
+      "region": "angola",
+      "start": "2025-06-10",
+      "end": "2025-08-21"
+    },
+    "5789db0d7533956e110d690a917f8608b9c71ee26cbbdd32eaf49a023d69989e": {
+      "sha256": "1ff0ed9d3b0fd3a18e3db210cb957197c25794bc5fe6b32056009a8953bc40f7",
+      "region": "angola",
+      "start": "2025-08-29",
+      "end": "2025-11-09"
+    },
+    "b4dfed7616e52f97051019553ab7e69497c50a029e710b16c852970302b95b91": {
+      "sha256": "03cded2444c14ba48d467a73b18da06d4cf6921655cb47f05fc24fb849324037",
+      "region": "angola",
+      "start": "2025-11-17",
+      "end": "2025-12-31"
+    },
+    "60b8b8b9f09558e198ed79d397f4f38f12506d74cbdd1b605c3f4560a778e8e9": {
+      "sha256": "dda70c6aa413e44fce293eccec8568eab7634a028273519d121f279d7d0100e3",
+      "region": "sudao",
+      "start": "2025-01-01",
+      "end": "2025-03-14"
+    },
+    "9d314212586d1b12e2f5f485fe5498d778ca6a5c17b0bbbcd20d158c483d6906": {
+      "sha256": "370fca6233ba4d3286033dbc5e6897740a7a0f03a5083a047a9ee53201f65479",
+      "region": "sudao",
+      "start": "2025-03-22",
+      "end": "2025-06-02"
+    },
+    "90070781e8486d80386c93938f003f8cb30748078f99028509b0b043235d9e05": {
+      "sha256": "622707e82019e5843db80b43ad17bb85c5292d508a1a89fdee40cd01e8b5f0d0",
+      "region": "sudao",
+      "start": "2025-06-10",
+      "end": "2025-08-21"
+    },
+    "79c0d57e2f31f4b6b7f5ce73a6cad8d309a898222b36d26d73c84f8ebac2b825": {
+      "sha256": "711c08a790ead41828fe391c059a0f6b0b923cbba4a471f63f4ec37d62f3e294",
+      "region": "sudao",
+      "start": "2025-08-29",
+      "end": "2025-11-09"
+    },
+    "472a7f3f307e43376f94c87f10591ec66b00893fae73011d92813224d07cd38f": {
+      "sha256": "19638820477bf0fab5925971031e287e497732f62ae097ef52de80dc3dcd2180",
+      "region": "sudao",
+      "start": "2025-11-17",
+      "end": "2025-12-31"
+    },
+    "52eb30a3a72b1e46dde4f0ecab204cac2f67ca3e747a63a5748f3d2678bc4f40": {
+      "sha256": "2e8d0fd5a6015087a2c363bef94c6107a3da01c7fa5ca0476517b8a530bf4db9",
+      "region": "india",
+      "start": "2025-01-01",
+      "end": "2025-03-14"
+    },
+    "5381b671d29e1890e8dddd5eca3564d9c054ed076eb3bb580801e98120914b4c": {
+      "sha256": "e551e3562664359569e164e693e5ab0b50fba446dfb07b52cbbdc575a0f5dd4f",
+      "region": "india",
+      "start": "2025-03-22",
+      "end": "2025-06-02"
+    },
+    "c48c537d3f73d78502601f20ccaa9a0993d127aa1c3accfbc156e791362479e3": {
+      "sha256": "5882795d10e521fde544f5819c7aa5e1f0bddd065309aeca5423ca9a02fb5e74",
+      "region": "india",
+      "start": "2025-06-10",
+      "end": "2025-08-21"
+    },
+    "e5df2f96cbd3393e8ac5b68e9cd8b37b36cdcd0cf54edf7df76d22873f540943": {
+      "sha256": "d6d560d068f2954fe7c2b560cd20abb096bc929c4fd6df5bd28b6fad6695c8b9",
+      "region": "india",
+      "start": "2025-08-29",
+      "end": "2025-11-09"
+    },
+    "a4040ccd5ae41d8fc2b0e9a8e8a12a34dbb16a00e69008b07078c8f424dbbecb": {
+      "sha256": "9d2f9d9686451f74a4ecad355e71d330c98b3672ccb04878d01d71ebb870b912",
+      "region": "india",
+      "start": "2025-11-17",
+      "end": "2025-12-31"
+    },
+    "6280457946049e432138566a46bbb075cf59df26b85829b9db18936e775123f7": {
+      "sha256": "5f651fb9d53f44f97886a88f10c8ca2d1b06d863ec3aa48efffc0ad03f219e77",
+      "region": "tailandia",
+      "start": "2025-01-01",
+      "end": "2025-03-14"
+    },
+    "a8481e91c810ab5def98db295e93546bcac2c095e9d0d91062c7fa3f635795f5": {
+      "sha256": "e1ac1e784b6d3fc5df9e1e2d8999307d0e9a903a6286383d5bbee81430ed4726",
+      "region": "tailandia",
+      "start": "2025-03-22",
+      "end": "2025-06-02"
+    },
+    "dab97350bd123d43c4c623f68c84f224bbf00f529d8e66d2a6fac1cbcaad4b2c": {
+      "sha256": "1a9803fa255e470954db936f7ae9bacdc05f3d996698c195a5a441a8be06996b",
+      "region": "tailandia",
+      "start": "2025-06-10",
+      "end": "2025-08-21"
+    },
+    "4f2e5faf1dd8ce8c99d1d1de11d942b1d773f6e0be3728511284090d18122d10": {
+      "sha256": "7eee83ab8d26015b15beee74cc7e0b34a0a10c9d72e033287d72fc2152a40bbb",
+      "region": "tailandia",
+      "start": "2025-08-29",
+      "end": "2025-11-09"
+    },
+    "1e5ce9fc640306e3495a39b1e74fbe472efe3cbcfbe3da5872829e58646aac63": {
+      "sha256": "d9580318cbce9ea1bf1c939a9401104ca4f0b668c024809b11bdb589d4842e93",
+      "region": "tailandia",
+      "start": "2025-11-17",
+      "end": "2025-12-31"
+    },
+    "b61b4be062a467daa81fb7bc73646f381fe4669a598cec5334c80cc405c542fa": {
+      "sha256": "3b827017b49855dce70d5ba28a5b0820df92748812492f54782ff5c89025b3c3",
+      "region": "australia_norte",
+      "start": "2025-01-01",
+      "end": "2025-03-14"
+    },
+    "a49edf633fd180f53c251ddf89d4a12bfc1fe3a461f85d87b6d75fada08a4ac3": {
+      "sha256": "af3ff27bc81af65fa9caa41c5ddf16883b138f1a151ec70fbb06775ac550d59a",
+      "region": "australia_norte",
+      "start": "2025-03-22",
+      "end": "2025-06-02"
+    },
+    "c9df68a0c88c96a224b89755432d3fbef28eee323320822f74d0ed3fdf723ddb": {
+      "sha256": "32f1d583159a737fa19fcf804325f7030468c39417060d5562dd8841415823e7",
+      "region": "australia_norte",
+      "start": "2025-06-10",
+      "end": "2025-08-21"
+    },
+    "b2f5198d1a8ae61c6c16e53399921ecd7c297e417bcedbee14f86e061839cc40": {
+      "sha256": "4ab9d2a6a7b6d7a6d866e44b624178e4ab7d88f5fd981e0a77a12a021c36b373",
+      "region": "australia_norte",
+      "start": "2025-08-29",
+      "end": "2025-11-09"
+    },
+    "01d61c66deef43b80fa97f2011251e67414163c55ce6c9e660b0d3848449bb21": {
+      "sha256": "cef6558da43d8af890bdaf770475d83b8a54740662be40547790954950d645ea",
+      "region": "australia_norte",
+      "start": "2025-11-17",
+      "end": "2025-12-31"
+    },
+    "0a91f6362c7ce4c403e2c702ba17a672694c7155c572938b4b9367d7c6405ed4": {
+      "sha256": "498b20df2457f873e8e353b7ff115d2fb2f45db21e9feb6ec85db4c468deaa44",
+      "region": "australia_leste",
+      "start": "2025-01-01",
+      "end": "2025-03-14"
+    },
+    "2e2b806d8ee59fc21be4bdb97d2d7a880817a75b9840e449c9b1c16b9c24875c": {
+      "sha256": "055a6fb1777cd50c1017ecaa3834d2136e6507be8b1e8ae993edba19d345807c",
+      "region": "australia_leste",
+      "start": "2025-03-22",
+      "end": "2025-06-02"
+    },
+    "3b39f6264b3a5ccef36f56055326a7859fe625e9622d3cc7f2404f4e1583572e": {
+      "sha256": "b51c265355c4ca8a430239f377414b4d65a8f903e0b5a366dfd8555108add4a5",
+      "region": "australia_leste",
+      "start": "2025-06-10",
+      "end": "2025-08-21"
+    },
+    "b4576de6e079b76eb76e9571989b6c184f90eff6adfa65f19a36ac924ec0a8de": {
+      "sha256": "a70a1e720ab91fef4332436aa12201ff791feece0840f8839f8608fd7041e4d7",
+      "region": "australia_leste",
+      "start": "2025-08-29",
+      "end": "2025-11-09"
+    },
+    "e621c7af9d65ad70a0b0a3d3e8fb110f19f7697a6026d0dffb0bf9cc123c200f": {
+      "sha256": "07d6dc13b05b5a170747fb7aae1fb62ff6516e9ba99de12c747d94381b7d98cb",
+      "region": "australia_leste",
+      "start": "2025-11-17",
+      "end": "2025-12-31"
+    }
+  },
+  "requests": 311,
+  "failures": {},
+  "last_epoch": 1794443800.8570795
+}

@@ -1,0 +1,13 @@
+# Model card — piloto multicontinental v5
+
+- **Alvo:** ocorrência binária de pelo menos um pixel MOD14A2 com foco, no composto de até oito dias, condicionada a máscara integralmente válida no recorte. Área aproximada de 1.443 km² por recorte; não é a célula meteorológica inteira nem precisão de hotspot.
+- **Dados executados:** 12 áreas em seis continentes; 3.301 área-compostos, 858 sem classificação suficiente. NASA POWER UTC e histórico positivo MODIS/VIIRS dos arquivos locais. VIIRS 2023 continua ausente no conjunto de ZIPs usado.
+- **Treino:** 892 exemplos e 220 positivos, oito áreas, 2020–2022. Quatro áreas reservadas. Escolha do modelo na validação 2023, sem ajuste por teste.
+- **Candidatos:** regressões Bernoulli Pyro/PyTorch com e sem clima, duas logísticas regularizadas, persistência, frequência e sazonalidade. O campeão selecionado foi a referência sazonal. Os checkpoints Pyro foram preservados.
+- **Teste:** 807 exemplos de 2024–2025, com 138 positivos. Campeão: Brier 0,11695, acurácia de 86,25%, recall de 47,10% e precisão positiva de 63,11% no limiar 0,5. O Pyro com clima teve Brier 0,10258 no teste, mas não venceu a validação e não foi promovido após esse resultado.
+- **Liberação demonstrativa:** cinco recortes (Angola, Sudão, Índia, Tailândia, norte da Austrália), após critérios mínimos de validação. Datas com clima fora dos limites do treino são bloqueadas. No subconjunto de 376 exemplos elegíveis para consulta, acurácia de 79,26% e Brier de 0,15771; amostra diferente da avaliação completa.
+- **Uso permitido pela evidência:** demonstração histórica e avaliação científica no recorte e na referência definidos. A consulta carrega artefatos prontos; não treina, não usa meteorologia futura observada e não exige conexão na demonstração empacotada.
+- **Uso sem suporte:** chance incondicional de fogo, ignição, propagação, danos, alerta operacional mundial, previsão diária VIIRS 375 m ou interpretação causal de cenários.
+- **Incerteza:** posterior variacional Pyro, aproximação de Laplace das referências logísticas e posterior Beta da referência sazonal; separadas dos intervalos preditivos do evento binário. Dependência residual, compartilhamento empírico e seleção por observabilidade podem reduzir calibração.
+- **Disponibilidade:** atraso VIIRS de dois dias e meteorologia de três dias são hipóteses; a disponibilidade histórica real dos arquivos científicos não está demonstrada. Não há arquivo de previsão meteorológica emitida integrado a esta expansão.
+- **Rastreabilidade:** `model_registry.json`, manifestos, hashes, configuração e ambiente em `artifacts/global_v5`. Fontes brutas e caches permanecem locais. Detalhes, métricas por grupo e comandos em [REPORT_GLOBAL_V5.md](../REPORT_GLOBAL_V5.md).

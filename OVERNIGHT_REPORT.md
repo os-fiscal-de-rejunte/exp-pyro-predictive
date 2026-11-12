@@ -1,5 +1,12 @@
 # Relatório da execução
 
+## Continuação concluída — expansão multicontinental v5
+
+Relatório completo em [REPORT_GLOBAL_V5.md](REPORT_GLOBAL_V5.md). Foram executados coleta NASA, seleção dos ZIPs locais, preparação, dois treinamentos Pyro, avaliação sem seleção pelo teste e consulta retrospectiva com incerteza. O piloto estudou 12 áreas de seis continentes; cinco recortes passaram nos critérios de validação. A referência selecionada foi a sazonal (86,25% de acurácia no teste completo, recall 47,10%); o resultado não demonstra cobertura operacional mundial. O pacote `artifacts/global_v5` permite teste offline com `scripts/testar_global_real.py`.
+
+Foram aprovados 63 testes locais e a verificação com dados reais, incluindo hashes dos 31 originais. Os bloqueios e tarefas não concluídas estão no relatório e no model card. Os processos de coleta/treinamento foram encerrados. Os comandos de retomada estão em `docs/expansao_global.md`; a janela compartilhada usa `EARTHFIRE_BUDGET_ID=global_v5_20261111` e não é reiniciada silenciosamente.
+
+
 > **Atualização de 11/11/2026, 16h26:** o acesso Earthdata permitiu obter 1.287 grânulos VIIRS e treinar um modelo diário com clima. No teste de 131 exemplos, seu Brier foi 0,09088, contra 0,08628 da referência sazonal. Foram obtidos outros 22 grânulos de outubro de 2026 para uma área; 11 dias tinham classificação incompleta. Passaram 52 testes; os 31 originais e os grânulos da amostra foram conferidos por hash, e a retomada não iniciou treinamento adicional. Detalhes, comandos, teste real e limitações estão em [REPORT_VIIRS_V4.md](REPORT_VIIRS_V4.md). O histórico anterior segue abaixo.
 
 > **Atualização de 11/11/2026, 12h10:** foram adicionados dados públicos VIIRS de 2023 e retratos MODIS/VIIRS recentes, coletadas máscaras MODIS em oito áreas e treinadas duas variantes probabilísticas. O teste geral favoreceu a variante sem clima, mas a referência sazonal venceu nas regiões de treino. O acesso a séries GEOS-FP falhou; o reforecast obtido não prova disponibilidade histórica. Dois grânulos VIIRS foram localizados, mas o download requer token Earthdata. A suíte passou com 40 testes, os 31 arquivos originais foram revalidados por hash e nenhum processo permaneceu em execução. A nova execução, comandos, métricas, limitações e pendências estão em [REPORT_NASA_V3.md](REPORT_NASA_V3.md). O relatório abaixo preserva o histórico anterior.

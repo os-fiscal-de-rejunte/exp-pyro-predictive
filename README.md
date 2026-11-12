@@ -2,7 +2,17 @@
 
 Este repositório audita e agrega registros de focos de calor e contém um experimento reproduzível de previsão probabilística **condicional**. PYRO é o nome da plataforma; [Pyro](https://pyro.ai/) é a biblioteca `pyro-ppl` usada com PyTorch. O núcleo funciona sem aplicação web e sem GPU.
 
-**Experimento mais recente:** foram obtidas máscaras diárias VIIRS/NOAA-20 de 1 km e treinado um modelo probabilístico com histórico de satélites e meteorologia NASA POWER. Ele estima detecção **condicionada à máscara futura estar integralmente válida**. No teste, o modelo não superou a referência sazonal. A validação usa apenas oito áreas e não sustenta previsão global; detalhes em [REPORT_VIIRS_V4.md](REPORT_VIIRS_V4.md) e no [model card v4](docs/model_card_viirs_v4.md).
+**Expansão multicontinental v5:** piloto executado em 12 áreas de seis continentes, com referência MODIS de até oito dias. Cinco recortes passaram nos critérios de validação; a consulta mantém o baseline sazonal selecionado antes do teste. No teste completo de 807 exemplos, acurácia de 86,25% e recall de 47,10% no limiar 0,5. Não é previsão operacional mundial. Resultados e limitações em [REPORT_GLOBAL_V5.md](REPORT_GLOBAL_V5.md), [metodologia](docs/expansao_global.md) e [model card](docs/model_card_global_v5.md).
+
+Teste offline com o pacote de dados e modelos incluído no repositório:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/testar_global_real.py
+```
+
+Para reproduzir as versões das dependências: `.venv/Scripts/python.exe -m pip install -r requirements-global-v5.txt`, usando Python 3.11.2 e ambiente isolado. Depois, instale o projeto com `pip install -e .`. O exemplo usa uma emissão histórica; outras datas/áreas podem retornar `insufficient_data`.
+
+**Versão VIIRS diária v4:** foram obtidas máscaras diárias VIIRS/NOAA-20 de 1 km e treinado um modelo probabilístico com histórico de satélites e meteorologia NASA POWER. Ele estima detecção **condicionada à máscara futura estar integralmente válida**. No teste, o modelo não superou a referência sazonal. A validação usa apenas oito áreas e não sustenta previsão global; detalhes em [REPORT_VIIRS_V4.md](REPORT_VIIRS_V4.md) e no [model card v4](docs/model_card_viirs_v4.md).
 
 Para testar uma previsão retrospectiva com dados reais:
 
@@ -166,7 +176,7 @@ O contrato opcional de `forecast_path` e as razões para `insufficient_data`, `w
 Uma detecção não equivale a um incêndio independente, área queimada, ignição, propagação ou dano. Ausência de registro e anomalia não demonstram causa ambiental. Não use este experimento como alerta operacional ou apoio a decisões de emergência.
 # Chave NASA FIRMS no Windows
 
-O piloto de expansão multicontinental está documentado em [Expansão global](docs/expansao_global.md). Ele mantém a versão VIIRS diária separada e implementa coleta MODIS/POWER em partições, seleção na validação, teste espacial e consulta com bloqueio por falta de suporte. Seus resultados medidos serão registrados em `REPORT_GLOBAL_V5.md` após a conclusão da execução.
+O piloto de expansão multicontinental está documentado em [Expansão global](docs/expansao_global.md). Ele mantém a versão VIIRS diária separada e implementa coleta MODIS/POWER em partições, seleção na validação, teste espacial e consulta com bloqueio por falta de suporte. Os resultados medidos estão em [REPORT_GLOBAL_V5.md](REPORT_GLOBAL_V5.md).
 
 O cliente utiliza `FIRMS_MAP_KEY` quando definida. No Windows, caso não haja variável de ambiente, ele procura a credencial `PYRO/FIRMS_MAP_KEY` no Gerenciador de Credenciais do usuário. A credencial fica vinculada ao perfil local e não é incluída no projeto.
 

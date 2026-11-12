@@ -31,6 +31,17 @@ def prepare(run: Run) -> dict[str, Any]:
     if sha256_file(masks) != read_json(run.path / "coverage/summary.json")["sha256"]:
         raise ValueError("Máscaras alteradas.")
     frame = pd.read_parquet(masks)
+    geometry_fields = ["xllcorner", "yllcorner", "cellsize_m", "nrows", "ncols"]
+    if (
+        frame.groupby("region_id")[geometry_fields]
+        .nunique(dropna=False)
+        .to_numpy()
+        .max()
+        != 1
+    ):
+        raise ValueError(
+            "Geometria do recorte mudou entre datas; não é seguro combinar os alvos."
+        )
     expected = []
     for region in run.config["regions"]:
         for year in range(
@@ -106,8 +117,13 @@ def prepare(run: Run) -> dict[str, Any]:
 
     records["acquired_utc"] = pd.to_datetime(records.acquired_utc, utc=True)
     records["sensor_period"] = period_start(records.acquired_utc)
+    sensor_groups = ["region_id", "product", "sensor_period"] + [
+        name
+        for name in ("satellite", "instrument", "version", "daynight", "confidence")
+        if name in records
+    ]
     sensor_counts = (
-        records.groupby(["region_id", "product", "sensor_period"])
+        records.groupby(sensor_groups, dropna=False)
         .size()
         .rename("positive_record_count")
         .reset_index()
@@ -391,6 +407,12 @@ def model(run: Run) -> dict[str, Any]:
         p = ap[champion][index]
         y = g.event.to_numpy(int)
         s = _score(y, p)
+        seasonal_score = _score(y, ap["seasonal"][index])
+        selected_model = champion
+        if seasonal_score["brier"] < s["brier"]:
+            selected_model = "seasonal"
+            p = ap["seasonal"][index]
+            s = seasonal_score
         cfg = run.config["release"]
         passed = (
             len(y) >= cfg["min_n"]
@@ -399,7 +421,11 @@ def model(run: Run) -> dict[str, Any]:
             and s["brier"]
             <= _score(y, ap["seasonal"][index])["brier"] * cfg["max_brier_ratio"]
         )
-        policy["groups"][name] = {"eligible": bool(passed), "validation": s}
+        policy["groups"][name] = {
+            "eligible": bool(passed),
+            "validation": s,
+            "selected_model": selected_model,
+        }
     write_json(run.path / "release_policy.json", policy)
     registry_files = [
         "release_policy.json",
@@ -422,6 +448,12 @@ def model(run: Run) -> dict[str, Any]:
     )
     # A política está persistida antes de abrir previsões do teste.
     tp = predictions(test)
+    routed = np.array(
+        [
+            tp[policy["groups"].get(region, {}).get("selected_model", champion)][i]
+            for i, region in enumerate(test.region_name)
+        ]
+    )
     result = {
         "event": EVENT,
         "horizon": "MODIS composto de até oito dias",
@@ -453,6 +485,21 @@ def model(run: Run) -> dict[str, Any]:
                 n: _score(g.event.to_numpy(int), p[idx]) for n, p in tp.items()
             }
     result["calibration"] = _calibration(test.event.to_numpy(int), tp[champion])
+    supported = test.region_name.map(
+        lambda name: policy["groups"].get(name, {}).get("eligible", False)
+    ).to_numpy(bool)
+    for name, (low, high) in bounds.items():
+        supported &= test[name].between(low, high).to_numpy()
+    result["routed_test"] = _score(test.event.to_numpy(int), routed)
+    result["release_test"] = {
+        "eligible_n": int(supported.sum()),
+        "total_n": len(test),
+        "metrics": _score(test.event.to_numpy(int)[supported], routed[supported])
+        if supported.any()
+        else None,
+    }
+    export["routed_probability"] = routed
+    export["release_eligible"] = supported
     result["accuracy_at_threshold_0_5"] = {
         name: float(np.mean((p >= 0.5) == test.event.to_numpy(int)))
         for name, p in tp.items()
@@ -481,7 +528,6 @@ def model(run: Run) -> dict[str, Any]:
     }
     (run.path / "evaluation").mkdir(exist_ok=True)
     export.to_parquet(run.path / "evaluation/predictions.parquet", index=False)
-    write_json(run.path / "evaluation/metrics.json", result)
     # Calendário descritivo; anomalia depende apenas das observações anteriores.
     calendar = pd.read_parquet(path).sort_values(["region_id", "period_start"])
     calendar["historical_rate"] = np.nan
@@ -511,6 +557,7 @@ def model(run: Run) -> dict[str, Any]:
     fig.tight_layout()
     fig.savefig(run.path / "evaluation/comparison.png")
     plt.close(fig)
+    write_json(run.path / "evaluation/metrics.json", result)
     run.stage(
         "global_model",
         "complete",
@@ -535,7 +582,8 @@ def predict(
         "status": "insufficient_data",
         "requested_location": {"latitude": latitude, "longitude": longitude},
         "cell": cell,
-        "issued_at": origin.isoformat(),
+        "issued_at": origin.isoformat()+"Z",
+        "horizon_days": None,
         "event": EVENT,
         "probability": None,
         "probability_interval_95": None,
@@ -589,6 +637,12 @@ def predict(
     rows = areas.loc[areas.period_start == origin]
     if rows.empty:
         return result
+    result["valid_from"] = origin.isoformat()+"Z"
+    result["valid_until"] = pd.Timestamp(rows.iloc[0].period_end_exclusive).isoformat()+"Z"
+    result["horizon_days"] = int((rows.iloc[0].period_end_exclusive-origin).days)
+    result["preprocessing_version"] = registry["pipeline_sha256"][:12]
+    result["quality"] = {"future_observability":"unknown", "historical_availability":"acquisition_lags_assumed",
+                          "weather_lag_days":3, "viirs_lag_days":2}
     from .mask_model import posterior_probabilities
     from .mask_features import FEATURES_WEATHER
 
@@ -615,7 +669,7 @@ def predict(
     from .mask_evaluate import _baselines
     from .viirs_daily_model import logistic_predict
 
-    champion = policy["champion"]
+    champion = policy["groups"][region].get("selected_model", policy["champion"])
     if champion.startswith("pyro_"):
         checkpoint = (
             root

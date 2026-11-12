@@ -1,0 +1,118 @@
+{
+  "schema_version": "global-1.0",
+  "status": "ok",
+  "requested_location": {
+    "latitude": 10.5,
+    "longitude": 30.0
+  },
+  "cell": {
+    "id": "grid_+010.50_+030.000",
+    "center": [
+      30.0,
+      10.5
+    ],
+    "area_km2": 3799.1434370571187,
+    "geometry": {
+      "type": "MultiPolygon",
+      "coordinates": [
+        [
+          [
+            [
+              29.6875,
+              10.25
+            ],
+            [
+              30.3125,
+              10.25
+            ],
+            [
+              30.3125,
+              10.75
+            ],
+            [
+              29.6875,
+              10.75
+            ],
+            [
+              29.6875,
+              10.25
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  "issued_at": "2024-01-01T00:00:00Z",
+  "horizon_days": 8,
+  "event": "ao menos um pixel MOD14A2 com foco no composto de até oito dias, condicionado à máscara integralmente válida",
+  "probability": 0.8209886418173092,
+  "probability_interval_95": [
+    0.5904166876998032,
+    0.96639509182641
+  ],
+  "model_version": "global_mod14a2_v5",
+  "reason": null,
+  "administrative_context": {
+    "countries": [
+      "Sudan"
+    ],
+    "source": "Natural Earth 1:110m; associação aproximada",
+    "state": null
+  },
+  "analyzed_area": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.807677998617205,
+          10.324999985080852
+        ],
+        [
+          30.15496836343446,
+          10.324999985080852
+        ],
+        [
+          30.188301081894117,
+          10.66666665171694
+        ],
+        [
+          29.84062682902847,
+          10.66666665171694
+        ],
+        [
+          29.807677998617205,
+          10.324999985080852
+        ]
+      ]
+    ]
+  },
+  "valid_from": "2024-01-01T00:00:00Z",
+  "valid_until": "2024-01-09T00:00:00Z",
+  "preprocessing_version": "e78fc12f36b5",
+  "quality": {
+    "future_observability": "unknown",
+    "historical_availability": "acquisition_lags_assumed",
+    "weather_lag_days": 3,
+    "viirs_lag_days": 2
+  },
+  "uncertainty_method": "posterior Beta com compartilhamento do valor médio global",
+  "selected_model": "seasonal",
+  "weather_last_date": "2023-12-29 00:00:00",
+  "historical_replay": true,
+  "predictive_count_support": [
+    0,
+    1
+  ],
+  "unit": "probabilidade condicional do evento binário no recorte MODIS",
+  "interval_interpretation": "incerteza sobre a probabilidade; a observação futura é binária, com suporte {0,1}",
+  "predictive_event_intervals": {
+    "80": [
+      0,
+      1
+    ],
+    "95": [
+      0,
+      1
+    ]
+  }
+}

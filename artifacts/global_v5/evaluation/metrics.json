@@ -1,0 +1,1534 @@
+{
+  "event": "ao menos um pixel MOD14A2 com foco no composto de até oito dias, condicionado à máscara integralmente válida",
+  "horizon": "MODIS composto de até oito dias",
+  "training_n": 892,
+  "validation": {
+    "global_frequency": {
+      "n": 303,
+      "positive": 66,
+      "observed_rate": 0.21782178217821782,
+      "mean_probability": 0.24692049272116467,
+      "brier": 0.17122218834218506,
+      "log_loss": 0.5264785007367431,
+      "roc_auc": 0.5,
+      "average_precision": 0.21782178217821782
+    },
+    "seasonal": {
+      "n": 303,
+      "positive": 66,
+      "observed_rate": 0.21782178217821782,
+      "mean_probability": 0.25039826347466626,
+      "brier": 0.09970470823817158,
+      "log_loss": 0.33182634672636835,
+      "roc_auc": 0.8808656182073904,
+      "average_precision": 0.7335656915397729
+    },
+    "persistence": {
+      "n": 303,
+      "positive": 66,
+      "observed_rate": 0.21782178217821782,
+      "mean_probability": 0.24407371577966636,
+      "brier": 0.13415752338284487,
+      "log_loss": 0.4339628726249546,
+      "roc_auc": 0.7318757192174914,
+      "average_precision": 0.449557215165565
+    },
+    "pyro_no_weather": {
+      "n": 303,
+      "positive": 66,
+      "observed_rate": 0.21782178217821782,
+      "mean_probability": 0.08423525394976336,
+      "brier": 0.17577500904293625,
+      "log_loss": 0.5529562017785001,
+      "roc_auc": 0.7531006265183481,
+      "average_precision": 0.4757875525090803
+    },
+    "pyro_weather": {
+      "n": 303,
+      "positive": 66,
+      "observed_rate": 0.21782178217821782,
+      "mean_probability": 0.08216829269067093,
+      "brier": 0.17389553222820223,
+      "log_loss": 0.5512196832750269,
+      "roc_auc": 0.7582150620125304,
+      "average_precision": 0.5393652642146677
+    },
+    "logistic_no_weather": {
+      "n": 303,
+      "positive": 66,
+      "observed_rate": 0.21782178217821782,
+      "mean_probability": 0.0784683861816892,
+      "brier": 0.17896522422228894,
+      "log_loss": 0.5687777307828443,
+      "roc_auc": 0.7511827132080297,
+      "average_precision": 0.481266535783172
+    },
+    "logistic_weather": {
+      "n": 303,
+      "positive": 66,
+      "observed_rate": 0.21782178217821782,
+      "mean_probability": 0.0809339656528121,
+      "brier": 0.17480045328192031,
+      "log_loss": 0.5550310753998813,
+      "roc_auc": 0.7577675489067894,
+      "average_precision": 0.5454399075541188
+    }
+  },
+  "champion": "seasonal",
+  "test": {
+    "global_frequency": {
+      "n": 807,
+      "positive": 138,
+      "observed_rate": 0.17100371747211895,
+      "mean_probability": 0.24692049272116462,
+      "brier": 0.14752480284704877,
+      "log_loss": 0.47427147000681824,
+      "roc_auc": 0.5,
+      "average_precision": 0.17100371747211895
+    },
+    "seasonal": {
+      "n": 807,
+      "positive": 138,
+      "observed_rate": 0.17100371747211895,
+      "mean_probability": 0.25060304764125796,
+      "brier": 0.11694729470280575,
+      "log_loss": 0.37808747050828045,
+      "roc_auc": 0.7891022724810988,
+      "average_precision": 0.5084777057022491
+    },
+    "persistence": {
+      "n": 807,
+      "positive": 138,
+      "observed_rate": 0.17100371747211895,
+      "mean_probability": 0.23154374367528593,
+      "brier": 0.12813628518014927,
+      "log_loss": 0.4177745424029724,
+      "roc_auc": 0.6884491237191569,
+      "average_precision": 0.32668190791740115
+    },
+    "pyro_no_weather": {
+      "n": 807,
+      "positive": 138,
+      "observed_rate": 0.17100371747211895,
+      "mean_probability": 0.21031695175939039,
+      "brier": 0.1038114944877669,
+      "log_loss": 0.34091233946286986,
+      "roc_auc": 0.8376226684863846,
+      "average_precision": 0.5365559134641484
+    },
+    "pyro_weather": {
+      "n": 807,
+      "positive": 138,
+      "observed_rate": 0.17100371747211895,
+      "mean_probability": 0.2117097709683385,
+      "brier": 0.10258490828248619,
+      "log_loss": 0.33716904521021845,
+      "roc_auc": 0.8465154567708671,
+      "average_precision": 0.5598238313085515
+    },
+    "logistic_no_weather": {
+      "n": 807,
+      "positive": 138,
+      "observed_rate": 0.17100371747211895,
+      "mean_probability": 0.20854098371665075,
+      "brier": 0.10393226568509695,
+      "log_loss": 0.3394948303586113,
+      "roc_auc": 0.8469270596390893,
+      "average_precision": 0.5372979773823036
+    },
+    "logistic_weather": {
+      "n": 807,
+      "positive": 138,
+      "observed_rate": 0.17100371747211895,
+      "mean_probability": 0.20895470385147663,
+      "brier": 0.102500192544123,
+      "log_loss": 0.33698141050991204,
+      "roc_auc": 0.8467645848226858,
+      "average_precision": 0.5621787354953861
+    }
+  },
+  "by_region": {
+    "angola": {
+      "global_frequency": {
+        "n": 89,
+        "positive": 22,
+        "observed_rate": 0.24719101123595505,
+        "mean_probability": 0.24692049272116462,
+        "brier": 0.18608768838036782,
+        "log_loss": 0.5592282577708424,
+        "roc_auc": 0.5,
+        "average_precision": 0.24719101123595505
+      },
+      "seasonal": {
+        "n": 89,
+        "positive": 22,
+        "observed_rate": 0.24719101123595505,
+        "mean_probability": 0.3424518282779163,
+        "brier": 0.13263409305467272,
+        "log_loss": 0.3954198314329619,
+        "roc_auc": 0.8622795115332429,
+        "average_precision": 0.5440293402249925
+      },
+      "persistence": {
+        "n": 89,
+        "positive": 22,
+        "observed_rate": 0.24719101123595505,
+        "mean_probability": 0.2587155918672162,
+        "brier": 0.1491728357199165,
+        "log_loss": 0.4702844382525559,
+        "roc_auc": 0.716078697421981,
+        "average_precision": 0.45029714922462627
+      },
+      "pyro_no_weather": {
+        "n": 89,
+        "positive": 22,
+        "observed_rate": 0.24719101123595505,
+        "mean_probability": 0.405433484175232,
+        "brier": 0.12968017019911582,
+        "log_loss": 0.40929002586642205,
+        "roc_auc": 0.9145183175033921,
+        "average_precision": 0.6830475806833813
+      },
+      "pyro_weather": {
+        "n": 89,
+        "positive": 22,
+        "observed_rate": 0.24719101123595505,
+        "mean_probability": 0.41115930396017064,
+        "brier": 0.13084697946820392,
+        "log_loss": 0.412262419805741,
+        "roc_auc": 0.9199457259158752,
+        "average_precision": 0.6940337254191743
+      },
+      "logistic_no_weather": {
+        "n": 89,
+        "positive": 22,
+        "observed_rate": 0.24719101123595505,
+        "mean_probability": 0.40972291234113234,
+        "brier": 0.13193663056529825,
+        "log_loss": 0.4144518588177866,
+        "roc_auc": 0.9172320217096337,
+        "average_precision": 0.6892157789568427
+      },
+      "logistic_weather": {
+        "n": 89,
+        "positive": 22,
+        "observed_rate": 0.24719101123595505,
+        "mean_probability": 0.406423950047886,
+        "brier": 0.12832991449796416,
+        "log_loss": 0.40634002527499435,
+        "roc_auc": 0.9199457259158752,
+        "average_precision": 0.6935737687092176
+      }
+    },
+    "argentina_chaco": {
+      "global_frequency": {
+        "n": 92,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.24692049272116467,
+        "brier": 0.06096972972566273,
+        "log_loss": 0.28358446940050497,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "seasonal": {
+        "n": 92,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.24743932097880988,
+        "brier": 0.0629021119638668,
+        "log_loss": 0.2857738375091282,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "persistence": {
+        "n": 92,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.1430253633645421,
+        "brier": 0.020456254565559304,
+        "log_loss": 0.15434695634686668,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "pyro_no_weather": {
+        "n": 92,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.08059018267237622,
+        "brier": 0.0065055752204086865,
+        "log_loss": 0.0840297115110937,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "pyro_weather": {
+        "n": 92,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.09951279595818209,
+        "brier": 0.010221897466477508,
+        "log_loss": 0.10501678569061128,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "logistic_no_weather": {
+        "n": 92,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.07719730300247428,
+        "brier": 0.005985308306479035,
+        "log_loss": 0.0803550516578394,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "logistic_weather": {
+        "n": 92,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.09509991031420297,
+        "brier": 0.00929855275322624,
+        "log_loss": 0.10008688697021552,
+        "roc_auc": null,
+        "average_precision": null
+      }
+    },
+    "australia_leste": {
+      "global_frequency": {
+        "n": 92,
+        "positive": 6,
+        "observed_rate": 0.06521739130434782,
+        "mean_probability": 0.24692049272116467,
+        "brier": 0.09398010024029342,
+        "log_loss": 0.3563086704824023,
+        "roc_auc": 0.5,
+        "average_precision": 0.06521739130434782
+      },
+      "seasonal": {
+        "n": 92,
+        "positive": 6,
+        "observed_rate": 0.06521739130434782,
+        "mean_probability": 0.10482034944946965,
+        "brier": 0.05887364708594419,
+        "log_loss": 0.2163963556749798,
+        "roc_auc": 0.8003875968992248,
+        "average_precision": 0.19668737060041405
+      },
+      "persistence": {
+        "n": 92,
+        "positive": 6,
+        "observed_rate": 0.06521739130434782,
+        "mean_probability": 0.1771982629372598,
+        "brier": 0.08237771942822683,
+        "log_loss": 0.3040936633809979,
+        "roc_auc": 0.5484496124031008,
+        "average_precision": 0.07815734989648032
+      },
+      "pyro_no_weather": {
+        "n": 92,
+        "positive": 6,
+        "observed_rate": 0.06521739130434782,
+        "mean_probability": 0.09933151669152405,
+        "brier": 0.07330567532692094,
+        "log_loss": 0.27042393034316364,
+        "roc_auc": 0.6172480620155039,
+        "average_precision": 0.12416431103333782
+      },
+      "pyro_weather": {
+        "n": 92,
+        "positive": 6,
+        "observed_rate": 0.06521739130434782,
+        "mean_probability": 0.1269078981941161,
+        "brier": 0.0772502598764297,
+        "log_loss": 0.27808144598066525,
+        "roc_auc": 0.6841085271317829,
+        "average_precision": 0.15177121419027062
+      },
+      "logistic_no_weather": {
+        "n": 92,
+        "positive": 6,
+        "observed_rate": 0.06521739130434782,
+        "mean_probability": 0.10305424463579618,
+        "brier": 0.07544831144523644,
+        "log_loss": 0.2728820497225789,
+        "roc_auc": 0.7277131782945736,
+        "average_precision": 0.146726281170254
+      },
+      "logistic_weather": {
+        "n": 92,
+        "positive": 6,
+        "observed_rate": 0.06521739130434782,
+        "mean_probability": 0.12693134085962948,
+        "brier": 0.07756326017881704,
+        "log_loss": 0.2793599946896456,
+        "roc_auc": 0.686046511627907,
+        "average_precision": 0.1380452749556523
+      }
+    },
+    "australia_norte": {
+      "global_frequency": {
+        "n": 61,
+        "positive": 22,
+        "observed_rate": 0.36065573770491804,
+        "mean_probability": 0.2469204927211646,
+        "brier": 0.24351888251695383,
+        "log_loss": 0.6857532753834564,
+        "roc_auc": 0.5,
+        "average_precision": 0.36065573770491804
+      },
+      "seasonal": {
+        "n": 61,
+        "positive": 22,
+        "observed_rate": 0.36065573770491804,
+        "mean_probability": 0.42438109521618783,
+        "brier": 0.18739138241971168,
+        "log_loss": 0.5504442246198056,
+        "roc_auc": 0.7733100233100233,
+        "average_precision": 0.6084830063553468
+      },
+      "persistence": {
+        "n": 61,
+        "positive": 22,
+        "observed_rate": 0.36065573770491804,
+        "mean_probability": 0.31582893197401707,
+        "brier": 0.25682506418050466,
+        "log_loss": 0.733978293155898,
+        "roc_auc": 0.4976689976689977,
+        "average_precision": 0.39299020651479666
+      },
+      "pyro_no_weather": {
+        "n": 61,
+        "positive": 22,
+        "observed_rate": 0.36065573770491804,
+        "mean_probability": 0.32474477778448435,
+        "brier": 0.23913083842085878,
+        "log_loss": 0.7032931045465494,
+        "roc_auc": 0.6800699300699301,
+        "average_precision": 0.4705940198389465
+      },
+      "pyro_weather": {
+        "n": 61,
+        "positive": 22,
+        "observed_rate": 0.36065573770491804,
+        "mean_probability": 0.3146829197152716,
+        "brier": 0.23520670851612474,
+        "log_loss": 0.6773659589626085,
+        "roc_auc": 0.7156177156177156,
+        "average_precision": 0.4836213270704413
+      },
+      "logistic_no_weather": {
+        "n": 61,
+        "positive": 22,
+        "observed_rate": 0.36065573770491804,
+        "mean_probability": 0.32761221860021184,
+        "brier": 0.24050713983774005,
+        "log_loss": 0.7084652662897797,
+        "roc_auc": 0.6800699300699301,
+        "average_precision": 0.4707445040741163
+      },
+      "logistic_weather": {
+        "n": 61,
+        "positive": 22,
+        "observed_rate": 0.36065573770491804,
+        "mean_probability": 0.3160511931932606,
+        "brier": 0.23650995891208662,
+        "log_loss": 0.6835682524259643,
+        "roc_auc": 0.7167832167832168,
+        "average_precision": 0.48468717517831483
+      }
+    },
+    "brasil_cerrado": {
+      "global_frequency": {
+        "n": 89,
+        "positive": 2,
+        "observed_rate": 0.02247191011235955,
+        "mean_probability": 0.24692049272116462,
+        "brier": 0.07234408960336319,
+        "log_loss": 0.3086429956159902,
+        "roc_auc": 0.5,
+        "average_precision": 0.02247191011235955
+      },
+      "seasonal": {
+        "n": 89,
+        "positive": 2,
+        "observed_rate": 0.02247191011235955,
+        "mean_probability": 0.12812191478346466,
+        "brier": 0.04767828337993418,
+        "log_loss": 0.19050215602478363,
+        "roc_auc": 0.6522988505747126,
+        "average_precision": 0.042328042328042326
+      },
+      "persistence": {
+        "n": 89,
+        "positive": 2,
+        "observed_rate": 0.02247191011235955,
+        "mean_probability": 0.1554528839622512,
+        "brier": 0.04483049996279821,
+        "log_loss": 0.21417043350728185,
+        "roc_auc": 0.47701149425287354,
+        "average_precision": 0.02247191011235955
+      },
+      "pyro_no_weather": {
+        "n": 89,
+        "positive": 2,
+        "observed_rate": 0.02247191011235955,
+        "mean_probability": 0.08338528067878123,
+        "brier": 0.02533484018805359,
+        "log_loss": 0.13738785908444448,
+        "roc_auc": 0.6752873563218391,
+        "average_precision": 0.14285714285714285
+      },
+      "pyro_weather": {
+        "n": 89,
+        "positive": 2,
+        "observed_rate": 0.02247191011235955,
+        "mean_probability": 0.08629452110676283,
+        "brier": 0.02595581717710663,
+        "log_loss": 0.14113091060388605,
+        "roc_auc": 0.5574712643678161,
+        "average_precision": 0.1381578947368421
+      },
+      "logistic_no_weather": {
+        "n": 89,
+        "positive": 2,
+        "observed_rate": 0.02247191011235955,
+        "mean_probability": 0.07931652208622744,
+        "brier": 0.024528286254264446,
+        "log_loss": 0.13238887823754242,
+        "roc_auc": 0.7844827586206896,
+        "average_precision": 0.15202702702702703
+      },
+      "logistic_weather": {
+        "n": 89,
+        "positive": 2,
+        "observed_rate": 0.02247191011235955,
+        "mean_probability": 0.07734276482559509,
+        "brier": 0.024784066961044203,
+        "log_loss": 0.13360037703702823,
+        "roc_auc": 0.5919540229885057,
+        "average_precision": 0.1392857142857143
+      }
+    },
+    "california": {
+      "global_frequency": {
+        "n": 45,
+        "positive": 16,
+        "observed_rate": 0.35555555555555557,
+        "mean_probability": 0.2469204927211646,
+        "brier": 0.24093737934616793,
+        "log_loss": 0.6800660397432937,
+        "roc_auc": 0.5,
+        "average_precision": 0.35555555555555557
+      },
+      "seasonal": {
+        "n": 45,
+        "positive": 16,
+        "observed_rate": 0.35555555555555557,
+        "mean_probability": 0.3018044717783426,
+        "brier": 0.2923220752631615,
+        "log_loss": 0.8368032820601516,
+        "roc_auc": 0.4892241379310345,
+        "average_precision": 0.3779305614165528
+      },
+      "persistence": {
+        "n": 45,
+        "positive": 16,
+        "observed_rate": 0.35555555555555557,
+        "mean_probability": 0.344273917237478,
+        "brier": 0.2711645263663154,
+        "log_loss": 0.7462180582694194,
+        "roc_auc": 0.5032327586206896,
+        "average_precision": 0.35549938725490193
+      },
+      "pyro_no_weather": {
+        "n": 45,
+        "positive": 16,
+        "observed_rate": 0.35555555555555557,
+        "mean_probability": 0.32663272089428375,
+        "brier": 0.23761011842502733,
+        "log_loss": 0.6656797318152872,
+        "roc_auc": 0.5290948275862069,
+        "average_precision": 0.4025969233364409
+      },
+      "pyro_weather": {
+        "n": 45,
+        "positive": 16,
+        "observed_rate": 0.35555555555555557,
+        "mean_probability": 0.34164998713466854,
+        "brier": 0.23382971569422892,
+        "log_loss": 0.6555159327608219,
+        "roc_auc": 0.5366379310344828,
+        "average_precision": 0.4273603831694754
+      },
+      "logistic_no_weather": {
+        "n": 45,
+        "positive": 16,
+        "observed_rate": 0.35555555555555557,
+        "mean_probability": 0.30177023003698394,
+        "brier": 0.23748346631289066,
+        "log_loss": 0.667655365973994,
+        "roc_auc": 0.5355603448275862,
+        "average_precision": 0.4106246836425865
+      },
+      "logistic_weather": {
+        "n": 45,
+        "positive": 16,
+        "observed_rate": 0.35555555555555557,
+        "mean_probability": 0.32752974394157264,
+        "brier": 0.23505914754551438,
+        "log_loss": 0.6594877842084331,
+        "roc_auc": 0.5323275862068966,
+        "average_precision": 0.4258739881442087
+      }
+    },
+    "canada_boreal": {
+      "global_frequency": {
+        "n": 7,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.2469204927211646,
+        "brier": 0.06096972972566272,
+        "log_loss": 0.2835844694005049,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "seasonal": {
+        "n": 7,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.28145101629186275,
+        "brier": 0.08171934139136176,
+        "log_loss": 0.3328953077989219,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "persistence": {
+        "n": 7,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.21723617004784393,
+        "brier": 0.04939445110849032,
+        "log_loss": 0.24665946567089397,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "pyro_no_weather": {
+        "n": 7,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.0907233761889594,
+        "brier": 0.008266834659884172,
+        "log_loss": 0.09512768875801993,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "pyro_weather": {
+        "n": 7,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.08896588268024581,
+        "brier": 0.010054239617986502,
+        "log_loss": 0.09453780250267899,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "logistic_no_weather": {
+        "n": 7,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.07387289450722116,
+        "brier": 0.005503439558939441,
+        "log_loss": 0.07677075246272771,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "logistic_weather": {
+        "n": 7,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.08722899308181532,
+        "brier": 0.009573627769600785,
+        "log_loss": 0.09251167627424393,
+        "roc_auc": null,
+        "average_precision": null
+      }
+    },
+    "grecia": {
+      "global_frequency": {
+        "n": 32,
+        "positive": 2,
+        "observed_rate": 0.0625,
+        "mean_probability": 0.24692049272116462,
+        "brier": 0.09260466813551715,
+        "log_loss": 0.3532784954373232,
+        "roc_auc": 0.5,
+        "average_precision": 0.0625
+      },
+      "seasonal": {
+        "n": 32,
+        "positive": 2,
+        "observed_rate": 0.0625,
+        "mean_probability": 0.2590262620696401,
+        "brier": 0.10473902512573098,
+        "log_loss": 0.38216390555532553,
+        "roc_auc": 0.25,
+        "average_precision": 0.05964912280701754
+      },
+      "persistence": {
+        "n": 32,
+        "positive": 2,
+        "observed_rate": 0.0625,
+        "mean_probability": 0.21225494887404256,
+        "brier": 0.08393245077128467,
+        "log_loss": 0.3159021886517916,
+        "roc_auc": 0.7166666666666667,
+        "average_precision": 0.1111111111111111
+      },
+      "pyro_no_weather": {
+        "n": 32,
+        "positive": 2,
+        "observed_rate": 0.0625,
+        "mean_probability": 0.07591826759744436,
+        "brier": 0.06032679935338561,
+        "log_loss": 0.23881086085150915,
+        "roc_auc": 0.675,
+        "average_precision": 0.12916666666666665
+      },
+      "pyro_weather": {
+        "n": 32,
+        "positive": 2,
+        "observed_rate": 0.0625,
+        "mean_probability": 0.08030917425639927,
+        "brier": 0.061765937911043525,
+        "log_loss": 0.24884665029335234,
+        "roc_auc": 0.4,
+        "average_precision": 0.07472826086956522
+      },
+      "logistic_no_weather": {
+        "n": 32,
+        "positive": 2,
+        "observed_rate": 0.0625,
+        "mean_probability": 0.0687211318457368,
+        "brier": 0.05967444676988856,
+        "log_loss": 0.2352404861854629,
+        "roc_auc": 0.725,
+        "average_precision": 0.14835164835164835
+      },
+      "logistic_weather": {
+        "n": 32,
+        "positive": 2,
+        "observed_rate": 0.0625,
+        "mean_probability": 0.08121512712036666,
+        "brier": 0.06117825082937113,
+        "log_loss": 0.24453431262187744,
+        "roc_auc": 0.5333333333333333,
+        "average_precision": 0.09401709401709402
+      }
+    },
+    "india": {
+      "global_frequency": {
+        "n": 60,
+        "positive": 12,
+        "observed_rate": 0.2,
+        "mean_probability": 0.2469204927211646,
+        "brier": 0.16220153263719692,
+        "log_loss": 0.5066053527183236,
+        "roc_auc": 0.5,
+        "average_precision": 0.2
+      },
+      "seasonal": {
+        "n": 60,
+        "positive": 12,
+        "observed_rate": 0.2,
+        "mean_probability": 0.20522250798846545,
+        "brier": 0.16223602053593073,
+        "log_loss": 0.48916526233670143,
+        "roc_auc": 0.6241319444444444,
+        "average_precision": 0.26030606820080504
+      },
+      "persistence": {
+        "n": 60,
+        "positive": 12,
+        "observed_rate": 0.2,
+        "mean_probability": 0.254189447014402,
+        "brier": 0.16533440357917512,
+        "log_loss": 0.5102631539290694,
+        "roc_auc": 0.5763888888888888,
+        "average_precision": 0.27692307692307694
+      },
+      "pyro_no_weather": {
+        "n": 60,
+        "positive": 12,
+        "observed_rate": 0.2,
+        "mean_probability": 0.2175401164839665,
+        "brier": 0.13849923023620178,
+        "log_loss": 0.4353874808761018,
+        "roc_auc": 0.7673611111111112,
+        "average_precision": 0.5206071759300659
+      },
+      "pyro_weather": {
+        "n": 60,
+        "positive": 12,
+        "observed_rate": 0.2,
+        "mean_probability": 0.20281736478209494,
+        "brier": 0.12965298202155948,
+        "log_loss": 0.41120468117748976,
+        "roc_auc": 0.7916666666666666,
+        "average_precision": 0.5403895857860052
+      },
+      "logistic_no_weather": {
+        "n": 60,
+        "positive": 12,
+        "observed_rate": 0.2,
+        "mean_probability": 0.21880742821844204,
+        "brier": 0.13779334137899066,
+        "log_loss": 0.4319960422306711,
+        "roc_auc": 0.7934027777777778,
+        "average_precision": 0.5372137159548687
+      },
+      "logistic_weather": {
+        "n": 60,
+        "positive": 12,
+        "observed_rate": 0.2,
+        "mean_probability": 0.20255932492861056,
+        "brier": 0.13021917913875014,
+        "log_loss": 0.4136669546740174,
+        "roc_auc": 0.7881944444444444,
+        "average_precision": 0.5395562524526718
+      }
+    },
+    "portugal": {
+      "global_frequency": {
+        "n": 65,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.2469204927211646,
+        "brier": 0.06096972972566272,
+        "log_loss": 0.2835844694005049,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "seasonal": {
+        "n": 65,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.0883262102126776,
+        "brier": 0.01065794486346256,
+        "log_loss": 0.09427654775575019,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "persistence": {
+        "n": 65,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.16859954905232613,
+        "brier": 0.03042880229727707,
+        "log_loss": 0.1861592672523776,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "pyro_no_weather": {
+        "n": 65,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.0707461973795524,
+        "brier": 0.005077204389400521,
+        "log_loss": 0.073416377904705,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "pyro_weather": {
+        "n": 65,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.06643793107225344,
+        "brier": 0.004589790371221097,
+        "log_loss": 0.06884954546844442,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "logistic_no_weather": {
+        "n": 65,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.06351384724081714,
+        "brier": 0.0041051051211553995,
+        "log_loss": 0.06566197069464569,
+        "roc_auc": null,
+        "average_precision": null
+      },
+      "logistic_weather": {
+        "n": 65,
+        "positive": 0,
+        "observed_rate": 0.0,
+        "mean_probability": 0.07116734318708645,
+        "brier": 0.00527349040121568,
+        "log_loss": 0.07394835954864726,
+        "roc_auc": null,
+        "average_precision": null
+      }
+    },
+    "sudao": {
+      "global_frequency": {
+        "n": 91,
+        "positive": 37,
+        "observed_rate": 0.4065934065934066,
+        "mean_probability": 0.24692049272116467,
+        "brier": 0.26677064773262776,
+        "log_loss": 0.7369785728488175,
+        "roc_auc": 0.5,
+        "average_precision": 0.4065934065934066
+      },
+      "seasonal": {
+        "n": 91,
+        "positive": 37,
+        "observed_rate": 0.4065934065934066,
+        "mean_probability": 0.4334090879074451,
+        "brier": 0.13966302202865638,
+        "log_loss": 0.42234644191712084,
+        "roc_auc": 0.8818818818818819,
+        "average_precision": 0.7752372045149043
+      },
+      "persistence": {
+        "n": 91,
+        "positive": 37,
+        "observed_rate": 0.4065934065934066,
+        "mean_probability": 0.32678017663146086,
+        "brier": 0.18879662823847865,
+        "log_loss": 0.5675541941902005,
+        "roc_auc": 0.7467467467467468,
+        "average_precision": 0.6146702092648039
+      },
+      "pyro_no_weather": {
+        "n": 91,
+        "positive": 37,
+        "observed_rate": 0.4065934065934066,
+        "mean_probability": 0.39279175267278493,
+        "brier": 0.12034028008900283,
+        "log_loss": 0.3771037537019032,
+        "roc_auc": 0.8998998998998999,
+        "average_precision": 0.7822665889299125
+      },
+      "pyro_weather": {
+        "n": 91,
+        "positive": 37,
+        "observed_rate": 0.4065934065934066,
+        "mean_probability": 0.397560831671069,
+        "brier": 0.11620182421770604,
+        "log_loss": 0.3581399043615242,
+        "roc_auc": 0.9034034034034034,
+        "average_precision": 0.8270821045311797
+      },
+      "logistic_no_weather": {
+        "n": 91,
+        "positive": 37,
+        "observed_rate": 0.4065934065934066,
+        "mean_probability": 0.3930332680180926,
+        "brier": 0.11882142016118903,
+        "log_loss": 0.3724055362558737,
+        "roc_auc": 0.9024024024024024,
+        "average_precision": 0.7857915949464358
+      },
+      "logistic_weather": {
+        "n": 91,
+        "positive": 37,
+        "observed_rate": 0.4065934065934066,
+        "mean_probability": 0.39674258318927264,
+        "brier": 0.11666155821043572,
+        "log_loss": 0.3591746364936931,
+        "roc_auc": 0.9054054054054054,
+        "average_precision": 0.8356424558334665
+      }
+    },
+    "tailandia": {
+      "global_frequency": {
+        "n": 84,
+        "positive": 19,
+        "observed_rate": 0.2261904761904762,
+        "mean_probability": 0.2469204927211647,
+        "brier": 0.17545807825656445,
+        "log_loss": 0.535810468390895,
+        "roc_auc": 0.5,
+        "average_precision": 0.2261904761904762
+      },
+      "seasonal": {
+        "n": 84,
+        "positive": 19,
+        "observed_rate": 0.2261904761904762,
+        "mean_probability": 0.24673190420757937,
+        "brier": 0.18428548724768298,
+        "log_loss": 0.5603059399743255,
+        "roc_auc": 0.37894736842105264,
+        "average_precision": 0.20432584551311603
+      },
+      "persistence": {
+        "n": 84,
+        "positive": 19,
+        "observed_rate": 0.2261904761904762,
+        "mean_probability": 0.2561452013599202,
+        "brier": 0.1988118802319041,
+        "log_loss": 0.5892796075948261,
+        "roc_auc": 0.5238866396761134,
+        "average_precision": 0.24949874686716791
+      },
+      "pyro_no_weather": {
+        "n": 84,
+        "positive": 19,
+        "observed_rate": 0.2261904761904762,
+        "mean_probability": 0.22262859836752927,
+        "brier": 0.18783578088698755,
+        "log_loss": 0.5651919935058359,
+        "roc_auc": 0.6676113360323886,
+        "average_precision": 0.31742990414297173
+      },
+      "pyro_weather": {
+        "n": 84,
+        "positive": 19,
+        "observed_rate": 0.2261904761904762,
+        "mean_probability": 0.18235220846586994,
+        "brier": 0.1811240022803436,
+        "log_loss": 0.5525922052806301,
+        "roc_auc": 0.6866396761133603,
+        "average_precision": 0.32926663867490197
+      },
+      "logistic_no_weather": {
+        "n": 84,
+        "positive": 19,
+        "observed_rate": 0.2261904761904762,
+        "mean_probability": 0.22478400586052233,
+        "brier": 0.18813200423524232,
+        "log_loss": 0.5643218001014239,
+        "roc_auc": 0.6684210526315789,
+        "average_precision": 0.3143076128598589
+      },
+      "logistic_weather": {
+        "n": 84,
+        "positive": 19,
+        "observed_rate": 0.2261904761904762,
+        "mean_probability": 0.17897468002052472,
+        "brier": 0.18211436033144457,
+        "log_loss": 0.5573969448310658,
+        "roc_auc": 0.6720647773279352,
+        "average_precision": 0.32156346428976046
+      }
+    }
+  },
+  "by_continent": {
+    "Africa": {
+      "global_frequency": {
+        "n": 180,
+        "positive": 59,
+        "observed_rate": 0.3277777777777778,
+        "mean_probability": 0.24692049272116465,
+        "brier": 0.2268774067195659,
+        "log_loss": 0.649090917060263,
+        "roc_auc": 0.5,
+        "average_precision": 0.3277777777777778
+      },
+      "seasonal": {
+        "n": 180,
+        "positive": 59,
+        "observed_rate": 0.3277777777777778,
+        "mean_probability": 0.3884357762017337,
+        "brier": 0.13618760714707553,
+        "log_loss": 0.4090327289555089,
+        "roc_auc": 0.8834570668160807,
+        "average_precision": 0.7025495423108391
+      },
+      "persistence": {
+        "n": 180,
+        "positive": 59,
+        "observed_rate": 0.3277777777777778,
+        "mean_probability": 0.2931260208313622,
+        "brier": 0.16920486415985625,
+        "log_loss": 0.519459703754365,
+        "roc_auc": 0.7408600644347948,
+        "average_precision": 0.5480545181780458
+      },
+      "pyro_no_weather": {
+        "n": 180,
+        "positive": 59,
+        "observed_rate": 0.3277777777777778,
+        "mean_probability": 0.3990423865823282,
+        "brier": 0.1249583368656698,
+        "log_loss": 0.39301807716102644,
+        "roc_auc": 0.8934024373161508,
+        "average_precision": 0.7072066736029123
+      },
+      "pyro_weather": {
+        "n": 180,
+        "positive": 59,
+        "observed_rate": 0.3277777777777778,
+        "mean_probability": 0.404284520747347,
+        "brier": 0.1234430398693411,
+        "log_loss": 0.3849004814422759,
+        "roc_auc": 0.8981650091049167,
+        "average_precision": 0.7331966954811284
+      },
+      "logistic_no_weather": {
+        "n": 180,
+        "positive": 59,
+        "observed_rate": 0.3277777777777778,
+        "mean_probability": 0.4012853699333732,
+        "brier": 0.12530616308322082,
+        "log_loss": 0.3931951068559307,
+        "roc_auc": 0.8934024373161508,
+        "average_precision": 0.7078391335845516
+      },
+      "logistic_weather": {
+        "n": 180,
+        "positive": 59,
+        "observed_rate": 0.3277777777777778,
+        "mean_probability": 0.4015294812471426,
+        "brier": 0.12243091215260257,
+        "log_loss": 0.38249530094666984,
+        "roc_auc": 0.9001260680767614,
+        "average_precision": 0.7403127962692145
+      }
+    },
+    "Asia": {
+      "global_frequency": {
+        "n": 144,
+        "positive": 31,
+        "observed_rate": 0.2152777777777778,
+        "mean_probability": 0.24692049272116462,
+        "brier": 0.16993451758182798,
+        "log_loss": 0.5236416701939902,
+        "roc_auc": 0.5,
+        "average_precision": 0.2152777777777778
+      },
+      "seasonal": {
+        "n": 144,
+        "positive": 31,
+        "observed_rate": 0.2152777777777778,
+        "mean_probability": 0.22943632244961526,
+        "brier": 0.17509820945111956,
+        "log_loss": 0.5306639909586486,
+        "roc_auc": 0.49942906080502425,
+        "average_precision": 0.21596063539535923
+      },
+      "persistence": {
+        "n": 144,
+        "positive": 31,
+        "observed_rate": 0.2152777777777778,
+        "mean_probability": 0.2553303037159542,
+        "brier": 0.1848629316266004,
+        "log_loss": 0.5563560852340942,
+        "roc_auc": 0.5429631744219241,
+        "average_precision": 0.257168458781362
+      },
+      "pyro_no_weather": {
+        "n": 144,
+        "positive": 31,
+        "observed_rate": 0.2152777777777778,
+        "mean_probability": 0.22050839758271146,
+        "brier": 0.16727888478249348,
+        "log_loss": 0.5111067799101134,
+        "roc_auc": 0.7041107622038253,
+        "average_precision": 0.3551291608267464
+      },
+      "pyro_weather": {
+        "n": 144,
+        "positive": 31,
+        "observed_rate": 0.2152777777777778,
+        "mean_probability": 0.1908793569309637,
+        "brier": 0.15967774383918354,
+        "log_loss": 0.4936807369043216,
+        "roc_auc": 0.7225235512417928,
+        "average_precision": 0.3962942734703595
+      },
+      "logistic_no_weather": {
+        "n": 144,
+        "positive": 31,
+        "observed_rate": 0.2152777777777778,
+        "mean_probability": 0.22229376517632224,
+        "brier": 0.16715756137847082,
+        "log_loss": 0.509186067655277,
+        "roc_auc": 0.7129603197259492,
+        "average_precision": 0.35930674662264894
+      },
+      "logistic_weather": {
+        "n": 144,
+        "positive": 31,
+        "observed_rate": 0.2152777777777778,
+        "mean_probability": 0.18880161539889379,
+        "brier": 0.16049136816782186,
+        "log_loss": 0.49750944893229565,
+        "roc_auc": 0.7116757065372538,
+        "average_precision": 0.38574584802192935
+      }
+    },
+    "Europe": {
+      "global_frequency": {
+        "n": 97,
+        "positive": 2,
+        "observed_rate": 0.020618556701030927,
+        "mean_probability": 0.24692049272116462,
+        "brier": 0.07140599806705798,
+        "log_loss": 0.30657631304151717,
+        "roc_auc": 0.5,
+        "average_precision": 0.020618556701030927
+      },
+      "seasonal": {
+        "n": 97,
+        "positive": 2,
+        "observed_rate": 0.020618556701030927,
+        "mean_probability": 0.14463962938198482,
+        "brier": 0.04169500226957173,
+        "log_loss": 0.1892496967205586,
+        "roc_auc": 0.7631578947368421,
+        "average_precision": 0.05964912280701754
+      },
+      "persistence": {
+        "n": 97,
+        "positive": 2,
+        "observed_rate": 0.020618556701030927,
+        "mean_probability": 0.18300133043680994,
+        "brier": 0.04807949045365071,
+        "log_loss": 0.228961055755277,
+        "roc_auc": 0.8263157894736842,
+        "average_precision": 0.058823529411764705
+      },
+      "pyro_no_weather": {
+        "n": 97,
+        "positive": 2,
+        "observed_rate": 0.020618556701030927,
+        "mean_probability": 0.0724524473483415,
+        "brier": 0.023303874892983228,
+        "log_loss": 0.12797950629952698,
+        "roc_auc": 0.718421052631579,
+        "average_precision": 0.051587301587301584
+      },
+      "pyro_weather": {
+        "n": 97,
+        "positive": 2,
+        "observed_rate": 0.020618556701030927,
+        "mean_probability": 0.07101401129795104,
+        "brier": 0.023452024611162508,
+        "log_loss": 0.12823003365810476,
+        "roc_auc": 0.5263157894736842,
+        "average_precision": 0.031339031339031334
+      },
+      "logistic_no_weather": {
+        "n": 97,
+        "positive": 2,
+        "observed_rate": 0.020618556701030927,
+        "mean_probability": 0.06523171432697622,
+        "brier": 0.022437259067129223,
+        "log_loss": 0.12160539848543074,
+        "roc_auc": 0.7763157894736842,
+        "average_precision": 0.06349206349206349
+      },
+      "logistic_weather": {
+        "n": 97,
+        "positive": 2,
+        "observed_rate": 0.020618556701030927,
+        "mean_probability": 0.07448207603105518,
+        "brier": 0.02371629796514325,
+        "log_loss": 0.13022413788208403,
+        "roc_auc": 0.5736842105263158,
+        "average_precision": 0.034759358288770054
+      }
+    },
+    "North America": {
+      "global_frequency": {
+        "n": 52,
+        "positive": 16,
+        "observed_rate": 0.3076923076923077,
+        "mean_probability": 0.2469204927211646,
+        "brier": 0.21671096497417683,
+        "log_loss": 0.6266935206586873,
+        "roc_auc": 0.5,
+        "average_precision": 0.3076923076923077
+      },
+      "seasonal": {
+        "n": 52,
+        "positive": 16,
+        "observed_rate": 0.3076923076923077,
+        "mean_probability": 0.29906458353977805,
+        "brier": 0.2639717072419577,
+        "log_loss": 0.7689695162942171,
+        "roc_auc": 0.4583333333333333,
+        "average_precision": 0.33145293338907467
+      },
+      "persistence": {
+        "n": 52,
+        "positive": 16,
+        "observed_rate": 0.3076923076923077,
+        "mean_probability": 0.3271726820388735,
+        "brier": 0.24131086238930044,
+        "log_loss": 0.6789697861888485,
+        "roc_auc": 0.5338541666666666,
+        "average_precision": 0.32201522435897434
+      },
+      "pyro_no_weather": {
+        "n": 52,
+        "positive": 16,
+        "observed_rate": 0.3076923076923077,
+        "mean_probability": 0.2948756937224131,
+        "brier": 0.20673698407202734,
+        "log_loss": 0.5888746490960396,
+        "roc_auc": 0.6206597222222222,
+        "average_precision": 0.4025969233364409
+      },
+      "pyro_weather": {
+        "n": 52,
+        "positive": 16,
+        "observed_rate": 0.3076923076923077,
+        "mean_probability": 0.3076348192273424,
+        "brier": 0.20370609391473474,
+        "log_loss": 0.5799996459953027,
+        "roc_auc": 0.625,
+        "average_precision": 0.42671935752844975
+      },
+      "logistic_no_weather": {
+        "n": 52,
+        "positive": 16,
+        "observed_rate": 0.3076923076923077,
+        "mean_probability": 0.27109174256182356,
+        "brier": 0.2062553857883203,
+        "log_loss": 0.5881132064628619,
+        "roc_auc": 0.6258680555555556,
+        "average_precision": 0.4106246836425865
+      },
+      "logistic_weather": {
+        "n": 52,
+        "positive": 16,
+        "observed_rate": 0.3076923076923077,
+        "mean_probability": 0.2951815659412207,
+        "brier": 0.20470532757567989,
+        "log_loss": 0.5831640773711384,
+        "roc_auc": 0.6215277777777778,
+        "average_precision": 0.42523296250318304
+      }
+    },
+    "Oceania": {
+      "global_frequency": {
+        "n": 153,
+        "positive": 28,
+        "observed_rate": 0.1830065359477124,
+        "mean_probability": 0.24692049272116462,
+        "brier": 0.15360013761856978,
+        "log_loss": 0.48765586590046966,
+        "roc_auc": 0.5,
+        "average_precision": 0.1830065359477124
+      },
+      "seasonal": {
+        "n": 153,
+        "positive": 28,
+        "observed_rate": 0.1830065359477124,
+        "mean_probability": 0.2322269212911024,
+        "brier": 0.11011274417979919,
+        "log_loss": 0.3495788393719365,
+        "roc_auc": 0.8561428571428571,
+        "average_precision": 0.543435102674259
+      },
+      "persistence": {
+        "n": 153,
+        "positive": 28,
+        "observed_rate": 0.1830065359477124,
+        "mean_probability": 0.23246931399113036,
+        "brier": 0.15192862158436374,
+        "log_loss": 0.47548557459844176,
+        "roc_auc": 0.608,
+        "average_precision": 0.2572584589391312
+      },
+      "pyro_no_weather": {
+        "n": 153,
+        "positive": 28,
+        "observed_rate": 0.1830065359477124,
+        "mean_probability": 0.1892021632710703,
+        "brier": 0.13941897564541905,
+        "log_loss": 0.4430057579667358,
+        "roc_auc": 0.7525714285714286,
+        "average_precision": 0.3807645017344072
+      },
+      "pyro_weather": {
+        "n": 153,
+        "positive": 28,
+        "observed_rate": 0.1830065359477124,
+        "mean_probability": 0.2017724492581062,
+        "brier": 0.14022636031447805,
+        "log_loss": 0.4372733106335969,
+        "roc_auc": 0.776,
+        "average_precision": 0.38078227771981116
+      },
+      "logistic_no_weather": {
+        "n": 153,
+        "positive": 28,
+        "observed_rate": 0.1830065359477124,
+        "mean_probability": 0.19258389438631482,
+        "brier": 0.14125607962786862,
+        "log_loss": 0.4465459465238811,
+        "roc_auc": 0.7745714285714286,
+        "average_precision": 0.38521177581557325
+      },
+      "logistic_weather": {
+        "n": 153,
+        "positive": 28,
+        "observed_rate": 0.1830065359477124,
+        "mean_probability": 0.20233206629983536,
+        "brier": 0.14093416620972843,
+        "log_loss": 0.44051492097667455,
+        "roc_auc": 0.7771428571428571,
+        "average_precision": 0.3807485534425433
+      }
+    },
+    "South America": {
+      "global_frequency": {
+        "n": 181,
+        "positive": 2,
+        "observed_rate": 0.011049723756906077,
+        "mean_probability": 0.24692049272116465,
+        "brier": 0.06656264701359278,
+        "log_loss": 0.2959060651639203,
+        "roc_auc": 0.5,
+        "average_precision": 0.011049723756906077
+      },
+      "seasonal": {
+        "n": 181,
+        "positive": 2,
+        "observed_rate": 0.011049723756906077,
+        "mean_probability": 0.18876943616452413,
+        "brier": 0.055416361997181696,
+        "log_loss": 0.23892754108864941,
+        "roc_auc": 0.3170391061452514,
+        "average_precision": 0.011664367239433086
+      },
+      "persistence": {
+        "n": 181,
+        "positive": 2,
+        "observed_rate": 0.011049723756906077,
+        "mean_probability": 0.14913613316120572,
+        "brier": 0.03244138075536186,
+        "log_loss": 0.18376292025447413,
+        "roc_auc": 0.4888268156424581,
+        "average_precision": 0.011049723756906077
+      },
+      "pyro_no_weather": {
+        "n": 181,
+        "positive": 2,
+        "observed_rate": 0.011049723756906077,
+        "mean_probability": 0.08196456787994554,
+        "brier": 0.01576416407190259,
+        "log_loss": 0.11026659070461978,
+        "roc_auc": 0.6634078212290503,
+        "average_precision": 0.13333333333333333
+      },
+      "pyro_weather": {
+        "n": 181,
+        "positive": 2,
+        "observed_rate": 0.011049723756906077,
+        "mean_probability": 0.09301320224671074,
+        "brier": 0.017958465721980225,
+        "log_loss": 0.12277455981923809,
+        "roc_auc": 0.5167597765363129,
+        "average_precision": 0.05602409638554217
+      },
+      "logistic_no_weather": {
+        "n": 181,
+        "positive": 2,
+        "observed_rate": 0.011049723756906077,
+        "mean_probability": 0.07823934995525898,
+        "brier": 0.01510312619240667,
+        "log_loss": 0.10594074539040055,
+        "roc_auc": 0.7779329608938548,
+        "average_precision": 0.13765822784810128
+      },
+      "logistic_weather": {
+        "n": 181,
+        "positive": 2,
+        "observed_rate": 0.011049723756906077,
+        "mean_probability": 0.08636849623416926,
+        "brier": 0.016912976866462696,
+        "log_loss": 0.11656589589809581,
+        "roc_auc": 0.5083798882681564,
+        "average_precision": 0.03558460421205519
+      }
+    }
+  },
+  "code_sha256": "e78fc12f36b583f5666156602c5fe3e726171b5db8a32f65623085bdc8d4d52e",
+  "data_sha256": "efc5d94261fa2bfc52bbb595ff0badf97f41d0b94549a8b0f969c5bf8dbeb4b3",
+  "calibration": [
+    {
+      "bin": "(-0.002, 0.05]",
+      "n": 170,
+      "mean_probability": 0.03769674137205921,
+      "observed_rate": 0.01764705882352941
+    },
+    {
+      "bin": "(0.05, 0.1]",
+      "n": 62,
+      "mean_probability": 0.05889173861214463,
+      "observed_rate": 0.0
+    },
+    {
+      "bin": "(0.1, 0.2]",
+      "n": 159,
+      "mean_probability": 0.15661118492786183,
+      "observed_rate": 0.15723270440251572
+    },
+    {
+      "bin": "(0.2, 0.4]",
+      "n": 287,
+      "mean_probability": 0.2695145088835593,
+      "observed_rate": 0.13588850174216027
+    },
+    {
+      "bin": "(0.4, 0.6]",
+      "n": 35,
+      "mean_probability": 0.5093995627366286,
+      "observed_rate": 0.2857142857142857
+    },
+    {
+      "bin": "(0.6, 1.0]",
+      "n": 94,
+      "mean_probability": 0.7669797709616867,
+      "observed_rate": 0.648936170212766
+    }
+  ],
+  "routed_test": {
+    "n": 807,
+    "positive": 138,
+    "observed_rate": 0.17100371747211895,
+    "mean_probability": 0.25060304764125796,
+    "brier": 0.11694729470280575,
+    "log_loss": 0.37808747050828045,
+    "roc_auc": 0.7891022724810988,
+    "average_precision": 0.5084777057022491
+  },
+  "release_test": {
+    "eligible_n": 376,
+    "total_n": 807,
+    "metrics": {
+      "n": 376,
+      "positive": 110,
+      "observed_rate": 0.2925531914893617,
+      "mean_probability": 0.3363868833753346,
+      "brier": 0.15771163567926802,
+      "log_loss": 0.47496636157302885,
+      "roc_auc": 0.7962406015037594,
+      "average_precision": 0.6093482119398764
+    }
+  },
+  "accuracy_at_threshold_0_5": {
+    "global_frequency": 0.828996282527881,
+    "seasonal": 0.862453531598513,
+    "persistence": 0.8190830235439901,
+    "pyro_no_weather": 0.8562577447335812,
+    "pyro_weather": 0.8574969021065675,
+    "logistic_no_weather": 0.8587360594795539,
+    "logistic_weather": 0.8587360594795539
+  },
+  "region_block_bootstrap_95": {
+    "brier": [
+      0.0786021432046626,
+      0.15636569921061455
+    ],
+    "brier_difference_vs_seasonal": [
+      0.0,
+      0.0
+    ],
+    "limitation": "12 áreas intencionais; não mede incerteza para todo o planeta."
+  }
+}

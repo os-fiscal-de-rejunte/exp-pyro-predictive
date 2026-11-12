@@ -1,0 +1,15 @@
+{
+  "version": "global_mod14a2_v5",
+  "config_sha256": "2da0148acd073dc712a03747960b39475b2b2e7f990c7245859d34b29ea42315",
+  "data_sha256": "efc5d94261fa2bfc52bbb595ff0badf97f41d0b94549a8b0f969c5bf8dbeb4b3",
+  "pipeline_sha256": "e78fc12f36b583f5666156602c5fe3e726171b5db8a32f65623085bdc8d4d52e",
+  "artifacts": {
+    "release_policy.json": "5e2ed0e87202830d8c477cc5d68bc792146c5acc31b722f41890a0b432499dd7",
+    "statistical_models.json": "b8bf9b56d029810b9055deb65f44d2b5f4772b0813b9e77e5a51e459d8081325",
+    "baseline_model.json": "c7cc3849f5c81cb3663ad3462002681bc92729133454ba72da2e004e3a8a248c",
+    "baseline_uncertainty.json": "32ce0323afd655ea1903ca6c2ea2aefd7e9d675f1b7f7275bfcf0d7adb2a5dc9",
+    "feature_bounds.json": "a71cfb2bdb74635f22511d0cbd6c1426374b9a8ad340d406e00c23a5af88b85f",
+    "models/mask_weather.pt": "098aed0812f425b46e51279844738ccdc6d60279392f96a82feec986c6ad7e48",
+    "models/mask_no_weather.pt": "7322bd2bc7ae7aad22b26a96aa67c70236392fcce857e457a05562255043488b"
+  }
+}

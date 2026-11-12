@@ -1,0 +1,305 @@
+{
+  "created_utc": "2026-11-12T00:07:34+00:00",
+  "files": [
+    {
+      "name": "global_countries.json",
+      "bytes": 27008745,
+      "sha256": "9e4e25eb374c5c76be4ca6433d98e6e0d818bfb11eaaaf93e9fe69c5ffbf760e",
+      "format": ".json",
+      "top_level_keys": [
+        "metadata",
+        "data"
+      ],
+      "interpretation": "contém anomalypercent/ssp585; não usado como meteorologia diária observada; origem não confirmada"
+    },
+    {
+      "name": "modis_2000_all_countries.zip",
+      "bytes": 4658057,
+      "sha256": "569669636fd149a5cbc41a9c77bef994c20a700e17011940046f12e69cf977a2",
+      "format": ".zip",
+      "csv_partitions": 163,
+      "uncompressed_bytes": 20386949,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2001_all_countries (1).zip",
+      "bytes": 31545201,
+      "sha256": "583d617aa3cf2c51971c4600c3a402c800047a861457f8ec5efad268b4304a5b",
+      "format": ".zip",
+      "csv_partitions": 197,
+      "uncompressed_bytes": 138905992,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2001_all_countries.zip",
+      "bytes": 31545201,
+      "sha256": "583d617aa3cf2c51971c4600c3a402c800047a861457f8ec5efad268b4304a5b",
+      "format": ".zip",
+      "csv_partitions": 197,
+      "uncompressed_bytes": 138905992,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2002_all_countries.zip",
+      "bytes": 65275966,
+      "sha256": "c6e0de8fc78daffdb10097cb2fcc7ab163b903839440a240144816db75ac6476",
+      "format": ".zip",
+      "csv_partitions": 199,
+      "uncompressed_bytes": 288874729,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2003_all_countries.zip",
+      "bytes": 90378077,
+      "sha256": "a199e68b9d4beacba7b527e7e9111f162e329f1de7f582c9966d4f1dcdb4f9f3",
+      "format": ".zip",
+      "csv_partitions": 204,
+      "uncompressed_bytes": 400537463,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2004_all_countries.zip",
+      "bytes": 89357956,
+      "sha256": "8b0af457b85c0831e996b172520b30c97db005704b1dbe45953e4e965cd1ac07",
+      "format": ".zip",
+      "csv_partitions": 202,
+      "uncompressed_bytes": 396202773,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2005_all_countries (1).zip",
+      "bytes": 89941181,
+      "sha256": "0beba8973ae3f0abd6556a44b7d1974f9a8d5b3d8af5cd43394ce803ccbedc28",
+      "format": ".zip",
+      "csv_partitions": 208,
+      "uncompressed_bytes": 398320867,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2005_all_countries.zip",
+      "bytes": 89941181,
+      "sha256": "0beba8973ae3f0abd6556a44b7d1974f9a8d5b3d8af5cd43394ce803ccbedc28",
+      "format": ".zip",
+      "csv_partitions": 208,
+      "uncompressed_bytes": 398320867,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2006_all_countries.zip",
+      "bytes": 82443496,
+      "sha256": "732206f60d73d92fd294dea01ad149da1dfe92536136b80f562b43a3df0d79bd",
+      "format": ".zip",
+      "csv_partitions": 202,
+      "uncompressed_bytes": 364414950,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2007_all_countries.zip",
+      "bytes": 90015477,
+      "sha256": "98789eb5e0ad509d96908cb173845648a4e9f122519006c461870fb48adca5c0",
+      "format": ".zip",
+      "csv_partitions": 208,
+      "uncompressed_bytes": 399266497,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2008_all_countries.zip",
+      "bytes": 84590452,
+      "sha256": "141ca567bc38537c8888206bdfa04202836607b6f17fd2017945d1900ca4e8fa",
+      "format": ".zip",
+      "csv_partitions": 205,
+      "uncompressed_bytes": 374152977,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2009_all_countries.zip",
+      "bytes": 78288906,
+      "sha256": "b60e69f721b962d681aa5e02e50ff574bf3ac81857b41aad347407182baf5c2c",
+      "format": ".zip",
+      "csv_partitions": 205,
+      "uncompressed_bytes": 345918658,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2010_all_countries (1).zip",
+      "bytes": 82694466,
+      "sha256": "2c33683a2acab74efdef433c573d3342b7876eb1dc5d39318e833795fbf22999",
+      "format": ".zip",
+      "csv_partitions": 203,
+      "uncompressed_bytes": 366571255,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2010_all_countries.zip",
+      "bytes": 82694466,
+      "sha256": "2c33683a2acab74efdef433c573d3342b7876eb1dc5d39318e833795fbf22999",
+      "format": ".zip",
+      "csv_partitions": 203,
+      "uncompressed_bytes": 366571255,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2018_all_countries.zip",
+      "bytes": 73887176,
+      "sha256": "a9c0db7b8b022eeb0186c25ae8deec4d3ed5e70ed71c125b83c9b59d292b532a",
+      "format": ".zip",
+      "csv_partitions": 206,
+      "uncompressed_bytes": 329293139,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2019_all_countries.zip",
+      "bytes": 80447291,
+      "sha256": "13a581b5d6b28741c81bf01bd27195cf3226b85a29102337f2cd3b2cabf1a517",
+      "format": ".zip",
+      "csv_partitions": 202,
+      "uncompressed_bytes": 360733495,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2020_all_countries.zip",
+      "bytes": 77958638,
+      "sha256": "bb4c7012b8f4d89dbf24da49143c4cecbaef90cc5f504433642189201d6c0ddb",
+      "format": ".zip",
+      "csv_partitions": 211,
+      "uncompressed_bytes": 349504553,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2021_all_countries.zip",
+      "bytes": 77277752,
+      "sha256": "3bef964afea2d29506ede25b2299a478fa7d96a06b93bc7fc20297794979710e",
+      "format": ".zip",
+      "csv_partitions": 204,
+      "uncompressed_bytes": 345410062,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2022_all_countries.zip",
+      "bytes": 66472304,
+      "sha256": "99b365825aa9df0638e64006af7ecadc38ccc7c14bb91bc7b16aa541be8377a0",
+      "format": ".zip",
+      "csv_partitions": 204,
+      "uncompressed_bytes": 298100751,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2023_all_countries.zip",
+      "bytes": 81766470,
+      "sha256": "1fdd2cb87c6303dd609e2aa197e5d0ec5057921e240db51fed2f24b6d971a2e4",
+      "format": ".zip",
+      "csv_partitions": 207,
+      "uncompressed_bytes": 372647329,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2024_all_countries.zip",
+      "bytes": 84548676,
+      "sha256": "034f357da2022202fec7c4a2916e4128f29536cc1578aef9b04bbf7fd6901389",
+      "format": ".zip",
+      "csv_partitions": 206,
+      "uncompressed_bytes": 386749742,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "modis_2025_all_countries.zip",
+      "bytes": 64771492,
+      "sha256": "e4dfcfe082422625aa858c8fb0672eb8b3d0b881f3cc4b6960a85a7666ca9ab7",
+      "format": ".zip",
+      "csv_partitions": 202,
+      "uncompressed_bytes": 294043781,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "viirs-jpss1_2018_all_countries (1).zip",
+      "bytes": 259896539,
+      "sha256": "a700e10e05a7f98bfba5c1f2e71d2c5fabd3d966961b893c22da0919edec6795",
+      "format": ".zip",
+      "csv_partitions": 221,
+      "uncompressed_bytes": 1176230403,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "viirs-jpss1_2018_all_countries.zip",
+      "bytes": 259896539,
+      "sha256": "a700e10e05a7f98bfba5c1f2e71d2c5fabd3d966961b893c22da0919edec6795",
+      "format": ".zip",
+      "csv_partitions": 221,
+      "uncompressed_bytes": 1176230403,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "viirs-jpss1_2019_all_countries.zip",
+      "bytes": 370806690,
+      "sha256": "57b710c98b70defbd4bf28304704adbdb64a9621f54fac651908556c71204320",
+      "format": ".zip",
+      "csv_partitions": 220,
+      "uncompressed_bytes": 1677348445,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "viirs-jpss1_2020_all_countries.zip",
+      "bytes": 365551116,
+      "sha256": "3ef226fc817647c1f5c276eaaf732a8bf1b2fbcf0c89eecd7d8ca0ee81aa8325",
+      "format": ".zip",
+      "csv_partitions": 223,
+      "uncompressed_bytes": 1647269533,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "viirs-jpss1_2021_all_countries.zip",
+      "bytes": 358433386,
+      "sha256": "875468c497227aad8fbe9c6967c9eb05e5a37a2255085a26ef9748b65f48202e",
+      "format": ".zip",
+      "csv_partitions": 219,
+      "uncompressed_bytes": 1621155447,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "viirs-jpss1_2022_all_countries.zip",
+      "bytes": 324844239,
+      "sha256": "e6144d08da0a2c2dfb4acb989b89c68193c2207881eaba6a92b9663e1e1dc224",
+      "format": ".zip",
+      "csv_partitions": 220,
+      "uncompressed_bytes": 1457594755,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "viirs-jpss1_2024_all_countries.zip",
+      "bytes": 401156384,
+      "sha256": "43a49b1d5ffd7607662c936909fa4761af3b382976145e2cfa86563a252e585c",
+      "format": ".zip",
+      "csv_partitions": 219,
+      "uncompressed_bytes": 1821031709,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    },
+    {
+      "name": "viirs-jpss1_2025_all_countries.zip",
+      "bytes": 328649496,
+      "sha256": "c52dcf311ff809adb2be0cfd5f169634a7c465d0eb55de4088cc5ebe95a6b50c",
+      "format": ".zip",
+      "csv_partitions": 217,
+      "uncompressed_bytes": 1484712684,
+      "coverage": "partições de países; completude observacional não estabelecida pelos registros positivos"
+    }
+  ],
+  "exact_file_duplicates": [
+    [
+      "modis_2001_all_countries (1).zip",
+      "modis_2001_all_countries.zip"
+    ],
+    [
+      "modis_2005_all_countries (1).zip",
+      "modis_2005_all_countries.zip"
+    ],
+    [
+      "modis_2010_all_countries (1).zip",
+      "modis_2010_all_countries.zip"
+    ],
+    [
+      "viirs-jpss1_2018_all_countries (1).zip",
+      "viirs-jpss1_2018_all_countries.zip"
+    ]
+  ],
+  "scope": "inventário incremental com hashes; auditorias de linhas anteriores permanecem nos relatórios v1–v4"
+}
