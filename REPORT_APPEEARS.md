@@ -60,10 +60,11 @@ O primeiro comando salva `runs/geography_demo_offline/forecast.json` e `view/ind
 
 ## Verificações executadas
 
-- Suíte final: **97 testes aprovados em 31,77 segundos**, incluindo testes sintéticos identificados, reprocessamento dos CSVs reais, recálculo das métricas e recusa da extrapolação geográfica. A suíte anterior também passou com 94 testes.
+- Suíte final: **97 testes aprovados em 32,76 segundos**, incluindo testes sintéticos identificados, reprocessamento dos CSVs reais, recálculo das métricas e recusa da extrapolação geográfica. A suíte anterior também passou com 94 testes; após explicitar a antecedência de avaliação, os dois contratos do modelo real foram repetidos e aprovados.
 - Os **31 arquivos originais de DATA** tiveram seus hashes recalculados e permaneceram idênticos ao inventário anterior.
 - Verificador v6 aprovado: artefatos e 898 células de features preservados; 498 células liberadas, 465 atualmente projetáveis. Essa verificação usou `--skip-originals`, e a conferência dos originais foi feita separadamente.
 - Pacote geográfico offline conferido por manifesto, unidades, qualidade, datas e agregações reais.
+- Cópia Git limpa do commit `95e88c6`: demonstração offline completa aprovada e três testes com artefatos reais aprovados em 5,86 segundos. Foi reutilizado o ambiente Python existente; não se afirma ter feito uma instalação nova. Cópia preservada em `runs/geography_release_check`, aproximadamente 69,6 MB.
 - Dois segredos locais conferidos contra os arquivos preparados para commit, sem exposição nos logs e sem ocorrência no código versionado.
 
 Os resultados dos testes sintéticos comprovam contratos de software; não são evidência de desempenho preditivo real.
@@ -75,6 +76,8 @@ Metadados de produtos reprocessados não comprovam sua data histórica de public
 O cliente limita três tentativas para falhas transitórias, não repete submissões ambíguas e interrompe em 429. O cache deve ser usado em série. O orçamento local separa uma janela inicial de 90 minutos, encerrada sem treinamento, e outra de encerramento de 90 minutos dentro das oito horas gerais autorizadas. CPU limitada a duas threads, memória a 60% da disponibilidade inicial da janela e novos arquivos a 1 GB. As tarefas NASA remotas já aceitas podem continuar no serviço; isso não significa haver processo local em segundo plano.
 
 O treinamento registrou pico amostrado de memória de aproximadamente 343 MB, abaixo do limite de 1,23 GB da janela de encerramento. Esse pico se refere aos processos registrados no orçamento, não a toda a memória do computador. A expansão geográfica maior permanece separada e não altera a cobertura validada v6 de 0,140922% da superfície global.
+
+Encerramento verificado em aproximadamente 15:42 UTC: nenhum processo local de treinamento, coleta ou teste desta tarefa permaneceu ativo. Na última consulta da coleta completa, às 15:36:44 UTC, quatro das seis tarefas estavam concluídas e duas pendentes. A variante anual foi congelada com o primeiro lote, sem aguardar os dois restantes. IDs e estados estão nos checkpoints, não foram apagados. A fila remota NASA pode terminar depois; não há monitor ou download local automático em execução.
 
 Para iniciar uma retomada explícita da coleta completa em outra execução, preservando o cache:
 
