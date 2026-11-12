@@ -1,0 +1,137 @@
+{
+  "data_dir": "DATA",
+  "runs_dir": "runs",
+  "seed": 20261111,
+  "operational": {
+    "total_seconds": 28800,
+    "reserve_seconds": 1800,
+    "training_seconds": 5400,
+    "max_training_runs": 3,
+    "max_cpu_threads": 3,
+    "memory_fraction_initial_available": 0.6,
+    "new_files_fraction_initial_free": 0.2,
+    "new_files_max_bytes": 21474836480,
+    "nasa_power_requests": 500,
+    "network_retries": 3,
+    "network_timeout_seconds": 45,
+    "checkpoint_seconds": 900,
+    "earthdata_max_requests": 1300,
+    "earthdata_max_query_days": 366,
+    "earthdata_max_query_granules": 500
+  },
+  "mask": {
+    "product": "MOD14A2",
+    "radius_km": 20,
+    "start_year": 2020,
+    "end_year": 2025,
+    "max_requests": 600,
+    "min_interval_seconds": 1.0,
+    "min_valid_fraction": 1.0
+  },
+  "regions": [
+    {
+      "name": "brasil_cerrado",
+      "latitude": -16.0,
+      "longitude": -58.75,
+      "continent": "South America",
+      "group": "train"
+    },
+    {
+      "name": "argentina_chaco",
+      "latitude": -25.0,
+      "longitude": -62.5,
+      "continent": "South America",
+      "group": "holdout"
+    },
+    {
+      "name": "california",
+      "latitude": 38.0,
+      "longitude": -121.25,
+      "continent": "North America",
+      "group": "train"
+    },
+    {
+      "name": "canada_boreal",
+      "latitude": 55.0,
+      "longitude": -110.0,
+      "continent": "North America",
+      "group": "holdout"
+    },
+    {
+      "name": "portugal",
+      "latitude": 39.5,
+      "longitude": -8.125,
+      "continent": "Europe",
+      "group": "train"
+    },
+    {
+      "name": "grecia",
+      "latitude": 38.5,
+      "longitude": 23.125,
+      "continent": "Europe",
+      "group": "holdout"
+    },
+    {
+      "name": "angola",
+      "latitude": -12.0,
+      "longitude": 17.5,
+      "continent": "Africa",
+      "group": "train"
+    },
+    {
+      "name": "sudao",
+      "latitude": 10.5,
+      "longitude": 30.0,
+      "continent": "Africa",
+      "group": "train"
+    },
+    {
+      "name": "india",
+      "latitude": 21.0,
+      "longitude": 79.375,
+      "continent": "Asia",
+      "group": "train"
+    },
+    {
+      "name": "tailandia",
+      "latitude": 17.5,
+      "longitude": 100.0,
+      "continent": "Asia",
+      "group": "holdout"
+    },
+    {
+      "name": "australia_norte",
+      "latitude": -13.0,
+      "longitude": 131.25,
+      "continent": "Oceania",
+      "group": "train"
+    },
+    {
+      "name": "australia_leste",
+      "latitude": -24.0,
+      "longitude": 147.5,
+      "continent": "Oceania",
+      "group": "train"
+    }
+  ],
+  "split": {
+    "train_end": "2022-12-31",
+    "validation_end": "2023-12-31",
+    "test_start": "2024-01-01",
+    "test_end": "2025-12-31"
+  },
+  "weather_run": "zarr_brasil_v2_20261111",
+  "satellite_run": "sat_zarr_v2_20261111",
+  "firms_run": "nasa_complement_v3_20261111",
+  "weather_start": "2019-12-01",
+  "weather_end": "2025-12-31",
+  "global_model": {
+    "steps": 1500
+  },
+  "release": {
+    "min_n": 30,
+    "min_class_n": 5,
+    "max_mean_calibration_error": 0.1,
+    "max_brier_ratio": 1.0
+  }
+}

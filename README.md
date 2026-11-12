@@ -166,6 +166,8 @@ O contrato opcional de `forecast_path` e as razões para `insufficient_data`, `w
 Uma detecção não equivale a um incêndio independente, área queimada, ignição, propagação ou dano. Ausência de registro e anomalia não demonstram causa ambiental. Não use este experimento como alerta operacional ou apoio a decisões de emergência.
 # Chave NASA FIRMS no Windows
 
+O piloto de expansão multicontinental está documentado em [Expansão global](docs/expansao_global.md). Ele mantém a versão VIIRS diária separada e implementa coleta MODIS/POWER em partições, seleção na validação, teste espacial e consulta com bloqueio por falta de suporte. Seus resultados medidos serão registrados em `REPORT_GLOBAL_V5.md` após a conclusão da execução.
+
 O cliente utiliza `FIRMS_MAP_KEY` quando definida. No Windows, caso não haja variável de ambiente, ele procura a credencial `PYRO/FIRMS_MAP_KEY` no Gerenciador de Credenciais do usuário. A credencial fica vinculada ao perfil local e não é incluída no projeto.
 
 Para cadastrá-la novamente em outra máquina, instale a opção Windows no ambiente isolado (`.\.venv\Scripts\python.exe -m pip install -e ".[windows]"`) e execute `.\.venv\Scripts\python.exe -m earthfire.credentials store-firms`. A entrada não é exibida no terminal. Uma chave diferente existente não é substituída automaticamente. Em outros sistemas, configure `FIRMS_MAP_KEY` pelo mecanismo seguro do ambiente.

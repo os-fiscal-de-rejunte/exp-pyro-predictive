@@ -1,5 +1,16 @@
 # Estado da execução
 
+## Expansão v5 em execução — atualização 12/11/2026 UTC
+
+- Coleta: piloto em 12 áreas e seis continentes; configuração `config/global_v5b.json`, duas requisições simultâneas após o piloto serial.
+- Checkpoints finais em `runs/global_v5b_20261111`; caches anteriores de `global_v5_20261111` reaproveitados com hashes.
+- Histórico local: 122.536 registros selecionados em blocos, preservando produto e origem, em `runs/global_v5_20261111_records`.
+- Testes: 61 aprovados; inclui integração sintética de treinamento, retomada e inferência, sem usar esses números como evidência científica.
+- Etapas seguintes encadeadas: `runs/global_v5_continue.py`; log em `runs/global_v5_continue.log`.
+- Orçamento compartilhado: `runs/budget_global_v5_20261111.json`; 8 horas desde 11/11/2026 20:34 UTC, com reserva final de 30 minutos.
+- Limitação: alvo novo MOD14A2 de até oito dias; não representa expansão validada da referência VIIRS diária 375 m.
+- Próxima ação: concluir coleta, preparar clima e exemplos, treinar e avaliar antes de liberar áreas.
+
 ## Atualização final de 11/11/2026, 16h26 — acesso VIIRS
 
 - Etapa atual: concluída; não há coleta ou treinamento em execução. Credencial usada apenas em memória; a busca local em 258 arquivos textuais não encontrou seu conteúdo.
