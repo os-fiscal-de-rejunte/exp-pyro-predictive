@@ -1,0 +1,216 @@
+{
+  "source": "https://appeears.earthdatacloud.nasa.gov/api/product/MOD44B.061",
+  "retrieved_utc": "2026-11-12T11:32:29+00:00",
+  "data": {
+    "Cloud": {
+      "AddOffset": "",
+      "Available": true,
+      "DataType": "byte",
+      "Description": "Pixel cloud cover indicators",
+      "Dimensions": [
+        "time",
+        "YDim",
+        "XDim"
+      ],
+      "FillValue": null,
+      "FillValueAll": [
+        null
+      ],
+      "Group": "",
+      "Info": {},
+      "IsQA": true,
+      "Layer": "Cloud",
+      "OrigDataType": "byte",
+      "OrigValidMax": 255,
+      "OrigValidMin": 0,
+      "QualityLayers": "",
+      "QualityProductAndVersion": "",
+      "ScaleFactor": "",
+      "Units": "Bit Field",
+      "ValidMax": 255,
+      "ValidMin": 0,
+      "XSize": 4800,
+      "YSize": 4800
+    },
+    "Percent_NonTree_Vegetation": {
+      "AddOffset": "",
+      "Available": true,
+      "DataType": "byte",
+      "Description": "Percent of pixel that is nontree vegetation",
+      "Dimensions": [
+        "time",
+        "YDim",
+        "XDim"
+      ],
+      "FillValue": 253,
+      "FillValueAll": [
+        253
+      ],
+      "Group": "",
+      "Info": {},
+      "IsQA": false,
+      "Layer": "Percent_NonTree_Vegetation",
+      "OrigDataType": "byte",
+      "OrigValidMax": 100,
+      "OrigValidMin": 0,
+      "QualityLayers": "['Quality','Cloud']",
+      "QualityProductAndVersion": "MOD44B.061",
+      "ScaleFactor": "",
+      "Units": "Percent",
+      "ValidMax": 100,
+      "ValidMin": 0,
+      "XSize": 4800,
+      "YSize": 4800
+    },
+    "Percent_NonVegetated": {
+      "AddOffset": "",
+      "Available": true,
+      "DataType": "byte",
+      "Description": "Percent of pixel non vegetated",
+      "Dimensions": [
+        "time",
+        "YDim",
+        "XDim"
+      ],
+      "FillValue": 253,
+      "FillValueAll": [
+        253
+      ],
+      "Group": "",
+      "Info": {},
+      "IsQA": false,
+      "Layer": "Percent_NonVegetated",
+      "OrigDataType": "byte",
+      "OrigValidMax": 100,
+      "OrigValidMin": 0,
+      "QualityLayers": "['Quality','Cloud']",
+      "QualityProductAndVersion": "MOD44B.061",
+      "ScaleFactor": "",
+      "Units": "Percent",
+      "ValidMax": 100,
+      "ValidMin": 0,
+      "XSize": 4800,
+      "YSize": 4800
+    },
+    "Percent_NonVegetated_SD": {
+      "AddOffset": "",
+      "Available": true,
+      "DataType": "uint16",
+      "Description": "Standard deviation of percent not vegetated",
+      "Dimensions": [
+        "time",
+        "YDim",
+        "XDim"
+      ],
+      "FillValue": 0,
+      "FillValueAll": [
+        0
+      ],
+      "Group": "",
+      "Info": {},
+      "IsQA": false,
+      "Layer": "Percent_NonVegetated_SD",
+      "OrigDataType": "uint16",
+      "OrigValidMax": 10000,
+      "OrigValidMin": 0,
+      "QualityLayers": "['Quality','Cloud']",
+      "QualityProductAndVersion": "MOD44B.061",
+      "ScaleFactor": 0.01,
+      "Units": "Percent",
+      "ValidMax": 10000,
+      "ValidMin": 0,
+      "XSize": 4800,
+      "YSize": 4800
+    },
+    "Percent_Tree_Cover": {
+      "AddOffset": "",
+      "Available": true,
+      "DataType": "byte",
+      "Description": "Percent of pixel that is tree covered",
+      "Dimensions": [
+        "time",
+        "YDim",
+        "XDim"
+      ],
+      "FillValue": 253,
+      "FillValueAll": [
+        253
+      ],
+      "Group": "",
+      "Info": {},
+      "IsQA": false,
+      "Layer": "Percent_Tree_Cover",
+      "OrigDataType": "byte",
+      "OrigValidMax": 100,
+      "OrigValidMin": 0,
+      "QualityLayers": "['Quality','Cloud']",
+      "QualityProductAndVersion": "MOD44B.061",
+      "ScaleFactor": "",
+      "Units": "Percent",
+      "ValidMax": 100,
+      "ValidMin": 0,
+      "XSize": 4800,
+      "YSize": 4800
+    },
+    "Percent_Tree_Cover_SD": {
+      "AddOffset": "",
+      "Available": true,
+      "DataType": "uint16",
+      "Description": "Standard deviation of percent tree covered",
+      "Dimensions": [
+        "time",
+        "YDim",
+        "XDim"
+      ],
+      "FillValue": 0,
+      "FillValueAll": [
+        0
+      ],
+      "Group": "",
+      "Info": {},
+      "IsQA": false,
+      "Layer": "Percent_Tree_Cover_SD",
+      "OrigDataType": "uint16",
+      "OrigValidMax": 10000,
+      "OrigValidMin": 0,
+      "QualityLayers": "['Quality','Cloud']",
+      "QualityProductAndVersion": "MOD44B.061",
+      "ScaleFactor": 0.01,
+      "Units": "Percent",
+      "ValidMax": 10000,
+      "ValidMin": 0,
+      "XSize": 4800,
+      "YSize": 4800
+    },
+    "Quality": {
+      "AddOffset": "",
+      "Available": true,
+      "DataType": "byte",
+      "Description": "Quality Control indicators",
+      "Dimensions": [
+        "time",
+        "YDim",
+        "XDim"
+      ],
+      "FillValue": null,
+      "FillValueAll": [
+        null
+      ],
+      "Group": "",
+      "Info": {},
+      "IsQA": true,
+      "Layer": "Quality",
+      "OrigDataType": "byte",
+      "OrigValidMax": 255,
+      "OrigValidMin": 0,
+      "QualityLayers": "",
+      "QualityProductAndVersion": "",
+      "ScaleFactor": "",
+      "Units": "Bit Field",
+      "ValidMax": 255,
+      "ValidMin": 0,
+      "XSize": 4800,
+      "YSize": 4800
+    }
+  }
+}

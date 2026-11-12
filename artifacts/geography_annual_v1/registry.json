@@ -1,0 +1,55 @@
+{
+  "artifacts": {
+    "without_geography.pt": "c08b328aad242c6499af31f4a5728e2c8adcdd10a32de093b582df6e2c59a657",
+    "with_geography.pt": "2698015ec9566d4f0edce1037021cf2f7f3502155216aec814db54d4bb1570eb"
+  },
+  "examples_sha256": "837bb317ef138fa22792b23869a5925f929b40e50a07b32e8e53eb96f2392ca1",
+  "config": {
+    "schema_version": "geography-1.0",
+    "max_points_per_task": 100,
+    "max_requests": 200,
+    "max_download_bytes": 200000000,
+    "timeout_seconds": 45,
+    "wait_seconds": 120,
+    "seed": 20261112,
+    "steps": 1200,
+    "max_training_examples": 12000,
+    "max_training_seconds": 5400,
+    "products": {
+      "MCD12Q1.061": {
+        "layers": [
+          "LC_Type1",
+          "QC"
+        ],
+        "resolution_m": 500,
+        "temporal": "annual",
+        "availability_lag_days_assumed": 365
+      },
+      "MOD44B.061": {
+        "layers": [
+          "Percent_Tree_Cover",
+          "Percent_NonTree_Vegetation",
+          "Percent_NonVegetated",
+          "Quality",
+          "Cloud"
+        ],
+        "resolution_m": 250,
+        "temporal": "annual",
+        "availability_lag_days_assumed": 365
+      },
+      "NASADEM_NC.001": {
+        "layers": [
+          "NASADEM_HGT"
+        ],
+        "resolution_m": 30,
+        "temporal": "static",
+        "available_from_assumed": "2021-01-01"
+      }
+    }
+  },
+  "code": {
+    "geo_model": "0586fbf6a00763f24d1532fcebbe779417402f9ca851b39fd1fd709a419ca426",
+    "geography": "98b92908ff317fd04cd22749cd9ec78fe3b44dee38489a94177e38ac2e6c27b6"
+  },
+  "selected": "with_geography"
+}

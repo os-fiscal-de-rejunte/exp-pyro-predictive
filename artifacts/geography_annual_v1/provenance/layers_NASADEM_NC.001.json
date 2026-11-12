@@ -1,0 +1,36 @@
+{
+  "source": "https://appeears.earthdatacloud.nasa.gov/api/product/NASADEM_NC.001",
+  "retrieved_utc": "2026-11-12T11:32:31+00:00",
+  "data": {
+    "NASADEM_HGT": {
+      "AddOffset": "",
+      "Available": true,
+      "DataType": "int16",
+      "Description": "Elevation",
+      "Dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "FillValue": -32768,
+      "FillValueAll": [
+        -32768
+      ],
+      "Group": "",
+      "Info": {},
+      "IsQA": false,
+      "Layer": "NASADEM_HGT",
+      "OrigDataType": "int16",
+      "OrigValidMax": 32767,
+      "OrigValidMin": -32767,
+      "QualityLayers": "['NASADEM_NUM']",
+      "QualityProductAndVersion": "NASADEM_NC.001",
+      "ScaleFactor": "",
+      "Units": "Meters",
+      "ValidMax": 32767,
+      "ValidMin": -32767,
+      "XSize": 3601,
+      "YSize": 3601
+    }
+  }
+}

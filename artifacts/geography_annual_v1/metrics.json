@@ -1,0 +1,227 @@
+{
+  "selected": "with_geography",
+  "validation": {
+    "without_geography": {
+      "n": 234,
+      "positive": 71,
+      "observed_rate": 0.3034188034188034,
+      "mean_probability": 0.2572091491494933,
+      "brier": 0.17175273742327074,
+      "log_loss": 0.5169630908249844,
+      "roc_auc": 0.7635012529162706,
+      "average_precision": 0.6063494171990449,
+      "accuracy": 0.7649572649572649,
+      "recall": 0.323943661971831,
+      "precision": 0.7666666666666667,
+      "true_positive": 23,
+      "false_positive": 7,
+      "false_negative": 48
+    },
+    "with_geography": {
+      "n": 234,
+      "positive": 71,
+      "observed_rate": 0.3034188034188034,
+      "mean_probability": 0.28033673823771316,
+      "brier": 0.16403411266848647,
+      "log_loss": 0.4938855766825186,
+      "roc_auc": 0.7865721938995939,
+      "average_precision": 0.6265834870180547,
+      "accuracy": 0.7777777777777778,
+      "recall": 0.4507042253521127,
+      "precision": 0.7111111111111111,
+      "true_positive": 32,
+      "false_positive": 13,
+      "false_negative": 39
+    }
+  },
+  "test": {
+    "without_geography": {
+      "n": 844,
+      "positive": 209,
+      "observed_rate": 0.2476303317535545,
+      "mean_probability": 0.17595842951065663,
+      "brier": 0.17572353139916488,
+      "log_loss": 0.6458548192000205,
+      "roc_auc": 0.6207700712052142,
+      "average_precision": 0.49496340769208047,
+      "accuracy": 0.7725118483412322,
+      "recall": 0.23444976076555024,
+      "precision": 0.6049382716049383,
+      "true_positive": 49,
+      "false_positive": 32,
+      "false_negative": 160
+    },
+    "with_geography": {
+      "n": 844,
+      "positive": 209,
+      "observed_rate": 0.2476303317535545,
+      "mean_probability": 0.18822205342001766,
+      "brier": 0.17852391807766468,
+      "log_loss": 0.8221903438606362,
+      "roc_auc": 0.6213125871227819,
+      "average_precision": 0.4786123312560242,
+      "accuracy": 0.7808056872037915,
+      "recall": 0.2966507177033493,
+      "precision": 0.62,
+      "true_positive": 62,
+      "false_positive": 38,
+      "false_negative": 147
+    }
+  },
+  "spatial_test": {
+    "without_geography": {
+      "n": 380,
+      "positive": 88,
+      "observed_rate": 0.23157894736842105,
+      "mean_probability": 0.0731383599610509,
+      "brier": 0.21277712560910325,
+      "log_loss": 0.8838468615086774,
+      "roc_auc": 0.4345034246575342,
+      "average_precision": 0.2630258465581605,
+      "accuracy": 0.7631578947368421,
+      "recall": 0.10227272727272728,
+      "precision": 0.45,
+      "true_positive": 9,
+      "false_positive": 11,
+      "false_negative": 79
+    },
+    "with_geography": {
+      "n": 380,
+      "positive": 88,
+      "observed_rate": 0.23157894736842105,
+      "mean_probability": 0.04353468052224918,
+      "brier": 0.2162824795704515,
+      "log_loss": 1.274337026848433,
+      "roc_auc": 0.4233732876712329,
+      "average_precision": 0.24494061515578675,
+      "accuracy": 0.7684210526315789,
+      "recall": 0.0,
+      "precision": null,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 88
+    }
+  },
+  "test_by_continent": {
+    "without_geography": {
+      "Africa": {
+        "n": 366,
+        "positive": 32,
+        "observed_rate": 0.08743169398907104,
+        "mean_probability": 0.07540233220772746,
+        "brier": 0.08723165834454648,
+        "log_loss": 0.3731253032738795,
+        "roc_auc": 0.37640344311377244,
+        "average_precision": 0.07312515819115173,
+        "accuracy": 0.912568306010929,
+        "recall": 0.0,
+        "precision": null,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 32
+      },
+      "Asia": {
+        "n": 295,
+        "positive": 106,
+        "observed_rate": 0.3593220338983051,
+        "mean_probability": 0.13498122513420502,
+        "brier": 0.2870796587292668,
+        "log_loss": 1.0581014366803163,
+        "roc_auc": 0.5072376959169412,
+        "average_precision": 0.4115796073030211,
+        "accuracy": 0.6406779661016949,
+        "recall": 0.0,
+        "precision": null,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 106
+      },
+      "Europe": {
+        "n": 183,
+        "positive": 71,
+        "observed_rate": 0.3879781420765027,
+        "mean_probability": 0.4431267732479533,
+        "brier": 0.1731987662385654,
+        "log_loss": 0.5267632928190388,
+        "roc_auc": 0.843875754527163,
+        "average_precision": 0.7889498462928226,
+        "accuracy": 0.7049180327868853,
+        "recall": 0.6901408450704225,
+        "precision": 0.6049382716049383,
+        "true_positive": 49,
+        "false_positive": 32,
+        "false_negative": 22
+      }
+    },
+    "with_geography": {
+      "Africa": {
+        "n": 366,
+        "positive": 32,
+        "observed_rate": 0.08743169398907104,
+        "mean_probability": 0.0753675570044809,
+        "brier": 0.08988358746255327,
+        "log_loss": 0.4334507941084255,
+        "roc_auc": 0.375187125748503,
+        "average_precision": 0.07620913786277696,
+        "accuracy": 0.912568306010929,
+        "recall": 0.0,
+        "precision": null,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 32
+      },
+      "Asia": {
+        "n": 295,
+        "positive": 106,
+        "observed_rate": 0.3593220338983051,
+        "mean_probability": 0.1440030028635115,
+        "brier": 0.2849349463887781,
+        "log_loss": 1.4755921997727819,
+        "roc_auc": 0.5604971548367775,
+        "average_precision": 0.4472181585759764,
+        "accuracy": 0.6508474576271186,
+        "recall": 0.12264150943396226,
+        "precision": 0.5652173913043478,
+        "true_positive": 13,
+        "false_positive": 10,
+        "false_negative": 93
+      },
+      "Europe": {
+        "n": 183,
+        "positive": 71,
+        "observed_rate": 0.3879781420765027,
+        "mean_probability": 0.48521312228480323,
+        "brier": 0.18426767574625652,
+        "log_loss": 0.5463713696268989,
+        "roc_auc": 0.8087902414486922,
+        "average_precision": 0.730720308088687,
+        "accuracy": 0.726775956284153,
+        "recall": 0.6901408450704225,
+        "precision": 0.6363636363636364,
+        "true_positive": 49,
+        "false_positive": 28,
+        "false_negative": 22
+      }
+    }
+  },
+  "cohort": {
+    "test": {
+      "n": 844,
+      "positive": 209,
+      "cells": 11
+    },
+    "train": {
+      "n": 1311,
+      "positive": 312,
+      "cells": 11
+    },
+    "validation": {
+      "n": 442,
+      "positive": 120,
+      "cells": 11
+    }
+  },
+  "interpretation": "Experimento retrospectivo em recortes; teste v6 já conhecido. Não demonstra acurácia mundial ou validação operacional.",
+  "data_n": 2597,
+  "trained_utc": "2026-11-12T15:31:10+00:00"
+}

@@ -2,6 +2,10 @@
 
 Integração com cobertura do solo, NDVI/EVI, cobertura arbórea e altitude. [Guia e comandos](docs/appeears_geografia.md) · [Visualização real de exemplo](artifacts/geography_demo/index.html). O exemplo contém dados NASA obtidos para nove pontos; isso não demonstra melhora da acurácia mundial. A comparação Pyro com/sem geografia tem pipeline próprio e preserva o modelo v6.
 
+**Executado:** candidato treinado em 11 células; acurácia 78,08%, mas Brier pior que a versão sem geografia e recall de 0% nas regiões reservadas. Permanece experimental, sem substituir v6. [Resultados completos](REPORT_APPEEARS.md) · [Model card](docs/model_card_geography.md).
+
+Teste offline com dados e pesos reais incluídos: `.venv/Scripts/python.exe scripts/testar_geografia_real.py`. Abra depois `runs/geography_demo_offline/view/index.html`. O exemplo verifica a consulta geográfica e recusa o candidato fora do domínio; não inventa uma probabilidade indisponível.
+
 # Consulta em locais sem treinamento local
 
 Agora o comando de previsao permite estimativas exploratorias com o Pyro treinado e identifica essa condicao no JSON. A cobertura validada continua sendo 0,1409% do globo. [Uso e interpretacao](docs/previsao_espacial_exploratoria.md). Para limitar a consulta a areas validadas, use `--validated-only`.

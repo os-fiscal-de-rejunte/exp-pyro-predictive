@@ -1,3 +1,7 @@
+# Encerramento AppEEARS — 12/11/2026
+
+Integração, exemplo visual real, dois treinamentos e avaliação concluídos. Veja [REPORT_APPEEARS.md](REPORT_APPEEARS.md) para os dados, métricas, limitações e comandos. Teste offline: `.venv/Scripts/python.exe scripts/testar_geografia_real.py`. Suíte: 97 testes aprovados. O modelo novo é experimental e não substitui v6, pois piorou a qualidade probabilística e não detectou positivos no teste espacial no limiar 0,5. Coleta remota maior pendente; retomada explícita documentada, sem processo local deixado em execução. Abaixo permanece o histórico anterior.
+
 # Encerramento v6
 
 Veja REPORT_MAXCOVERAGE_V6.md para dados, limites, resultados medidos e comandos. A coleta anterior foi interrompida; a avaliacao foi concluida na retomada solicitada pelo usuario.

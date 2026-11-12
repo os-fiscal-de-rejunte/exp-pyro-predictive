@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-11-12T15:28:44+00:00",
+  "source_registry_sha256": "61d1c9b51614cf934a23feb53e3e5e74cc25e6b30e178266445100d3f6e9433e",
+  "observations_sha256": "eb0b6c36ea7d67909b55caf90f464af974038688c3647a6f9bf3adad458e29f4",
+  "metadata": {
+    "MCD12Q1.061": "7f3b164d01ccdf251780530c0b3047da373c8e5ea32ebeda5be211eda3514080",
+    "MOD44B.061": "abd70559e6469adbb8bd48077dfe49f9a30101864310af22f06a02a946ddabf3",
+    "NASADEM_NC.001": "80b71b62d046313b00eda9f1733bfd66705c1bafbeb8c5a05401b18a2b072bfe"
+  },
+  "raw_csv": {
+    "downloads/ff8fa063-adc7-40ee-9b72-c97319132e93/PYRO-geography-ce653ff15da01f36-MCD12Q1-061-results.csv": "bba8771d69019d8186b8d36a1728a3c41cd370e83f04350ca774e366ff98afe2",
+    "downloads/ff8fa063-adc7-40ee-9b72-c97319132e93/PYRO-geography-ce653ff15da01f36-MOD44B-061-results.csv": "6227acf5cc46d81047e8ed4b7b3cd882815ad1d1a0dd28a1b8a42378e412b90a",
+    "downloads/e56bf435-4821-44d3-9808-6ebf32e9b78a/PYRO-geography-7d6942fa492fb4e7-NASADEM-NC-001-results.csv": "37d03309680c7c34e8c5abc199d0775ae1e199235e4712a745eb816fdf3203b2",
+    "downloads/dde65985-cf04-445a-b274-3d52abc7012d/PYRO-geography-989e4a373f6cb2b6-NASADEM-NC-001-results.csv": "f67807ec7a2ff1c34a72a1e267a4cd61c19a122fb9db3cdef8feb2c89f41af3e",
+    "downloads/ff028863-3055-4c0f-8309-f340210f8790/PYRO-geography-fbf5f5791409a503-NASADEM-NC-001-results.csv": "c3c4cab5c7d6c0b4d8019844258a1d39d268f62c5178704271c0b99af016d123"
+  }
+}

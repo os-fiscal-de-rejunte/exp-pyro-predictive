@@ -1,0 +1,12 @@
+{
+  "mode": "available_geography_only",
+  "collection_status": "pending",
+  "raw_files": {
+    "runs\\geography_annual_v1\\cache\\downloads\\ff8fa063-adc7-40ee-9b72-c97319132e93\\PYRO-geography-ce653ff15da01f36-MCD12Q1-061-results.csv": "bba8771d69019d8186b8d36a1728a3c41cd370e83f04350ca774e366ff98afe2",
+    "runs\\geography_annual_v1\\cache\\downloads\\ff8fa063-adc7-40ee-9b72-c97319132e93\\PYRO-geography-ce653ff15da01f36-MOD44B-061-results.csv": "6227acf5cc46d81047e8ed4b7b3cd882815ad1d1a0dd28a1b8a42378e412b90a",
+    "runs\\geography_annual_v1\\cache\\downloads\\e56bf435-4821-44d3-9808-6ebf32e9b78a\\PYRO-geography-7d6942fa492fb4e7-NASADEM-NC-001-results.csv": "37d03309680c7c34e8c5abc199d0775ae1e199235e4712a745eb816fdf3203b2",
+    "runs\\geography_annual_v1\\cache\\downloads\\dde65985-cf04-445a-b274-3d52abc7012d\\PYRO-geography-989e4a373f6cb2b6-NASADEM-NC-001-results.csv": "f67807ec7a2ff1c34a72a1e267a4cd61c19a122fb9db3cdef8feb2c89f41af3e",
+    "runs\\geography_annual_v1\\cache\\downloads\\ff028863-3055-4c0f-8309-f340210f8790\\PYRO-geography-fbf5f5791409a503-NASADEM-NC-001-results.csv": "c3c4cab5c7d6c0b4d8019844258a1d39d268f62c5178704271c0b99af016d123"
+  },
+  "decision": "Coorte por disponibilidade, sem consultar novos resultados de teste; exige pelo menos cinco amostras válidas de cobertura do solo ou NDVI por célula/data."
+}

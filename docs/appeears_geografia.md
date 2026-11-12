@@ -91,6 +91,10 @@ Depois de treinar:
 
 O resultado mantém a previsão v6 e apresenta `geography_candidate` para comparação. O candidato tem probabilidade e intervalo próprios, método selecionado, flags de extrapolação e estado exploratório. Não se troca silenciosamente uma saída validada por um experimento. Se o modelo sem geografia vencer, isso será informado, sem inventar ganho de acurácia. Faltando geografia ou checkpoint, o candidato não é calculado.
 
+O experimento anual foi efetivamente concluído com o primeiro lote disponível, usando `--allow-partial`. A coorte congelada reúne 11 células e não recebe dados novos automaticamente. O pacote treinado está em `artifacts/geography_annual_v1`; substitua o caminho de `--geography-model` acima por esse diretório para consultá-lo. Apesar da acurácia de 78,08% no recorte, o Brier piorou e o recall espacial foi zero no limiar 0,5: ele permanece experimental. Fora das faixas das features de treino, retorna `out_of_distribution` e estimativas `null`, preservando a previsão principal. O relatório diferencia ausência de suporte de probabilidade zero.
+
+Para testar sem rede ou credenciais, execute `scripts/testar_geografia_real.py` com o Python do ambiente do projeto. O script copia o exemplo congelado para um cache em `runs`, verifica seus hashes, carrega o modelo treinado e exporta o JSON e o HTML. `--no-fetch` do visualizador também impede consultas de metadados; se o cache estiver incompleto, retorna indisponibilidade.
+
 ## Fontes
 
 Consultadas em 12/11/2026: [API oficial AppEEARS](https://appeears.earthdatacloud.nasa.gov/api/), [catálogo público de produtos](https://appeears.earthdatacloud.nasa.gov/api/product), [MOD13Q1](https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-061), [MCD12Q1](https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12q1-061), [NASADEM](https://www.earthdata.nasa.gov/data/catalog/lpcloud-nasadem-hgt-001), [orientação NASA sobre escala no CSV](https://forum.earthdata.nasa.gov/viewtopic.php?t=5682) e [descrição oficial da máscara MOD13Q1 no Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD13Q1).

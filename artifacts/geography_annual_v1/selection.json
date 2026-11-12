@@ -1,0 +1,39 @@
+{
+  "selected": "with_geography",
+  "validation": {
+    "without_geography": {
+      "n": 234,
+      "positive": 71,
+      "observed_rate": 0.3034188034188034,
+      "mean_probability": 0.2572091491494933,
+      "brier": 0.17175273742327074,
+      "log_loss": 0.5169630908249844,
+      "roc_auc": 0.7635012529162706,
+      "average_precision": 0.6063494171990449,
+      "accuracy": 0.7649572649572649,
+      "recall": 0.323943661971831,
+      "precision": 0.7666666666666667,
+      "true_positive": 23,
+      "false_positive": 7,
+      "false_negative": 48
+    },
+    "with_geography": {
+      "n": 234,
+      "positive": 71,
+      "observed_rate": 0.3034188034188034,
+      "mean_probability": 0.28033673823771316,
+      "brier": 0.16403411266848647,
+      "log_loss": 0.4938855766825186,
+      "roc_auc": 0.7865721938995939,
+      "average_precision": 0.6265834870180547,
+      "accuracy": 0.7777777777777778,
+      "recall": 0.4507042253521127,
+      "precision": 0.7111111111111111,
+      "true_positive": 32,
+      "false_positive": 13,
+      "false_negative": 39
+    }
+  },
+  "frozen_utc": "2026-11-12T15:31:10+00:00",
+  "prior_test_results_already_known": true
+}

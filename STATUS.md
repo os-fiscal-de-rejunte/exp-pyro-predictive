@@ -1,6 +1,6 @@
-# Integração AppEEARS em execução
+# Integração AppEEARS finalizada
 
-Autenticação local configurada. Catálogo de quatro produtos verificado; nove amostras do local demonstrativo e piloto de 24 células/216 pontos solicitados à NASA. Estado remoto ainda em processamento/fila. Cliente, exportação HTML/JSON/GeoJSON e experimento Pyro com/sem geografia implementados. Modelos v6 preservados; aumento de acurácia global ainda não demonstrado. Atualização UTC: 2026-11-12T11:50:35+00:00. Detalhes em docs/appeears_geografia.md.
+Atualização UTC: 2026-11-12T15:37:23+00:00. Cliente e autenticação local funcionais; visualização real com quatro produtos e 1.719 observações. Dois modelos Pyro treinados no recorte anual disponível: 11 células, 2.597 exemplos; teste de 844 casos. Com geografia: acurácia 78,08%, Brier 0,17852; sem geografia: 77,25%, Brier 0,17572. Recall nas regiões reservadas: 0% com geografia. Candidato experimental preservado separadamente; v6 continua principal. 97 testes aprovados, 31 hashes originais idênticos e verificador v6 aprovado. Coleta maior remota permanece pendente; sem ampliação automática do modelo congelado. Relatório: REPORT_APPEEARS.md. Pesos/checkpoints: artifacts/geography_annual_v1 e runs/geography_annual_v1/models. Próxima ação: ampliar coorte e avaliar períodos/regiões novos, sem prometer ganho global. As seções abaixo são registros históricos de execuções anteriores.
 
 # Expansao v6 finalizada
 

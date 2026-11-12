@@ -53,6 +53,11 @@ def describe_geography(
                 client, points, f"{issued.year-3}-01-01", str(last_observed), config
             )
             paths = sorted((cache_dir / "downloads").glob("*/*.csv"))
+        if not fetch and any(
+            not (cache_dir / ("layers_" + product + ".json")).exists()
+            for product in config["products"]
+        ):
+            raise AppEEARSError("Metadados ausentes no cache; modo sem acesso à rede.")
         metadata = {product: client.metadata(product) for product in config["products"]}
         observations = parse_csv(paths, config, metadata, retrieved_at=utc_now())
     except (AppEEARSError, ResourceLimit) as exc:

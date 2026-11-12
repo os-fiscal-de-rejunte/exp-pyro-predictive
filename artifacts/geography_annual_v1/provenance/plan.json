@@ -1,0 +1,75 @@
+{
+  "created_utc": "2026-11-12T14:38:14+00:00",
+  "selection": "ordem de identificador nativo por continente/grupo; suporte apenas do treino; nenhuma métrica do teste",
+  "cells": [
+    "m41_r07052_c24764",
+    "m41_r07052_c24805",
+    "m41_r08938_c20951",
+    "m41_r08979_c21033",
+    "m41_r06027_c31980",
+    "m41_r06027_c32021",
+    "m41_r08446_c33456",
+    "m41_r08446_c33497",
+    "m41_r05330_c22468",
+    "m41_r05330_c22509",
+    "m41_r05781_c22919",
+    "m41_r05781_c22960",
+    "m41_r07462_c12956",
+    "m41_r07503_c12833",
+    "m41_r06027_c10250",
+    "m41_r06027_c10291",
+    "m41_r12751_c37228",
+    "m41_r12751_c37269",
+    "m41_r12300_c38253",
+    "m41_r12300_c38294",
+    "m41_r09635_c14104",
+    "m41_r09635_c14145",
+    "m41_r13243_c15375",
+    "m41_r13243_c15416"
+  ],
+  "config": {
+    "schema_version": "geography-1.0",
+    "max_points_per_task": 100,
+    "max_requests": 200,
+    "max_download_bytes": 200000000,
+    "timeout_seconds": 45,
+    "wait_seconds": 120,
+    "seed": 20261112,
+    "steps": 1200,
+    "max_training_examples": 12000,
+    "max_training_seconds": 5400,
+    "products": {
+      "MCD12Q1.061": {
+        "layers": [
+          "LC_Type1",
+          "QC"
+        ],
+        "resolution_m": 500,
+        "temporal": "annual",
+        "availability_lag_days_assumed": 365
+      },
+      "MOD44B.061": {
+        "layers": [
+          "Percent_Tree_Cover",
+          "Percent_NonTree_Vegetation",
+          "Percent_NonVegetated",
+          "Quality",
+          "Cloud"
+        ],
+        "resolution_m": 250,
+        "temporal": "annual",
+        "availability_lag_days_assumed": 365
+      },
+      "NASADEM_NC.001": {
+        "layers": [
+          "NASADEM_HGT"
+        ],
+        "resolution_m": 30,
+        "temporal": "static",
+        "available_from_assumed": "2021-01-01"
+      }
+    }
+  },
+  "per_group": 2,
+  "source_registry_sha256": "61d1c9b51614cf934a23feb53e3e5e74cc25e6b30e178266445100d3f6e9433e"
+}

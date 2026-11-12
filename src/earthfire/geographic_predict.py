@@ -113,20 +113,27 @@ def forecast_with_geography(
         and not training[name].min() <= data[name] <= training[name].max()
     ]
     result["geography_candidate"] = {
-        "status": "exploratory",
+        "status": "out_of_distribution" if ood else "exploratory",
+        "deployment_status": "experimental_only",
+        "global_accuracy_established": False,
+        "evaluation_lead_days": 0,
+        "additional_lead_not_validated": bool(result.get("lead_days", 0) > 0),
         "prediction_type": "preditivo_exploratorio_geografico",
         "selected_model": selected,
-        "probability": float(values.mean()),
-        "probability_interval_95": np.quantile(values, [0.025, 0.975]).tolist(),
-        "predictive_event_interval_95": bernoulli.ppf(
-            [0.025, 0.975], float(values.mean())
-        )
-        .astype(int)
-        .tolist(),
+        "probability": None if ood else float(values.mean()),
+        "probability_interval_95": None
+        if ood
+        else np.quantile(values, [0.025, 0.975]).tolist(),
+        "predictive_event_interval_95": None
+        if ood
+        else bernoulli.ppf([0.025, 0.975], float(values.mean())).astype(int).tolist(),
         "uncertainty_method": "Posterior variacional Pyro; não inclui toda a incerteza de transferência para regiões novas.",
         "uses_geography": selected == "with_geography",
         "locally_calibrated": False,
         "outside_training_feature_range": ood,
+        "availability_note": "Estimativa geográfica indisponível fora das faixas de treino; a previsão principal permanece separada."
+        if ood
+        else "Candidato experimental, sem calibração local estabelecida.",
         "ignored_features_not_observed_in_training": [
             name
             for name in GEO_FEATURES

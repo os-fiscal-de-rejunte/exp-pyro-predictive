@@ -325,3 +325,20 @@ def test_view_labels_partially_finished_collection(tmp_path, monkeypatch):
         -21.229167, -54.341825, "2020-02-20", cache_dir=tmp_path
     )
     assert value["status"] == "partial" and not value["collection_complete"]
+
+
+def test_cache_only_view_never_fetches_missing_metadata(tmp_path, monkeypatch):
+    from earthfire import geography_view as view
+
+    def unexpected_request(_):
+        raise AssertionError("cache-only must not contact the API")
+
+    monkeypatch.setattr(
+        view,
+        "AppEEARSClient",
+        lambda *a, **kw: SimpleNamespace(metadata=unexpected_request),
+    )
+    result = view.describe_geography(
+        -21.0, -54.0, "2026-11-12", cache_dir=tmp_path, fetch=False
+    )
+    assert result["status"] == "source_unavailable" and result["features"] == {}

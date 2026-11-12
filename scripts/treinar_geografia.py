@@ -36,6 +36,11 @@ def main():
     )
     parser.add_argument("--collect-only", action="store_true")
     parser.add_argument(
+        "--allow-partial",
+        action="store_true",
+        help="Congela experimento só com células de geografia suficiente já disponíveis; não amplia depois de treinar",
+    )
+    parser.add_argument(
         "--no-wait",
         action="store_true",
         help="Consulta estados uma vez e devolve pending sem espera",
@@ -135,8 +140,27 @@ def main():
         "resource_limit",
     ):
         raise SystemExit(2)
-    if args.collect_only or result["status"] != "ok":
+    if args.collect_only or (
+        result["status"] != "ok"
+        and not (
+            args.allow_partial and result["status"] == "pending" and result["files"]
+        )
+    ):
         return
+    policy = {
+        "mode": "available_geography_only"
+        if args.allow_partial
+        else "all_tasks_required",
+        "collection_status": result["status"],
+        "raw_files": {str(p): sha256_file(Path(p)) for p in result["files"]},
+        "decision": "Coorte por disponibilidade, sem consultar novos resultados de teste; exige pelo menos cinco amostras válidas de cobertura do solo ou NDVI por célula/data.",
+    }
+    policy_path = output / "cohort_policy.json"
+    if policy_path.exists() and read_json(policy_path) != policy:
+        raise ValueError(
+            "Coorte já congelada mudou; use outra execução para novos dados."
+        )
+    write_json(policy_path, policy)
     metadata = {p: client.metadata(p) for p in config["products"]}
     paths = [Path(p) for p in result["files"]]
     observations = parse_csv(paths, config, metadata, retrieved_at=utc_now())
@@ -188,6 +212,7 @@ def main():
     frame = pd.concat(tables, ignore_index=True)
     enriched = []
     for rid, part in frame.groupby("region_id"):
+        run.guard()
         group_points = [p for p in points if p["region_id"] == rid]
         data = observations.loc[
             observations.point_id.isin([p["id"] for p in group_points])
@@ -206,7 +231,14 @@ def main():
     metrics = experiment(dataset, output / "models", config, run=run)
     write_json(
         output / "status.json",
-        {"status": "complete", "finished_utc": utc_now(), "metrics": metrics},
+        {
+            "status": "complete",
+            "finished_utc": utc_now(),
+            "metrics": metrics,
+            "collection_status": result["status"],
+            "cohort_policy": policy["mode"],
+            "remote_tasks": result["tasks"],
+        },
     )
     print(metrics)
 

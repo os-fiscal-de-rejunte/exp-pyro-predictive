@@ -79,3 +79,7 @@ A coleta maior escolheu 24 células e 216 pontos com suporte do treino, seis con
 Ambas as variantes da ablação usam as mesmas coordenadas, sazonalidade e interações latitude × seno/cosseno para permitir sazonalidade diferente nos hemisférios. As entradas geográficas adicionais usam frações amostrais das classes, cobertura arbórea e descritores de altitude. Seleção por Brier na validação; teste histórico v6 já conhecido não é uma confirmação independente. Sem promessa de melhora mundial ou causalidade.
 
 A janela inicial configurada de 90 minutos expirou sem treinamento real. Registrou-se uma janela separada geography_app_closing_20261112 para finalizar dentro das oito horas gerais autorizadas nesta tarefa. As tarefas e caches anteriores foram preservados, sem reenvio dos trabalhos confirmados.
+
+### Recorte por disponibilidade — 12/11/2026, 15:28 UTC
+
+O primeiro lote anual de 100 pontos foi liberado, enquanto os outros dois continuavam pendentes. Antes de abrir os novos resultados do teste, optou-se por concluir um experimento com `--allow-partial`, preservando os grupos espaciais e a exigência de cinco amostras válidas por célula/data. A coorte fica congelada em `cohort_policy.json`, com hashes dos arquivos já disponíveis; novos dados não são acrescentados a esse modelo concluído. Trata-se de seleção por disponibilidade, que pode introduzir viés de cobertura e não representa o globo. A coleta maior segue separada. A composição efetiva e as métricas, se concluídas, constam no relatório da execução.
