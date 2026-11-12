@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-11-12T01:03:34+00:00",
+  "tested_content_commit": "6b5104632f28fba5c9300e0f289aa7f324edc7f2",
+  "checkout": "fresh local Git clone",
+  "python_environment": "existing project virtual environment; dependencies were not reinstalled",
+  "prediction_status": "ok",
+  "probability": 0.8209886418173092,
+  "horizon_days": 8,
+  "network_required_for_prediction": false
+}

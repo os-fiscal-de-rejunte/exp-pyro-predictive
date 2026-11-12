@@ -88,3 +88,7 @@ Os comandos exatos de preparação, treino e retomada estão em [Expansão globa
 6. Os intervalos são aproximações condicionais; a dependência residual e a seleção por observabilidade podem reduzir a calibração. Não se atribui causa ambiental aos resultados.
 
 Próxima ação de maior impacto: completar o histórico VIIRS 2023 e obter máscaras/geolocalização compatíveis com VIIRS 375 m em um conjunto novo de regiões e datas, mantendo uma nova avaliação prospectiva intocada. O teste 2024–2025 agora é histórico de avaliação e não deverá ser reutilizado para afirmar ganho independente após mudanças guiadas por seus resultados.
+
+## Verificação do pacote versionado
+
+Uma cópia limpa do commit `6b51046`, reutilizando o ambiente Python local, executou `scripts/testar_global_real.py` sem rede e retornou `ok`, com a mesma probabilidade de 0,8209886418173092. Isso verifica o checkout, a integridade dos artefatos, os finais de linha e a independência dos caches locais; não é um teste de instalação do ambiente do zero. Evidência em `artifacts/global_v5/clone_verification.json`.

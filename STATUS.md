@@ -8,7 +8,7 @@
 - Treino: 892 exemplos, 220 positivos; dois ajustes Pyro de 1.500 passos. Teste final: 807 exemplos, 138 positivos. A contagem antecipada de 862 foi corrigida.
 - Seleção na validação: sazonal; Brier 0,11695 e acurácia 86,25% no teste completo, recall 47,10%. Pyro com clima: Brier 0,10258 no teste, sem promoção após observar o teste.
 - Liberação: cinco recortes, aproximadamente 7.217 km²; 376 exemplos de teste elegíveis após limites climáticos. Não há cobertura operacional mundial.
-- Verificações: 63 testes aprovados; verificação real conferiu 31 hashes dos originais, splits, features, artefatos e consulta com resultado `ok`.
+- Verificações: checkout limpo e demonstração offline aprovados, usando o ambiente Python existente; 63 testes aprovados; verificação real conferiu 31 hashes dos originais, splits, features, artefatos e consulta com resultado `ok`.
 - Checkpoints: `runs/global_v5b_20261111/models`; conjunto compacto para teste offline: `artifacts/global_v5`.
 - Recursos: CPU, sem GPU; limite compartilhado de RAM de 1,24 GB e até três threads configuradas. SVI de aproximadamente 98,5 s sem clima e 43,0 s com clima. Pacote congelado de aproximadamente 1,69 MiB; pico de RAM não foi persistido.
 - Bloqueios científicos: cobertura VIIRS 375 m mundial, histórico de publicação, previsões meteorológicas emitidas, expansão sistemática de terras e atualização operacional ainda pendentes.
