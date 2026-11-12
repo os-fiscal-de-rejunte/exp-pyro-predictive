@@ -1,0 +1,6450 @@
+{
+  "grid_+000.50_+032.500": {
+    "sha256": "930bd77613805471768f9b9d928f3f0f5b886a50ca858f068482e2f27ee22e7a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:59+00:00",
+    "climate_cell_id": "grid_+000.50_+032.500"
+  },
+  "grid_+000.50_+033.125": {
+    "sha256": "68ebc07c5973a0103785a923607ec0c0ea4f96f33852e7ae95b418cf8596c850",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:40:00+00:00",
+    "climate_cell_id": "grid_+000.50_+033.125"
+  },
+  "grid_+000.50_+033.750": {
+    "sha256": "8b49e8759222e11116c8bcb520872bc114d8c830ca44f2d5713c0928d1cd14df",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:40:02+00:00",
+    "climate_cell_id": "grid_+000.50_+033.750"
+  },
+  "grid_+001.00_+032.500": {
+    "sha256": "9d5aafd8943656cbb7dc99737b92cae27dfec0821ad6c898b970d362c6b69682",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:55+00:00",
+    "climate_cell_id": "grid_+001.00_+032.500"
+  },
+  "grid_+001.00_+033.125": {
+    "sha256": "11c051ddfd60ff1183b5ef2d3ef628a909bc03252c064665ae2776923e1e5a38",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:56+00:00",
+    "climate_cell_id": "grid_+001.00_+033.125"
+  },
+  "grid_+001.00_+033.750": {
+    "sha256": "5e2474c614c376eb856891609b532e77d88a5196ef86582b2d3dcd87c97067a8",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:58+00:00",
+    "climate_cell_id": "grid_+001.00_+033.750"
+  },
+  "grid_+004.50_+034.375": {
+    "sha256": "1922d2af65581f43ba58025d2184824c6178560ac72277ebfc90856df9c1ddfb",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:49:33+00:00",
+    "climate_cell_id": "grid_+004.50_+034.375"
+  },
+  "grid_+004.50_+035.000": {
+    "sha256": "fb7f368f46d35e20f044d395e73e162e29ef5d74b58abcdc9fac6d43a2d222bf",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:49:35+00:00",
+    "climate_cell_id": "grid_+004.50_+035.000"
+  },
+  "grid_+005.00_+006.250": {
+    "sha256": "408ef7a707e17518b5d95a32ea04d35f526b5d0c48eddbd989ba779489d15cf4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:52:40+00:00",
+    "climate_cell_id": "grid_+005.00_+006.250"
+  },
+  "grid_+005.00_+006.875": {
+    "sha256": "4e5cb296b4ee56c063ab505fc71b02178aced8866b9fc6d804564e5b56dda4f1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:52:37+00:00",
+    "climate_cell_id": "grid_+005.00_+006.875"
+  },
+  "grid_+005.00_+007.500": {
+    "sha256": "1ac3a9f67f77dc268bfeda4644f19785494f987cd14454117f72a5ba90486cb4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:52:39+00:00",
+    "climate_cell_id": "grid_+005.00_+007.500"
+  },
+  "grid_+005.00_+034.375": {
+    "sha256": "bff9a9893005ce22687a56ba0cbb3ef43cc7fc95721f7b2663eb6beba577809d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:49:28+00:00",
+    "climate_cell_id": "grid_+005.00_+034.375"
+  },
+  "grid_+005.00_+035.000": {
+    "sha256": "be3bb893015b086ba4dfb8484e10888b60e4329d2b5fc7860001ca7e0b6d14b5",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:49:30+00:00",
+    "climate_cell_id": "grid_+005.00_+035.000"
+  },
+  "grid_+005.00_+035.625": {
+    "sha256": "c76de76a9cb6b537a9f14519fb53838731adaa9015fbe16090fda0589ef456f6",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:49:32+00:00",
+    "climate_cell_id": "grid_+005.00_+035.625"
+  },
+  "grid_+005.50_+006.875": {
+    "sha256": "7cedc0538654318f3ada8c036d65efa9464cd0168dd33fc989b2e836ae2cb77b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:52:33+00:00",
+    "climate_cell_id": "grid_+005.50_+006.875"
+  },
+  "grid_+005.50_+007.500": {
+    "sha256": "14497ee64acc6f9e37769b5111b90b83cb10beb3975a400eedef8f4238b543e9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:52:35+00:00",
+    "climate_cell_id": "grid_+005.50_+007.500"
+  },
+  "grid_+005.50_+034.375": {
+    "sha256": "06286a16e7712931ff37563cb0a796ce8f04d7227dd48079d6cce925b1673696",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:49:21+00:00",
+    "climate_cell_id": "grid_+005.50_+034.375"
+  },
+  "grid_+005.50_+035.000": {
+    "sha256": "b4be908875e11548356706d9dbc16906d8646fd46e016a06738809a77a4c20f0",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:49:23+00:00",
+    "climate_cell_id": "grid_+005.50_+035.000"
+  },
+  "grid_+005.50_+035.625": {
+    "sha256": "911f779d95ef99eabfae8f9698402ce816b1727e604a57687b381387c4074339",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:49:26+00:00",
+    "climate_cell_id": "grid_+005.50_+035.625"
+  },
+  "grid_+008.50_-063.125": {
+    "sha256": "a3875e3b14f1ae21e5143c5306bfb0b3ec608d3327ac29b0343250331863de91",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:22+00:00",
+    "climate_cell_id": "grid_+008.50_-063.125"
+  },
+  "grid_+008.50_-063.750": {
+    "sha256": "312b7d3bc5ab72c834530e269d0f2bf500bb8d7fe3dbb086bbc813a0d977c046",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:21+00:00",
+    "climate_cell_id": "grid_+008.50_-063.750"
+  },
+  "grid_+009.00_-062.500": {
+    "sha256": "59c2751e5a6eec575c51582a40fb70889f037a6a502baf3135d6a6c02bee69f0",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:20+00:00",
+    "climate_cell_id": "grid_+009.00_-062.500"
+  },
+  "grid_+009.00_-063.125": {
+    "sha256": "b716cee84ddda82831866672b297d0401ff7af86643874a67149706b1f3bee83",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:18+00:00",
+    "climate_cell_id": "grid_+009.00_-063.125"
+  },
+  "grid_+009.00_-063.750": {
+    "sha256": "10e0ef46e2246e33f5b762179e25043e6286b5c2806dd53b67d6e6da55c28f73",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:17+00:00",
+    "climate_cell_id": "grid_+009.00_-063.750"
+  },
+  "grid_+009.50_-063.125": {
+    "sha256": "10907c7b8b10f51bc30bd7102cae3900cb69686ca63184bf0219bc26a458e5e6",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:14+00:00",
+    "climate_cell_id": "grid_+009.50_-063.125"
+  },
+  "grid_+010.50_+032.500": {
+    "sha256": "3ba07bedceb288ee70c20eb6319e1b791a7a83ddfc740ccce543b2c5b476e647",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:41+00:00",
+    "climate_cell_id": "grid_+010.50_+032.500"
+  },
+  "grid_+010.50_+033.125": {
+    "sha256": "b8e24f92edd03096e992256f96f29c7bdedcd7a260f813781c51e88d3178395a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:42+00:00",
+    "climate_cell_id": "grid_+010.50_+033.125"
+  },
+  "grid_+010.50_+033.750": {
+    "sha256": "c809cddad8f8c26293dc50ddceb5ec483f7614932256ce6df5a8ca18f87d5e74",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:44+00:00",
+    "climate_cell_id": "grid_+010.50_+033.750"
+  },
+  "grid_+010.50_+106.250": {
+    "sha256": "01665b9528765f9a49443dde56837633868e30333b23a530f8ae771087034067",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:14+00:00",
+    "climate_cell_id": "grid_+010.50_+106.250"
+  },
+  "grid_+011.00_+018.125": {
+    "sha256": "42fb9fd13a75ca409757871438b825db2f5229e94e34d8c8816ae54980cfb2dc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:42+00:00",
+    "climate_cell_id": "grid_+011.00_+018.125"
+  },
+  "grid_+011.00_+032.500": {
+    "sha256": "e14169795563a0bcc0adb438a79558cb669c52f457f542cfd2dd26c3db401504",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:37+00:00",
+    "climate_cell_id": "grid_+011.00_+032.500"
+  },
+  "grid_+011.00_+033.125": {
+    "sha256": "091ace51efe28c9e8217bdec3b9d8dec293127736bbf68047c30db41b932407c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:39+00:00",
+    "climate_cell_id": "grid_+011.00_+033.125"
+  },
+  "grid_+011.00_+033.750": {
+    "sha256": "d7ab66b065a463dc70c8eeec9acb34978f305c1af5c6d10a109b386a8dd84223",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:40+00:00",
+    "climate_cell_id": "grid_+011.00_+033.750"
+  },
+  "grid_+011.00_+106.250": {
+    "sha256": "8c42880557de5cc09dbb88adc0b8eec8f8d5370d3c13564d5f5912ff6bf15b15",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:08+00:00",
+    "climate_cell_id": "grid_+011.00_+106.250"
+  },
+  "grid_+011.00_+106.875": {
+    "sha256": "5af3909e8b3b85fe890dda6f82936b9164f619fa8fc9a20343766d64a2b11dff",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:10+00:00",
+    "climate_cell_id": "grid_+011.00_+106.875"
+  },
+  "grid_+011.00_+107.500": {
+    "sha256": "ec79de70bb94e139b5a0b04941f5c0d597e7c2d0d00c92e9da76cf4b8b37e74f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:11+00:00",
+    "climate_cell_id": "grid_+011.00_+107.500"
+  },
+  "grid_+011.50_+018.125": {
+    "sha256": "dc6e7e39057de857e06e45c828c96d447d5c838d85fde3fac1002002239aca8a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:39+00:00",
+    "climate_cell_id": "grid_+011.50_+018.125"
+  },
+  "grid_+011.50_+018.750": {
+    "sha256": "153d9e9b9bc0019e61f63911543f070ccbd9c7ad393ded3f8d64c22bbb98c873",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:40+00:00",
+    "climate_cell_id": "grid_+011.50_+018.750"
+  },
+  "grid_+011.50_+019.375": {
+    "sha256": "cb9189b2934a0a047de8cdf440d7eabd6291b2c1ad468729f60a16942deeb408",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:41+00:00",
+    "climate_cell_id": "grid_+011.50_+019.375"
+  },
+  "grid_+011.50_+032.500": {
+    "sha256": "35d03703751684694073da6d7ee23ac3bacf47cb15982b6aee1319121cc11096",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:33+00:00",
+    "climate_cell_id": "grid_+011.50_+032.500"
+  },
+  "grid_+011.50_+033.125": {
+    "sha256": "a68a539a6dd6972c3960d8b77ad2cd272893fa49ec677f116c774bdbae142d21",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:35+00:00",
+    "climate_cell_id": "grid_+011.50_+033.125"
+  },
+  "grid_+011.50_+033.750": {
+    "sha256": "1d83ad74932dd1dd98f524f33a21187c326aab3c6daa74f4cf2296a651febc2a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:36+00:00",
+    "climate_cell_id": "grid_+011.50_+033.750"
+  },
+  "grid_+011.50_+106.875": {
+    "sha256": "f1b711d4bd4b03692397909697eec2e15862a3e8fb3005470d9deb2209fc1108",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:04+00:00",
+    "climate_cell_id": "grid_+011.50_+106.875"
+  },
+  "grid_+011.50_+107.500": {
+    "sha256": "28be6f896720b122678bd4f26dfa4f4038331ec745c1d18367750ff3e2be9527",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:06+00:00",
+    "climate_cell_id": "grid_+011.50_+107.500"
+  },
+  "grid_+013.00_+015.000": {
+    "sha256": "fccf53e03e9a7e078edc34f5cbaa4c50909c0dd2c2453f5d57264e1ac97dcaea",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:41+00:00",
+    "climate_cell_id": "grid_+013.00_+015.000"
+  },
+  "grid_+014.50_+100.625": {
+    "sha256": "6b6993b2ea984ed5f050381dd7f72c2b37c75143278a84935652d915b0804f86",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:59+00:00",
+    "climate_cell_id": "grid_+014.50_+100.625"
+  },
+  "grid_+014.50_+101.250": {
+    "sha256": "c927d0130a713c4cc7d8bc7b1b61946520bfaf424b9ccbd3e9868cde8e31f4ee",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:53:00+00:00",
+    "climate_cell_id": "grid_+014.50_+101.250"
+  },
+  "grid_+014.50_+101.875": {
+    "sha256": "0ce93470ec167fef5a949ce62b2a6db32065867c5a4c012f880add25cda06cdf",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:53:01+00:00",
+    "climate_cell_id": "grid_+014.50_+101.875"
+  },
+  "grid_+014.50_+106.250": {
+    "sha256": "696c779e798cf0f29bc2035c432076b87a34e78b5510004c59cd241940200ca9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:38+00:00",
+    "climate_cell_id": "grid_+014.50_+106.250"
+  },
+  "grid_+014.50_+106.875": {
+    "sha256": "e6e1c758c3cd0368c3a0e0f80cd8f0d648f7cce89d20927be311bf42aa84bd6a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:40+00:00",
+    "climate_cell_id": "grid_+014.50_+106.875"
+  },
+  "grid_+014.50_+107.500": {
+    "sha256": "145af732ab973649a0b02ef0ae7a1f32b19f9a91e88ee3776833636cdf41ed39",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:42+00:00",
+    "climate_cell_id": "grid_+014.50_+107.500"
+  },
+  "grid_+014.50_-004.375": {
+    "sha256": "60e6211afa46b5130931909a400af0808bfb5d3a96abbabe771268d61a17c010",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:22+00:00",
+    "climate_cell_id": "grid_+014.50_-004.375"
+  },
+  "grid_+014.50_-005.000": {
+    "sha256": "2f7ccccb2a6404dac7eff3205d42e1205f82e03b7b23e6f1082a1a75b8f42132",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:20+00:00",
+    "climate_cell_id": "grid_+014.50_-005.000"
+  },
+  "grid_+015.00_+100.625": {
+    "sha256": "4770d61ba1811341bd5b3adb8c7a229acc70ce6c66a9b2fe32043bc390ca291d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:55+00:00",
+    "climate_cell_id": "grid_+015.00_+100.625"
+  },
+  "grid_+015.00_+101.250": {
+    "sha256": "c9bfc3d257aaecd7591eede3032e6aa992293541d5aa7c24bb2a296f50b71a5f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:56+00:00",
+    "climate_cell_id": "grid_+015.00_+101.250"
+  },
+  "grid_+015.00_+101.875": {
+    "sha256": "5a652593a15bb2803cdbc6d09f3e7e7e5bff3c1c309987a7cfff6e6083f2d64a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:57+00:00",
+    "climate_cell_id": "grid_+015.00_+101.875"
+  },
+  "grid_+015.00_+106.250": {
+    "sha256": "266a679de286c498d22b0dc92bea2a03de1204f600dfa1949e4847a96842db8d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:33+00:00",
+    "climate_cell_id": "grid_+015.00_+106.250"
+  },
+  "grid_+015.00_+106.875": {
+    "sha256": "46568f857d05ac87c1e66df8efd906767e39f2daf4d2daa711eded0b705a2101",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:34+00:00",
+    "climate_cell_id": "grid_+015.00_+106.875"
+  },
+  "grid_+015.00_+107.500": {
+    "sha256": "d14d383fe893185f16d6b2c26f6003d8b325ccb5cd2619dc39da49e4e7d64809",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:36+00:00",
+    "climate_cell_id": "grid_+015.00_+107.500"
+  },
+  "grid_+015.00_-004.375": {
+    "sha256": "6c84d6b0abd2599065faf4425053273a35fe27152655e012cfac4a93c83eab9c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:19+00:00",
+    "climate_cell_id": "grid_+015.00_-004.375"
+  },
+  "grid_+015.00_-005.000": {
+    "sha256": "78ccb5f949c89b48d75a8ab08890773d31ac58d1a37939906ae669815355964c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:17+00:00",
+    "climate_cell_id": "grid_+015.00_-005.000"
+  },
+  "grid_+015.50_+100.625": {
+    "sha256": "421e54cc3c50143d07b00d1ad76a0449b82a111a8ab684252556004c57816126",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:51+00:00",
+    "climate_cell_id": "grid_+015.50_+100.625"
+  },
+  "grid_+015.50_+101.250": {
+    "sha256": "e575e4872b09798289594ee63b9cad4fe650ac9358cbdf9ed2edd2e7fc32bfa6",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:52+00:00",
+    "climate_cell_id": "grid_+015.50_+101.250"
+  },
+  "grid_+015.50_+101.875": {
+    "sha256": "1796c206f7704a4330b22482398de35323e7e631f64ceb404bb2919c76190597",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:53+00:00",
+    "climate_cell_id": "grid_+015.50_+101.875"
+  },
+  "grid_+015.50_+106.250": {
+    "sha256": "a2d1032245e8085dc1cd1c5c365a987eb47ebb9bee83df4f5a049b27696ed890",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:29+00:00",
+    "climate_cell_id": "grid_+015.50_+106.250"
+  },
+  "grid_+015.50_+106.875": {
+    "sha256": "029673b70fcb073e2da6ce22ea8bd1584a4c674910e3540e19ce374c4ef83df9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:30+00:00",
+    "climate_cell_id": "grid_+015.50_+106.875"
+  },
+  "grid_+015.50_+107.500": {
+    "sha256": "c00b6629b9e0bee86f9e8fea451221a811dbd05a6615867472cb58a7d43371d4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:32+00:00",
+    "climate_cell_id": "grid_+015.50_+107.500"
+  },
+  "grid_+015.50_-005.625": {
+    "sha256": "b48af91e5091a465a76570d8d835f039af390295c4e918e189725afbf6114b47",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:15+00:00",
+    "climate_cell_id": "grid_+015.50_-005.625"
+  },
+  "grid_+018.50_+104.375": {
+    "sha256": "c3716803472853bdeafce3cf535be92bc60c2306ecd00f0307d7e37a528789fc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:20+00:00",
+    "climate_cell_id": "grid_+018.50_+104.375"
+  },
+  "grid_+018.50_+105.000": {
+    "sha256": "9bdfa94f87f53cf95a1f2b654ec93147b434d57da04cd4659962a58d7f546a29",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:21+00:00",
+    "climate_cell_id": "grid_+018.50_+105.000"
+  },
+  "grid_+018.50_-096.250": {
+    "sha256": "c427e56395bf653e9777dc3d265d3128087ac3895faf06cb8741df93670c0572",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:18+00:00",
+    "climate_cell_id": "grid_+018.50_-096.250"
+  },
+  "grid_+018.50_-096.875": {
+    "sha256": "94aa802f4685caceb22047523b055ce4daed79924a6f86117f2f2b1a5345fdf9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:17+00:00",
+    "climate_cell_id": "grid_+018.50_-096.875"
+  },
+  "grid_+018.50_-102.500": {
+    "sha256": "c7d607c01ca1bf237c18052b28869fe96299b8d44c2386c02c3a56280da73641",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:24+00:00",
+    "climate_cell_id": "grid_+018.50_-102.500"
+  },
+  "grid_+018.50_-103.125": {
+    "sha256": "b426836d1a3701a021e6e115cb39a6998409b3f6b0d1e4e0044df4ab26905172",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:23+00:00",
+    "climate_cell_id": "grid_+018.50_-103.125"
+  },
+  "grid_+019.00_+104.375": {
+    "sha256": "ca413c86e61a367baf0a251ddd64317402037e9be27b3ed7961a3844e988ccb7",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:15+00:00",
+    "climate_cell_id": "grid_+019.00_+104.375"
+  },
+  "grid_+019.00_+105.000": {
+    "sha256": "b710ffad58d092c5f8f78f3963f84f310a7cfdae0d2b7f4ea1941c388e593a2e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:16+00:00",
+    "climate_cell_id": "grid_+019.00_+105.000"
+  },
+  "grid_+019.00_+105.625": {
+    "sha256": "6cd61698c555036660c8402366a708e62223255af6870aef99c096d29d4317d9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:18+00:00",
+    "climate_cell_id": "grid_+019.00_+105.625"
+  },
+  "grid_+019.00_-096.250": {
+    "sha256": "e6aed76356be6cccb5c971460226323eaf16cf93afb1164a7ff3cb576031c603",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:15+00:00",
+    "climate_cell_id": "grid_+019.00_-096.250"
+  },
+  "grid_+019.00_-096.875": {
+    "sha256": "f6bd170b5f77dddfdbf933e012276e5c6404b716e12bfe4cb3c1a3a7245f0706",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:14+00:00",
+    "climate_cell_id": "grid_+019.00_-096.875"
+  },
+  "grid_+019.00_-097.500": {
+    "sha256": "b0f1bddd41354644c580718f366b5b05927407f8452654a42b15770c453ee6af",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:13+00:00",
+    "climate_cell_id": "grid_+019.00_-097.500"
+  },
+  "grid_+019.00_-102.500": {
+    "sha256": "23e894052d5ee9e3e1bfe12a9b46cacb8cd88d28ec1e565f74aae1032f0c5bf5",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:21+00:00",
+    "climate_cell_id": "grid_+019.00_-102.500"
+  },
+  "grid_+019.00_-103.125": {
+    "sha256": "9205e243f279d6f5d403ed0ce955a8ffcbfd31bae322063f418d7ad1b8eb6cb6",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:19+00:00",
+    "climate_cell_id": "grid_+019.00_-103.125"
+  },
+  "grid_+019.00_-103.750": {
+    "sha256": "30925ed18df2001e749b3d0b96368a3f257d79eddce1fe36798c4e04971a9797",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:18+00:00",
+    "climate_cell_id": "grid_+019.00_-103.750"
+  },
+  "grid_+019.50_+104.375": {
+    "sha256": "8714e8861c70cae46b1043a86ea319c13a568eff12393cd892bc3f88a1b50a6f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:10+00:00",
+    "climate_cell_id": "grid_+019.50_+104.375"
+  },
+  "grid_+019.50_+105.000": {
+    "sha256": "0771a7d086ca0aa3216fc23c3eb9f925e65f467f869a9c135e746c9442aef2fc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:12+00:00",
+    "climate_cell_id": "grid_+019.50_+105.000"
+  },
+  "grid_+019.50_+105.625": {
+    "sha256": "babf6132b022c2bd390d704af9de6981fcbcfc7e975070abeead0f08b53ec719",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:13+00:00",
+    "climate_cell_id": "grid_+019.50_+105.625"
+  },
+  "grid_+019.50_-096.250": {
+    "sha256": "c90a928ce21c170bb43246482b4b74e1a602c1f8541fe37d8b39efaa654c5be3",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:12+00:00",
+    "climate_cell_id": "grid_+019.50_-096.250"
+  },
+  "grid_+019.50_-096.875": {
+    "sha256": "f9b66d69cc8384e35040a16fe7821628d603814b6990be1e530b46f68926fe09",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:10+00:00",
+    "climate_cell_id": "grid_+019.50_-096.875"
+  },
+  "grid_+019.50_-097.500": {
+    "sha256": "6e6e97a8c8caead1f9d3bef9e4854832a6de6a5a62457320e2bdf2d51b4b2be7",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:09+00:00",
+    "climate_cell_id": "grid_+019.50_-097.500"
+  },
+  "grid_+019.50_-103.125": {
+    "sha256": "4b19d029ac193152e8b6ab4c3a06524f3f6e3e98e938a24632e7df8e457a1e02",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:17+00:00",
+    "climate_cell_id": "grid_+019.50_-103.125"
+  },
+  "grid_+019.50_-103.750": {
+    "sha256": "414c3b7f8432d82160635c948d8be41a92182caf9a5795aca908699a6eda9be7",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:15+00:00",
+    "climate_cell_id": "grid_+019.50_-103.750"
+  },
+  "grid_+019.50_-104.375": {
+    "sha256": "75c56893bbdce1ad15cb654dee52b25fcf91b998bb1279c8a468e2e7a51ad08f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:13+00:00",
+    "climate_cell_id": "grid_+019.50_-104.375"
+  },
+  "grid_+020.50_+084.375": {
+    "sha256": "60d950d19f2592dcada33fecf62216f8c2f8d86937511c9b359b8c5db1f5079f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:53:07+00:00",
+    "climate_cell_id": "grid_+020.50_+084.375"
+  },
+  "grid_+020.50_+085.000": {
+    "sha256": "efe0d998a11a5fae74aa4775a902b16d9649869e9932fe896939005848d9bf0d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:53:09+00:00",
+    "climate_cell_id": "grid_+020.50_+085.000"
+  },
+  "grid_+021.00_+084.375": {
+    "sha256": "2bf222561cee373a2489870019e704ce1ae2746501ba7abd1385f4c2623fe50d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:53:01+00:00",
+    "climate_cell_id": "grid_+021.00_+084.375"
+  },
+  "grid_+021.00_+085.000": {
+    "sha256": "9b1c350d92e39c75861ecfebff7770f3d76d7944c852a46fbc4a01eabe01e3d3",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:53:03+00:00",
+    "climate_cell_id": "grid_+021.00_+085.000"
+  },
+  "grid_+021.00_+085.625": {
+    "sha256": "ce74d8e97762242da2932fe38e95cf41d396b1eb11e7c06cfff5616315d5ec06",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:53:05+00:00",
+    "climate_cell_id": "grid_+021.00_+085.625"
+  },
+  "grid_+021.50_+085.000": {
+    "sha256": "54a333814a2a26771b9971253adc4fa76972916683bce356cc3cfa8f81c5890f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:52:57+00:00",
+    "climate_cell_id": "grid_+021.50_+085.000"
+  },
+  "grid_+021.50_+085.625": {
+    "sha256": "08e991e413a5b2ea0be96e41876b7c6a97b2380878d82b07f8d2e2c531e5bcd7",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:52:59+00:00",
+    "climate_cell_id": "grid_+021.50_+085.625"
+  },
+  "grid_+022.50_+108.125": {
+    "sha256": "75869ca484d0ee7ffcafab9aa03f19b2be8c5433d60d6b66685238c21f3227e5",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:32+00:00",
+    "climate_cell_id": "grid_+022.50_+108.125"
+  },
+  "grid_+022.50_+108.750": {
+    "sha256": "1eee621eb13d85f5482462e996c9096047ad743a6a31a538a6d3fe307b834cbe",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:33+00:00",
+    "climate_cell_id": "grid_+022.50_+108.750"
+  },
+  "grid_+022.50_-098.750": {
+    "sha256": "249c94404c52d77a0b64914e4009c28d52d2313fc8de7f02847d8f3a84dbfc63",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:21+00:00",
+    "climate_cell_id": "grid_+022.50_-098.750"
+  },
+  "grid_+023.00_+108.125": {
+    "sha256": "10b1aa3e7f446f9b48e8bd6f34fd1d5e03c6dc5eba2642c5e2c582a510f7e8ce",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:28+00:00",
+    "climate_cell_id": "grid_+023.00_+108.125"
+  },
+  "grid_+023.00_+108.750": {
+    "sha256": "9dd6e8d2de3d6ee3392fffb5c11c854b0112845ac7d7b47e37967b382597d0ca",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:29+00:00",
+    "climate_cell_id": "grid_+023.00_+108.750"
+  },
+  "grid_+023.00_+109.375": {
+    "sha256": "eff78f2589656e0b4eeff16202c45215d58190525e35e2e75c1770288838bdd6",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:30+00:00",
+    "climate_cell_id": "grid_+023.00_+109.375"
+  },
+  "grid_+023.00_-098.125": {
+    "sha256": "92635a0332f053021a4565bc1b1b52ff6e572b9d822f2649aebbb20ccad8a149",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:19+00:00",
+    "climate_cell_id": "grid_+023.00_-098.125"
+  },
+  "grid_+023.00_-098.750": {
+    "sha256": "cd61e6cda9374171125ac918ba762196292cfa747db9768469cab3405ca412d8",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:17+00:00",
+    "climate_cell_id": "grid_+023.00_-098.750"
+  },
+  "grid_+023.00_-099.375": {
+    "sha256": "8b2993b23ccb25a8aad7d36e9c5fa3014762023bfa794cdb8f9196d08cbda1cc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:16+00:00",
+    "climate_cell_id": "grid_+023.00_-099.375"
+  },
+  "grid_+023.50_+108.750": {
+    "sha256": "4228a4f6abdcd727578401a36180b81876e3724b8097b34410cc25ceffbcd7ee",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:25+00:00",
+    "climate_cell_id": "grid_+023.50_+108.750"
+  },
+  "grid_+023.50_+109.375": {
+    "sha256": "3274dd2a20404e29a3a17f4cdfa37c105e13ac8b36226f647d8c5fa641f34ab2",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:27+00:00",
+    "climate_cell_id": "grid_+023.50_+109.375"
+  },
+  "grid_+023.50_-098.750": {
+    "sha256": "4115f198e431059ba60c9a5fff41397a1c114ce5f757681396c3a12ad5adf1cf",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:14+00:00",
+    "climate_cell_id": "grid_+023.50_-098.750"
+  },
+  "grid_+023.50_-099.375": {
+    "sha256": "e12998398f78282103627bfe598f4f8ce03a3ed0256d5761b5083b8a8731b37f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:12+00:00",
+    "climate_cell_id": "grid_+023.50_-099.375"
+  },
+  "grid_+024.50_+048.125": {
+    "sha256": "be00b6b1f976e9096aafda2849b0ca7d61d2a72b8e523043dac688b6d018791b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:24+00:00",
+    "climate_cell_id": "grid_+024.50_+048.125"
+  },
+  "grid_+024.50_+048.750": {
+    "sha256": "310e73018545aa65ff924e4c0d8d103edf1c18b52683951ba9fd7bbaa324487a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:25+00:00",
+    "climate_cell_id": "grid_+024.50_+048.750"
+  },
+  "grid_+024.50_+049.375": {
+    "sha256": "c7536c31cfc1ebcf92e62d02d086518ade56267bf1c892fccb390f9e6682f9e3",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:26+00:00",
+    "climate_cell_id": "grid_+024.50_+049.375"
+  },
+  "grid_+025.00_+049.375": {
+    "sha256": "06919b104332934115d6e03101dd006a3f67b35d0d55bcd0f96cbbf5e5465723",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:22+00:00",
+    "climate_cell_id": "grid_+025.00_+049.375"
+  },
+  "grid_+025.50_+048.125": {
+    "sha256": "5a5b16ca3d1a9ee08b36b58e7e1c5011f2f1631b5e898a48c2b5d53c0a54c305",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:21+00:00",
+    "climate_cell_id": "grid_+025.50_+048.125"
+  },
+  "grid_+025.50_+049.375": {
+    "sha256": "e200be6aa690e0679dc8c5fda957171872dec08d618889c3c6b997ad6f5cc807",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:19+00:00",
+    "climate_cell_id": "grid_+025.50_+049.375"
+  },
+  "grid_+026.50_-080.625": {
+    "sha256": "6908e936f70221c6f5d7468f0a47ceddfb3b2f7927fad2f7eaf5d5034bd13a7e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:35:49+00:00",
+    "climate_cell_id": "grid_+026.50_-080.625"
+  },
+  "grid_+026.50_-081.250": {
+    "sha256": "202f106318998fd2c11d082edde4c27029bbacb9c433be6b664569fe2093c66a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:35:47+00:00",
+    "climate_cell_id": "grid_+026.50_-081.250"
+  },
+  "grid_+027.00_-081.250": {
+    "sha256": "36642fcc2250164fbd00c0a05f71f5e821114bfce775f20eda94f5af10e2b220",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:35:46+00:00",
+    "climate_cell_id": "grid_+027.00_-081.250"
+  },
+  "grid_+027.00_-081.875": {
+    "sha256": "b9a1bc0ad7d74124ffbdcc46d1fec98a940d1ec71145ee336f72670a8bdbe401",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:35:44+00:00",
+    "climate_cell_id": "grid_+027.00_-081.875"
+  },
+  "grid_+027.50_-080.625": {
+    "sha256": "df614ff4a4c8888f4cf3da731b2b6b084814b8b39a8e58dfd61545049dda4cb5",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:35:42+00:00",
+    "climate_cell_id": "grid_+027.50_-080.625"
+  },
+  "grid_+027.50_-081.250": {
+    "sha256": "30d5ea50331b15ca6e5501ff73fbd511341c3ca372a40f63f81e217de4f6b648",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:35:39+00:00",
+    "climate_cell_id": "grid_+027.50_-081.250"
+  },
+  "grid_+027.50_-081.875": {
+    "sha256": "812267b05043386bafab178b6522bb0095d47d6ca7c5471a822d865187b52771",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:35:40+00:00",
+    "climate_cell_id": "grid_+027.50_-081.875"
+  },
+  "grid_+030.50_+030.625": {
+    "sha256": "88507122e4c7d868063ec5ca5843d42343dfc3b104ed484a33e3df7285443751",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:46:59+00:00",
+    "climate_cell_id": "grid_+030.50_+030.625"
+  },
+  "grid_+030.50_+031.250": {
+    "sha256": "e37d673e5e5d4eb8c0758f796686fdb0014bd6c5c01182699b07bb07d9971bcd",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:00+00:00",
+    "climate_cell_id": "grid_+030.50_+031.250"
+  },
+  "grid_+030.50_+031.875": {
+    "sha256": "b6d9b70e9e618ac0da7289f29a4e494462bb676c43e3cc60f422d2930d4159ec",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:02+00:00",
+    "climate_cell_id": "grid_+030.50_+031.875"
+  },
+  "grid_+030.50_+048.125": {
+    "sha256": "f45b3f8e87e150c27812403fd61b8b23d72ac864d3af14498ed057ba75b4eebd",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:28+00:00",
+    "climate_cell_id": "grid_+030.50_+048.125"
+  },
+  "grid_+030.50_+048.750": {
+    "sha256": "e2ef48315e2f9198a8b9bafe10b5d0fea0ef1a3e4b59df557978d64c0abd650e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:29+00:00",
+    "climate_cell_id": "grid_+030.50_+048.750"
+  },
+  "grid_+030.50_+049.375": {
+    "sha256": "886fe06458fadc12d2e8c6822d4ff521f1306ade4f536adc2cea44db76655222",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:31+00:00",
+    "climate_cell_id": "grid_+030.50_+049.375"
+  },
+  "grid_+030.50_+071.875": {
+    "sha256": "53f383c20066fbb18497fd51a58b373a92cd2e48a083f45a660978d2f2aba9f1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:14+00:00",
+    "climate_cell_id": "grid_+030.50_+071.875"
+  },
+  "grid_+030.50_+072.500": {
+    "sha256": "c6c663db154402be4513df984a9533d675013124fdb952c0f98f007214087977",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:10+00:00",
+    "climate_cell_id": "grid_+030.50_+072.500"
+  },
+  "grid_+030.50_+073.125": {
+    "sha256": "cd0025f2d40a21044bb0183d32e4188ce2919e3ea1ae8c696dd4491ac6233d54",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:12+00:00",
+    "climate_cell_id": "grid_+030.50_+073.125"
+  },
+  "grid_+030.50_-083.750": {
+    "sha256": "fb55cd875cac4ba4b356837755e594f007907ae41607c374a52b84306d5b0cae",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:12+00:00",
+    "climate_cell_id": "grid_+030.50_-083.750"
+  },
+  "grid_+030.50_-084.375": {
+    "sha256": "07527697efeec2cb2eaa1182da342f5ebfee09a8820cce9f85566ffe6f0ade72",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:11+00:00",
+    "climate_cell_id": "grid_+030.50_-084.375"
+  },
+  "grid_+030.50_-085.000": {
+    "sha256": "9e40b10abe4f1416f4f12a4adfc073ef72c3e87dde8ce314c794772948ac2747",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:09+00:00",
+    "climate_cell_id": "grid_+030.50_-085.000"
+  },
+  "grid_+031.00_+031.250": {
+    "sha256": "db04967ae877030fee9f0c7d5e7181618789e2a332dd0042eb3490cd2d6abfa9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:46:56+00:00",
+    "climate_cell_id": "grid_+031.00_+031.250"
+  },
+  "grid_+031.00_+031.875": {
+    "sha256": "c40b37a293906a8216c1f08c36a0a868164aba9838386e184e9b1972d6b70c40",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:46:57+00:00",
+    "climate_cell_id": "grid_+031.00_+031.875"
+  },
+  "grid_+031.00_+048.750": {
+    "sha256": "f95256478bfcc95f8162335ce9e9f1f7c602e99b95358bc2c05668b0948a2377",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:26+00:00",
+    "climate_cell_id": "grid_+031.00_+048.750"
+  },
+  "grid_+031.00_+072.500": {
+    "sha256": "1e7b789273e1e13f21f771e0e704f30b36bed6f440f4b91025cebfcdcc7d875b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:04+00:00",
+    "climate_cell_id": "grid_+031.00_+072.500"
+  },
+  "grid_+031.00_+073.125": {
+    "sha256": "71d0c7e4a4606c442f83d7d11817d2c1ee22e567c803f71f18e758d1b6bd12d1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:06+00:00",
+    "climate_cell_id": "grid_+031.00_+073.125"
+  },
+  "grid_+031.00_+073.750": {
+    "sha256": "1246f55213a085e7b8468f1c836e3f0be290bb3dbb930abedbec3d936848f797",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:08+00:00",
+    "climate_cell_id": "grid_+031.00_+073.750"
+  },
+  "grid_+031.00_-084.375": {
+    "sha256": "d0b9797eccafa871d8733778c0cdea60a300ec2c25f842ce02f2d8d4fa742e3f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:07+00:00",
+    "climate_cell_id": "grid_+031.00_-084.375"
+  },
+  "grid_+031.00_-085.000": {
+    "sha256": "869b968000c26a1fa9f55c4c9289faeb19ce74c0d67885d0a35f0dcc2e0de40b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:06+00:00",
+    "climate_cell_id": "grid_+031.00_-085.000"
+  },
+  "grid_+031.00_-085.625": {
+    "sha256": "a52bf96a8bd875969a138f6fd02bdba1ae5b23e69b9053aa3f615c67fd9ca406",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:04+00:00",
+    "climate_cell_id": "grid_+031.00_-085.625"
+  },
+  "grid_+031.50_+048.750": {
+    "sha256": "d1da31eb72174a9a62c52511e3faf894854bded50bfcc551ef8f90619d89334b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:23+00:00",
+    "climate_cell_id": "grid_+031.50_+048.750"
+  },
+  "grid_+031.50_+049.375": {
+    "sha256": "b166788230f331c4d59436b8c99a357027dc6933188b017dc949182c6a649ab9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:24+00:00",
+    "climate_cell_id": "grid_+031.50_+049.375"
+  },
+  "grid_+031.50_+072.500": {
+    "sha256": "9c97fb9e58e1942ff3fa011aff91a2510f25d0d8c50561a025688b56d3952096",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:49:58+00:00",
+    "climate_cell_id": "grid_+031.50_+072.500"
+  },
+  "grid_+031.50_+073.125": {
+    "sha256": "e02de8a12b8a040315ad3327faeb77a686ae8243f4294f45ea86712841b8018f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:00+00:00",
+    "climate_cell_id": "grid_+031.50_+073.125"
+  },
+  "grid_+031.50_+073.750": {
+    "sha256": "baee11a69646618b11e7a489bc902168872e8877a201ada8eb6a7c3e5e574378",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:02+00:00",
+    "climate_cell_id": "grid_+031.50_+073.750"
+  },
+  "grid_+031.50_-084.375": {
+    "sha256": "46e6a5a36c83a0059b06d1bbf0a467ce7ec9be0bd48a2918e8a9338721f4e29f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:02+00:00",
+    "climate_cell_id": "grid_+031.50_-084.375"
+  },
+  "grid_+031.50_-085.000": {
+    "sha256": "8d0d08d9434dfaa0b7c30b13f7f8a2b8c79852e28ca66d08c3fc98f00a14f236",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:01+00:00",
+    "climate_cell_id": "grid_+031.50_-085.000"
+  },
+  "grid_+031.50_-085.625": {
+    "sha256": "e5d9e6a159692c047e27af2fe793c529afca79e632bf23cbdae2fd3f4edf99c1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:14:59+00:00",
+    "climate_cell_id": "grid_+031.50_-085.625"
+  },
+  "grid_+032.50_+043.750": {
+    "sha256": "af9a27fea4a1171338a60620f1847e784dcbf25e447d287857be542f64b7498b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:16:30+00:00",
+    "climate_cell_id": "grid_+032.50_+043.750"
+  },
+  "grid_+032.50_+044.375": {
+    "sha256": "378f84e2d752c83df333420870b2ade17e637e1bd5f1c30425e87ffe1bf467c3",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:16:32+00:00",
+    "climate_cell_id": "grid_+032.50_+044.375"
+  },
+  "grid_+032.50_+045.000": {
+    "sha256": "162bd07ad1162da79784a5e77cc8ba9bfec3e692bd98070808d3bfc34abf231b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:16:34+00:00",
+    "climate_cell_id": "grid_+032.50_+045.000"
+  },
+  "grid_+033.00_+044.375": {
+    "sha256": "d7b850bef53dfd612cf1462fbffbc00b9384a17741a4e3e0ccb22d87a2c552dc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:16:25+00:00",
+    "climate_cell_id": "grid_+033.00_+044.375"
+  },
+  "grid_+033.00_+045.000": {
+    "sha256": "7941f37569440477d56f55c456a987b181a2410a63292255eee717e8245d24cc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:16:27+00:00",
+    "climate_cell_id": "grid_+033.00_+045.000"
+  },
+  "grid_+033.00_+045.625": {
+    "sha256": "bc285d3579cfabd434045fbae4858b1273e38428c6e10af454919f6705cc0cb8",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:16:28+00:00",
+    "climate_cell_id": "grid_+033.00_+045.625"
+  },
+  "grid_+033.50_+044.375": {
+    "sha256": "faba488524951845f8aee17f2169d4bdbc5383c30ad1b905a6ace628faed587c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:16:21+00:00",
+    "climate_cell_id": "grid_+033.50_+044.375"
+  },
+  "grid_+033.50_+045.000": {
+    "sha256": "45158d4c4a7ec41fe414d77eee43d5284b81d996f6f4adb61fe7da882e62309e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:16:23+00:00",
+    "climate_cell_id": "grid_+033.50_+045.000"
+  },
+  "grid_+033.50_+045.625": {
+    "sha256": "1a3259bb7e662a4e189b806395c1f90d4defc5f63df8132956e9b0226f1145aa",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:16:24+00:00",
+    "climate_cell_id": "grid_+033.50_+045.625"
+  },
+  "grid_+037.00_+014.375": {
+    "sha256": "74630a0f0a7d766f7d226a4f3e8a1dff270e1097646dd420e92786f79977d465",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:49+00:00",
+    "climate_cell_id": "grid_+037.00_+014.375"
+  },
+  "grid_+037.00_+015.000": {
+    "sha256": "1f5976825b46441cc62953892a8ba02d9ba3005f590d08cec113fa58262b97e7",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:50+00:00",
+    "climate_cell_id": "grid_+037.00_+015.000"
+  },
+  "grid_+037.50_+014.375": {
+    "sha256": "aaf544aad01464506dc113f94f6d57dda54c1d755c3dae23d74630dfbf00158f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:45+00:00",
+    "climate_cell_id": "grid_+037.50_+014.375"
+  },
+  "grid_+037.50_+015.000": {
+    "sha256": "a70942d5ca2648f4df7447b42822da54224018b74835e68009f2f4872b34665a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:47+00:00",
+    "climate_cell_id": "grid_+037.50_+015.000"
+  },
+  "grid_+038.50_+110.000": {
+    "sha256": "652ac97065027a816b574a9efa3ab5589f2ab050e9627b5c31631b24d8f22ac1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:53+00:00",
+    "climate_cell_id": "grid_+038.50_+110.000"
+  },
+  "grid_+038.50_+110.625": {
+    "sha256": "7742da03fb51b1863a903388e94229bebc0d3a6a27c2a0df42af4e943df6601f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:54+00:00",
+    "climate_cell_id": "grid_+038.50_+110.625"
+  },
+  "grid_+038.50_+111.250": {
+    "sha256": "8d104c3bb71eeb7993525f81152c325cfdedeab278cce6c0ee7bcd47eba19f77",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:56+00:00",
+    "climate_cell_id": "grid_+038.50_+111.250"
+  },
+  "grid_+038.50_+115.625": {
+    "sha256": "12234caed4818dfa93d3d9878ae2e8e394f2ae9b1989a679a268a5dc8a562992",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:20+00:00",
+    "climate_cell_id": "grid_+038.50_+115.625"
+  },
+  "grid_+038.50_+116.250": {
+    "sha256": "239417e4ee4da2a998fa499427e3002320a0f82578e47d5a16ce74002316369e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:21+00:00",
+    "climate_cell_id": "grid_+038.50_+116.250"
+  },
+  "grid_+038.50_+116.875": {
+    "sha256": "9ed24f7c29d20dc39b40363583fdfed670555c9b5ff8ecd94ea13bc50de4e590",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:23+00:00",
+    "climate_cell_id": "grid_+038.50_+116.875"
+  },
+  "grid_+038.50_-000.625": {
+    "sha256": "12b6989be7ef7e191ca11fabb1550499a8d2b82261fd3a11e5811660208e06c2",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:39+00:00",
+    "climate_cell_id": "grid_+038.50_-000.625"
+  },
+  "grid_+038.50_-001.250": {
+    "sha256": "4cb70523de0d043d6af7f4cd59e3942d1338542622333ca2591c870f8a30b347",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:37+00:00",
+    "climate_cell_id": "grid_+038.50_-001.250"
+  },
+  "grid_+038.50_-001.875": {
+    "sha256": "5af68627141ae9276e488a93b44467e2f668f026cde537bfb37dc9e6dc41e82a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:35+00:00",
+    "climate_cell_id": "grid_+038.50_-001.875"
+  },
+  "grid_+038.50_-120.000": {
+    "sha256": "9ec0178d7aba464235ce40aafcc3ff6ca15516b3b508aaec0846cee42ee55a9b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:11+00:00",
+    "climate_cell_id": "grid_+038.50_-120.000"
+  },
+  "grid_+038.50_-120.625": {
+    "sha256": "aa2aa792d0c1defea98f07dd357ccb0e73cecbe6cae0969fac80aa47d0c83754",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:10+00:00",
+    "climate_cell_id": "grid_+038.50_-120.625"
+  },
+  "grid_+038.50_-121.250": {
+    "sha256": "8a68fc63ccb5a8dfb078add79207ae829782af9b6df5a5dd5a654faf4b6b4c4c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:09+00:00",
+    "climate_cell_id": "grid_+038.50_-121.250"
+  },
+  "grid_+039.00_+110.625": {
+    "sha256": "01b68c4b204d22868936ba5e71f6f842ae1568807ab775a3660ea17f4681c119",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:49+00:00",
+    "climate_cell_id": "grid_+039.00_+110.625"
+  },
+  "grid_+039.00_+111.250": {
+    "sha256": "bc11aa672c5a0c9808497608b8dd08c6d53c6064119988281e52e66462852b3e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:50+00:00",
+    "climate_cell_id": "grid_+039.00_+111.250"
+  },
+  "grid_+039.00_+111.875": {
+    "sha256": "05ff9f484547051410bd3873a815539f5c9ebd7d3da100a729f0ac2fc3b2c37a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:51+00:00",
+    "climate_cell_id": "grid_+039.00_+111.875"
+  },
+  "grid_+039.00_+116.875": {
+    "sha256": "37e9a11ba7cdbe2bf225c68b75ecf1297c10f05946129c79f7d8997366009ac2",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:18+00:00",
+    "climate_cell_id": "grid_+039.00_+116.875"
+  },
+  "grid_+039.00_-000.625": {
+    "sha256": "b272eba74d5a5ab752d1e43cbbc0a914df8878b249910851018318145b6edd37",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:34+00:00",
+    "climate_cell_id": "grid_+039.00_-000.625"
+  },
+  "grid_+039.00_-001.250": {
+    "sha256": "d80d9d7a313f62f3e1b24d3b2eb335c08620bea3bf31884b661bf4f02e928034",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:32+00:00",
+    "climate_cell_id": "grid_+039.00_-001.250"
+  },
+  "grid_+039.00_-001.875": {
+    "sha256": "202b257680d87e3f5e1b0c1311b22082296604dba37d45ebef9301e146703f19",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:31+00:00",
+    "climate_cell_id": "grid_+039.00_-001.875"
+  },
+  "grid_+039.00_-120.625": {
+    "sha256": "a6f8ba11e953ccfb04d1bf92d139f61043b884af359206ec5f0161367bff7e6c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:08+00:00",
+    "climate_cell_id": "grid_+039.00_-120.625"
+  },
+  "grid_+039.00_-121.250": {
+    "sha256": "996d57da75ac152518c73f43b8c7170cd258610add81158cab52f9b7faf890a2",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:07+00:00",
+    "climate_cell_id": "grid_+039.00_-121.250"
+  },
+  "grid_+039.00_-121.875": {
+    "sha256": "721477d1b77d610d727e719a7c856f129287145fe3019355da23556b22e9f876",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:06+00:00",
+    "climate_cell_id": "grid_+039.00_-121.875"
+  },
+  "grid_+039.50_+111.250": {
+    "sha256": "ecf2967165b22ae0b169fbbd3bd58fe2c4c51a70e181312047de60fd8549191d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:47+00:00",
+    "climate_cell_id": "grid_+039.50_+111.250"
+  },
+  "grid_+039.50_+111.875": {
+    "sha256": "bbfcdfa8fc07e47c7402bca9676af23e10e38cbf94358e9045cc75bcac89afd4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:43+00:00",
+    "climate_cell_id": "grid_+039.50_+111.875"
+  },
+  "grid_+039.50_+112.500": {
+    "sha256": "7023c9b635e1882506d188f582649e8d82a008f9ed4168665860fa44cb759691",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:45+00:00",
+    "climate_cell_id": "grid_+039.50_+112.500"
+  },
+  "grid_+039.50_+113.125": {
+    "sha256": "a9999f5bf92fe61f26ffe8369fed745afed4379b18dfa4a1316ad546ec868a9c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:46+00:00",
+    "climate_cell_id": "grid_+039.50_+113.125"
+  },
+  "grid_+039.50_+116.875": {
+    "sha256": "f032a93d51f25d8a14a4910836f824076914f3825be91c1173cdd151450879ea",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:17+00:00",
+    "climate_cell_id": "grid_+039.50_+116.875"
+  },
+  "grid_+039.50_+117.500": {
+    "sha256": "beae74d29134e65a7fda2838e168826c653cd432a4fc47c96889703a29c66e91",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:13+00:00",
+    "climate_cell_id": "grid_+039.50_+117.500"
+  },
+  "grid_+039.50_+118.125": {
+    "sha256": "13e10775e355a30a3f70495e219936999e57aa169e50a7e4a227d1dc60633153",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:14+00:00",
+    "climate_cell_id": "grid_+039.50_+118.125"
+  },
+  "grid_+039.50_+118.750": {
+    "sha256": "6bb17ff9313159562c505e482e29ac2bb9600c16a8de75065df02672090d2bf5",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:16+00:00",
+    "climate_cell_id": "grid_+039.50_+118.750"
+  },
+  "grid_+039.50_-000.625": {
+    "sha256": "5472cea9595310ab0e4f6de885348c3898ff9560b3bba7b3db15eae3b6119ff9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:29+00:00",
+    "climate_cell_id": "grid_+039.50_-000.625"
+  },
+  "grid_+039.50_-001.250": {
+    "sha256": "0adf965f92ce7933ce7f134718b6273855e6e44ff1408f4d5adc28741452ce19",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:27+00:00",
+    "climate_cell_id": "grid_+039.50_-001.250"
+  },
+  "grid_+039.50_-001.875": {
+    "sha256": "97d3d98f3d86d8997f5fb4976719577b3f5aaf5ab1a1ec6384efa23a019907d0",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:26+00:00",
+    "climate_cell_id": "grid_+039.50_-001.875"
+  },
+  "grid_+039.50_-121.250": {
+    "sha256": "70f05e5d4b9d54609860df6427eb97510a74d62e39f9df318aa10f978b621b0d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:04+00:00",
+    "climate_cell_id": "grid_+039.50_-121.250"
+  },
+  "grid_+039.50_-121.875": {
+    "sha256": "7e1cb837f073e49ce502a2645882e734bb93b98c8d6d15156a209b52dccd1199",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:03+00:00",
+    "climate_cell_id": "grid_+039.50_-121.875"
+  },
+  "grid_+039.50_-122.500": {
+    "sha256": "0456d24af3e6e067a2670616c170ce5fcb174f87b602a5185300bfe4b5fa0598",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:01+00:00",
+    "climate_cell_id": "grid_+039.50_-122.500"
+  },
+  "grid_+039.50_-123.125": {
+    "sha256": "0deae281164262843220904c6cc09204df6a3fd2ad92b7c3bd6c271d228724a3",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:00+00:00",
+    "climate_cell_id": "grid_+039.50_-123.125"
+  },
+  "grid_+040.50_+015.000": {
+    "sha256": "e59b0c0b53c95fcc94a3e4eb430bb78509e61a88026f81d1c8aac7be6dbd0d7f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:33+00:00",
+    "climate_cell_id": "grid_+040.50_+015.000"
+  },
+  "grid_+040.50_+015.625": {
+    "sha256": "2316f9f3e8537394e9275382b766e6d646d4d5da23fdc329428c1b42ff75be11",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:34+00:00",
+    "climate_cell_id": "grid_+040.50_+015.625"
+  },
+  "grid_+041.00_+014.375": {
+    "sha256": "c913b054962839c5187570ba28fa31652c007983ad41b6133c45362fb2116946",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:28+00:00",
+    "climate_cell_id": "grid_+041.00_+014.375"
+  },
+  "grid_+041.00_+015.000": {
+    "sha256": "8fe2ac193ae267bd75c0cd468823e0d12f1ed485bb860637788099f1815ac299",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:29+00:00",
+    "climate_cell_id": "grid_+041.00_+015.000"
+  },
+  "grid_+041.00_+015.625": {
+    "sha256": "f6fa706ded1a54e9514b79bb3d93151084170fb42dc63488065a8a315d46dbcd",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:31+00:00",
+    "climate_cell_id": "grid_+041.00_+015.625"
+  },
+  "grid_+041.50_+014.375": {
+    "sha256": "18cabda2d5361c52adb1c41e92eefa656892fbac80505f854107ad828a7d2a4f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:24+00:00",
+    "climate_cell_id": "grid_+041.50_+014.375"
+  },
+  "grid_+041.50_+015.000": {
+    "sha256": "ae12d199ca27bc7d9b599e2d0e3db5b629e3f9a4c2a3d06d0043741acb3b1ccc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:26+00:00",
+    "climate_cell_id": "grid_+041.50_+015.000"
+  },
+  "grid_+041.50_+015.625": {
+    "sha256": "66a9e40eb23770e77595c55f1a3ff8b73cd48bc3e23a2b833ee023fc4e710031",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:38:27+00:00",
+    "climate_cell_id": "grid_+041.50_+015.625"
+  },
+  "grid_+042.50_+023.750": {
+    "sha256": "e896b0ddadd1736dfd79d69de5280a7749a0b251a3815ad3d42bb54122a44fe4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:24+00:00",
+    "climate_cell_id": "grid_+042.50_+023.750"
+  },
+  "grid_+042.50_+024.375": {
+    "sha256": "a41a848c11a377df205340d7ec7b33be0c0c3b99ace00c6f32c4362b892e3f86",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:25+00:00",
+    "climate_cell_id": "grid_+042.50_+024.375"
+  },
+  "grid_+042.50_+025.000": {
+    "sha256": "5f6931c4c2ca0e06adcd1154036c509a2b7d4c064946ec46d2d7d9f8a542d09f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:26+00:00",
+    "climate_cell_id": "grid_+042.50_+025.000"
+  },
+  "grid_+042.50_+025.625": {
+    "sha256": "ba28ad12521a942ad7c56fed32eefef18c9b75e2c953921519860457a6172a39",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:28+00:00",
+    "climate_cell_id": "grid_+042.50_+025.625"
+  },
+  "grid_+043.00_+024.375": {
+    "sha256": "ce73a91f42e5ca1746d003a4274f76c87ed55956acd55414ff71a1d0cda34f21",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:22+00:00",
+    "climate_cell_id": "grid_+043.00_+024.375"
+  },
+  "grid_+043.50_+024.375": {
+    "sha256": "83641cf9e3b97c3077e50c83dd2701e46c144344f2161e6e23611463739c0d04",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:18+00:00",
+    "climate_cell_id": "grid_+043.50_+024.375"
+  },
+  "grid_+043.50_+025.000": {
+    "sha256": "d1e84f1547804a13b8d5c17d9e4427143fc082c0f12391c132f817dfd2ab9a0c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:19+00:00",
+    "climate_cell_id": "grid_+043.50_+025.000"
+  },
+  "grid_+043.50_+025.625": {
+    "sha256": "669ca261c8c95ff088fd4c6cde418f32f7fb1151a6b4055ebe4ef61e18a2e1b4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:52:21+00:00",
+    "climate_cell_id": "grid_+043.50_+025.625"
+  },
+  "grid_+044.50_+010.625": {
+    "sha256": "bcdeb17a5af1ab37f5bcbc046ffc3d80e5ab7cdb7fe61349c510db2a0f558ae5",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:48:50+00:00",
+    "climate_cell_id": "grid_+044.50_+010.625"
+  },
+  "grid_+044.50_+011.250": {
+    "sha256": "d99b1716daaa046056168d8fca8c94be9e89ee8756b5b00f2e8d3ba9fc6606c2",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:48:51+00:00",
+    "climate_cell_id": "grid_+044.50_+011.250"
+  },
+  "grid_+044.50_+011.875": {
+    "sha256": "9ab46f78629ed5108afee7e4716733a64a492569fdd3c540e2da8aa334050e83",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:48:52+00:00",
+    "climate_cell_id": "grid_+044.50_+011.875"
+  },
+  "grid_+044.50_+038.125": {
+    "sha256": "6dcc0f99563661879f15ef813df501e1037008ed7b493c4ad8d4f0346aafb1e1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:39+00:00",
+    "climate_cell_id": "grid_+044.50_+038.125"
+  },
+  "grid_+044.50_+038.750": {
+    "sha256": "f15771135bb4c4d5064711819bc21f48935c3134de4dd44d9f653a55d7d79c67",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:40+00:00",
+    "climate_cell_id": "grid_+044.50_+038.750"
+  },
+  "grid_+044.50_+039.375": {
+    "sha256": "53c46a838885b5ff6f3611b3b6ce872b5f16d9906847ea077c3f6aec377031cb",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:42+00:00",
+    "climate_cell_id": "grid_+044.50_+039.375"
+  },
+  "grid_+045.00_+010.625": {
+    "sha256": "45a64d32c4eff920b4d7b7ccbac834d8cbf4ffb51d46f0764ff5a902f3e45bc0",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:48:46+00:00",
+    "climate_cell_id": "grid_+045.00_+010.625"
+  },
+  "grid_+045.00_+011.250": {
+    "sha256": "605259d8bff939dd4caa7ca0636823ff13dac4281f349473407f14d6b8e5e0dc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:48:47+00:00",
+    "climate_cell_id": "grid_+045.00_+011.250"
+  },
+  "grid_+045.00_+011.875": {
+    "sha256": "d1bfb2c4d06dfa0540ef7b54b66adcae092f5e0bf275d7a1d87e56259e9d7a61",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:48:48+00:00",
+    "climate_cell_id": "grid_+045.00_+011.875"
+  },
+  "grid_+045.00_+038.125": {
+    "sha256": "6fdb4b41fd0ccb47b53020e19c6a0b0f2e4f91fbc943db370f2f66c8b7a62cdc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:37+00:00",
+    "climate_cell_id": "grid_+045.00_+038.125"
+  },
+  "grid_+045.50_+010.625": {
+    "sha256": "114411fdccbb61538d1fcd638e63d7f3c772576e83c0aa70507aa240928d17e4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:48:40+00:00",
+    "climate_cell_id": "grid_+045.50_+010.625"
+  },
+  "grid_+045.50_+011.250": {
+    "sha256": "654f4c946ca3471363837fb8fb3b943982d4219cf37e257fbc80c2c903e2b1da",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:48:42+00:00",
+    "climate_cell_id": "grid_+045.50_+011.250"
+  },
+  "grid_+045.50_+011.875": {
+    "sha256": "d25e00d6bfa7aec19c19a499e95a3386cb48c7c577a4be77bb29454d1661aa56",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:48:44+00:00",
+    "climate_cell_id": "grid_+045.50_+011.875"
+  },
+  "grid_+045.50_+038.125": {
+    "sha256": "a4bd0476e34fe7869cd7f4ee60328cb98871f00a3ce077819ba95f78e18fdbf4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:31+00:00",
+    "climate_cell_id": "grid_+045.50_+038.125"
+  },
+  "grid_+045.50_+038.750": {
+    "sha256": "d2a97d5fb7419fe3d2dd28c7fee8364b083aabb17659b4443b6cfccf08e24b0e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:32+00:00",
+    "climate_cell_id": "grid_+045.50_+038.750"
+  },
+  "grid_+045.50_+039.375": {
+    "sha256": "5e3df36b3d8193f4c3fc5b4b76d8537cb4848ff7bd9f5ab660476df687162815",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:34+00:00",
+    "climate_cell_id": "grid_+045.50_+039.375"
+  },
+  "grid_+045.50_+040.000": {
+    "sha256": "4e5fd2dac6563e9e544761dfdfb790b1cad833f5fe6f7ba7b500cbc8ea2115a1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:36+00:00",
+    "climate_cell_id": "grid_+045.50_+040.000"
+  },
+  "grid_-000.50_+014.375": {
+    "sha256": "216a9499c2c81e9c4f30176541fbba5f3b7eef734223d0396c75901c8ec4cdec",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:53+00:00",
+    "climate_cell_id": "grid_-000.50_+014.375"
+  },
+  "grid_-000.50_+015.000": {
+    "sha256": "8d18ee221ec9e86c3324a0d5328faa21f9c82d7725f4edcc02bf7f6b2b3a76f5",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:54+00:00",
+    "climate_cell_id": "grid_-000.50_+015.000"
+  },
+  "grid_-000.50_+015.625": {
+    "sha256": "91cdc42adbbf4ba4c0a6482608d341e4fc59d8220a749924a181aa6ca846cd22",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:55+00:00",
+    "climate_cell_id": "grid_-000.50_+015.625"
+  },
+  "grid_-001.00_+014.375": {
+    "sha256": "7fdc1c1db3e9bfbde62ccfa1b685e98dfac2d9d7ed205d500db122ff59d51cb7",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:56+00:00",
+    "climate_cell_id": "grid_-001.00_+014.375"
+  },
+  "grid_-001.00_+015.000": {
+    "sha256": "712460d7599bcc147d85a91f1d1a3721fd28b6d0c1db1e730ea0b4b201abc01f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:58+00:00",
+    "climate_cell_id": "grid_-001.00_+015.000"
+  },
+  "grid_-001.00_+015.625": {
+    "sha256": "415fb2107806f7dbe674db2b4a00a9be48f3d5a6ef80ed778dc947e21f568e21",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:15:59+00:00",
+    "climate_cell_id": "grid_-001.00_+015.625"
+  },
+  "grid_-001.50_+014.375": {
+    "sha256": "4632f653e6cf8ae6d8516689979221881c232792d13fecac4b82724c86273248",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:16:01+00:00",
+    "climate_cell_id": "grid_-001.50_+014.375"
+  },
+  "grid_-001.50_+015.000": {
+    "sha256": "7a97c062bc3b358cb2a53153fd3cdf33cca1509e7d72bf7e0536b0f9365f8bee",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:16:02+00:00",
+    "climate_cell_id": "grid_-001.50_+015.000"
+  },
+  "grid_-001.50_+015.625": {
+    "sha256": "f9c4516f3d9d9a8a4038a8d39b33027b96d4b629e498dd6533498748ec125ea4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:16:04+00:00",
+    "climate_cell_id": "grid_-001.50_+015.625"
+  },
+  "grid_-002.50_+024.375": {
+    "sha256": "0daa094dc519ea46c63acc18b6c510f7e0fe26680d07b41dc10cbad65742e29e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:32:52+00:00",
+    "climate_cell_id": "grid_-002.50_+024.375"
+  },
+  "grid_-002.50_+025.000": {
+    "sha256": "027f108390d20a84aa8e8b83194f8c95e8657f018720c3e2c2f934c1a2d1ac47",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:32:54+00:00",
+    "climate_cell_id": "grid_-002.50_+025.000"
+  },
+  "grid_-002.50_+025.625": {
+    "sha256": "272e409fd73f2e3fa7af12ea1cc7082c1d5275a99bf443b7479d3b88fe4f8adb",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:32:55+00:00",
+    "climate_cell_id": "grid_-002.50_+025.625"
+  },
+  "grid_-003.00_+024.375": {
+    "sha256": "9cf12cbb47c9accab5089d68a4cf922328f40b48ea00dd9748d99a04cd447917",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:33:00+00:00",
+    "climate_cell_id": "grid_-003.00_+024.375"
+  },
+  "grid_-003.00_+025.000": {
+    "sha256": "c1d336cd4a4e29df7405f80aa456e22ff9d501bfd0a77a446742ac5e70ec77e3",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:32:57+00:00",
+    "climate_cell_id": "grid_-003.00_+025.000"
+  },
+  "grid_-003.00_+025.625": {
+    "sha256": "dbdf86dd172c956111ba7bc0cc2eaf1b1391883de27e4e643c44094f8f6ce185",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:32:58+00:00",
+    "climate_cell_id": "grid_-003.00_+025.625"
+  },
+  "grid_-003.50_+024.375": {
+    "sha256": "fb97d054eeb180704cc7bfddc7563df69297a2a93f3e49dc30101331578a385b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:33:02+00:00",
+    "climate_cell_id": "grid_-003.50_+024.375"
+  },
+  "grid_-003.50_+025.000": {
+    "sha256": "281b838695e762a9ed6e7bc32b6b8c255e597df8bad85f6ae8665dd9fa23f97e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:33:04+00:00",
+    "climate_cell_id": "grid_-003.50_+025.000"
+  },
+  "grid_-003.50_+025.625": {
+    "sha256": "0509ff4fbcbf924f2ce4b752f30d6b05d207e8ea89d378e2ef62d908dbf9673e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:33:06+00:00",
+    "climate_cell_id": "grid_-003.50_+025.625"
+  },
+  "grid_-004.50_+016.250": {
+    "sha256": "164635026dbb065c5978c06d8eb785cef4c21ed65d87908fdc2a5d013baff3e1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:57+00:00",
+    "climate_cell_id": "grid_-004.50_+016.250"
+  },
+  "grid_-004.50_+016.875": {
+    "sha256": "386cf074afa5982172d41d5e9cea588f787df1ac76ee3a5e6cb118352f93a445",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:13:59+00:00",
+    "climate_cell_id": "grid_-004.50_+016.875"
+  },
+  "grid_-004.50_+017.500": {
+    "sha256": "e0227f63dd9ae22622185fbb30eabdc30c7fb0bd08b576240c4e67e7e5c189e9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:01+00:00",
+    "climate_cell_id": "grid_-004.50_+017.500"
+  },
+  "grid_-005.00_+016.250": {
+    "sha256": "0c4c847413730e5af5c03232fd9bf906e6347447ce06eb81e58fc027e5d647df",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:03+00:00",
+    "climate_cell_id": "grid_-005.00_+016.250"
+  },
+  "grid_-005.00_+016.875": {
+    "sha256": "9cd6d84804242a053439c02b68d3cf6e1963f9f77d27b7116fbb7edfa83e738c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:04+00:00",
+    "climate_cell_id": "grid_-005.00_+016.875"
+  },
+  "grid_-005.00_+017.500": {
+    "sha256": "94ac6989498b99cd607a970467e72426559f7417373d7652a5c946b1f4470543",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:06+00:00",
+    "climate_cell_id": "grid_-005.00_+017.500"
+  },
+  "grid_-005.50_+016.250": {
+    "sha256": "55027a28016e2e8d8e29d71723037e0b10753cd5d74cd76c962f88ae03589be2",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:08+00:00",
+    "climate_cell_id": "grid_-005.50_+016.250"
+  },
+  "grid_-005.50_+016.875": {
+    "sha256": "7c2ade728055ae6810b8199706ee6598c5a9876964611a5ba38feab44bfcc267",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:10+00:00",
+    "climate_cell_id": "grid_-005.50_+016.875"
+  },
+  "grid_-005.50_+017.500": {
+    "sha256": "3a275695a9f1c86f88cd2467b3bf3524cd5967633e49d2d352a0a541e2fa0712",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:11+00:00",
+    "climate_cell_id": "grid_-005.50_+017.500"
+  },
+  "grid_-006.50_+024.375": {
+    "sha256": "a6c2e7b0b734e8a4a92bf445d401ec30498d09b61b9b994e8a47c0f6eecd796d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:28+00:00",
+    "climate_cell_id": "grid_-006.50_+024.375"
+  },
+  "grid_-006.50_+025.000": {
+    "sha256": "1a3d68deac8d6624f85080340f7d6d766f2019151f131e72f64c53a525ceeb0f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:29+00:00",
+    "climate_cell_id": "grid_-006.50_+025.000"
+  },
+  "grid_-006.50_+025.625": {
+    "sha256": "e06a71b9768ad1ace4af2078014d6014ac971f76024976f73feaf1872215dac1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:31+00:00",
+    "climate_cell_id": "grid_-006.50_+025.625"
+  },
+  "grid_-006.50_-044.375": {
+    "sha256": "e9a55cff6521871097bb26938f249c5fd8a36b7a56a82e191b4bacf4c93ae0d0",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:42+00:00",
+    "climate_cell_id": "grid_-006.50_-044.375"
+  },
+  "grid_-006.50_-045.000": {
+    "sha256": "214e379adb04bc32af50049e7f2469b39fd14d030c4af9a18b7cf68e0f1780e9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:41+00:00",
+    "climate_cell_id": "grid_-006.50_-045.000"
+  },
+  "grid_-006.50_-045.625": {
+    "sha256": "257ce8aa88e93dc50390aa9a882bca6e2ba5deca06be7a41fa75d4fba4429dd3",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:40+00:00",
+    "climate_cell_id": "grid_-006.50_-045.625"
+  },
+  "grid_-006.50_-078.125": {
+    "sha256": "b4dd24b78b024d5c069006f181044cb506089cff6cab77a878410339a25c56f2",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:30+00:00",
+    "climate_cell_id": "grid_-006.50_-078.125"
+  },
+  "grid_-006.50_-078.750": {
+    "sha256": "fcbb6c74021f68005bb46b43a8eb20f4c05f5692d9f9e5a44757024192857e19",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:29+00:00",
+    "climate_cell_id": "grid_-006.50_-078.750"
+  },
+  "grid_-006.50_-079.375": {
+    "sha256": "ef7ed6694fe16c060cd715945ea22e13d99e5c1d762fb76347f19b50258c7a81",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:27+00:00",
+    "climate_cell_id": "grid_-006.50_-079.375"
+  },
+  "grid_-007.00_+024.375": {
+    "sha256": "5253ac16516de1eca8192767556f6720b9ab5ab5926b8fd48e92d36589df1b77",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:32+00:00",
+    "climate_cell_id": "grid_-007.00_+024.375"
+  },
+  "grid_-007.00_+025.000": {
+    "sha256": "6ad9a0a4e4306a248e786ba78ec69368ac93ec457f291c510e0a2b6bd28364e9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:33+00:00",
+    "climate_cell_id": "grid_-007.00_+025.000"
+  },
+  "grid_-007.00_+025.625": {
+    "sha256": "e88004ef3aab9b2b0a9416b9ed3152042a6003b7430a09e857982a75e6677bd0",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:38+00:00",
+    "climate_cell_id": "grid_-007.00_+025.625"
+  },
+  "grid_-007.00_-044.375": {
+    "sha256": "107dfd5eaa8d0489dcdf64e136df3e4115d0dbba4b12b0f224095df2cd0953c1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:47+00:00",
+    "climate_cell_id": "grid_-007.00_-044.375"
+  },
+  "grid_-007.00_-045.000": {
+    "sha256": "e51abb657a6d1b4b99094c38f427c63422340ef5325d5b42142a5ddfe2014d35",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:45+00:00",
+    "climate_cell_id": "grid_-007.00_-045.000"
+  },
+  "grid_-007.00_-045.625": {
+    "sha256": "93a15ee602dd879a7c7cdb013c1466083b0d00f68f62c9acf2a4886b97f99cdf",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:43+00:00",
+    "climate_cell_id": "grid_-007.00_-045.625"
+  },
+  "grid_-007.00_-078.125": {
+    "sha256": "fbf173c72ed001cf3327a2a6961bd990e794c609f3a940c93311946234e614d7",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:35+00:00",
+    "climate_cell_id": "grid_-007.00_-078.125"
+  },
+  "grid_-007.00_-078.750": {
+    "sha256": "e5532e8b7daee9a715daede340ce930369cb57662edf0b9dfaf4a34684a60dea",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:34+00:00",
+    "climate_cell_id": "grid_-007.00_-078.750"
+  },
+  "grid_-007.00_-079.375": {
+    "sha256": "35d366aa6e777f8ca749a26c1b9beb954083235e2d7c1ea8e0fed69120e3a435",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:32+00:00",
+    "climate_cell_id": "grid_-007.00_-079.375"
+  },
+  "grid_-007.50_+024.375": {
+    "sha256": "d816f623fc7b969a156a301e31b6095fb3a22b5cd3674e0059f248ee57e0e07c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:43+00:00",
+    "climate_cell_id": "grid_-007.50_+024.375"
+  },
+  "grid_-007.50_+025.000": {
+    "sha256": "57d01fa9c0844941c9e0f0dc4b67db45fc7f63817a7740d106500b63e4f92122",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:47+00:00",
+    "climate_cell_id": "grid_-007.50_+025.000"
+  },
+  "grid_-007.50_+025.625": {
+    "sha256": "c983aa37b43480ac2509fa86baf5f7f8bbacfd6147811d5cfdd8809bafb0c453",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:49+00:00",
+    "climate_cell_id": "grid_-007.50_+025.625"
+  },
+  "grid_-007.50_-044.375": {
+    "sha256": "e35654f604bfa12bdafd7158ac9d770cf36ea21394506f676a779a39fffa2a7c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:52+00:00",
+    "climate_cell_id": "grid_-007.50_-044.375"
+  },
+  "grid_-007.50_-045.000": {
+    "sha256": "ba1296d34a1a984be24c5dfa843dfd99895709f5b2405d60775303f93b94c456",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:50+00:00",
+    "climate_cell_id": "grid_-007.50_-045.000"
+  },
+  "grid_-007.50_-045.625": {
+    "sha256": "8ddf06658dcd5de97d6b06e2229819f8e1aa23ae19bff3918d7abdf35f25f617",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:49+00:00",
+    "climate_cell_id": "grid_-007.50_-045.625"
+  },
+  "grid_-007.50_-078.125": {
+    "sha256": "4e8ace8ede589d68cb37b411f3770c4698fb7c9a1ec4c412219f1f5e517b299e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:38+00:00",
+    "climate_cell_id": "grid_-007.50_-078.125"
+  },
+  "grid_-007.50_-078.750": {
+    "sha256": "23f2ab9d7c94bcbea7b32778c154f97c4d780d83244ae638d5802215d0e8a85a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:36+00:00",
+    "climate_cell_id": "grid_-007.50_-078.750"
+  },
+  "grid_-008.50_+034.375": {
+    "sha256": "5cc5b185da8df72d2ac6b6921dd099f0183f7b5f6fed752c3cc59dc1815e15c7",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:22+00:00",
+    "climate_cell_id": "grid_-008.50_+034.375"
+  },
+  "grid_-008.50_+035.000": {
+    "sha256": "4d017916ee5e0e4532d6ef281499d270b20d68aca1e296f98b223d2de1159cd9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:24+00:00",
+    "climate_cell_id": "grid_-008.50_+035.000"
+  },
+  "grid_-008.50_+035.625": {
+    "sha256": "4f82c456798bbeae7df719abe935d9de2c54faf3da7d2311ffbdf068f8d54578",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:25+00:00",
+    "climate_cell_id": "grid_-008.50_+035.625"
+  },
+  "grid_-009.00_+034.375": {
+    "sha256": "77429aed5fa10c23fa7ad9a53c7a93f2c341702edcd0c4c50e836feb958a7e97",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:27+00:00",
+    "climate_cell_id": "grid_-009.00_+034.375"
+  },
+  "grid_-009.00_+035.000": {
+    "sha256": "a177b8e03934c6db6c2b5b2158d85d600f9dcc00a0fa9191006dcaff24c2068a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:28+00:00",
+    "climate_cell_id": "grid_-009.00_+035.000"
+  },
+  "grid_-009.00_+035.625": {
+    "sha256": "c3450486db159f64ed190603bef4512f8337231e526bcd779e3dda875ae709ba",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:30+00:00",
+    "climate_cell_id": "grid_-009.00_+035.625"
+  },
+  "grid_-009.50_+034.375": {
+    "sha256": "f953a487e330bc5f10a0812cc0878bdf4564060c5ce91dcb1b448d53f2739a24",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:31+00:00",
+    "climate_cell_id": "grid_-009.50_+034.375"
+  },
+  "grid_-009.50_+035.000": {
+    "sha256": "26447080ccab3f358161b5b5deb60e03cbefc2dce122a7ddc1b9a3360095e544",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:32+00:00",
+    "climate_cell_id": "grid_-009.50_+035.000"
+  },
+  "grid_-009.50_+035.625": {
+    "sha256": "3cddb6706b4ade63870f8d6b01ff66bb5b71c36e0733e73a78fa0003d64bb39f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:33+00:00",
+    "climate_cell_id": "grid_-009.50_+035.625"
+  },
+  "grid_-012.50_-056.250": {
+    "sha256": "aed73df13a9e2861ad6bc2b1e68f7c6d8c4f3c4bb27aaacefde5cc3fab9d14cb",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:46+00:00",
+    "climate_cell_id": "grid_-012.50_-056.250"
+  },
+  "grid_-012.50_-056.875": {
+    "sha256": "3c5541557f62abf80a31b7d9eab7fbacbc2905abf4d70cde7641423ee2aa31f7",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:45+00:00",
+    "climate_cell_id": "grid_-012.50_-056.875"
+  },
+  "grid_-012.50_-057.500": {
+    "sha256": "30fec9524319b4eeae714e40e9825a315710fe8014a58e9ce6b9d83cddbd7813",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:44+00:00",
+    "climate_cell_id": "grid_-012.50_-057.500"
+  },
+  "grid_-013.00_-056.250": {
+    "sha256": "b39c7085c966db42b8f1a91b3f3101c8c08dd00e18994df9dc2d2ba52f220e5d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:50+00:00",
+    "climate_cell_id": "grid_-013.00_-056.250"
+  },
+  "grid_-013.00_-056.875": {
+    "sha256": "2b1dc59f0d9544e16fcb54126bb8cc64f7745635b3181e5dadd475ffb3a1cd47",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:48+00:00",
+    "climate_cell_id": "grid_-013.00_-056.875"
+  },
+  "grid_-013.00_-057.500": {
+    "sha256": "54cabe7c8cc2c3995d284bf79733923e9e5761e6eb859934d937ccc09279bdca",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:47+00:00",
+    "climate_cell_id": "grid_-013.00_-057.500"
+  },
+  "grid_-013.50_-056.250": {
+    "sha256": "b643e634b5d9f30775fa1d99929fefac941facf0c909e3b71756391785fabee4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:54+00:00",
+    "climate_cell_id": "grid_-013.50_-056.250"
+  },
+  "grid_-013.50_-056.875": {
+    "sha256": "845f36891f5c46b4dc291f22a7201debb065b6dc8674457c607cbe0f89600178",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:53+00:00",
+    "climate_cell_id": "grid_-013.50_-056.875"
+  },
+  "grid_-013.50_-057.500": {
+    "sha256": "357ffdad2063c547dda2ac7f71baac091ce0146317db67966f8ff1a4b70b7086",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:51+00:00",
+    "climate_cell_id": "grid_-013.50_-057.500"
+  },
+  "grid_-014.50_+131.875": {
+    "sha256": "b13259b2621724e214e1b4f28a7e80ca5d938ca0935b031f6be134d436b2fb80",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:41+00:00",
+    "climate_cell_id": "grid_-014.50_+131.875"
+  },
+  "grid_-014.50_+132.500": {
+    "sha256": "fba9c5fc5eb8354b54e3342d6ae90681107a3a7dcd2b2c8ffc47297f6d0da436",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:43+00:00",
+    "climate_cell_id": "grid_-014.50_+132.500"
+  },
+  "grid_-014.50_+133.125": {
+    "sha256": "dbeb01b9f9dbce22ebaa03f43a9ebe999d530ef94b1e5e941e9857c28e5895c1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:44+00:00",
+    "climate_cell_id": "grid_-014.50_+133.125"
+  },
+  "grid_-015.00_+132.500": {
+    "sha256": "7a8016260ee7cce21162f4a49d0fe59b1e2c99a6e80ba6f583a9432c3b88408c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:46+00:00",
+    "climate_cell_id": "grid_-015.00_+132.500"
+  },
+  "grid_-015.00_+133.125": {
+    "sha256": "05604430ba03ef13ff85d9794a4d09f606f4b06dd10af9af5c9f54267b09205b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:48+00:00",
+    "climate_cell_id": "grid_-015.00_+133.125"
+  },
+  "grid_-015.00_+133.750": {
+    "sha256": "ef1087bcc751e640862525241d44dc1cd164cf205d05db84d288e97f9dde47e2",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:50+00:00",
+    "climate_cell_id": "grid_-015.00_+133.750"
+  },
+  "grid_-015.50_+128.750": {
+    "sha256": "c1f02ff28002ae22628ad28440e6bf70b32e667fc264e437d756f26b94cfc847",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:35:26+00:00",
+    "climate_cell_id": "grid_-015.50_+128.750"
+  },
+  "grid_-015.50_+129.375": {
+    "sha256": "1b8d99b16bee5caee244ee6d4cb6b9a74a6d45db01e4e8c8badd34cb6b83d0f6",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:35:28+00:00",
+    "climate_cell_id": "grid_-015.50_+129.375"
+  },
+  "grid_-015.50_+132.500": {
+    "sha256": "d46b1442d0d077efb518f66d129a305537e40f22dac53ac2f3abaca3d94fbe4f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:52+00:00",
+    "climate_cell_id": "grid_-015.50_+132.500"
+  },
+  "grid_-015.50_+133.125": {
+    "sha256": "8e61dbf93b54e03eeef83402a0c24f82a9b371c64c48b071ed45a197a1da78c9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:53+00:00",
+    "climate_cell_id": "grid_-015.50_+133.125"
+  },
+  "grid_-015.50_+133.750": {
+    "sha256": "bf53a5f91df93458a6ea9c68aa3024ee47681529838714c97a9eee32972ec1d9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:50:55+00:00",
+    "climate_cell_id": "grid_-015.50_+133.750"
+  },
+  "grid_-016.50_+046.250": {
+    "sha256": "58d53062d77221440516728977643d6134c9e9d853a2b7339a3fc397d5d08b0e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:46:25+00:00",
+    "climate_cell_id": "grid_-016.50_+046.250"
+  },
+  "grid_-016.50_+046.875": {
+    "sha256": "86414347fde53e114984e6aa25ea3b1ebed87a767482362f588696faf3866fa0",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:46:26+00:00",
+    "climate_cell_id": "grid_-016.50_+046.875"
+  },
+  "grid_-016.50_+047.500": {
+    "sha256": "608589a161cff7875ec2cb3fd3e912567ae25513d77b100cca15c35b4f8639e1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:46:28+00:00",
+    "climate_cell_id": "grid_-016.50_+047.500"
+  },
+  "grid_-016.50_+136.250": {
+    "sha256": "f358481c4bd6a940ebdc9479d8ea3d6cf8f8c20f54d516bf94fa9f32c7b46b9a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:31+00:00",
+    "climate_cell_id": "grid_-016.50_+136.250"
+  },
+  "grid_-016.50_+136.875": {
+    "sha256": "7fa835dbabb39517441a807a731c053aaebae9f95c86e6f7509fa1417ec57c89",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:32+00:00",
+    "climate_cell_id": "grid_-016.50_+136.875"
+  },
+  "grid_-016.50_+144.375": {
+    "sha256": "0f2c08525912c8919ce3f6a7953034f21e2fe8d1d3232b39833dba5015bc5385",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:01+00:00",
+    "climate_cell_id": "grid_-016.50_+144.375"
+  },
+  "grid_-016.50_+145.000": {
+    "sha256": "d12e3873de3d48df3f81a105cb9455e1b1f5051f1c9e1d9a195794bee5093316",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:03+00:00",
+    "climate_cell_id": "grid_-016.50_+145.000"
+  },
+  "grid_-016.50_-060.625": {
+    "sha256": "44ce9950caf39fae988ca9f0aa3d356b42dbbb3d3a2e91c7843f997523df47ef",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:47+00:00",
+    "climate_cell_id": "grid_-016.50_-060.625"
+  },
+  "grid_-016.50_-061.250": {
+    "sha256": "6b9b6482f916907e3f0235d698fb4ad39a8924a593f5f51d5315fca8970f9cce",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:46+00:00",
+    "climate_cell_id": "grid_-016.50_-061.250"
+  },
+  "grid_-016.50_-061.875": {
+    "sha256": "33acb97c3af64875a1286aa4f210b679477452b5fa615488c6934f752e551fd5",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:45+00:00",
+    "climate_cell_id": "grid_-016.50_-061.875"
+  },
+  "grid_-017.00_+046.250": {
+    "sha256": "b0d32abe929a2d3e46dc2620b23b801ea7e2b0e031c6a552eb6391825ab88958",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:46:30+00:00",
+    "climate_cell_id": "grid_-017.00_+046.250"
+  },
+  "grid_-017.00_+046.875": {
+    "sha256": "52630bc542ac21b8f077d98703be6c0c3fa10056256fc7ca7b851df3531f818e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:46:35+00:00",
+    "climate_cell_id": "grid_-017.00_+046.875"
+  },
+  "grid_-017.00_+047.500": {
+    "sha256": "443ef8facfb098b05dabfc9f2baabcabb39567867ffc52043a26a94355df0e55",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:46:40+00:00",
+    "climate_cell_id": "grid_-017.00_+047.500"
+  },
+  "grid_-017.00_+122.500": {
+    "sha256": "d37c10b05d6c9b0ce02b688b450a9d0032f7618dd1b271a315db51e546dee59d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:59+00:00",
+    "climate_cell_id": "grid_-017.00_+122.500"
+  },
+  "grid_-017.00_+123.125": {
+    "sha256": "f2aefc6bc3b788b9e24171c86c316013ba1252d1a82b9235f7e2fbf40e817617",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:23:01+00:00",
+    "climate_cell_id": "grid_-017.00_+123.125"
+  },
+  "grid_-017.00_+136.250": {
+    "sha256": "0851cd7d387303e6591a8a391100704d00a2c3f005f18a1f914434f46088ad73",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:34+00:00",
+    "climate_cell_id": "grid_-017.00_+136.250"
+  },
+  "grid_-017.00_+136.875": {
+    "sha256": "e3ff570b19ce0fd39baaa9eb9b6745062a2dd9562eb7c192d25ba559dfd498e1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:35+00:00",
+    "climate_cell_id": "grid_-017.00_+136.875"
+  },
+  "grid_-017.00_+137.500": {
+    "sha256": "da80fe76a0b084e3aa3e429d44378d76445a649cc20b2896fca95719b628fa5b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:37+00:00",
+    "climate_cell_id": "grid_-017.00_+137.500"
+  },
+  "grid_-017.00_+144.375": {
+    "sha256": "cb043a0de734ebdd9feeffa01c9a538223ae5a6b35fd18406554be6cfcbe07bf",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:05+00:00",
+    "climate_cell_id": "grid_-017.00_+144.375"
+  },
+  "grid_-017.00_+145.000": {
+    "sha256": "87514009d2c0c511b2653edae2e8306d4b086ad0e4397ee804078a026a630ef4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:06+00:00",
+    "climate_cell_id": "grid_-017.00_+145.000"
+  },
+  "grid_-017.00_+145.625": {
+    "sha256": "fb15baa773f7a247b2e9fd3e0c4a0263de98446fe1834bce2e192ad97bd26bf9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:07+00:00",
+    "climate_cell_id": "grid_-017.00_+145.625"
+  },
+  "grid_-017.00_-060.625": {
+    "sha256": "237c121a26a9493f36c5414ef2daece7b5c91f181bca4319ae91f01948e92db0",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:54+00:00",
+    "climate_cell_id": "grid_-017.00_-060.625"
+  },
+  "grid_-017.00_-061.250": {
+    "sha256": "8043e30c9d9ac4b4f36575b4928f805222b50e85403b24527ddc7ea48194bbf1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:52+00:00",
+    "climate_cell_id": "grid_-017.00_-061.250"
+  },
+  "grid_-017.00_-061.875": {
+    "sha256": "2cc92fcd40e332a23489f9bda44bd18867722e021abe69761e7526c417c78ef4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:49+00:00",
+    "climate_cell_id": "grid_-017.00_-061.875"
+  },
+  "grid_-017.50_+046.250": {
+    "sha256": "45cc278ed14fbdc30fac311d6eb4d27bbe4c5d81e22b03d0a41658fe350fd655",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:46:41+00:00",
+    "climate_cell_id": "grid_-017.50_+046.250"
+  },
+  "grid_-017.50_+046.875": {
+    "sha256": "e151894b4bdf3a26a757e2013a61c45836a710b610ad8daa8829f006e7dcfacd",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:46:42+00:00",
+    "climate_cell_id": "grid_-017.50_+046.875"
+  },
+  "grid_-017.50_+047.500": {
+    "sha256": "a8076431c9c1355ae4d1cf4c2418069fa9786b2b8fb1f056e4e7c2d827bf8061",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:46:44+00:00",
+    "climate_cell_id": "grid_-017.50_+047.500"
+  },
+  "grid_-017.50_+122.500": {
+    "sha256": "cd6a8c10b3b14b3ab53961f534b13c5467d6772a1313352928390b27707f76bc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:23:02+00:00",
+    "climate_cell_id": "grid_-017.50_+122.500"
+  },
+  "grid_-017.50_+123.125": {
+    "sha256": "35d038e4393fd8a138eb10c81aa7e9822802feddbf9482419aa55aa0a7363afb",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:23:04+00:00",
+    "climate_cell_id": "grid_-017.50_+123.125"
+  },
+  "grid_-017.50_+123.750": {
+    "sha256": "a0e6a5832d5739d6e4f5546bca505f15baa5a2a307e654b0374d5226df91a775",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:23:04+00:00",
+    "climate_cell_id": "grid_-017.50_+123.750"
+  },
+  "grid_-017.50_+136.875": {
+    "sha256": "752258b18b495389ad0d3fedc370dc51a4dfc9f721ef18c4cbbd5e1fcd782f39",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:37+00:00",
+    "climate_cell_id": "grid_-017.50_+136.875"
+  },
+  "grid_-017.50_+137.500": {
+    "sha256": "cc82b96b738dac31fc7a42280b430d22c9f8d9a55c3f67e76e52d4840c9bfd14",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:21:38+00:00",
+    "climate_cell_id": "grid_-017.50_+137.500"
+  },
+  "grid_-017.50_+145.000": {
+    "sha256": "7b8245106c9538a477be4f07343d46930c3aa1d90a3d777e839334b9ae2fe9ca",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:39:08+00:00",
+    "climate_cell_id": "grid_-017.50_+145.000"
+  },
+  "grid_-017.50_-061.250": {
+    "sha256": "ca29fb11c3eac2619d2601bfebda42afcbc5ed1163634689f74fdacbaf6d8b2e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:57+00:00",
+    "climate_cell_id": "grid_-017.50_-061.250"
+  },
+  "grid_-017.50_-061.875": {
+    "sha256": "903b7c0643975451720ff4cf928b1643653e42dae8c6736ef1d77fc655a45741",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:34:55+00:00",
+    "climate_cell_id": "grid_-017.50_-061.875"
+  },
+  "grid_-018.50_+126.250": {
+    "sha256": "e6696a6e244b01da3b07df16a75c1b6f2048874aa7692276246e4790d5f644b7",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:53:06+00:00",
+    "climate_cell_id": "grid_-018.50_+126.250"
+  },
+  "grid_-018.50_+126.875": {
+    "sha256": "55d55df4bb38f15668a74277f51a3c839e97f4c3b31a8c3a336d2f4a4762d781",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:53:08+00:00",
+    "climate_cell_id": "grid_-018.50_+126.875"
+  },
+  "grid_-019.00_+126.250": {
+    "sha256": "2ed9a09d6cdcf37fa97e226bd502a320492129954274835932935a98c0a729c2",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:53:09+00:00",
+    "climate_cell_id": "grid_-019.00_+126.250"
+  },
+  "grid_-019.00_+126.875": {
+    "sha256": "e5185f72b4bb9e1b0b287ea85f968d708f679b6e640f5be7e0557028c18039a9",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:53:11+00:00",
+    "climate_cell_id": "grid_-019.00_+126.875"
+  },
+  "grid_-019.00_+127.500": {
+    "sha256": "1c23e2a743d5d62abf86ac0ae944506bdc92992fb7237674aa735bbc0a1a2f86",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:53:12+00:00",
+    "climate_cell_id": "grid_-019.00_+127.500"
+  },
+  "grid_-019.50_+126.875": {
+    "sha256": "d5f6eee996134671e7347688c6f15a3d2269af5ef1b28a40ce5abb04eb40843c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:53:14+00:00",
+    "climate_cell_id": "grid_-019.50_+126.875"
+  },
+  "grid_-019.50_+127.500": {
+    "sha256": "38b2d0f438171cddb245fad2969ad187fb18df71495cf547d5f5f00aff12ef8b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:53:16+00:00",
+    "climate_cell_id": "grid_-019.50_+127.500"
+  },
+  "grid_-019.50_+128.125": {
+    "sha256": "12747b3134577509b0c33e6f048efeb501e4bb66af4819a0989d8710cdd75249",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:53:17+00:00",
+    "climate_cell_id": "grid_-019.50_+128.125"
+  },
+  "grid_-020.50_+045.000": {
+    "sha256": "fedf70cdcaf45c25c1f58fbc8b1ab66e2518beeabde38a7f87b2d348a6cd2768",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:00+00:00",
+    "climate_cell_id": "grid_-020.50_+045.000"
+  },
+  "grid_-020.50_+045.625": {
+    "sha256": "7874d43ee17c96d9dc0145f2b4ca364622f825f7815e1313c664ffa632eaa44a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:01+00:00",
+    "climate_cell_id": "grid_-020.50_+045.625"
+  },
+  "grid_-020.50_+118.750": {
+    "sha256": "58361ee2ff69a35e660b6182a5af7b75164fd47daaa9e32f52ffcc9803474523",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:31:45+00:00",
+    "climate_cell_id": "grid_-020.50_+118.750"
+  },
+  "grid_-020.50_-048.125": {
+    "sha256": "7897242de460d8249d73d4566f4758f113b2a3e50f54fd72a346530483d1672b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:51:23+00:00",
+    "climate_cell_id": "grid_-020.50_-048.125"
+  },
+  "grid_-020.50_-048.750": {
+    "sha256": "07c82c06a2a5a9df78a6bb402b52eba33b1f19b773ff97187868ffe1d8ab4d45",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:51:21+00:00",
+    "climate_cell_id": "grid_-020.50_-048.750"
+  },
+  "grid_-020.50_-054.375": {
+    "sha256": "d80a8dcc10e55e8775e55378a736f5b17bc76391f67a7572f1bd1b821ff5066a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:11:57+00:00",
+    "climate_cell_id": "grid_-020.50_-054.375"
+  },
+  "grid_-020.50_-055.000": {
+    "sha256": "6e6dd8a00813b1182f35287d3d1f3ebe5ecbcf40df14f79591d9ea890f7dac83",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:11:56+00:00",
+    "climate_cell_id": "grid_-020.50_-055.000"
+  },
+  "grid_-020.50_-062.500": {
+    "sha256": "d8218c669ca4ec03ab840eb317c81f7fe6819845588b4b10c964b75f887d9bed",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:35+00:00",
+    "climate_cell_id": "grid_-020.50_-062.500"
+  },
+  "grid_-020.50_-063.125": {
+    "sha256": "b1879e4cae33e4a582aef1f18e05f74575683186b647dbc9c1b325a2d75c2a09",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:34+00:00",
+    "climate_cell_id": "grid_-020.50_-063.125"
+  },
+  "grid_-021.00_+044.375": {
+    "sha256": "e56b3881eea66e19edc304423b07c10576bdab03e334c13f946001a68ca01a3c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:03+00:00",
+    "climate_cell_id": "grid_-021.00_+044.375"
+  },
+  "grid_-021.00_+045.000": {
+    "sha256": "a7aeda5655ea87f7b16f2407d992e4e4d381d7c10525b67f1641b7179dc8aa59",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:04+00:00",
+    "climate_cell_id": "grid_-021.00_+045.000"
+  },
+  "grid_-021.00_+045.625": {
+    "sha256": "022243d18d8b6468e290fcd5579799ad631a3f2177459644c01da17b8a053e85",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:06+00:00",
+    "climate_cell_id": "grid_-021.00_+045.625"
+  },
+  "grid_-021.00_+118.125": {
+    "sha256": "2f68899f8be901fa7d1210cf210513c2754ca6263d7d3966a505b060fc5716b5",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:31:47+00:00",
+    "climate_cell_id": "grid_-021.00_+118.125"
+  },
+  "grid_-021.00_+118.750": {
+    "sha256": "06b1f5e559c0fea689a814c90136426a4d8fc4541d57e02b4344cb60ca58fd7e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:31:49+00:00",
+    "climate_cell_id": "grid_-021.00_+118.750"
+  },
+  "grid_-021.00_+119.375": {
+    "sha256": "d22bd6a3faf8ebfc4003fd65558a0dfe58b5b9d6b933871527251a43f4c3a0e5",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:31:50+00:00",
+    "climate_cell_id": "grid_-021.00_+119.375"
+  },
+  "grid_-021.00_-048.125": {
+    "sha256": "49168ba00d3802d6932bfd2464b420ea18056e216628940f7c7ebce007bd4658",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:51:29+00:00",
+    "climate_cell_id": "grid_-021.00_-048.125"
+  },
+  "grid_-021.00_-048.750": {
+    "sha256": "6712e68f2b908463e94382fbabf0379cfc165548128d1cd57cfd326c1a4e3171",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:51:27+00:00",
+    "climate_cell_id": "grid_-021.00_-048.750"
+  },
+  "grid_-021.00_-049.375": {
+    "sha256": "d9786de73a05e561390103aed4b7474b756bf2ed9a36bd8a2e27606f3f056da8",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:51:25+00:00",
+    "climate_cell_id": "grid_-021.00_-049.375"
+  },
+  "grid_-021.00_-054.375": {
+    "sha256": "b6c20027295413976448e5a598384745fbb06e9d6463d3a68c3707901d5268dc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:03+00:00",
+    "climate_cell_id": "grid_-021.00_-054.375"
+  },
+  "grid_-021.00_-055.000": {
+    "sha256": "aa71288df26d16dfef753ea1623c5ef325d69844529b2980a6075542e843b299",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:01+00:00",
+    "climate_cell_id": "grid_-021.00_-055.000"
+  },
+  "grid_-021.00_-055.625": {
+    "sha256": "9c3645dbfa0c46a4cef5ffc80343ced1b7163c5dcd2bba07a27fa94968e88b7b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:11:59+00:00",
+    "climate_cell_id": "grid_-021.00_-055.625"
+  },
+  "grid_-021.00_-062.500": {
+    "sha256": "b2bc62f533f1aaaf8640cae23cd3d2b6dc81e6bd70c3b940db48478ae2b81439",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:40+00:00",
+    "climate_cell_id": "grid_-021.00_-062.500"
+  },
+  "grid_-021.00_-063.125": {
+    "sha256": "085aa437f351a756b4fed9a290eb306df58c69e57fd135e2904f0a1e484e3d7e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:38+00:00",
+    "climate_cell_id": "grid_-021.00_-063.125"
+  },
+  "grid_-021.00_-063.750": {
+    "sha256": "aeca8f7d9a77d569d2e24ea3e4223bf4378559226c5577e30e95d3a95ff3ac3c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:37+00:00",
+    "climate_cell_id": "grid_-021.00_-063.750"
+  },
+  "grid_-021.50_+045.000": {
+    "sha256": "401db34d09216b36ec9c3ece15331947750c558badc6ef429b7031b016c3b443",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:07+00:00",
+    "climate_cell_id": "grid_-021.50_+045.000"
+  },
+  "grid_-021.50_+045.625": {
+    "sha256": "2b07420af6f9b3e45f90f65bebae8ff1590966c6b69d20d2548eff6397f072bb",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:22:08+00:00",
+    "climate_cell_id": "grid_-021.50_+045.625"
+  },
+  "grid_-021.50_+118.750": {
+    "sha256": "a164cf419061b60556f5ad3945d148acb46548c55bbb0eead4f7c67cbfff1a0c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:31:52+00:00",
+    "climate_cell_id": "grid_-021.50_+118.750"
+  },
+  "grid_-021.50_+119.375": {
+    "sha256": "03e4e7f1a8eeb0c13e53e76d7ad684b580047543dad129df4c80924fe71ef8ff",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:31:54+00:00",
+    "climate_cell_id": "grid_-021.50_+119.375"
+  },
+  "grid_-021.50_-048.125": {
+    "sha256": "b8c7e94d59d05fe355111bf1645bfdd7c008d6d49d58e7bfb7d1846468217893",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:51:33+00:00",
+    "climate_cell_id": "grid_-021.50_-048.125"
+  },
+  "grid_-021.50_-048.750": {
+    "sha256": "43594467ff9ef041b44e72c8cee9e8f167846e08315c03009ff1ee543bf43b9f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:51:31+00:00",
+    "climate_cell_id": "grid_-021.50_-048.750"
+  },
+  "grid_-021.50_-054.375": {
+    "sha256": "45f770d68f024db04e4eca3367aa37e1dc8df6581e6b9d2f676bdcc2688ca0b4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:08+00:00",
+    "climate_cell_id": "grid_-021.50_-054.375"
+  },
+  "grid_-021.50_-055.000": {
+    "sha256": "3a67a5339a4a799c42a91c004a20081c1c868fcd2a3402c8ffba145d5eb33399",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:06+00:00",
+    "climate_cell_id": "grid_-021.50_-055.000"
+  },
+  "grid_-021.50_-055.625": {
+    "sha256": "976eb14e0ce99d0e4f72c5057335b889c255996556e69bcacc5f7653a89244c0",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:04+00:00",
+    "climate_cell_id": "grid_-021.50_-055.625"
+  },
+  "grid_-021.50_-063.750": {
+    "sha256": "cda2aaea95420d156480fb3e53454c32508500fa3839ff896a1dc6c812e2072f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:41+00:00",
+    "climate_cell_id": "grid_-021.50_-063.750"
+  },
+  "grid_-022.50_+146.250": {
+    "sha256": "434288abf24676ad53b293720c4fcf456a0c58a455f0d46eb6d7b08dd125c261",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:50+00:00",
+    "climate_cell_id": "grid_-022.50_+146.250"
+  },
+  "grid_-022.50_+146.875": {
+    "sha256": "d98b53148cf39785dd3e708d1aceb5812bb696bceda5e836d93ee8b559c8f859",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:52+00:00",
+    "climate_cell_id": "grid_-022.50_+146.875"
+  },
+  "grid_-022.50_-058.125": {
+    "sha256": "269e16939f605c0133b00415bed6bad72f17e588947e274937c9af07eb05608b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:32:19+00:00",
+    "climate_cell_id": "grid_-022.50_-058.125"
+  },
+  "grid_-022.50_-058.750": {
+    "sha256": "0d6681ec0a08db6d20db943e3d660c56aa30f22c066e9cab714ce7675ce33c0b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:32:17+00:00",
+    "climate_cell_id": "grid_-022.50_-058.750"
+  },
+  "grid_-023.00_+146.250": {
+    "sha256": "59202a3663facf447e7a48fd903fe9b536cb2f4ffe309fa74a3aab20bd31ef41",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:54+00:00",
+    "climate_cell_id": "grid_-023.00_+146.250"
+  },
+  "grid_-023.00_+146.875": {
+    "sha256": "506b6c934457e98124486f3e89cc170b77400848e442a33b070ea96547d947d0",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:55+00:00",
+    "climate_cell_id": "grid_-023.00_+146.875"
+  },
+  "grid_-023.00_-058.125": {
+    "sha256": "0dd217786c08eb8cf0b549853ec8f95fe2747f22f4b67510bc89bdf0b2e845dc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:32:24+00:00",
+    "climate_cell_id": "grid_-023.00_-058.125"
+  },
+  "grid_-023.00_-058.750": {
+    "sha256": "9a90568f68978e3b25c434bdaaecd736b2a5edb0088dadfc48c46d05009e4ecc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:32:22+00:00",
+    "climate_cell_id": "grid_-023.00_-058.750"
+  },
+  "grid_-023.00_-059.375": {
+    "sha256": "ed3e7beb94da3aa3c9d9203f0b3ffc1e448aba07763dbe437a6e159c8534da66",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:32:21+00:00",
+    "climate_cell_id": "grid_-023.00_-059.375"
+  },
+  "grid_-023.50_+146.875": {
+    "sha256": "c41ba1061eff3ed87078f77cab7bc99b572c3b444805d6e6b68cb84bbb076a08",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:56+00:00",
+    "climate_cell_id": "grid_-023.50_+146.875"
+  },
+  "grid_-023.50_+147.500": {
+    "sha256": "19a0964f248f89cd0f08f5b5c3ba4f82b358c689aca95852627af874389f93b7",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:56+00:00",
+    "climate_cell_id": "grid_-023.50_+147.500"
+  },
+  "grid_-023.50_+148.125": {
+    "sha256": "9c58f973f4005ca79980ee54db22f0604460c579445f7a59dc4ed164b7e1fd9e",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:47:59+00:00",
+    "climate_cell_id": "grid_-023.50_+148.125"
+  },
+  "grid_-023.50_-058.125": {
+    "sha256": "6ab0d0cab23891588aaf3b12509c88fcdf181cf96f6b89b9586e9f823d55b2bb",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:32:29+00:00",
+    "climate_cell_id": "grid_-023.50_-058.125"
+  },
+  "grid_-023.50_-058.750": {
+    "sha256": "d55345e07e06d6fe52759a5528ca6838715134df90a9efd3b3fb98b7f9dbff65",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:32:27+00:00",
+    "climate_cell_id": "grid_-023.50_-058.750"
+  },
+  "grid_-023.50_-059.375": {
+    "sha256": "7883da62a0881c3bc295509891a56c1ca27272cf768df3ac0dc000418d9ebf0c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:32:25+00:00",
+    "climate_cell_id": "grid_-023.50_-059.375"
+  },
+  "grid_-024.50_+026.250": {
+    "sha256": "5e5c6e13184d303af583e8243b31e9b577f598453983e57f4ecffaa8263fcc7d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:33:28+00:00",
+    "climate_cell_id": "grid_-024.50_+026.250"
+  },
+  "grid_-024.50_+026.875": {
+    "sha256": "25771d0b83274fa3cc44daf59b86d869cd278cb396093386db0c4c6e93253328",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:33:30+00:00",
+    "climate_cell_id": "grid_-024.50_+026.875"
+  },
+  "grid_-024.50_+027.500": {
+    "sha256": "71f6e988c67d2532d2ffd4629c35f4702c0020492a42bb32641db2640c24a731",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:33:31+00:00",
+    "climate_cell_id": "grid_-024.50_+027.500"
+  },
+  "grid_-024.50_+150.000": {
+    "sha256": "4e34ed6b9d62f28cf009086ed62250b6006b194ac245eaddb158976cd0e6e344",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:14:24+00:00",
+    "climate_cell_id": "grid_-024.50_+150.000"
+  },
+  "grid_-024.50_+150.625": {
+    "sha256": "fdb88dd2e405fa9a1a63a9981461a88ba056b781593c4f86049990dc00e34f21",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:14:25+00:00",
+    "climate_cell_id": "grid_-024.50_+150.625"
+  },
+  "grid_-024.50_+151.250": {
+    "sha256": "949e9e094e54bf5c77a92c8a1d25124d4352f97d2994782c4e31ba575e78fcda",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:14:27+00:00",
+    "climate_cell_id": "grid_-024.50_+151.250"
+  },
+  "grid_-025.00_+026.250": {
+    "sha256": "fd776667e1a5e7df0b3346db70f2a42e915e45331181879591698cff649af90a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:33:32+00:00",
+    "climate_cell_id": "grid_-025.00_+026.250"
+  },
+  "grid_-025.00_+026.875": {
+    "sha256": "668dbc625625a651647897d08993d400003a699bd1623e278c408f3cf38f6a80",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:33:34+00:00",
+    "climate_cell_id": "grid_-025.00_+026.875"
+  },
+  "grid_-025.00_+027.500": {
+    "sha256": "bd8fdfe7fc9421fa48b8f19b0fe6928d45efa0534a56e50fa4d0b714dcebd892",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:33:35+00:00",
+    "climate_cell_id": "grid_-025.00_+027.500"
+  },
+  "grid_-025.00_+150.625": {
+    "sha256": "67c91fe9c26cd1685b8d645c172dc80856cb06081f565049dddb55faab02758c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:14:29+00:00",
+    "climate_cell_id": "grid_-025.00_+150.625"
+  },
+  "grid_-025.00_+151.250": {
+    "sha256": "51d2141a5f10705598be10da5d3bd62d377c85c3b1b1db529724e56e7a1a9d35",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:14:30+00:00",
+    "climate_cell_id": "grid_-025.00_+151.250"
+  },
+  "grid_-025.00_+151.875": {
+    "sha256": "8387bc0a16408dffa901e683c726a2eefeed64d250637b5f29370f9359b71ae8",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:14:31+00:00",
+    "climate_cell_id": "grid_-025.00_+151.875"
+  },
+  "grid_-025.50_+026.250": {
+    "sha256": "be767121343bb9ad2336da2ce09f2d07ba40c30f924eed3e2d9d1d41eb6a56bd",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:33:37+00:00",
+    "climate_cell_id": "grid_-025.50_+026.250"
+  },
+  "grid_-025.50_+026.875": {
+    "sha256": "f08e0b6607982cf02e8525a47d490570a576b450b263745744245ff682bfb436",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:33:39+00:00",
+    "climate_cell_id": "grid_-025.50_+026.875"
+  },
+  "grid_-025.50_+027.500": {
+    "sha256": "298a020e0b8e3f1a5c7029bc90b247a0ba16a593fc7881b151e647c90dbf947d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:33:40+00:00",
+    "climate_cell_id": "grid_-025.50_+027.500"
+  },
+  "grid_-025.50_+151.250": {
+    "sha256": "b57867738afe07303998c7cc695a7e9e760b78e7d0e4b2d78652082e02402579",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:14:32+00:00",
+    "climate_cell_id": "grid_-025.50_+151.250"
+  },
+  "grid_-025.50_+151.875": {
+    "sha256": "cba7104bbc3d5280586140455ecf6e7f3c2c65e457f59a80b0b7c8c7d22dd841",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:14:34+00:00",
+    "climate_cell_id": "grid_-025.50_+151.875"
+  },
+  "grid_-025.50_+152.500": {
+    "sha256": "25f17526f42c4524602715d30b9cd00e486cd3efb20cb6361aaaaddf3d02fbfc",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:14:36+00:00",
+    "climate_cell_id": "grid_-025.50_+152.500"
+  },
+  "grid_-026.50_+030.625": {
+    "sha256": "b03b59b1a430b43065914042197c9f90433f8b8be765f93cf2fa4f313f054182",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:12:53+00:00",
+    "climate_cell_id": "grid_-026.50_+030.625"
+  },
+  "grid_-026.50_+031.250": {
+    "sha256": "f8dcc977a1cbfe9a13b6c1b137e025a9e4de88118bb7e3e39d0f3bda853606e4",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:12:55+00:00",
+    "climate_cell_id": "grid_-026.50_+031.250"
+  },
+  "grid_-026.50_+031.875": {
+    "sha256": "41565bfa4e1a760996bf37970d79df3100d808e3b030d737f97980146466f923",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:12:57+00:00",
+    "climate_cell_id": "grid_-026.50_+031.875"
+  },
+  "grid_-026.50_+146.250": {
+    "sha256": "1d6df4591f62257fcd816ecd774b0163cf78539dde3943018992940bb718d969",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:56+00:00",
+    "climate_cell_id": "grid_-026.50_+146.250"
+  },
+  "grid_-026.50_+146.875": {
+    "sha256": "b0b36b142e90b0a42ce03055f30a23c1937b4b9680b928828c69aaecc675f124",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:14:58+00:00",
+    "climate_cell_id": "grid_-026.50_+146.875"
+  },
+  "grid_-026.50_-056.250": {
+    "sha256": "315be4e8902e67cdd77e9dec2897b031d50d1e0bec664bc385775f17ab21e787",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:15:14+00:00",
+    "climate_cell_id": "grid_-026.50_-056.250"
+  },
+  "grid_-026.50_-056.875": {
+    "sha256": "00d80713b311693a7da5f7c157333687f4953b359d613cef0473a40c701d1e9b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:15:13+00:00",
+    "climate_cell_id": "grid_-026.50_-056.875"
+  },
+  "grid_-027.00_+031.250": {
+    "sha256": "56200395313d5046b16d2020411133dfbc36df57fbf209dde84c6562e944a2ba",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:12:58+00:00",
+    "climate_cell_id": "grid_-027.00_+031.250"
+  },
+  "grid_-027.00_+031.875": {
+    "sha256": "add843c7f1acec36a49d34ec344ca23bf70b78d28a4bd900a389834ccb84ec36",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:00+00:00",
+    "climate_cell_id": "grid_-027.00_+031.875"
+  },
+  "grid_-027.00_+146.250": {
+    "sha256": "7b8533822adf311ac4234d67c4d4cbe525360c46087418260f4d42bd0a2ee079",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:15:00+00:00",
+    "climate_cell_id": "grid_-027.00_+146.250"
+  },
+  "grid_-027.00_+147.500": {
+    "sha256": "fd06dcb3a26cc15b327731d4029d0e277c6aa41b026276c126b9fb269f2429e0",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:15:01+00:00",
+    "climate_cell_id": "grid_-027.00_+147.500"
+  },
+  "grid_-027.00_-056.250": {
+    "sha256": "2a1271fe420aad1513ae71813d6c1607840ca964da79e23110179bb10a72c470",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:15:20+00:00",
+    "climate_cell_id": "grid_-027.00_-056.250"
+  },
+  "grid_-027.00_-056.875": {
+    "sha256": "b915ab890fc34b5af8758dcf32aa7eb0e0215d10f8c84fe54016050328631cc6",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:15:18+00:00",
+    "climate_cell_id": "grid_-027.00_-056.875"
+  },
+  "grid_-027.00_-057.500": {
+    "sha256": "ac675de5b71080188b2859f84985da88342e5a55bf123aa10d1a67e2aef582bb",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:15:16+00:00",
+    "climate_cell_id": "grid_-027.00_-057.500"
+  },
+  "grid_-027.50_+030.625": {
+    "sha256": "a9032fc998b7e11555d1a6c2e1db7fc629fd567bb28f217a8c49aa48f967fd00",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:01+00:00",
+    "climate_cell_id": "grid_-027.50_+030.625"
+  },
+  "grid_-027.50_+031.250": {
+    "sha256": "55b9b72d9016cd1ab06b897201a695207fdf4df1ab2b810f73a01415b02363fb",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:02+00:00",
+    "climate_cell_id": "grid_-027.50_+031.250"
+  },
+  "grid_-027.50_+147.500": {
+    "sha256": "f57dbb541c1fcbe0bac5c0082b89f95c59cffb61c38b0b3497115abaff2963af",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:15:03+00:00",
+    "climate_cell_id": "grid_-027.50_+147.500"
+  },
+  "grid_-027.50_+148.125": {
+    "sha256": "2a47eea4453f2a703f877092a50a8bc857966e3481f6a12699ff3e5c107f8670",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:15:04+00:00",
+    "climate_cell_id": "grid_-027.50_+148.125"
+  },
+  "grid_-028.50_+150.000": {
+    "sha256": "93e728e8a599c273593570be4b1b80664b8749d5da8cb8d5155da4d557204b02",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:38+00:00",
+    "climate_cell_id": "grid_-028.50_+150.000"
+  },
+  "grid_-028.50_+150.625": {
+    "sha256": "4a6a1676190a6cfd92d67445139a66629ecc03e30d5ab70a581e52beafe82843",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:41+00:00",
+    "climate_cell_id": "grid_-028.50_+150.625"
+  },
+  "grid_-028.50_+151.250": {
+    "sha256": "a504f4909daea70dd98e79cc9d257d833ab61242b1fc50948307ce642fbc63dd",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:42+00:00",
+    "climate_cell_id": "grid_-028.50_+151.250"
+  },
+  "grid_-028.50_-060.625": {
+    "sha256": "71761403d51589be24b0082b5ad214e9c5bb9843353afd8bc1e0d99a988bfc41",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:47+00:00",
+    "climate_cell_id": "grid_-028.50_-060.625"
+  },
+  "grid_-028.50_-061.250": {
+    "sha256": "4eaefc10489800d346a31f3aac6551dc5b4918dadde633d5fb8cf61e51e2174c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:44+00:00",
+    "climate_cell_id": "grid_-028.50_-061.250"
+  },
+  "grid_-028.50_-061.875": {
+    "sha256": "4c3a43cb56d14f223cbb301caa325c8b7a3223a3e1fc8d311b5a26a3b43bf371",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:49+00:00",
+    "climate_cell_id": "grid_-028.50_-061.875"
+  },
+  "grid_-029.00_+150.625": {
+    "sha256": "ddf47c21410847cb6152f647a938e8878e2062cb4384cdb4075abeb021938a32",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:44+00:00",
+    "climate_cell_id": "grid_-029.00_+150.625"
+  },
+  "grid_-029.00_+151.250": {
+    "sha256": "5ee102388c1f89c818ba9e7a52393cc6916a66662b2a52ede06492fd24804a4a",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:45+00:00",
+    "climate_cell_id": "grid_-029.00_+151.250"
+  },
+  "grid_-029.00_+151.875": {
+    "sha256": "61aa7d2445909cecd89a8029d6d9cc9a827b8460f9559a3cc3ba50ba352f3f92",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:47+00:00",
+    "climate_cell_id": "grid_-029.00_+151.875"
+  },
+  "grid_-029.00_-060.625": {
+    "sha256": "e94555c728576c8396f120df6ae45cd7b68e4916e8ca139811213607b0e9040f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:55+00:00",
+    "climate_cell_id": "grid_-029.00_-060.625"
+  },
+  "grid_-029.00_-061.250": {
+    "sha256": "27edea0233ed9fe2fe945bff47f397313c6805deffaacbe20a1915e57195090d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:53+00:00",
+    "climate_cell_id": "grid_-029.00_-061.250"
+  },
+  "grid_-029.00_-061.875": {
+    "sha256": "33738058b95652774e58441aa5dacd3750562ae8b380961fe54015cb4dcd42a3",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:51+00:00",
+    "climate_cell_id": "grid_-029.00_-061.875"
+  },
+  "grid_-029.50_+151.250": {
+    "sha256": "410abe06b58d554156d5255a4bbe6e8af907a450ebb55ac6dc106fd13d958ef7",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:49+00:00",
+    "climate_cell_id": "grid_-029.50_+151.250"
+  },
+  "grid_-029.50_+151.875": {
+    "sha256": "afcc4c1fa500c09cd7f5f1eb4480cd438d10168f31ac603aec46376b88b9bb11",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:51+00:00",
+    "climate_cell_id": "grid_-029.50_+151.875"
+  },
+  "grid_-029.50_+152.500": {
+    "sha256": "8eac4b647bcbffe9545e4748bdbef099099c402a8bb6a10cdfa826a22a22a953",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:12:52+00:00",
+    "climate_cell_id": "grid_-029.50_+152.500"
+  },
+  "grid_-029.50_-060.625": {
+    "sha256": "cef8b3940f607387ba14ea3f6323f2a63efd64ee34072ae7f26c60d3f226e32d",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:14:00+00:00",
+    "climate_cell_id": "grid_-029.50_-060.625"
+  },
+  "grid_-029.50_-061.250": {
+    "sha256": "98a54b93c174db2cad1af8b4a66181f825bcd881b3417d3d5056d1eae7a8ca7b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:58+00:00",
+    "climate_cell_id": "grid_-029.50_-061.250"
+  },
+  "grid_-029.50_-061.875": {
+    "sha256": "6322c39bc53a46feaae46689deb2e7ebfb320cb58e0ae12ddc6dcfbccd2fbf0f",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:13:56+00:00",
+    "climate_cell_id": "grid_-029.50_-061.875"
+  },
+  "grid_-030.50_+028.125": {
+    "sha256": "2d1d5a0da4d7e8f93a29da49947484b91bf867d35c80fe74328d1d80b3a55ec8",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:51:52+00:00",
+    "climate_cell_id": "grid_-030.50_+028.125"
+  },
+  "grid_-030.50_+028.750": {
+    "sha256": "142ef83191894f0bf5a6a1a8326fcaffdc1c3f77c610aa0cada8b40099e5d777",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:51:54+00:00",
+    "climate_cell_id": "grid_-030.50_+028.750"
+  },
+  "grid_-030.50_+029.375": {
+    "sha256": "8890af42284fca3f62455a7c0d800b3ba1562f6d23e72a6e9dcf1307e6df9528",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:51:56+00:00",
+    "climate_cell_id": "grid_-030.50_+029.375"
+  },
+  "grid_-031.00_+028.125": {
+    "sha256": "c969c2fdb7e2f220de28071ce3bd42e666bece3f0814e431d7f6a9fa4baf8389",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:51:58+00:00",
+    "climate_cell_id": "grid_-031.00_+028.125"
+  },
+  "grid_-031.00_+028.750": {
+    "sha256": "736fc0215a0699d6588707573e9e0519ef62896fefb9e475ff8ecd18b46bd710",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:52:00+00:00",
+    "climate_cell_id": "grid_-031.00_+028.750"
+  },
+  "grid_-031.00_+029.375": {
+    "sha256": "ce37a3dc5f6b8645e938f99a72f2c0d9d1ed07e0c1b754b69ca32ce59bcf3c5c",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:52:01+00:00",
+    "climate_cell_id": "grid_-031.00_+029.375"
+  },
+  "grid_-031.50_+028.125": {
+    "sha256": "54dac51d41de7effac6391bc9b3ee9af4e197b608b00ae256071b0bdba87dd40",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:52:03+00:00",
+    "climate_cell_id": "grid_-031.50_+028.125"
+  },
+  "grid_-031.50_+028.750": {
+    "sha256": "4f4218c436d71319a60bbef6c5ecb348a512b6a7d730e415794bd94ee340d5bf",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:52:04+00:00",
+    "climate_cell_id": "grid_-031.50_+028.750"
+  },
+  "grid_-031.50_+029.375": {
+    "sha256": "9cb8a424b7a0feeb87162cf1b10cba056d68b3ff338f0ce12e53a745dc2ffbfb",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T02:52:06+00:00",
+    "climate_cell_id": "grid_-031.50_+029.375"
+  },
+  "grid_-032.50_+018.750": {
+    "sha256": "bcc988748e198baabc734d464325ecd7115d62c42490181ef035117535f70ce2",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:47+00:00",
+    "climate_cell_id": "grid_-032.50_+018.750"
+  },
+  "grid_-032.50_+019.375": {
+    "sha256": "39e6a54c8aab23cb656e1cbb0a7192270ee4e67ac1cdaf2244ce579d0d9affee",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:48+00:00",
+    "climate_cell_id": "grid_-032.50_+019.375"
+  },
+  "grid_-032.50_+116.250": {
+    "sha256": "015163aa14837f6e1e29808bba72abec1fe1e804b6b305d44ac7121880f09438",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:44+00:00",
+    "climate_cell_id": "grid_-032.50_+116.250"
+  },
+  "grid_-032.50_+116.875": {
+    "sha256": "d464ee6732e33a0961a219b5348b40e9d6ed935dc8fd44c47a7be57e15bcf893",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:45+00:00",
+    "climate_cell_id": "grid_-032.50_+116.875"
+  },
+  "grid_-032.50_-057.500": {
+    "sha256": "ce8402ca21f7bba2672e5b7df67c0bea88c95d4fe8992d2cbc9c669495410ede",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:12+00:00",
+    "climate_cell_id": "grid_-032.50_-057.500"
+  },
+  "grid_-032.50_-058.750": {
+    "sha256": "40205099fc51b1572ac710e11ec45ff73cdec80cd9b18b7b7ee858d2707d2733",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:11+00:00",
+    "climate_cell_id": "grid_-032.50_-058.750"
+  },
+  "grid_-033.00_+018.125": {
+    "sha256": "01570beb92fe58fc34068e253cc54466a9b0f8c1fea8373fc155f15cb960c053",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:50+00:00",
+    "climate_cell_id": "grid_-033.00_+018.125"
+  },
+  "grid_-033.00_+018.750": {
+    "sha256": "150ef0713654f3515f87ca0936c71fb4aa382b0eaee054c3a0e1a49bd3dc08ec",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:51+00:00",
+    "climate_cell_id": "grid_-033.00_+018.750"
+  },
+  "grid_-033.00_+019.375": {
+    "sha256": "5f465fb0ed5f7fe679e13147d6c3088cfddc1b0f3ec58cf9a0ffa5357ac14ff5",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:52+00:00",
+    "climate_cell_id": "grid_-033.00_+019.375"
+  },
+  "grid_-033.00_+116.250": {
+    "sha256": "921de9d4383b8c9ff7fc35906cfc39333625b07fd0c78c4f443732e5d6e616e1",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:47+00:00",
+    "climate_cell_id": "grid_-033.00_+116.250"
+  },
+  "grid_-033.00_+116.875": {
+    "sha256": "123509705de143fcbb86e66d40582af9057b927a077ce7a9f6df5861a8a9db98",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:48+00:00",
+    "climate_cell_id": "grid_-033.00_+116.875"
+  },
+  "grid_-033.00_+117.500": {
+    "sha256": "25bdd8de1bb8275f53d17e00c457caa34d49c69cd4f6acb08b2b2ea5d12049af",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:49+00:00",
+    "climate_cell_id": "grid_-033.00_+117.500"
+  },
+  "grid_-033.00_+118.125": {
+    "sha256": "3f6da9b4d13178884e1d0cb66838741134f2fed16033bf02140d262447011638",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:50+00:00",
+    "climate_cell_id": "grid_-033.00_+118.125"
+  },
+  "grid_-033.00_-058.750": {
+    "sha256": "d56f202ba8d5ff3c1c1956986c3ff70fee15c6691a710ec3a05ecd70d096bbec",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:16+00:00",
+    "climate_cell_id": "grid_-033.00_-058.750"
+  },
+  "grid_-033.00_-059.375": {
+    "sha256": "877868491db07f130a4f7454e7ebc6de7e32627c812d01d3cfa6ef505e9e54ae",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:14+00:00",
+    "climate_cell_id": "grid_-033.00_-059.375"
+  },
+  "grid_-033.50_+018.750": {
+    "sha256": "9387e7d8d419777f528b27951d79b85afd41599c91dcc9e288b6a6ef8e4993c8",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:54+00:00",
+    "climate_cell_id": "grid_-033.50_+018.750"
+  },
+  "grid_-033.50_+019.375": {
+    "sha256": "05f85bdb3d7c4f8263fd82a15c74ffd5df87e88c68808a977ba06da8d05d5303",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T03:48:55+00:00",
+    "climate_cell_id": "grid_-033.50_+019.375"
+  },
+  "grid_-033.50_+116.875": {
+    "sha256": "cb58cf388a7401feab46d1b2aba76df3c4776dab25b7b0d229bde05f8dd6beba",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:52+00:00",
+    "climate_cell_id": "grid_-033.50_+116.875"
+  },
+  "grid_-033.50_+117.500": {
+    "sha256": "4a6b2cd83aca40e138822989e853f1b4370a9d6595747a3f954379881cba8032",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:53+00:00",
+    "climate_cell_id": "grid_-033.50_+117.500"
+  },
+  "grid_-033.50_+118.125": {
+    "sha256": "bba19a75f5923c25e84dc7d1200b4d25ab57a4e3c2c8687f6b1b17a895e00438",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T04:51:54+00:00",
+    "climate_cell_id": "grid_-033.50_+118.125"
+  },
+  "grid_-033.50_-058.750": {
+    "sha256": "fd28f61bd96cfc305bd0c04eb6dc4598aaadf8761e6da2fe9e650305ff2209de",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:18+00:00",
+    "climate_cell_id": "grid_-033.50_-058.750"
+  },
+  "grid_-033.50_-059.375": {
+    "sha256": "75de6e5c2c54668033c1d1c19f447a86b86b13447d15f92f1c09b61761a92f4b",
+    "source": "NASA POWER Daily UTC",
+    "units": {
+      "T2M": "C",
+      "RH2M": "%",
+      "PRECTOTCORR": "mm/day",
+      "WS10M": "m/s",
+      "GWETROOT": "1"
+    },
+    "retrieved_utc": "2026-11-12T05:27:17+00:00",
+    "climate_cell_id": "grid_-033.50_-059.375"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-11-12T10:37:08+00:00",
+  "source_run": "maxcoverage_v6b_20261111",
+  "mask_source": "https://modis.ornl.gov/rst/api/v1/MOD14A2/subset",
+  "weather_source": "https://power.larc.nasa.gov/api/temporal/daily/point",
+  "weather_units": {
+    "T2M": "C",
+    "RH2M": "%",
+    "PRECTOTCORR": "mm/day",
+    "WS10M": "m/s",
+    "GWETROOT": "1"
+  },
+  "weather_time_standard": "UTC",
+  "weather_period": [
+    "2019-12-01",
+    "2025-12-31"
+  ],
+  "weather_daily_requests": 496,
+  "weather_zarr_requests": 4,
+  "weather_failures": {},
+  "cached_weather_cells": 496,
+  "raw_cache": "Mantido localmente em runs/; não incluído no Git. Features e hashes estão no pacote."
+}

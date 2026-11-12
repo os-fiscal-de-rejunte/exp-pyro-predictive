@@ -1,0 +1,76 @@
+{
+  "schema_version": "native41-1.0",
+  "status": "ok",
+  "requested_location": {
+    "latitude": 45.412499995908426,
+    "longitude": 11.033986824959674
+  },
+  "cell": {
+    "id": "m41_r05330_c22509",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            10.758139827333007,
+            45.24166666259038
+          ],
+          [
+            11.243380457605289,
+            45.24166666259038
+          ],
+          [
+            11.311606071040105,
+            45.58333332922648
+          ],
+          [
+            10.823420966924864,
+            45.58333332922648
+          ],
+          [
+            10.758139827333007,
+            45.24166666259038
+          ]
+        ]
+      ]
+    },
+    "area_km2": 1443.364919245517
+  },
+  "event": "ao menos um pixel MOD14A2 marcado como foco no composto, condicionado a todos os 41×41 pixels terem máscara válida",
+  "probability": 0.03797904067280827,
+  "probability_interval_95": [
+    3.6352066088077834e-05,
+    0.18411853644965243
+  ],
+  "model_version": "modis_native41_v6",
+  "model_run_id": "maxcoverage_v6b_20261111",
+  "model_registry_sha256": "61d1c9b51614cf934a23feb53e3e5e74cc25e6b30e178266445100d3f6e9433e",
+  "preprocessing_sha256": "be9610a4bc70f158b6ff6b3bc69bf4fc134f4b559f7e331df7d18c3b294b9e26",
+  "history": {
+    "period_n": 137,
+    "positive_periods": 67,
+    "observed_rate": 0.48905109489051096
+  },
+  "issued_at": "2026-11-12T10:35:38.836624+00:00",
+  "valid_from": "2026-11-17T00:00:00Z",
+  "valid_until": "2026-11-25T00:00:00Z",
+  "horizon_days": 8,
+  "lead_days": 5,
+  "mode": "seasonal_projection",
+  "selected_model": "seasonal",
+  "weather_context": "historically_marginalized; no current or future weather inputs",
+  "future_observability": "unknown",
+  "assumption": "Estabilidade sazonal da relação histórica; ainda sem validação prospectiva.",
+  "uncertainty_method": "posterior Beta; intervalo sobre a probabilidade, não sobre quantidade de incêndios",
+  "training_period": [
+    "2020-01-01",
+    "2022-12-31"
+  ],
+  "validation_year": 2023,
+  "data_assembled_at": "2026-11-12T10:35:28+00:00",
+  "historical_projection": false,
+  "predictive_event_interval_95": [
+    0,
+    1
+  ]
+}

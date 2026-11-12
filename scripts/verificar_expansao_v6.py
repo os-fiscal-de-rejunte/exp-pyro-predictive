@@ -20,8 +20,18 @@ from earthfire.expansion_predict import forecast, load, predict
 from earthfire.io import read_json, sha256_file, utc_now, write_json
 
 
-def verify(root: Path, check_originals: bool = True) -> dict:
+def verify(
+    root: Path, check_originals: bool = True, output_dir: Path | None = None
+) -> dict:
+    output = output_dir or (
+        ROOT / "runs/verification_maxcoverage_v6"
+        if root.resolve().is_relative_to((ROOT / "artifacts").resolve())
+        else root
+    )
     registry, catalog, _ = load(root)
+    if (root / "package_manifest.json").exists():
+        for name, digest in read_json(root / "package_manifest.json")["files"].items():
+            assert sha256_file(root / name) == digest, name
     metrics = read_json(root / "evaluation/metrics.json")
     sample_meta = read_json(root / "training_sample.json")
     sample_path = root / "processed/mask_examples.parquet"
@@ -117,7 +127,7 @@ def verify(root: Path, check_originals: bool = True) -> dict:
             assert replay["status"] == "ok"
             # A posterior variacional usa outra amostra Monte Carlo na API pública.
             assert abs(replay["probability"] - row.routed_probability) < 0.06
-            write_json(root / "evaluation/example_prediction.json", replay)
+            write_json(output / "evaluation/example_prediction.json", replay)
     assert n_test == metrics["test_n"]
     current = []
     example_future = None
@@ -150,7 +160,7 @@ def verify(root: Path, check_originals: bool = True) -> dict:
             assert 0 <= lo <= hi <= 1 and 0 <= value["probability"] <= 1
             example_future = value
     if example_future:
-        write_json(root / "evaluation/example_forecast.json", example_future)
+        write_json(output / "evaluation/example_forecast.json", example_future)
     unsupported = predict(0.0, -140.0, "2024-01-01", root)
     assert (
         unsupported["status"] == "insufficient_data"
@@ -183,7 +193,7 @@ def verify(root: Path, check_originals: bool = True) -> dict:
         if example_future
         else "insufficient_data",
     }
-    write_json(root / "verification.json", result)
+    write_json(output / "verification.json", result)
     return result
 
 
@@ -193,6 +203,7 @@ if __name__ == "__main__":
         "--run-dir", type=Path, default=ROOT / "runs/maxcoverage_v6b_20261111"
     )
     parser.add_argument("--skip-originals", action="store_true")
+    parser.add_argument("--output-dir", type=Path)
     args = parser.parse_args()
-    result = verify(args.run_dir, not args.skip_originals)
+    result = verify(args.run_dir, not args.skip_originals, args.output_dir)
     print({k: v for k, v in result.items() if not k.endswith("_ids")})

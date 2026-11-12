@@ -84,6 +84,19 @@ def package(source: Path, target: Path) -> dict:
         path.stem: read_json(path) for path in (weather_root / "cells").glob("*.json")
     }
     write_json(provenance / "weather_cells.json", weather_cells)
+    weather_queries = {}
+    for path in (weather_root / "daily_api").glob("*/*.json"):
+        envelope = read_json(path)
+        if "response" not in envelope:
+            continue
+        weather_queries[path.parent.name] = {
+            "request": envelope["request"],
+            "retrieved_utc": envelope["retrieved_utc"],
+            "header": envelope["response"]["header"],
+            "parameters": envelope["response"]["parameters"],
+            "source_snapshot_sha256": sha256_file(path),
+        }
+    write_json(provenance / "weather_queries.json", weather_queries)
     daily_budget = read_json(weather_root / "daily_api/request_budget.json")
     weather_provider = read_json(weather_root / "sparse_provider.json")
     zarr_manifest = weather_root / "cache/manifest.json"

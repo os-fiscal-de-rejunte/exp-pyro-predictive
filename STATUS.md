@@ -1,3 +1,7 @@
+# Expansao v6 finalizada
+
+74 testes aprovados; 498 celulas liberadas, 718.796 km2, 0,140922% da superficie global. Acuracia no teste da coorte liberada: 78,86%; recall: 39,55%. Consulte [relatorio](REPORT_MAXCOVERAGE_V6.md). Nenhuma coleta adicional foi iniciada no encerramento.
+
 # Estado da execução
 
 ## Execução atual — expansão máxima v6
@@ -6,7 +10,7 @@ Em andamento, com orçamento próprio de oito horas. Acompanhe [EXPANSION_STATUS
 
 <!-- V6_PROGRESS_BEGIN -->
 
-Última atualização UTC: 2026-11-12T03:55:13+00:00. Etapa: coleta e preparação. Blocos preparados: 40; células com features: 512. Checkpoints: `runs\maxcoverage_v6b_20261111`. Dados provisórios; detalhes e recursos em `EXPANSION_STATUS.md` e `resources.json`.
+Última atualização UTC: 2026-11-12T05:28:02+00:00. Etapa: coleta e preparação. Blocos preparados: 72; células com features: 898. Checkpoints: `runs\maxcoverage_v6b_20261111`. Dados provisórios; detalhes e recursos em `EXPANSION_STATUS.md` e `resources.json`.
 
 <!-- V6_PROGRESS_END -->
 

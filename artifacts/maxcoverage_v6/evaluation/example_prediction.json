@@ -1,0 +1,69 @@
+{
+  "schema_version": "native41-1.0",
+  "status": "ok",
+  "requested_location": {
+    "latitude": -26.33749999766976,
+    "longitude": 30.75498254825856
+  },
+  "cell": {
+    "id": "m41_r13940_c24887",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            30.609678877319773,
+            -26.508333330987803
+          ],
+          [
+            30.991485033075058,
+            -26.508333330987803
+          ],
+          [
+            30.900130913841053,
+            -26.16666666435172
+          ],
+          [
+            30.519450214482575,
+            -26.16666666435172
+          ],
+          [
+            30.609678877319773,
+            -26.508333330987803
+          ]
+        ]
+      ]
+    },
+    "area_km2": 1443.364919245517
+  },
+  "event": "ao menos um pixel MOD14A2 marcado como foco no composto, condicionado a todos os 41×41 pixels terem máscara válida",
+  "probability": 0.624477294062209,
+  "probability_interval_95": [
+    0.34747622803565675,
+    0.8623143815843067
+  ],
+  "model_version": "modis_native41_v6",
+  "model_run_id": "maxcoverage_v6b_20261111",
+  "model_registry_sha256": "61d1c9b51614cf934a23feb53e3e5e74cc25e6b30e178266445100d3f6e9433e",
+  "preprocessing_sha256": "be9610a4bc70f158b6ff6b3bc69bf4fc134f4b559f7e331df7d18c3b294b9e26",
+  "history": {
+    "period_n": 123,
+    "positive_periods": 91,
+    "observed_rate": 0.7398373983739838,
+    "interpretation": "frequência observada no período de treino, não uma previsão"
+  },
+  "selected_model": "seasonal",
+  "issued_at": "2024-01-01T00:00:00Z",
+  "valid_from": "2024-01-01T00:00:00Z",
+  "valid_until": "2024-01-09T00:00:00Z",
+  "horizon_days": 8,
+  "mode": "historical_replay",
+  "weather_context": "available",
+  "uncertainty_method": "posterior Beta com compartilhamento empírico global",
+  "future_observability": "unknown",
+  "climate_out_of_distribution": [],
+  "predictive_event_interval_95": [
+    0,
+    1
+  ]
+}

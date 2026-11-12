@@ -1,0 +1,7 @@
+{
+  "all_training_n": 89836,
+  "sample_n": 12000,
+  "sampling": "prioridade pseudoaleatória uniforme com semente fixa; somente treino; no máximo 12.000 exemplos",
+  "sample_sha256": "e628165614279fb71ffcd1fa398719ad48186e68c4e08890d9f907b27b0e8634",
+  "buffer_cells": []
+}

@@ -1,0 +1,10 @@
+{
+  "updated_utc": "2026-11-12T10:33:01+00:00",
+  "remaining_seconds": 28762.153029680252,
+  "tracked_run_bytes": 1919148355,
+  "net_disk_decrease_bytes": 8069120,
+  "registered_process_rss_bytes": 457728000,
+  "peak_sampled_rss_bytes": 457728000,
+  "new_files_limit_bytes": 13110806118,
+  "memory_limit_bytes": 2421719040
+}

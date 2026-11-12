@@ -23,6 +23,36 @@ from earthfire.expansion_evaluate import summarize
 from earthfire.io import read_json, sha256_file, utc_now, write_json
 
 
+def past_month_reference(group: pd.DataFrame) -> tuple[list[int], list[float]]:
+    """Varredura cronológica: só adiciona rótulos já publicados e encerrados."""
+    usable = group.loc[group.event.notna() & group.produced_at.notna()].copy()
+    release = np.maximum(
+        usable.period_end_exclusive.to_numpy(dtype="datetime64[ns]").astype(np.int64),
+        usable.produced_at.to_numpy(dtype="datetime64[ns]").astype(np.int64) + 1,
+    )
+    order = np.argsort(release, kind="stable")
+    release = release[order]
+    months = usable.period_start.dt.month.to_numpy()[order]
+    outcomes = usable.event.to_numpy(float)[order]
+    counts, positives = np.zeros(13, int), np.zeros(13, float)
+    cursor = 0
+    reference_n, reference_rate = [], []
+    for origin, month in zip(
+        group.period_start.to_numpy(dtype="datetime64[ns]").astype(np.int64),
+        group.period_start.dt.month,
+    ):
+        while cursor < len(release) and release[cursor] <= origin:
+            counts[months[cursor]] += 1
+            positives[months[cursor]] += outcomes[cursor]
+            cursor += 1
+        n = int(counts[month])
+        reference_n.append(n)
+        reference_rate.append(
+            float((positives[month] + 0.5) / (n + 1)) if n >= 3 else np.nan
+        )
+    return reference_n, reference_rate
+
+
 def calendar(root: Path) -> dict:
     """Calendário observado; a referência da anomalia exige publicação anterior."""
     registry = read_json(root / "model_registry.json")
@@ -45,20 +75,7 @@ def calendar(root: Path) -> dict:
         pieces = []
         for rid, group in frame.groupby("region_id"):
             group = group.sort_values("period_start").reset_index(drop=True)
-            reference_n, reference_rate = [], []
-            for row in group.itertuples():
-                past = group.loc[
-                    (group.period_end_exclusive <= row.period_start)
-                    & (group.produced_at < row.period_start)
-                    & (group.period_start.dt.month == row.period_start.month)
-                    & group.event.notna()
-                ]
-                reference_n.append(len(past))
-                reference_rate.append(
-                    (float(past.event.sum()) + 0.5) / (len(past) + 1)
-                    if len(past) >= 3
-                    else np.nan
-                )
+            reference_n, reference_rate = past_month_reference(group)
             columns = [
                 "region_id",
                 "parent_id",

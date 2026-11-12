@@ -1,3 +1,7 @@
+# Atualizacao: expansao v6
+
+498 celulas validadas em seis continentes; 0,140922% da superficie global. Projecao condicional sazonal, sem cobertura mundial completa. [Resultados e comandos](REPORT_MAXCOVERAGE_V6.md) · [Contratos](docs/contratos_v6.md).
+
 # PYRO — Earth’s Fire Intelligence
 
 Este repositório audita e agrega registros de focos de calor e contém um experimento reproduzível de previsão probabilística **condicional**. PYRO é o nome da plataforma; [Pyro](https://pyro.ai/) é a biblioteca `pyro-ppl` usada com PyTorch. O núcleo funciona sem aplicação web e sem GPU.

@@ -1,0 +1,22 @@
+{
+  "verified_utc": "2026-11-12T02:17:05+00:00",
+  "query": {
+    "latitude": -27.36249999757802,
+    "longitude": 31.8042021167779,
+    "band": "FireMask",
+    "startDate": "A2020001",
+    "endDate": "A2020001",
+    "kmAboveBelow": 20,
+    "kmLeftRight": 20
+  },
+  "region_id": "m41_r14063_c24969",
+  "shape": [
+    41,
+    41
+  ],
+  "exact_array_match": true,
+  "matched_pixels": 1681,
+  "total_pixels": 1681,
+  "xll_difference_m": -0.003971116617321968,
+  "yll_difference_m": 0.04081948148086667
+}

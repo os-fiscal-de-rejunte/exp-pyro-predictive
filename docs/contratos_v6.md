@@ -62,3 +62,7 @@ Campos específicos de um modo podem não aparecer em outro. Falhas de integrida
 - `evaluation/metrics.json`: desempenho global, por continente/grupo, regiões novas e transferência espacial sem filtragem local. `diagnostics.json` acrescenta calibração, comparação na mesma coorte, bootstrap por bloco e calendário.
 
 Dados derivados são Parquet, JSON ou GeoJSON. Valores ausentes numéricos do JSON público usam `null`; não são convertidos em probabilidade zero. Os hashes do registro identificam os arquivos de treino/inferência; `package_manifest.json` cobre os demais arquivos distribuídos. Os caches brutos permanecem nos diretórios de execução locais.
+
+A verificação de um pacote em `artifacts/` salva sua nova evidência em `runs/verification_maxcoverage_v6`, preservando os arquivos congelados. `--output-dir` permite escolher outro diretório de resultados. A verificação também confere os hashes do pacote completo quando seu manifesto existe.
+
+O catálogo de proveniência meteorológica preserva consultas, cabeçalhos e hashes dos snapshots. Nas respostas reais consultadas, `T2M` e `RH2M` representam temperatura e umidade relativa a dois metros; `WS10M`, vento a dez metros; `PRECTOTCORR`, precipitação corrigida; `GWETROOT`, umidade relativa da zona radicular do solo. A resposta identifica MERRA-2/POWER, padrão UTC e preenchimento `-999`, convertido em ausente. A versão da API não comprova uma versão histórica de publicação do dado nem transforma temperatura do ar em temperatura de brilho do sensor.

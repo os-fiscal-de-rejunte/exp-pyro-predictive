@@ -1,0 +1,5338 @@
+{
+  "selection_period": [
+    "2020-01-01",
+    "2022-12-31"
+  ],
+  "uses_test": false,
+  "rows_read": 12614130,
+  "sources": [
+    {
+      "path": "modis_2020_all_countries.zip",
+      "sha256": "bb4c7012b8f4d89dbf24da49143c4cecbaef90cc5f504433642189201d6c0ddb"
+    },
+    {
+      "path": "modis_2021_all_countries.zip",
+      "sha256": "3bef964afea2d29506ede25b2299a478fa7d96a06b93bc7fc20297794979710e"
+    },
+    {
+      "path": "modis_2022_all_countries.zip",
+      "sha256": "99b365825aa9df0638e64006af7ecadc38ccc7c14bb91bc7b16aa541be8377a0"
+    }
+  ],
+  "type_filter": 0,
+  "type_definition": "presumed vegetation fire; NASA FIRMS; classificação inferida",
+  "code_sha256": "f622b9ac3e5bb7032792629e026de0a41214c81da22f2ac577ef8eb9941e8c12",
+  "method": "atividade Terra de vegetação presumida no treino; diversidade continental e separação geodésica; seleção intencional, não representativa",
+  "blocks": [
+    {
+      "latitude": -27.0,
+      "longitude": 31.25,
+      "continent": "Africa",
+      "country": "eSwatini",
+      "training_active_weeks": 152,
+      "name": "block_001",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": 48.75,
+      "continent": "Asia",
+      "country": "Iran",
+      "training_active_weeks": 155,
+      "name": "block_002",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -29.0,
+      "longitude": -61.25,
+      "continent": "South America",
+      "country": "Argentina",
+      "training_active_weeks": 155,
+      "name": "block_003",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -25.0,
+      "longitude": 151.25,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 139,
+      "name": "block_004",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": -85.0,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 151,
+      "name": "block_005",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 39.0,
+      "longitude": -1.25,
+      "continent": "Europe",
+      "country": "Spain",
+      "training_active_weeks": 103,
+      "name": "block_006",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -1.0,
+      "longitude": 15.0,
+      "continent": "Africa",
+      "country": "Republic of the Congo",
+      "training_active_weeks": 144,
+      "name": "block_007",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 33.0,
+      "longitude": 45.0,
+      "continent": "Asia",
+      "country": "Iraq",
+      "training_active_weeks": 147,
+      "name": "block_008",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -21.0,
+      "longitude": 118.75,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 129,
+      "name": "block_009",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -23.0,
+      "longitude": -58.75,
+      "continent": "South America",
+      "country": "Paraguay",
+      "training_active_weeks": 154,
+      "name": "block_010",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": 25.0,
+      "continent": "Africa",
+      "country": "Democratic Republic of the Congo",
+      "training_active_weeks": 134,
+      "name": "block_011",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -25.0,
+      "longitude": 26.875,
+      "continent": "Africa",
+      "country": "South Africa",
+      "training_active_weeks": 131,
+      "name": "block_012",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": 106.875,
+      "continent": "Asia",
+      "country": "Vietnam",
+      "training_active_weeks": 145,
+      "name": "block_013",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": -61.25,
+      "continent": "South America",
+      "country": "Bolivia",
+      "training_active_weeks": 152,
+      "name": "block_014",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -15.0,
+      "longitude": 128.75,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 125,
+      "name": "block_015",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 27.0,
+      "longitude": -81.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 150,
+      "name": "block_016",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": 11.25,
+      "continent": "Europe",
+      "country": "Italy",
+      "training_active_weeks": 97,
+      "name": "block_017",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": 35.0,
+      "continent": "Africa",
+      "country": "Kenya",
+      "training_active_weeks": 131,
+      "name": "block_018",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": 73.125,
+      "continent": "Asia",
+      "country": "Pakistan",
+      "training_active_weeks": 139,
+      "name": "block_019",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -15.0,
+      "longitude": 133.125,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 124,
+      "name": "block_020",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -21.0,
+      "longitude": -48.75,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 150,
+      "name": "block_021",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -31.0,
+      "longitude": 28.75,
+      "continent": "Africa",
+      "country": "South Africa",
+      "training_active_weeks": 129,
+      "name": "block_022",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": 6.875,
+      "continent": "Africa",
+      "country": "Nigeria",
+      "training_active_weeks": 128,
+      "name": "block_023",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 21.0,
+      "longitude": 85.0,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 133,
+      "name": "block_024",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -21.0,
+      "longitude": -55.0,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 148,
+      "name": "block_025",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -29.0,
+      "longitude": 151.25,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 123,
+      "name": "block_026",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 19.0,
+      "longitude": -103.125,
+      "continent": "North America",
+      "country": "Mexico",
+      "training_active_weeks": 148,
+      "name": "block_027",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": 15.0,
+      "continent": "Europe",
+      "country": "Italy",
+      "training_active_weeks": 95,
+      "name": "block_028",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -5.0,
+      "longitude": 16.875,
+      "continent": "Africa",
+      "country": "Democratic Republic of the Congo",
+      "training_active_weeks": 127,
+      "name": "block_029",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 15.0,
+      "longitude": 106.875,
+      "continent": "Asia",
+      "country": "Laos",
+      "training_active_weeks": 132,
+      "name": "block_030",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -27.0,
+      "longitude": 146.875,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 122,
+      "name": "block_031",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -27.0,
+      "longitude": -56.875,
+      "continent": "South America",
+      "country": "Paraguay",
+      "training_active_weeks": 147,
+      "name": "block_032",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": 46.875,
+      "continent": "Africa",
+      "country": "Madagascar",
+      "training_active_weeks": 126,
+      "name": "block_033",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": 31.25,
+      "continent": "Africa",
+      "country": "Egypt",
+      "training_active_weeks": 124,
+      "name": "block_034",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 19.0,
+      "longitude": 105.0,
+      "continent": "Asia",
+      "country": "Vietnam",
+      "training_active_weeks": 132,
+      "name": "block_035",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -21.0,
+      "longitude": -63.125,
+      "continent": "South America",
+      "country": "Bolivia",
+      "training_active_weeks": 147,
+      "name": "block_036",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -23.0,
+      "longitude": 146.875,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 109,
+      "name": "block_037",
+      "group": "train",
+      "legacy_context": true
+    },
+    {
+      "latitude": 23.0,
+      "longitude": -98.75,
+      "continent": "North America",
+      "country": "Mexico",
+      "training_active_weeks": 147,
+      "name": "block_038",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": 38.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 95,
+      "name": "block_039",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -33.0,
+      "longitude": 18.75,
+      "continent": "Africa",
+      "country": "South Africa",
+      "training_active_weeks": 123,
+      "name": "block_040",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 25.0,
+      "longitude": 48.75,
+      "continent": "Asia",
+      "country": "Saudi Arabia",
+      "training_active_weeks": 132,
+      "name": "block_041",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": 136.875,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 108,
+      "name": "block_042",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -13.0,
+      "longitude": -56.875,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 147,
+      "name": "block_043",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -21.0,
+      "longitude": 45.0,
+      "continent": "Africa",
+      "country": "Madagascar",
+      "training_active_weeks": 122,
+      "name": "block_044",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 15.0,
+      "longitude": -5.0,
+      "continent": "Africa",
+      "country": "Mali",
+      "training_active_weeks": 120,
+      "name": "block_045",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 23.0,
+      "longitude": 108.75,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 130,
+      "name": "block_046",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -7.0,
+      "longitude": -45.0,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 145,
+      "name": "block_047",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": 123.125,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 106,
+      "name": "block_048",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 19.0,
+      "longitude": -96.875,
+      "continent": "North America",
+      "country": "Mexico",
+      "training_active_weeks": 143,
+      "name": "block_049",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": 15.0,
+      "continent": "Europe",
+      "country": "Italy",
+      "training_active_weeks": 93,
+      "name": "block_050",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 13.0,
+      "longitude": 15.0,
+      "continent": "Africa",
+      "country": "Chad",
+      "training_active_weeks": 119,
+      "name": "block_051",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 39.0,
+      "longitude": 111.25,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 127,
+      "name": "block_052",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": 145.0,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 104,
+      "name": "block_053",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 9.0,
+      "longitude": -63.125,
+      "continent": "South America",
+      "country": "Venezuela",
+      "training_active_weeks": 145,
+      "name": "block_054",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -7.0,
+      "longitude": 25.0,
+      "continent": "Africa",
+      "country": "Democratic Republic of the Congo",
+      "training_active_weeks": 118,
+      "name": "block_055",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 1.0,
+      "longitude": 33.125,
+      "continent": "Africa",
+      "country": "Uganda",
+      "training_active_weeks": 118,
+      "name": "block_056",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 39.0,
+      "longitude": 116.875,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 124,
+      "name": "block_057",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -7.0,
+      "longitude": -78.75,
+      "continent": "South America",
+      "country": "Peru",
+      "training_active_weeks": 140,
+      "name": "block_058",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -33.0,
+      "longitude": 116.875,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 99,
+      "name": "block_059",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 39.0,
+      "longitude": -121.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 143,
+      "name": "block_060",
+      "group": "holdout",
+      "legacy_context": true
+    },
+    {
+      "latitude": 43.0,
+      "longitude": 25.0,
+      "continent": "Europe",
+      "country": "Bulgaria",
+      "training_active_weeks": 92,
+      "name": "block_061",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": 33.125,
+      "continent": "Africa",
+      "country": "South Sudan",
+      "training_active_weeks": 118,
+      "name": "block_062",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 15.0,
+      "longitude": 101.25,
+      "continent": "Asia",
+      "country": "Thailand",
+      "training_active_weeks": 123,
+      "name": "block_063",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -19.0,
+      "longitude": 126.875,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 98,
+      "name": "block_064",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -33.0,
+      "longitude": -58.75,
+      "continent": "South America",
+      "country": "Argentina",
+      "training_active_weeks": 139,
+      "name": "block_065",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": 35.0,
+      "continent": "Africa",
+      "country": "United Republic of Tanzania",
+      "training_active_weeks": 116,
+      "name": "block_066",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": 18.75,
+      "continent": "Africa",
+      "country": "Chad",
+      "training_active_weeks": 116,
+      "name": "block_067",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": 38.75,
+      "continent": "Asia",
+      "country": "Turkey",
+      "training_active_weeks": 123,
+      "name": "block_068",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -13.0,
+      "longitude": -53.125,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 139,
+      "name": "block_069",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -13.0,
+      "longitude": 143.125,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 93,
+      "name": "block_070",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 19.0,
+      "longitude": -71.25,
+      "continent": "North America",
+      "country": "Dominican Republic",
+      "training_active_weeks": 141,
+      "name": "block_071",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": -6.875,
+      "continent": "Europe",
+      "country": "Portugal",
+      "training_active_weeks": 89,
+      "name": "block_072",
+      "group": "train",
+      "legacy_context": true
+    },
+    {
+      "latitude": 15.0,
+      "longitude": -11.25,
+      "continent": "Africa",
+      "country": "Mali",
+      "training_active_weeks": 115,
+      "name": "block_073",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 15.0,
+      "longitude": 121.25,
+      "continent": "Asia",
+      "country": "Philippines",
+      "training_active_weeks": 121,
+      "name": "block_074",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -7.0,
+      "longitude": 146.875,
+      "continent": "Oceania",
+      "country": "Papua New Guinea",
+      "training_active_weeks": 91,
+      "name": "block_075",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -13.0,
+      "longitude": -45.0,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 139,
+      "name": "block_076",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 9.0,
+      "longitude": 28.75,
+      "continent": "Africa",
+      "country": "South Sudan",
+      "training_active_weeks": 114,
+      "name": "block_077",
+      "group": "train",
+      "legacy_context": true
+    },
+    {
+      "latitude": -5.0,
+      "longitude": 21.25,
+      "continent": "Africa",
+      "country": "Democratic Republic of the Congo",
+      "training_active_weeks": 113,
+      "name": "block_078",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": 43.125,
+      "continent": "Asia",
+      "country": "Iraq",
+      "training_active_weeks": 121,
+      "name": "block_079",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": -53.125,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 138,
+      "name": "block_080",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -33.0,
+      "longitude": 146.875,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 88,
+      "name": "block_081",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": -96.875,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 141,
+      "name": "block_082",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 49.0,
+      "longitude": 38.75,
+      "continent": "Europe",
+      "country": "Ukraine",
+      "training_active_weeks": 89,
+      "name": "block_083",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 7.0,
+      "longitude": 31.25,
+      "continent": "Africa",
+      "country": "South Sudan",
+      "training_active_weeks": 113,
+      "name": "block_084",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 39.0,
+      "longitude": 106.875,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 117,
+      "name": "block_085",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -35.0,
+      "longitude": 143.125,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 76,
+      "name": "block_086",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": -68.75,
+      "continent": "South America",
+      "country": "Colombia",
+      "training_active_weeks": 137,
+      "name": "block_087",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": 36.875,
+      "continent": "Africa",
+      "country": "Ethiopia",
+      "training_active_weeks": 113,
+      "name": "block_088",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -29.0,
+      "longitude": 25.0,
+      "continent": "Africa",
+      "country": "South Africa",
+      "training_active_weeks": 111,
+      "name": "block_089",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": 115.0,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 115,
+      "name": "block_090",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -13.0,
+      "longitude": -65.0,
+      "continent": "South America",
+      "country": "Bolivia",
+      "training_active_weeks": 136,
+      "name": "block_091",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -5.0,
+      "longitude": 143.125,
+      "continent": "Oceania",
+      "country": "Papua New Guinea",
+      "training_active_weeks": 71,
+      "name": "block_092",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 13.0,
+      "longitude": -86.875,
+      "continent": "North America",
+      "country": "Nicaragua",
+      "training_active_weeks": 139,
+      "name": "block_093",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 33.125,
+      "continent": "Europe",
+      "country": "Ukraine",
+      "training_active_weeks": 87,
+      "name": "block_094",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": 33.125,
+      "continent": "Africa",
+      "country": "Mozambique",
+      "training_active_weeks": 111,
+      "name": "block_095",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 33.0,
+      "longitude": 118.75,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 115,
+      "name": "block_096",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -21.0,
+      "longitude": 141.25,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 68,
+      "name": "block_097",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -27.0,
+      "longitude": -65.0,
+      "continent": "South America",
+      "country": "Argentina",
+      "training_active_weeks": 135,
+      "name": "block_098",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -7.0,
+      "longitude": 13.125,
+      "continent": "Africa",
+      "country": "Angola",
+      "training_active_weeks": 111,
+      "name": "block_099",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -7.0,
+      "longitude": 38.75,
+      "continent": "Africa",
+      "country": "United Republic of Tanzania",
+      "training_active_weeks": 111,
+      "name": "block_100",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 1.0,
+      "longitude": 101.25,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 113,
+      "name": "block_101",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": -46.875,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 133,
+      "name": "block_102",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -29.0,
+      "longitude": 115.0,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 61,
+      "name": "block_103",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 17.0,
+      "longitude": -93.125,
+      "continent": "North America",
+      "country": "Mexico",
+      "training_active_weeks": 138,
+      "name": "block_104",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": -5.0,
+      "continent": "Europe",
+      "country": "Spain",
+      "training_active_weeks": 85,
+      "name": "block_105",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -15.0,
+      "longitude": 26.875,
+      "continent": "Africa",
+      "country": "Zambia",
+      "training_active_weeks": 110,
+      "name": "block_106",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 17.0,
+      "longitude": 81.25,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 113,
+      "name": "block_107",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": 141.25,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 60,
+      "name": "block_108",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -11.0,
+      "longitude": -48.75,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 133,
+      "name": "block_109",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": -15.0,
+      "continent": "Africa",
+      "country": "Guinea",
+      "training_active_weeks": 110,
+      "name": "block_110",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 15.0,
+      "longitude": 36.875,
+      "continent": "Africa",
+      "country": "Eritrea",
+      "training_active_weeks": 110,
+      "name": "block_111",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 25.0,
+      "longitude": 105.0,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 110,
+      "name": "block_112",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -13.0,
+      "longitude": -61.25,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 128,
+      "name": "block_113",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -43.0,
+      "longitude": 146.875,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 55,
+      "name": "block_114",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 33.0,
+      "longitude": -81.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 138,
+      "name": "block_115",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 57.0,
+      "longitude": 106.875,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 85,
+      "name": "block_116",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": 5.0,
+      "continent": "Africa",
+      "country": "Algeria",
+      "training_active_weeks": 108,
+      "name": "block_117",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 27.0,
+      "longitude": 68.75,
+      "continent": "Asia",
+      "country": "Pakistan",
+      "training_active_weeks": 110,
+      "name": "block_118",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -19.0,
+      "longitude": 131.25,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 53,
+      "name": "block_119",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": -43.125,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 125,
+      "name": "block_120",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -11.0,
+      "longitude": 26.875,
+      "continent": "Africa",
+      "country": "Democratic Republic of the Congo",
+      "training_active_weeks": 107,
+      "name": "block_121",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 3.0,
+      "longitude": 18.75,
+      "continent": "Africa",
+      "country": "Democratic Republic of the Congo",
+      "training_active_weeks": 106,
+      "name": "block_122",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 23.0,
+      "longitude": 71.25,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 109,
+      "name": "block_123",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -51.25,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 125,
+      "name": "block_124",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -33.0,
+      "longitude": 121.25,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 52,
+      "name": "block_125",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": -101.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 133,
+      "name": "block_126",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": 91.25,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 80,
+      "name": "block_127",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": 25.0,
+      "continent": "Africa",
+      "country": "Central African Republic",
+      "training_active_weeks": 104,
+      "name": "block_128",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 27.0,
+      "longitude": 95.0,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 109,
+      "name": "block_129",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -23.0,
+      "longitude": 133.125,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 52,
+      "name": "block_130",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 3.0,
+      "longitude": -73.125,
+      "continent": "South America",
+      "country": "Colombia",
+      "training_active_weeks": 123,
+      "name": "block_131",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": -11.25,
+      "continent": "Africa",
+      "country": "Guinea",
+      "training_active_weeks": 103,
+      "name": "block_132",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -23.0,
+      "longitude": 31.25,
+      "continent": "Africa",
+      "country": "South Africa",
+      "training_active_weeks": 102,
+      "name": "block_133",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 19.0,
+      "longitude": 75.0,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 108,
+      "name": "block_134",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -31.0,
+      "longitude": -53.125,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 121,
+      "name": "block_135",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -37.0,
+      "longitude": 148.75,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 49,
+      "name": "block_136",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": -93.125,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 133,
+      "name": "block_137",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 43.0,
+      "longitude": 45.0,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 79,
+      "name": "block_138",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -19.0,
+      "longitude": 23.125,
+      "continent": "Africa",
+      "country": "Botswana",
+      "training_active_weeks": 102,
+      "name": "block_139",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 23.0,
+      "longitude": 113.125,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 107,
+      "name": "block_140",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -39.0,
+      "longitude": 176.875,
+      "continent": "Oceania",
+      "country": "New Zealand",
+      "training_active_weeks": 47,
+      "name": "block_141",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": -56.875,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 121,
+      "name": "block_142",
+      "group": "train",
+      "legacy_context": true
+    },
+    {
+      "latitude": -13.0,
+      "longitude": 21.25,
+      "continent": "Africa",
+      "country": "Angola",
+      "training_active_weeks": 101,
+      "name": "block_143",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 9.0,
+      "longitude": 21.25,
+      "continent": "Africa",
+      "country": "Central African Republic",
+      "training_active_weeks": 101,
+      "name": "block_144",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 25.0,
+      "longitude": 116.875,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 106,
+      "name": "block_145",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": -73.125,
+      "continent": "South America",
+      "country": "Colombia",
+      "training_active_weeks": 120,
+      "name": "block_146",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": 141.25,
+      "continent": "Oceania",
+      "country": "Papua New Guinea",
+      "training_active_weeks": 44,
+      "name": "block_147",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 33.0,
+      "longitude": -115.0,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 133,
+      "name": "block_148",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": 28.75,
+      "continent": "Europe",
+      "country": "Romania",
+      "training_active_weeks": 79,
+      "name": "block_149",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 13.0,
+      "longitude": 25.0,
+      "continent": "Africa",
+      "country": "Sudan",
+      "training_active_weeks": 101,
+      "name": "block_150",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 29.0,
+      "longitude": 76.875,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 106,
+      "name": "block_151",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -43.0,
+      "longitude": 173.125,
+      "continent": "Oceania",
+      "country": "New Zealand",
+      "training_active_weeks": 43,
+      "name": "block_152",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -41.25,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 118,
+      "name": "block_153",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 13.0,
+      "longitude": 28.75,
+      "continent": "Africa",
+      "country": "Sudan",
+      "training_active_weeks": 101,
+      "name": "block_154",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -13.0,
+      "longitude": 31.25,
+      "continent": "Africa",
+      "country": "Zambia",
+      "training_active_weeks": 99,
+      "name": "block_155",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": 123.125,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 106,
+      "name": "block_156",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -5.0,
+      "longitude": -36.875,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 117,
+      "name": "block_157",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -35.0,
+      "longitude": 138.75,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 41,
+      "name": "block_158",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 27.0,
+      "longitude": -98.75,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 131,
+      "name": "block_159",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": 71.25,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 78,
+      "name": "block_160",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": 18.75,
+      "continent": "Africa",
+      "country": "Angola",
+      "training_active_weeks": 99,
+      "name": "block_161",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 21.0,
+      "longitude": 101.25,
+      "continent": "Asia",
+      "country": "Laos",
+      "training_active_weeks": 105,
+      "name": "block_162",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -33.0,
+      "longitude": 151.25,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 41,
+      "name": "block_163",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": -43.125,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 117,
+      "name": "block_164",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -7.0,
+      "longitude": 28.75,
+      "continent": "Africa",
+      "country": "Democratic Republic of the Congo",
+      "training_active_weeks": 99,
+      "name": "block_165",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": 35.0,
+      "continent": "Africa",
+      "country": "United Republic of Tanzania",
+      "training_active_weeks": 98,
+      "name": "block_166",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 35.0,
+      "longitude": 115.0,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 104,
+      "name": "block_167",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 9.0,
+      "longitude": -66.875,
+      "continent": "South America",
+      "country": "Venezuela",
+      "training_active_weeks": 117,
+      "name": "block_168",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -23.0,
+      "longitude": 115.0,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 37,
+      "name": "block_169",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 33.0,
+      "longitude": -88.75,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 128,
+      "name": "block_170",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": 46.875,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 75,
+      "name": "block_171",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -25.0,
+      "longitude": 46.875,
+      "continent": "Africa",
+      "country": "Madagascar",
+      "training_active_weeks": 97,
+      "name": "block_172",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": 103.125,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 104,
+      "name": "block_173",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": 178.75,
+      "continent": "Oceania",
+      "country": "Fiji",
+      "training_active_weeks": 36,
+      "name": "block_174",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -35.0,
+      "longitude": -71.25,
+      "continent": "South America",
+      "country": "Chile",
+      "training_active_weeks": 115,
+      "name": "block_175",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -11.0,
+      "longitude": 38.75,
+      "continent": "Africa",
+      "country": "United Republic of Tanzania",
+      "training_active_weeks": 97,
+      "name": "block_176",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -33.0,
+      "longitude": 25.0,
+      "continent": "Africa",
+      "country": "South Africa",
+      "training_active_weeks": 96,
+      "name": "block_177",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 23.0,
+      "longitude": 76.875,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 101,
+      "name": "block_178",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -31.0,
+      "longitude": -68.75,
+      "continent": "South America",
+      "country": "Argentina",
+      "training_active_weeks": 115,
+      "name": "block_179",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -25.0,
+      "longitude": 128.75,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 31,
+      "name": "block_180",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 35.0,
+      "longitude": -95.0,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 128,
+      "name": "block_181",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 53.0,
+      "longitude": 33.125,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 75,
+      "name": "block_182",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": 31.25,
+      "continent": "Africa",
+      "country": "Zambia",
+      "training_active_weeks": 96,
+      "name": "block_183",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 39.0,
+      "longitude": 46.875,
+      "continent": "Asia",
+      "country": "Iran",
+      "training_active_weeks": 100,
+      "name": "block_184",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -35.0,
+      "longitude": 173.125,
+      "continent": "Oceania",
+      "country": "New Zealand",
+      "training_active_weeks": 30,
+      "name": "block_185",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -27.0,
+      "longitude": -51.25,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 114,
+      "name": "block_186",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 15.0,
+      "longitude": 33.125,
+      "continent": "Africa",
+      "country": "Sudan",
+      "training_active_weeks": 96,
+      "name": "block_187",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -19.0,
+      "longitude": 28.75,
+      "continent": "Africa",
+      "country": "Zimbabwe",
+      "training_active_weeks": 95,
+      "name": "block_188",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 13.0,
+      "longitude": 78.75,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 99,
+      "name": "block_189",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": -61.25,
+      "continent": "South America",
+      "country": "Venezuela",
+      "training_active_weeks": 113,
+      "name": "block_190",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -45.0,
+      "longitude": 168.75,
+      "continent": "Oceania",
+      "country": "New Zealand",
+      "training_active_weeks": 29,
+      "name": "block_191",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 25.0,
+      "longitude": -106.875,
+      "continent": "North America",
+      "country": "Mexico",
+      "training_active_weeks": 126,
+      "name": "block_192",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": 21.25,
+      "continent": "Europe",
+      "country": "Republic of Serbia",
+      "training_active_weeks": 73,
+      "name": "block_193",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": 38.75,
+      "continent": "Africa",
+      "country": "Kenya",
+      "training_active_weeks": 95,
+      "name": "block_194",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 29.0,
+      "longitude": 53.125,
+      "continent": "Asia",
+      "country": "Iran",
+      "training_active_weeks": 99,
+      "name": "block_195",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -21.0,
+      "longitude": 165.0,
+      "continent": "Oceania",
+      "country": "New Caledonia",
+      "training_active_weeks": 29,
+      "name": "block_196",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -61.25,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 110,
+      "name": "block_197",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 9.0,
+      "longitude": 25.0,
+      "continent": "Africa",
+      "country": "South Sudan",
+      "training_active_weeks": 95,
+      "name": "block_198",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -13.0,
+      "longitude": 35.0,
+      "continent": "Africa",
+      "country": "Mozambique",
+      "training_active_weeks": 94,
+      "name": "block_199",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 23.0,
+      "longitude": 95.0,
+      "continent": "Asia",
+      "country": "Myanmar",
+      "training_active_weeks": 98,
+      "name": "block_200",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -36.875,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 110,
+      "name": "block_201",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -21.0,
+      "longitude": 123.125,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 27,
+      "name": "block_202",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 21.0,
+      "longitude": -76.875,
+      "continent": "North America",
+      "country": "Cuba",
+      "training_active_weeks": 120,
+      "name": "block_203",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 53.0,
+      "longitude": 41.25,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 73,
+      "name": "block_204",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": 3.125,
+      "continent": "Africa",
+      "country": "Benin",
+      "training_active_weeks": 94,
+      "name": "block_205",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 35.0,
+      "longitude": 51.25,
+      "continent": "Asia",
+      "country": "Iran",
+      "training_active_weeks": 97,
+      "name": "block_206",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -33.0,
+      "longitude": 135.0,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 20,
+      "name": "block_207",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -13.0,
+      "longitude": -41.25,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 107,
+      "name": "block_208",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -15.0,
+      "longitude": 15.0,
+      "continent": "Africa",
+      "country": "Angola",
+      "training_active_weeks": 93,
+      "name": "block_209",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -11.0,
+      "longitude": 15.0,
+      "continent": "Africa",
+      "country": "Angola",
+      "training_active_weeks": 93,
+      "name": "block_210",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 35.0,
+      "longitude": 108.75,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 97,
+      "name": "block_211",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -7.0,
+      "longitude": -48.75,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 105,
+      "name": "block_212",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -25.0,
+      "longitude": 143.125,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 19,
+      "name": "block_213",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 19.0,
+      "longitude": -88.75,
+      "continent": "North America",
+      "country": "Mexico",
+      "training_active_weeks": 117,
+      "name": "block_214",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": 131.25,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 72,
+      "name": "block_215",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -21.0,
+      "longitude": 16.875,
+      "continent": "Africa",
+      "country": "Namibia",
+      "training_active_weeks": 92,
+      "name": "block_216",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": 61.25,
+      "continent": "Asia",
+      "country": "Turkmenistan",
+      "training_active_weeks": 97,
+      "name": "block_217",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -29.0,
+      "longitude": 128.75,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 17,
+      "name": "block_218",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": -46.875,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 104,
+      "name": "block_219",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": 28.75,
+      "continent": "Africa",
+      "country": "South Sudan",
+      "training_active_weeks": 92,
+      "name": "block_220",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": 8.75,
+      "continent": "Africa",
+      "country": "Nigeria",
+      "training_active_weeks": 92,
+      "name": "block_221",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 43.0,
+      "longitude": 58.75,
+      "continent": "Asia",
+      "country": "Uzbekistan",
+      "training_active_weeks": 97,
+      "name": "block_222",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -21.0,
+      "longitude": -45.0,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 103,
+      "name": "block_223",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -25.0,
+      "longitude": 123.125,
+      "continent": "Oceania",
+      "country": "Australia",
+      "training_active_weeks": 13,
+      "name": "block_224",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 39.0,
+      "longitude": -96.875,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 108,
+      "name": "block_225",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": 28.75,
+      "continent": "Europe",
+      "country": "Ukraine",
+      "training_active_weeks": 72,
+      "name": "block_226",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": 8.75,
+      "continent": "Africa",
+      "country": "Algeria",
+      "training_active_weeks": 91,
+      "name": "block_227",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 7.0,
+      "longitude": 81.25,
+      "continent": "Asia",
+      "country": "Sri Lanka",
+      "training_active_weeks": 93,
+      "name": "block_228",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -5.0,
+      "longitude": -81.25,
+      "continent": "South America",
+      "country": "Peru",
+      "training_active_weeks": 103,
+      "name": "block_229",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": 21.25,
+      "continent": "Africa",
+      "country": "Central African Republic",
+      "training_active_weeks": 90,
+      "name": "block_230",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": -6.875,
+      "continent": "Africa",
+      "country": "Mali",
+      "training_active_weeks": 89,
+      "name": "block_231",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 19.0,
+      "longitude": 96.875,
+      "continent": "Asia",
+      "country": "Myanmar",
+      "training_active_weeks": 93,
+      "name": "block_232",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 7.0,
+      "longitude": -71.25,
+      "continent": "South America",
+      "country": "Colombia",
+      "training_active_weeks": 101,
+      "name": "block_233",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": -78.75,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 105,
+      "name": "block_234",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": 55.0,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 72,
+      "name": "block_235",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 7.0,
+      "longitude": -1.25,
+      "continent": "Africa",
+      "country": "Ghana",
+      "training_active_weeks": 88,
+      "name": "block_236",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 123.125,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 91,
+      "name": "block_237",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -55.0,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 98,
+      "name": "block_238",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 7.0,
+      "longitude": 16.875,
+      "continent": "Africa",
+      "country": "Central African Republic",
+      "training_active_weeks": 88,
+      "name": "block_239",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 15.0,
+      "longitude": -15.0,
+      "continent": "Africa",
+      "country": "Senegal",
+      "training_active_weeks": 88,
+      "name": "block_240",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 7.0,
+      "longitude": 125.0,
+      "continent": "Asia",
+      "country": "Philippines",
+      "training_active_weeks": 90,
+      "name": "block_241",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -65.0,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 96,
+      "name": "block_242",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 23.0,
+      "longitude": -81.25,
+      "continent": "North America",
+      "country": "Cuba",
+      "training_active_weeks": 104,
+      "name": "block_243",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": 21.25,
+      "continent": "Europe",
+      "country": "North Macedonia",
+      "training_active_weeks": 71,
+      "name": "block_244",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -23.0,
+      "longitude": 35.0,
+      "continent": "Africa",
+      "country": "Mozambique",
+      "training_active_weeks": 87,
+      "name": "block_245",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 25.0,
+      "longitude": 83.125,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 90,
+      "name": "block_246",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -39.0,
+      "longitude": -73.125,
+      "continent": "South America",
+      "country": "Chile",
+      "training_active_weeks": 94,
+      "name": "block_247",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -5.0,
+      "longitude": 31.25,
+      "continent": "Africa",
+      "country": "United Republic of Tanzania",
+      "training_active_weeks": 87,
+      "name": "block_248",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -15.0,
+      "longitude": 38.75,
+      "continent": "Africa",
+      "country": "Mozambique",
+      "training_active_weeks": 85,
+      "name": "block_249",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 25.0,
+      "longitude": 98.75,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 89,
+      "name": "block_250",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 3.0,
+      "longitude": -58.75,
+      "continent": "South America",
+      "country": "Guyana",
+      "training_active_weeks": 92,
+      "name": "block_251",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": -91.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 102,
+      "name": "block_252",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 43.0,
+      "longitude": -1.25,
+      "continent": "Europe",
+      "country": "France",
+      "training_active_weeks": 69,
+      "name": "block_253",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": 41.25,
+      "continent": "Africa",
+      "country": "Ethiopia",
+      "training_active_weeks": 85,
+      "name": "block_254",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 27.0,
+      "longitude": 113.125,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 88,
+      "name": "block_255",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -21.0,
+      "longitude": -41.25,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 88,
+      "name": "block_256",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": 18.75,
+      "continent": "Africa",
+      "country": "Angola",
+      "training_active_weeks": 83,
+      "name": "block_257",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 7.0,
+      "longitude": 3.125,
+      "continent": "Africa",
+      "country": "Nigeria",
+      "training_active_weeks": 83,
+      "name": "block_258",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": 105.0,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 87,
+      "name": "block_259",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -17.0,
+      "longitude": -66.875,
+      "continent": "South America",
+      "country": "Bolivia",
+      "training_active_weeks": 88,
+      "name": "block_260",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": -86.875,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 101,
+      "name": "block_261",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 43.125,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 64,
+      "name": "block_262",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": 6.875,
+      "continent": "Africa",
+      "country": "Algeria",
+      "training_active_weeks": 81,
+      "name": "block_263",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 29.0,
+      "longitude": 81.25,
+      "continent": "Asia",
+      "country": "Nepal",
+      "training_active_weeks": 87,
+      "name": "block_264",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -75.0,
+      "continent": "South America",
+      "country": "Peru",
+      "training_active_weeks": 88,
+      "name": "block_265",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 7.0,
+      "longitude": 38.75,
+      "continent": "Africa",
+      "country": "Ethiopia",
+      "training_active_weeks": 78,
+      "name": "block_266",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 9.0,
+      "longitude": 13.125,
+      "continent": "Africa",
+      "country": "Cameroon",
+      "training_active_weeks": 78,
+      "name": "block_267",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": 101.25,
+      "continent": "Asia",
+      "country": "Malaysia",
+      "training_active_weeks": 85,
+      "name": "block_268",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": -55.0,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 87,
+      "name": "block_269",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 35.0,
+      "longitude": -118.75,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 99,
+      "name": "block_270",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 53.0,
+      "longitude": 83.125,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 64,
+      "name": "block_271",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 13.0,
+      "longitude": 21.25,
+      "continent": "Africa",
+      "country": "Chad",
+      "training_active_weeks": 78,
+      "name": "block_272",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 21.0,
+      "longitude": 81.25,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 85,
+      "name": "block_273",
+      "group": "train",
+      "legacy_context": true
+    },
+    {
+      "latitude": -33.0,
+      "longitude": -65.0,
+      "continent": "South America",
+      "country": "Argentina",
+      "training_active_weeks": 86,
+      "name": "block_274",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": -1.25,
+      "continent": "Africa",
+      "country": "Ghana",
+      "training_active_weeks": 76,
+      "name": "block_275",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 1.0,
+      "longitude": 38.75,
+      "continent": "Africa",
+      "country": "Kenya",
+      "training_active_weeks": 75,
+      "name": "block_276",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 19.0,
+      "longitude": 55.0,
+      "continent": "Asia",
+      "country": "Oman",
+      "training_active_weeks": 84,
+      "name": "block_277",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -39.0,
+      "longitude": -68.75,
+      "continent": "South America",
+      "country": "Argentina",
+      "training_active_weeks": 85,
+      "name": "block_278",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 29.0,
+      "longitude": -106.875,
+      "continent": "North America",
+      "country": "Mexico",
+      "training_active_weeks": 95,
+      "name": "block_279",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 61.0,
+      "longitude": 96.875,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 64,
+      "name": "block_280",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": 28.75,
+      "continent": "Africa",
+      "country": "Democratic Republic of the Congo",
+      "training_active_weeks": 74,
+      "name": "block_281",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 48.75,
+      "continent": "Asia",
+      "country": "Kazakhstan",
+      "training_active_weeks": 84,
+      "name": "block_282",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -13.0,
+      "longitude": -75.0,
+      "continent": "South America",
+      "country": "Peru",
+      "training_active_weeks": 82,
+      "name": "block_283",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": 11.25,
+      "continent": "Africa",
+      "country": "Gabon",
+      "training_active_weeks": 73,
+      "name": "block_284",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 29.0,
+      "longitude": 21.25,
+      "continent": "Africa",
+      "country": "Libya",
+      "training_active_weeks": 72,
+      "name": "block_285",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": 75.0,
+      "continent": "Asia",
+      "country": "Kazakhstan",
+      "training_active_weeks": 83,
+      "name": "block_286",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -1.0,
+      "longitude": -78.75,
+      "continent": "South America",
+      "country": "Ecuador",
+      "training_active_weeks": 79,
+      "name": "block_287",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 23.0,
+      "longitude": -103.125,
+      "continent": "North America",
+      "country": "Mexico",
+      "training_active_weeks": 92,
+      "name": "block_288",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 65.0,
+      "longitude": 76.875,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 64,
+      "name": "block_289",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 7.0,
+      "longitude": -6.875,
+      "continent": "Africa",
+      "country": "Ivory Coast",
+      "training_active_weeks": 71,
+      "name": "block_290",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 29.0,
+      "longitude": 118.75,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 82,
+      "name": "block_291",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -5.0,
+      "longitude": -51.25,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 71,
+      "name": "block_292",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -1.0,
+      "longitude": 41.25,
+      "continent": "Africa",
+      "country": "Somalia",
+      "training_active_weeks": 70,
+      "name": "block_293",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": 13.125,
+      "continent": "Africa",
+      "country": "Cameroon",
+      "training_active_weeks": 69,
+      "name": "block_294",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": 68.75,
+      "continent": "Asia",
+      "country": "Kazakhstan",
+      "training_active_weeks": 82,
+      "name": "block_295",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -15.0,
+      "longitude": -71.25,
+      "continent": "South America",
+      "country": "Peru",
+      "training_active_weeks": 65,
+      "name": "block_296",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": -121.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 90,
+      "name": "block_297",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": 128.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 61,
+      "name": "block_298",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 25.0,
+      "longitude": 33.125,
+      "continent": "Africa",
+      "country": "Egypt",
+      "training_active_weeks": 64,
+      "name": "block_299",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 15.0,
+      "longitude": 75.0,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 81,
+      "name": "block_300",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -37.0,
+      "longitude": -65.0,
+      "continent": "South America",
+      "country": "Argentina",
+      "training_active_weeks": 64,
+      "name": "block_301",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 15.0,
+      "longitude": -1.25,
+      "continent": "Africa",
+      "country": "Mali",
+      "training_active_weeks": 63,
+      "name": "block_302",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -1.0,
+      "longitude": 18.75,
+      "continent": "Africa",
+      "country": "Democratic Republic of the Congo",
+      "training_active_weeks": 60,
+      "name": "block_303",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 39.0,
+      "longitude": 28.75,
+      "continent": "Asia",
+      "country": "Turkey",
+      "training_active_weeks": 81,
+      "name": "block_304",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -7.0,
+      "longitude": -58.75,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 64,
+      "name": "block_305",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 29.0,
+      "longitude": -111.25,
+      "continent": "North America",
+      "country": "Mexico",
+      "training_active_weeks": 87,
+      "name": "block_306",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": 76.875,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 60,
+      "name": "block_307",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 13.0,
+      "longitude": 11.25,
+      "continent": "Africa",
+      "country": "Nigeria",
+      "training_active_weeks": 56,
+      "name": "block_308",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 19.0,
+      "longitude": 108.75,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 80,
+      "name": "block_309",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -37.0,
+      "longitude": -58.75,
+      "continent": "South America",
+      "country": "Argentina",
+      "training_active_weeks": 63,
+      "name": "block_310",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 27.0,
+      "longitude": 8.75,
+      "continent": "Africa",
+      "country": "Algeria",
+      "training_active_weeks": 56,
+      "name": "block_311",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 1.0,
+      "longitude": 11.25,
+      "continent": "Africa",
+      "country": "Gabon",
+      "training_active_weeks": 47,
+      "name": "block_312",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 39.0,
+      "longitude": 33.125,
+      "continent": "Asia",
+      "country": "Turkey",
+      "training_active_weeks": 80,
+      "name": "block_313",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 3.0,
+      "longitude": -76.875,
+      "continent": "South America",
+      "country": "Colombia",
+      "training_active_weeks": 61,
+      "name": "block_314",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": -85.0,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 87,
+      "name": "block_315",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 53.0,
+      "longitude": 61.25,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 59,
+      "name": "block_316",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 15.0,
+      "longitude": 3.125,
+      "continent": "Africa",
+      "country": "Niger",
+      "training_active_weeks": 47,
+      "name": "block_317",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -7.0,
+      "longitude": 111.25,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 79,
+      "name": "block_318",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": -65.0,
+      "continent": "South America",
+      "country": "Venezuela",
+      "training_active_weeks": 58,
+      "name": "block_319",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 1.0,
+      "longitude": 28.75,
+      "continent": "Africa",
+      "country": "Democratic Republic of the Congo",
+      "training_active_weeks": 46,
+      "name": "block_320",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -23.0,
+      "longitude": 21.25,
+      "continent": "Africa",
+      "country": "Botswana",
+      "training_active_weeks": 45,
+      "name": "block_321",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": 121.25,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 79,
+      "name": "block_322",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -11.0,
+      "longitude": -68.75,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 54,
+      "name": "block_323",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": -116.875,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 82,
+      "name": "block_324",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": 48.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 57,
+      "name": "block_325",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 27.0,
+      "longitude": 13.125,
+      "continent": "Africa",
+      "country": "Libya",
+      "training_active_weeks": 43,
+      "name": "block_326",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 29.0,
+      "longitude": 91.25,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 78,
+      "name": "block_327",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 7.0,
+      "longitude": -75.0,
+      "continent": "South America",
+      "country": "Colombia",
+      "training_active_weeks": 52,
+      "name": "block_328",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 33.0,
+      "longitude": -5.0,
+      "continent": "Africa",
+      "country": "Morocco",
+      "training_active_weeks": 38,
+      "name": "block_329",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 7.0,
+      "longitude": -11.25,
+      "continent": "Africa",
+      "country": "Liberia",
+      "training_active_weeks": 37,
+      "name": "block_330",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 23.0,
+      "longitude": 55.0,
+      "continent": "Asia",
+      "country": "United Arab Emirates",
+      "training_active_weeks": 77,
+      "name": "block_331",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 1.0,
+      "longitude": -55.0,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 49,
+      "name": "block_332",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": -76.875,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 80,
+      "name": "block_333",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 57.0,
+      "longitude": 65.0,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 56,
+      "name": "block_334",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": 26.875,
+      "continent": "Africa",
+      "country": "Egypt",
+      "training_active_weeks": 37,
+      "name": "block_335",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": 126.875,
+      "continent": "Asia",
+      "country": "South Korea",
+      "training_active_weeks": 77,
+      "name": "block_336",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 1.0,
+      "longitude": -51.25,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 48,
+      "name": "block_337",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 1.0,
+      "longitude": 21.25,
+      "continent": "Africa",
+      "country": "Democratic Republic of the Congo",
+      "training_active_weeks": 35,
+      "name": "block_338",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -29.0,
+      "longitude": 21.25,
+      "continent": "Africa",
+      "country": "South Africa",
+      "training_active_weeks": 34,
+      "name": "block_339",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 43.0,
+      "longitude": 118.75,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 77,
+      "name": "block_340",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -27.0,
+      "longitude": -68.75,
+      "continent": "South America",
+      "country": "Chile",
+      "training_active_weeks": 46,
+      "name": "block_341",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": -91.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 78,
+      "name": "block_342",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 49.0,
+      "longitude": 135.0,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 53,
+      "name": "block_343",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": 45.0,
+      "continent": "Africa",
+      "country": "Somalia",
+      "training_active_weeks": 34,
+      "name": "block_344",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": 63.125,
+      "continent": "Asia",
+      "country": "Uzbekistan",
+      "training_active_weeks": 75,
+      "name": "block_345",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -5.0,
+      "longitude": -61.25,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 46,
+      "name": "block_346",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 1.0,
+      "longitude": 25.0,
+      "continent": "Africa",
+      "country": "Democratic Republic of the Congo",
+      "training_active_weeks": 30,
+      "name": "block_347",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 19.0,
+      "longitude": 36.875,
+      "continent": "Africa",
+      "country": "Sudan",
+      "training_active_weeks": 28,
+      "name": "block_348",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": 116.875,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 72,
+      "name": "block_349",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": -58.75,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 44,
+      "name": "block_350",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 33.0,
+      "longitude": -108.75,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 77,
+      "name": "block_351",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 61.0,
+      "longitude": 68.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 52,
+      "name": "block_352",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 35.0,
+      "longitude": 1.25,
+      "continent": "Africa",
+      "country": "Algeria",
+      "training_active_weeks": 27,
+      "name": "block_353",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 25.0,
+      "longitude": 91.25,
+      "continent": "Asia",
+      "country": "Bangladesh",
+      "training_active_weeks": 72,
+      "name": "block_354",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -71.25,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 41,
+      "name": "block_355",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 19.0,
+      "longitude": 31.25,
+      "continent": "Africa",
+      "country": "Sudan",
+      "training_active_weeks": 26,
+      "name": "block_356",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": -8.75,
+      "continent": "Africa",
+      "country": "Morocco",
+      "training_active_weeks": 25,
+      "name": "block_357",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": 81.25,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 72,
+      "name": "block_358",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 1.0,
+      "longitude": -61.25,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 38,
+      "name": "block_359",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 35.0,
+      "longitude": -101.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 75,
+      "name": "block_360",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 49.0,
+      "longitude": 23.125,
+      "continent": "Europe",
+      "country": "Ukraine",
+      "training_active_weeks": 51,
+      "name": "block_361",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 23.0,
+      "longitude": 28.75,
+      "continent": "Africa",
+      "country": "Egypt",
+      "training_active_weeks": 19,
+      "name": "block_362",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -9.0,
+      "longitude": 125.0,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 69,
+      "name": "block_363",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 7.0,
+      "longitude": -58.75,
+      "continent": "South America",
+      "country": "Guyana",
+      "training_active_weeks": 37,
+      "name": "block_364",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": 41.25,
+      "continent": "Africa",
+      "country": "Ethiopia",
+      "training_active_weeks": 16,
+      "name": "block_365",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -25.0,
+      "longitude": 16.875,
+      "continent": "Africa",
+      "country": "Namibia",
+      "training_active_weeks": 15,
+      "name": "block_366",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 9.0,
+      "longitude": 76.875,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 69,
+      "name": "block_367",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": -66.875,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 29,
+      "name": "block_368",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": -118.75,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 74,
+      "name": "block_369",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": 21.25,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 49,
+      "name": "block_370",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 23.0,
+      "longitude": 121.25,
+      "continent": "Asia",
+      "country": "Taiwan",
+      "training_active_weeks": 69,
+      "name": "block_371",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -41.0,
+      "longitude": -63.125,
+      "continent": "South America",
+      "country": "Argentina",
+      "training_active_weeks": 26,
+      "name": "block_372",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 33.0,
+      "longitude": 131.25,
+      "continent": "Asia",
+      "country": "Japan",
+      "training_active_weeks": 68,
+      "name": "block_373",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": -55.0,
+      "continent": "South America",
+      "country": "Suriname",
+      "training_active_weeks": 25,
+      "name": "block_374",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 43.0,
+      "longitude": -96.875,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 73,
+      "name": "block_375",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": 55.0,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 49,
+      "name": "block_376",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": 86.875,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 67,
+      "name": "block_377",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -5.0,
+      "longitude": -73.125,
+      "continent": "South America",
+      "country": "Peru",
+      "training_active_weeks": 21,
+      "name": "block_378",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 81.25,
+      "continent": "Asia",
+      "country": "Kazakhstan",
+      "training_active_weeks": 66,
+      "name": "block_379",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -21.0,
+      "longitude": -68.75,
+      "continent": "South America",
+      "country": "Chile",
+      "training_active_weeks": 18,
+      "name": "block_380",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 49.0,
+      "longitude": -96.875,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 69,
+      "name": "block_381",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 57.0,
+      "longitude": 96.875,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 49,
+      "name": "block_382",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": 105.0,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 65,
+      "name": "block_383",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -7.0,
+      "longitude": -68.75,
+      "continent": "South America",
+      "country": "Brazil",
+      "training_active_weeks": 16,
+      "name": "block_384",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 1.0,
+      "longitude": 116.875,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 64,
+      "name": "block_385",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -49.0,
+      "longitude": -71.25,
+      "continent": "South America",
+      "country": "Argentina",
+      "training_active_weeks": 13,
+      "name": "block_386",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": -101.25,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 68,
+      "name": "block_387",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": 5.0,
+      "continent": "Europe",
+      "country": "France",
+      "training_active_weeks": 47,
+      "name": "block_388",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": 65.0,
+      "continent": "Asia",
+      "country": "Kazakhstan",
+      "training_active_weeks": 64,
+      "name": "block_389",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": 78.75,
+      "continent": "Asia",
+      "country": "Kazakhstan",
+      "training_active_weeks": 63,
+      "name": "block_390",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": -91.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 59,
+      "name": "block_391",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": 118.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 47,
+      "name": "block_392",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 35.0,
+      "longitude": 73.125,
+      "continent": "Asia",
+      "country": "Pakistan",
+      "training_active_weeks": 60,
+      "name": "block_393",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": 73.125,
+      "continent": "Asia",
+      "country": "Kazakhstan",
+      "training_active_weeks": 60,
+      "name": "block_394",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": -113.125,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 57,
+      "name": "block_395",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 53.0,
+      "longitude": 13.125,
+      "continent": "Europe",
+      "country": "Germany",
+      "training_active_weeks": 47,
+      "name": "block_396",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": 138.75,
+      "continent": "Asia",
+      "country": "Japan",
+      "training_active_weeks": 59,
+      "name": "block_397",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": 98.75,
+      "continent": "Asia",
+      "country": "Myanmar",
+      "training_active_weeks": 58,
+      "name": "block_398",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 59.0,
+      "longitude": -116.875,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 57,
+      "name": "block_399",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 57.0,
+      "longitude": 43.125,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 47,
+      "name": "block_400",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -7.0,
+      "longitude": 106.875,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 56,
+      "name": "block_401",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 27.0,
+      "longitude": 108.75,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 56,
+      "name": "block_402",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": -121.25,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 54,
+      "name": "block_403",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 49.0,
+      "longitude": 11.25,
+      "continent": "Europe",
+      "country": "Germany",
+      "training_active_weeks": 42,
+      "name": "block_404",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 3.0,
+      "longitude": 98.75,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 55,
+      "name": "block_405",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": 66.875,
+      "continent": "Asia",
+      "country": "Kazakhstan",
+      "training_active_weeks": 55,
+      "name": "block_406",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 9.0,
+      "longitude": -83.125,
+      "continent": "North America",
+      "country": "Costa Rica",
+      "training_active_weeks": 51,
+      "name": "block_407",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": 101.25,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 41,
+      "name": "block_408",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 25.0,
+      "longitude": 86.875,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 53,
+      "name": "block_409",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 29.0,
+      "longitude": 85.0,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 52,
+      "name": "block_410",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 43.0,
+      "longitude": -115.0,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 51,
+      "name": "block_411",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 61.0,
+      "longitude": 113.125,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 40,
+      "name": "block_412",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 43.0,
+      "longitude": 126.875,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 52,
+      "name": "block_413",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 3.0,
+      "longitude": 113.125,
+      "continent": "Asia",
+      "country": "Malaysia",
+      "training_active_weeks": 51,
+      "name": "block_414",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 53.0,
+      "longitude": -113.125,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 47,
+      "name": "block_415",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 59.0,
+      "longitude": 133.125,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 38,
+      "name": "block_416",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": 35.0,
+      "continent": "Asia",
+      "country": "Israel",
+      "training_active_weeks": 51,
+      "name": "block_417",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": 115.0,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 50,
+      "name": "block_418",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": -108.75,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 47,
+      "name": "block_419",
+      "group": "train",
+      "legacy_context": true
+    },
+    {
+      "latitude": 51.0,
+      "longitude": 5.0,
+      "continent": "Europe",
+      "country": "Belgium",
+      "training_active_weeks": 37,
+      "name": "block_420",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 17.0,
+      "longitude": 43.125,
+      "continent": "Asia",
+      "country": "Saudi Arabia",
+      "training_active_weeks": 46,
+      "name": "block_421",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 39.0,
+      "longitude": 76.875,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 46,
+      "name": "block_422",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": -111.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 46,
+      "name": "block_423",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 63.0,
+      "longitude": 135.0,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 37,
+      "name": "block_424",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": 121.25,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 45,
+      "name": "block_425",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 39.0,
+      "longitude": 55.0,
+      "continent": "Asia",
+      "country": "Turkmenistan",
+      "training_active_weeks": 45,
+      "name": "block_426",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": -105.0,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 44,
+      "name": "block_427",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": 108.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 35,
+      "name": "block_428",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 33.0,
+      "longitude": 76.875,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 43,
+      "name": "block_429",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": 111.25,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 42,
+      "name": "block_430",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": -106.875,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 44,
+      "name": "block_431",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 57.0,
+      "longitude": 85.0,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 34,
+      "name": "block_432",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": 128.75,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 41,
+      "name": "block_433",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 29.0,
+      "longitude": 101.25,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 39,
+      "name": "block_434",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 57.0,
+      "longitude": -123.125,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 43,
+      "name": "block_435",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 63.0,
+      "longitude": 118.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 34,
+      "name": "block_436",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": 111.25,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 39,
+      "name": "block_437",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 35.0,
+      "longitude": 135.0,
+      "continent": "Asia",
+      "country": "Japan",
+      "training_active_weeks": 39,
+      "name": "block_438",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": -75.0,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 42,
+      "name": "block_439",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 16.875,
+      "continent": "Europe",
+      "country": "Hungary",
+      "training_active_weeks": 32,
+      "name": "block_440",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 27.0,
+      "longitude": 73.125,
+      "continent": "Asia",
+      "country": "India",
+      "training_active_weeks": 38,
+      "name": "block_441",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": 66.875,
+      "continent": "Asia",
+      "country": "Afghanistan",
+      "training_active_weeks": 38,
+      "name": "block_442",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": -111.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 40,
+      "name": "block_443",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": 28.75,
+      "continent": "Europe",
+      "country": "Belarus",
+      "training_active_weeks": 32,
+      "name": "block_444",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 39.0,
+      "longitude": 98.75,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 36,
+      "name": "block_445",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": -7.0,
+      "longitude": 138.75,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 35,
+      "name": "block_446",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 9.0,
+      "longitude": -78.75,
+      "continent": "North America",
+      "country": "Panama",
+      "training_active_weeks": 38,
+      "name": "block_447",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": 123.125,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 32,
+      "name": "block_448",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 5.0,
+      "longitude": 116.875,
+      "continent": "Asia",
+      "country": "Malaysia",
+      "training_active_weeks": 35,
+      "name": "block_449",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": 81.25,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 35,
+      "name": "block_450",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": -81.25,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 37,
+      "name": "block_451",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 59.0,
+      "longitude": 28.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 31,
+      "name": "block_452",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 43.0,
+      "longitude": 93.125,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 35,
+      "name": "block_453",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 49.0,
+      "longitude": 85.0,
+      "continent": "Asia",
+      "country": "Kazakhstan",
+      "training_active_weeks": 35,
+      "name": "block_454",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 25.0,
+      "longitude": -111.25,
+      "continent": "North America",
+      "country": "Mexico",
+      "training_active_weeks": 36,
+      "name": "block_455",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 59.0,
+      "longitude": 58.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 29,
+      "name": "block_456",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": 61.25,
+      "continent": "Asia",
+      "country": "Iran",
+      "training_active_weeks": 32,
+      "name": "block_457",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 35.0,
+      "longitude": 33.125,
+      "continent": "Asia",
+      "country": "Cyprus",
+      "training_active_weeks": 32,
+      "name": "block_458",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 43.0,
+      "longitude": -81.25,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 36,
+      "name": "block_459",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": -1.25,
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "training_active_weeks": 28,
+      "name": "block_460",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": 88.75,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 32,
+      "name": "block_461",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 27.0,
+      "longitude": 43.125,
+      "continent": "Asia",
+      "country": "Saudi Arabia",
+      "training_active_weeks": 30,
+      "name": "block_462",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": -101.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 36,
+      "name": "block_463",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 63.0,
+      "longitude": 126.875,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 28,
+      "name": "block_464",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 29.0,
+      "longitude": 56.875,
+      "continent": "Asia",
+      "country": "Iran",
+      "training_active_weeks": 30,
+      "name": "block_465",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": 68.75,
+      "continent": "Asia",
+      "country": "Pakistan",
+      "training_active_weeks": 30,
+      "name": "block_466",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": -106.875,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 36,
+      "name": "block_467",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 57.0,
+      "longitude": 36.875,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 27,
+      "name": "block_468",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 35.0,
+      "longitude": 86.875,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 29,
+      "name": "block_469",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": 73.125,
+      "continent": "Asia",
+      "country": "Kyrgyzstan",
+      "training_active_weeks": 28,
+      "name": "block_470",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": -108.75,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 29,
+      "name": "block_471",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 63.0,
+      "longitude": 143.125,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 27,
+      "name": "block_472",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 11.0,
+      "longitude": 125.0,
+      "continent": "Asia",
+      "country": "Philippines",
+      "training_active_weeks": 26,
+      "name": "block_473",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 61.25,
+      "continent": "Asia",
+      "country": "Kazakhstan",
+      "training_active_weeks": 25,
+      "name": "block_474",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 39.0,
+      "longitude": -101.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 26,
+      "name": "block_475",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": 18.75,
+      "continent": "Europe",
+      "country": "Poland",
+      "training_active_weeks": 26,
+      "name": "block_476",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 33.0,
+      "longitude": 95.0,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 24,
+      "name": "block_477",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 71.25,
+      "continent": "Asia",
+      "country": "Kazakhstan",
+      "training_active_weeks": 23,
+      "name": "block_478",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 43.0,
+      "longitude": -71.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 26,
+      "name": "block_479",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 59.0,
+      "longitude": 13.125,
+      "continent": "Europe",
+      "country": "Sweden",
+      "training_active_weeks": 26,
+      "name": "block_480",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 33.0,
+      "longitude": 101.25,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 20,
+      "name": "block_481",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": 36.875,
+      "continent": "Asia",
+      "country": "Turkey",
+      "training_active_weeks": 20,
+      "name": "block_482",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 53.0,
+      "longitude": -126.875,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 22,
+      "name": "block_483",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 35.0,
+      "longitude": 25.0,
+      "continent": "Europe",
+      "country": "Greece",
+      "training_active_weeks": 25,
+      "name": "block_484",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 23.0,
+      "longitude": 58.75,
+      "continent": "Asia",
+      "country": "Oman",
+      "training_active_weeks": 19,
+      "name": "block_485",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 41.0,
+      "longitude": 141.25,
+      "continent": "Asia",
+      "country": "Japan",
+      "training_active_weeks": 19,
+      "name": "block_486",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 27.0,
+      "longitude": -103.125,
+      "continent": "North America",
+      "country": "Mexico",
+      "training_active_weeks": 21,
+      "name": "block_487",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 1.25,
+      "continent": "Europe",
+      "country": "France",
+      "training_active_weeks": 25,
+      "name": "block_488",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": 138.75,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 17,
+      "name": "block_489",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 21.0,
+      "longitude": 41.25,
+      "continent": "Asia",
+      "country": "Saudi Arabia",
+      "training_active_weeks": 17,
+      "name": "block_490",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 45.0,
+      "longitude": -85.0,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 21,
+      "name": "block_491",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 57.0,
+      "longitude": -3.125,
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "training_active_weeks": 25,
+      "name": "block_492",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": -3.0,
+      "longitude": 133.125,
+      "continent": "Asia",
+      "country": "Indonesia",
+      "training_active_weeks": 16,
+      "name": "block_493",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 13.0,
+      "longitude": 45.0,
+      "continent": "Asia",
+      "country": "Yemen",
+      "training_active_weeks": 16,
+      "name": "block_494",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 61.0,
+      "longitude": -125.0,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 20,
+      "name": "block_495",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": 111.25,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 24,
+      "name": "block_496",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 25.0,
+      "longitude": 38.75,
+      "continent": "Asia",
+      "country": "Saudi Arabia",
+      "training_active_weeks": 16,
+      "name": "block_497",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 31.0,
+      "longitude": 38.75,
+      "continent": "Asia",
+      "country": "Saudi Arabia",
+      "training_active_weeks": 15,
+      "name": "block_498",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": -103.125,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 18,
+      "name": "block_499",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": 158.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 24,
+      "name": "block_500",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 27.0,
+      "longitude": 61.25,
+      "continent": "Asia",
+      "country": "Iran",
+      "training_active_weeks": 14,
+      "name": "block_501",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 115.0,
+      "continent": "Asia",
+      "country": "Mongolia",
+      "training_active_weeks": 14,
+      "name": "block_502",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 59.0,
+      "longitude": -106.875,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 18,
+      "name": "block_503",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": 93.125,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 23,
+      "name": "block_504",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 37.0,
+      "longitude": 95.0,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 12,
+      "name": "block_505",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 43.0,
+      "longitude": 113.125,
+      "continent": "Asia",
+      "country": "China",
+      "training_active_weeks": 12,
+      "name": "block_506",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 65.0,
+      "longitude": -146.875,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 18,
+      "name": "block_507",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": 8.75,
+      "continent": "Europe",
+      "country": "Denmark",
+      "training_active_weeks": 23,
+      "name": "block_508",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 49.0,
+      "longitude": -91.25,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 17,
+      "name": "block_509",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 61.0,
+      "longitude": 76.875,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 22,
+      "name": "block_510",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 43.0,
+      "longitude": -101.25,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 15,
+      "name": "block_511",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 61.0,
+      "longitude": 148.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 21,
+      "name": "block_512",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 63.0,
+      "longitude": -136.875,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 15,
+      "name": "block_513",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 53.0,
+      "longitude": 143.125,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 20,
+      "name": "block_514",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 63.0,
+      "longitude": -153.125,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 14,
+      "name": "block_515",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 65.0,
+      "longitude": 113.125,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 20,
+      "name": "block_516",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 63.0,
+      "longitude": -115.0,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 14,
+      "name": "block_517",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 57.0,
+      "longitude": 118.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 18,
+      "name": "block_518",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 53.0,
+      "longitude": -95.0,
+      "continent": "North America",
+      "country": "Canada",
+      "training_active_weeks": 12,
+      "name": "block_519",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 61.0,
+      "longitude": 38.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 17,
+      "name": "block_520",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 61.0,
+      "longitude": -145.0,
+      "continent": "North America",
+      "country": "United States of America",
+      "training_active_weeks": 12,
+      "name": "block_521",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 63.0,
+      "longitude": 106.875,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 17,
+      "name": "block_522",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 59.0,
+      "longitude": 51.25,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 16,
+      "name": "block_523",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 61.0,
+      "longitude": 166.875,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 15,
+      "name": "block_524",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 63.0,
+      "longitude": 61.25,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 15,
+      "name": "block_525",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 53.0,
+      "longitude": -6.875,
+      "continent": "Europe",
+      "country": "Ireland",
+      "training_active_weeks": 14,
+      "name": "block_526",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 53.0,
+      "longitude": 136.875,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 14,
+      "name": "block_527",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 59.0,
+      "longitude": 125.0,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 14,
+      "name": "block_528",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 63.0,
+      "longitude": 23.125,
+      "continent": "Europe",
+      "country": "Finland",
+      "training_active_weeks": 14,
+      "name": "block_529",
+      "group": "train",
+      "legacy_context": false
+    },
+    {
+      "latitude": 51.0,
+      "longitude": 103.125,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 13,
+      "name": "block_530",
+      "group": "holdout",
+      "legacy_context": false
+    },
+    {
+      "latitude": 55.0,
+      "longitude": 128.75,
+      "continent": "Europe",
+      "country": "Russia",
+      "training_active_weeks": 12,
+      "name": "block_531",
+      "group": "train",
+      "legacy_context": false
+    }
+  ]
+}

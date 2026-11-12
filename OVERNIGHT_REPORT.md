@@ -1,3 +1,7 @@
+# Encerramento v6
+
+Veja REPORT_MAXCOVERAGE_V6.md para dados, limites, resultados medidos e comandos. A coleta anterior foi interrompida; a avaliacao foi concluida na retomada solicitada pelo usuario.
+
 # Relatório da execução
 
 ## Continuação concluída — expansão multicontinental v5
