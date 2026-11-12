@@ -24,6 +24,19 @@ def main() -> None:
     parser.add_argument("--latitude", type=float)
     parser.add_argument("--longitude", type=float)
     parser.add_argument(
+        "--geography",
+        action="store_true",
+        help="Consulta contexto geográfico AppEEARS; pode retornar pending",
+    )
+    parser.add_argument(
+        "--geography-model",
+        type=Path,
+        help="Diretório opcional do experimento geográfico treinado",
+    )
+    parser.add_argument(
+        "--geography-view", type=Path, help="Exporta relatório HTML, JSON e GeoJSON"
+    )
+    parser.add_argument(
         "--validated-only",
         action="store_true",
         help="Desabilita estimativas exploratórias fora do suporte local",
@@ -53,13 +66,30 @@ def main() -> None:
             date = sample["issued_at"][:10]
     if args.historical and date is None:
         parser.error("Modo histórico exige --data.")
-    value = (
-        predict(lat, lon, date, args.run_dir)
-        if args.historical
-        else forecast(
-            lat, lon, args.run_dir, date, allow_exploratory=not args.validated_only
+    if args.geography or args.geography_model or args.geography_view:
+        if args.historical:
+            parser.error(
+                "Use geografia no modo de projeção; replay histórico v6 permanece congelado."
+            )
+        from earthfire.geographic_predict import forecast_with_geography
+
+        value = forecast_with_geography(
+            lat,
+            lon,
+            args.run_dir,
+            date,
+            view_dir=args.geography_view,
+            geography_model_dir=args.geography_model,
+            allow_exploratory=not args.validated_only,
         )
-    )
+    else:
+        value = (
+            predict(lat, lon, date, args.run_dir)
+            if args.historical
+            else forecast(
+                lat, lon, args.run_dir, date, allow_exploratory=not args.validated_only
+            )
+        )
     print(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False))
 
 

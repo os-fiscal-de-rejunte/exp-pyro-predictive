@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-11-12T12:01:46+00:00",
+  "source": "NASA AppEEARS",
+  "requested_location": {
+    "latitude": -21.229167,
+    "longitude": -54.341825
+  },
+  "reference_date": "2026-11-12T00:00:00",
+  "sampling": "nove pontos; não todos os pixels da célula",
+  "model_uses_geography": false,
+  "files": {
+    "audit.json": "e33f09030aa8d6ce7e03ac83a45e787094b059673da9a86c3856d8ea45189628",
+    "geography.json": "89630895c1659b32abdcc89abec4ba5a211fa9564da58db5d2591744ba8cc105",
+    "geography.png": "88b851b23ac64d4cab01951b526b3a5bb91ac5dcbac784e529f8348dbbc752d6",
+    "index.html": "4f618a46e2e35467a31b9ef34d040e9f5f91b55d1dad7918ff2ca7487f2698b7",
+    "samples.geojson": "c393642a03f6548ba2b6c073a2253cd8d9c8d04a58e79342e77cdf7b3d429e36",
+    "metadata/layers_MCD12Q1.061.json": "953a764ecb2076eb20ca8126de48217c255a3398cf758fcf7cffbbe1e9cddb8f",
+    "metadata/layers_MOD13Q1.061.json": "fdeba171d18ad9885214b90788192e85591007b6676b002c44f56fb01356fe74",
+    "metadata/layers_MOD44B.061.json": "aab74fc2a53a94d17cb7fc0c6f49b2fb5ea78ad14cd289f865123e8fa939c38b",
+    "metadata/layers_NASADEM_NC.001.json": "598bba441871432175df1771ea7ec27a5a33ada53602d2705e32ded71b6207a4",
+    "source_csv/PYRO-geography-008a1af9bcdc3181-NASADEM-NC-001-results.csv": "30858b062864be232e445c5e5f1f7b2dda9b93b15e2acde439a96e69d2b6e8a0",
+    "source_csv/PYRO-geography-008a1af9bcdc3181-NASADEM-NC-001-results.csv.json": "76e78d9b574f6ef9142faab959b77a19d3389d196c1a21bb27a46eed23c5bd48",
+    "source_csv/PYRO-geography-35b58aedbd75918b-MCD12Q1-061-results.csv": "8311cefc59899b7f3cd6f4382146324d4a867f5c6edd9cc13d87b1d44872049c",
+    "source_csv/PYRO-geography-35b58aedbd75918b-MCD12Q1-061-results.csv.json": "3190a6fbc502d4050954cb73689637a8f7b9c04fb6bc69799b042d380bc73ea1",
+    "source_csv/PYRO-geography-35b58aedbd75918b-MOD13Q1-061-results.csv": "092751910492362f58bddaad87b6fca7681ed1d611118e53316266c7b5607b3b",
+    "source_csv/PYRO-geography-35b58aedbd75918b-MOD13Q1-061-results.csv.json": "138f81efecf4c9fb27ad3fcfa38e5ee87520030d1941f56864edff2275b2a75a",
+    "source_csv/PYRO-geography-35b58aedbd75918b-MOD44B-061-results.csv": "d7e66cf89ff436636d718c89075c681ba9a97fb4c69165aec33de9f096280870",
+    "source_csv/PYRO-geography-35b58aedbd75918b-MOD44B-061-results.csv.json": "b8852e44dc69fcd824fc6f4077a0d27734cb208275505f82fe37f406346b91f3"
+  }
+}

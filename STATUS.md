@@ -1,3 +1,7 @@
+# Integração AppEEARS em execução
+
+Autenticação local configurada. Catálogo de quatro produtos verificado; nove amostras do local demonstrativo e piloto de 24 células/216 pontos solicitados à NASA. Estado remoto ainda em processamento/fila. Cliente, exportação HTML/JSON/GeoJSON e experimento Pyro com/sem geografia implementados. Modelos v6 preservados; aumento de acurácia global ainda não demonstrado. Atualização UTC: 2026-11-12T11:50:35+00:00. Detalhes em docs/appeears_geografia.md.
+
 # Expansao v6 finalizada
 
 74 testes aprovados; 498 celulas liberadas, 718.796 km2, 0,140922% da superficie global. Acuracia no teste da coorte liberada: 78,86%; recall: 39,55%. Consulte [relatorio](REPORT_MAXCOVERAGE_V6.md). Nenhuma coleta adicional foi iniciada no encerramento.

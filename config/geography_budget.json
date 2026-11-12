@@ -1,0 +1,15 @@
+{
+  "runs_dir": "runs",
+  "seed": 20261112,
+  "operational": {
+    "total_seconds": 5400,
+    "reserve_seconds": 120,
+    "training_seconds": 1200,
+    "max_training_runs": 2,
+    "max_cpu_threads": 2,
+    "memory_fraction_initial_available": 0.6,
+    "new_files_fraction_initial_free": 0.2,
+    "new_files_max_bytes": 1073741824,
+    "checkpoint_seconds": 900
+  }
+}

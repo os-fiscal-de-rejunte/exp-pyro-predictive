@@ -1,3 +1,7 @@
+# Contexto geográfico NASA AppEEARS
+
+Integração com cobertura do solo, NDVI/EVI, cobertura arbórea e altitude. [Guia e comandos](docs/appeears_geografia.md) · [Visualização real de exemplo](artifacts/geography_demo/index.html). O exemplo contém dados NASA obtidos para nove pontos; isso não demonstra melhora da acurácia mundial. A comparação Pyro com/sem geografia tem pipeline próprio e preserva o modelo v6.
+
 # Consulta em locais sem treinamento local
 
 Agora o comando de previsao permite estimativas exploratorias com o Pyro treinado e identifica essa condicao no JSON. A cobertura validada continua sendo 0,1409% do globo. [Uso e interpretacao](docs/previsao_espacial_exploratoria.md). Para limitar a consulta a areas validadas, use `--validated-only`.

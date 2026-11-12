@@ -1,0 +1,525 @@
+{
+  "status": "ok",
+  "source": "NASA AppEEARS",
+  "reference_date": "2026-11-12T00:00:00",
+  "availability_mode": "retrospective_assumed_lags",
+  "availability_verified": false,
+  "sampling": "grade amostral; não representa todos os pixels da célula",
+  "features": {
+    "geo_ndvi": 0.6603666666666667,
+    "geo_ndvi_sample_n": 9,
+    "geo_evi": 0.42463333333333336,
+    "geo_evi_sample_n": 9,
+    "geo_tree_percent": 21.555555555555557,
+    "geo_tree_percent_sample_n": 9,
+    "geo_nontree_percent": 66.33333333333333,
+    "geo_nontree_percent_sample_n": 9,
+    "geo_bare_percent": 12.11111111111111,
+    "geo_bare_percent_sample_n": 9,
+    "geo_elevation_m": 450.44444444444446,
+    "geo_elevation_m_sample_n": 9,
+    "geo_landcover_01": 0.0,
+    "geo_landcover_02": 0.1111111111111111,
+    "geo_landcover_03": 0.0,
+    "geo_landcover_04": 0.0,
+    "geo_landcover_05": 0.0,
+    "geo_landcover_06": 0.0,
+    "geo_landcover_07": 0.0,
+    "geo_landcover_08": 0.0,
+    "geo_landcover_09": 0.2222222222222222,
+    "geo_landcover_10": 0.5555555555555556,
+    "geo_landcover_11": 0.0,
+    "geo_landcover_12": 0.1111111111111111,
+    "geo_landcover_13": 0.0,
+    "geo_landcover_14": 0.0,
+    "geo_landcover_15": 0.0,
+    "geo_landcover_16": 0.0,
+    "geo_landcover_17": 0.0,
+    "geo_landcover_sample_n": 9,
+    "geo_elevation_range_m": 103.0
+  },
+  "samples": [
+    {
+      "id": "m41_r13325_c15498_s00",
+      "region_id": "m41_r13325_c15498",
+      "latitude": -21.326388887007145,
+      "longitude": -54.526845351234094,
+      "row": 0,
+      "column": 0,
+      "layers": {
+        "NASADEM_HGT": {
+          "value": 483.0,
+          "date": "2000-02-11",
+          "product": "NASADEM_NC.001",
+          "unit": "Meters"
+        },
+        "LC_Type1": {
+          "value": 10.0,
+          "date": "2024-01-01",
+          "product": "MCD12Q1.061",
+          "unit": ""
+        },
+        "Percent_NonVegetated": {
+          "value": 27.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_Tree_Cover": {
+          "value": 13.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_NonTree_Vegetation": {
+          "value": 60.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "_250m_16_days_EVI": {
+          "value": 0.4501,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "EVI"
+        },
+        "_250m_16_days_NDVI": {
+          "value": 0.5964,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "NDVI"
+        }
+      }
+    },
+    {
+      "id": "m41_r13325_c15498_s01",
+      "region_id": "m41_r13325_c15498",
+      "latitude": -21.326388887007145,
+      "longitude": -54.40458450742874,
+      "row": 0,
+      "column": 1,
+      "layers": {
+        "NASADEM_HGT": {
+          "value": 437.0,
+          "date": "2000-02-11",
+          "product": "NASADEM_NC.001",
+          "unit": "Meters"
+        },
+        "LC_Type1": {
+          "value": 10.0,
+          "date": "2024-01-01",
+          "product": "MCD12Q1.061",
+          "unit": ""
+        },
+        "Percent_Tree_Cover": {
+          "value": 6.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_NonVegetated": {
+          "value": 22.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_NonTree_Vegetation": {
+          "value": 72.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "_250m_16_days_NDVI": {
+          "value": 0.6902,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "NDVI"
+        },
+        "_250m_16_days_EVI": {
+          "value": 0.3745,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "EVI"
+        }
+      }
+    },
+    {
+      "id": "m41_r13325_c15498_s02",
+      "region_id": "m41_r13325_c15498",
+      "latitude": -21.326388887007145,
+      "longitude": -54.28232366362337,
+      "row": 0,
+      "column": 2,
+      "layers": {
+        "NASADEM_HGT": {
+          "value": 414.0,
+          "date": "2000-02-11",
+          "product": "NASADEM_NC.001",
+          "unit": "Meters"
+        },
+        "LC_Type1": {
+          "value": 9.0,
+          "date": "2024-01-01",
+          "product": "MCD12Q1.061",
+          "unit": ""
+        },
+        "Percent_NonTree_Vegetation": {
+          "value": 42.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_NonVegetated": {
+          "value": 2.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_Tree_Cover": {
+          "value": 56.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "_250m_16_days_EVI": {
+          "value": 0.467,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "EVI"
+        },
+        "_250m_16_days_NDVI": {
+          "value": 0.8441,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "NDVI"
+        }
+      }
+    },
+    {
+      "id": "m41_r13325_c15498_s10",
+      "region_id": "m41_r13325_c15498",
+      "latitude": -21.21249999812845,
+      "longitude": -54.484670690336024,
+      "row": 1,
+      "column": 0,
+      "layers": {
+        "NASADEM_HGT": {
+          "value": 517.0,
+          "date": "2000-02-11",
+          "product": "NASADEM_NC.001",
+          "unit": "Meters"
+        },
+        "LC_Type1": {
+          "value": 9.0,
+          "date": "2024-01-01",
+          "product": "MCD12Q1.061",
+          "unit": ""
+        },
+        "Percent_Tree_Cover": {
+          "value": 29.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_NonVegetated": {
+          "value": 2.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_NonTree_Vegetation": {
+          "value": 69.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "_250m_16_days_EVI": {
+          "value": 0.1395,
+          "date": "2026-08-29",
+          "product": "MOD13Q1.061",
+          "unit": "EVI"
+        },
+        "_250m_16_days_NDVI": {
+          "value": 0.2732,
+          "date": "2026-08-29",
+          "product": "MOD13Q1.061",
+          "unit": "NDVI"
+        }
+      }
+    },
+    {
+      "id": "m41_r13325_c15498_s11",
+      "region_id": "m41_r13325_c15498",
+      "latitude": -21.21249999812845,
+      "longitude": -54.36250441113633,
+      "row": 1,
+      "column": 1,
+      "layers": {
+        "NASADEM_HGT": {
+          "value": 430.0,
+          "date": "2000-02-11",
+          "product": "NASADEM_NC.001",
+          "unit": "Meters"
+        },
+        "LC_Type1": {
+          "value": 2.0,
+          "date": "2024-01-01",
+          "product": "MCD12Q1.061",
+          "unit": ""
+        },
+        "Percent_Tree_Cover": {
+          "value": 31.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_NonVegetated": {
+          "value": 2.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_NonTree_Vegetation": {
+          "value": 67.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "_250m_16_days_NDVI": {
+          "value": 0.7922,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "NDVI"
+        },
+        "_250m_16_days_EVI": {
+          "value": 0.4278,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "EVI"
+        }
+      }
+    },
+    {
+      "id": "m41_r13325_c15498_s12",
+      "region_id": "m41_r13325_c15498",
+      "latitude": -21.21249999812845,
+      "longitude": -54.24033813193662,
+      "row": 1,
+      "column": 2,
+      "layers": {
+        "NASADEM_HGT": {
+          "value": 438.0,
+          "date": "2000-02-11",
+          "product": "NASADEM_NC.001",
+          "unit": "Meters"
+        },
+        "LC_Type1": {
+          "value": 12.0,
+          "date": "2024-01-01",
+          "product": "MCD12Q1.061",
+          "unit": ""
+        },
+        "Percent_NonTree_Vegetation": {
+          "value": 80.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_NonVegetated": {
+          "value": 10.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_Tree_Cover": {
+          "value": 10.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "_250m_16_days_EVI": {
+          "value": 0.3118,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "EVI"
+        },
+        "_250m_16_days_NDVI": {
+          "value": 0.4618,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "NDVI"
+        }
+      }
+    },
+    {
+      "id": "m41_r13325_c15498_s20",
+      "region_id": "m41_r13325_c15498",
+      "latitude": -21.098611109249756,
+      "longitude": -54.442776162594384,
+      "row": 2,
+      "column": 0,
+      "layers": {
+        "NASADEM_HGT": {
+          "value": 458.0,
+          "date": "2000-02-11",
+          "product": "NASADEM_NC.001",
+          "unit": "Meters"
+        },
+        "LC_Type1": {
+          "value": 10.0,
+          "date": "2024-01-01",
+          "product": "MCD12Q1.061",
+          "unit": ""
+        },
+        "Percent_Tree_Cover": {
+          "value": 18.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_NonTree_Vegetation": {
+          "value": 64.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_NonVegetated": {
+          "value": 18.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "_250m_16_days_EVI": {
+          "value": 0.709,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "EVI"
+        },
+        "_250m_16_days_NDVI": {
+          "value": 0.8864,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "NDVI"
+        }
+      }
+    },
+    {
+      "id": "m41_r13325_c15498_s21",
+      "region_id": "m41_r13325_c15498",
+      "latitude": -21.098611109249756,
+      "longitude": -54.32070381988193,
+      "row": 2,
+      "column": 1,
+      "layers": {
+        "NASADEM_HGT": {
+          "value": 416.0,
+          "date": "2000-02-11",
+          "product": "NASADEM_NC.001",
+          "unit": "Meters"
+        },
+        "LC_Type1": {
+          "value": 10.0,
+          "date": "2024-01-01",
+          "product": "MCD12Q1.061",
+          "unit": ""
+        },
+        "Percent_NonTree_Vegetation": {
+          "value": 77.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_NonVegetated": {
+          "value": 12.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_Tree_Cover": {
+          "value": 11.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "_250m_16_days_NDVI": {
+          "value": 0.5355,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "NDVI"
+        },
+        "_250m_16_days_EVI": {
+          "value": 0.302,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "EVI"
+        }
+      }
+    },
+    {
+      "id": "m41_r13325_c15498_s22",
+      "region_id": "m41_r13325_c15498",
+      "latitude": -21.098611109249756,
+      "longitude": -54.19863147716946,
+      "row": 2,
+      "column": 2,
+      "layers": {
+        "NASADEM_HGT": {
+          "value": 461.0,
+          "date": "2000-02-11",
+          "product": "NASADEM_NC.001",
+          "unit": "Meters"
+        },
+        "LC_Type1": {
+          "value": 10.0,
+          "date": "2024-01-01",
+          "product": "MCD12Q1.061",
+          "unit": ""
+        },
+        "Percent_NonTree_Vegetation": {
+          "value": 66.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_NonVegetated": {
+          "value": 14.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "Percent_Tree_Cover": {
+          "value": 20.0,
+          "date": "2024-03-05",
+          "product": "MOD44B.061",
+          "unit": "Percent"
+        },
+        "_250m_16_days_NDVI": {
+          "value": 0.8635,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "NDVI"
+        },
+        "_250m_16_days_EVI": {
+          "value": 0.64,
+          "date": "2026-09-14",
+          "product": "MOD13Q1.061",
+          "unit": "EVI"
+        }
+      }
+    }
+  ],
+  "spatial_interpolation": false,
+  "interpretation": "Índices de vegetação não medem diretamente combustível seco; amplitude de altitude não é declividade.",
+  "requested_location": {
+    "latitude": -21.229167,
+    "longitude": -54.341825
+  },
+  "collection": {
+    "status": "cache_only",
+    "files": []
+  },
+  "point_count": 9,
+  "model_uses_geography": false,
+  "accuracy_effect": "Ainda não medido; contexto geográfico não altera automaticamente o modelo v6.",
+  "collection_complete": false
+}

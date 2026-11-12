@@ -1,0 +1,38 @@
+{
+  "schema_version": "geography-1.0",
+  "max_points_per_task": 100,
+  "max_requests": 200,
+  "max_download_bytes": 200000000,
+  "timeout_seconds": 45,
+  "wait_seconds": 120,
+  "seed": 20261112,
+  "steps": 1200,
+  "max_training_examples": 12000,
+  "max_training_seconds": 5400,
+  "products": {
+    "MCD12Q1.061": {
+      "layers": ["LC_Type1", "QC"],
+      "resolution_m": 500,
+      "temporal": "annual",
+      "availability_lag_days_assumed": 365
+    },
+    "MOD13Q1.061": {
+      "layers": ["_250m_16_days_NDVI", "_250m_16_days_EVI", "_250m_16_days_VI_Quality"],
+      "resolution_m": 250,
+      "temporal": "16day",
+      "availability_lag_days_assumed": 30
+    },
+    "MOD44B.061": {
+      "layers": ["Percent_Tree_Cover", "Percent_NonTree_Vegetation", "Percent_NonVegetated", "Quality", "Cloud"],
+      "resolution_m": 250,
+      "temporal": "annual",
+      "availability_lag_days_assumed": 365
+    },
+    "NASADEM_NC.001": {
+      "layers": ["NASADEM_HGT"],
+      "resolution_m": 30,
+      "temporal": "static",
+      "available_from_assumed": "2021-01-01"
+    }
+  }
+}
