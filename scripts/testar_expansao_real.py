@@ -11,7 +11,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from earthfire.expansion_predict import forecast, predict
+from earthfire.expansion_predict import predict
+from earthfire.spatial_predict import forecast
 from earthfire.io import read_json
 
 
@@ -22,6 +23,11 @@ def main() -> None:
     )
     parser.add_argument("--latitude", type=float)
     parser.add_argument("--longitude", type=float)
+    parser.add_argument(
+        "--validated-only",
+        action="store_true",
+        help="Desabilita estimativas exploratórias fora do suporte local",
+    )
     parser.add_argument(
         "--data",
         help="Data UTC; em modo histórico deve ser início de composto preparado",
@@ -50,7 +56,9 @@ def main() -> None:
     value = (
         predict(lat, lon, date, args.run_dir)
         if args.historical
-        else forecast(lat, lon, args.run_dir, date)
+        else forecast(
+            lat, lon, args.run_dir, date, allow_exploratory=not args.validated_only
+        )
     )
     print(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False))
 

@@ -1,0 +1,86 @@
+{
+  "schema_version": "spatial-prediction-1.0",
+  "status": "exploratory",
+  "requested_location": {
+    "latitude": 40.7128,
+    "longitude": -74.006
+  },
+  "cell": {
+    "id": "m41_r05904_c14842",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -74.01536446228221,
+            40.458333329685175
+          ],
+          [
+            -73.56632185456446,
+            40.458333329685175
+          ],
+          [
+            -73.94367978221543,
+            40.79999999632126
+          ],
+          [
+            -74.39502575081357,
+            40.79999999632126
+          ],
+          [
+            -74.01536446228221,
+            40.458333329685175
+          ]
+        ]
+      ]
+    },
+    "area_km2": 1443.364919245517
+  },
+  "event": "ao menos um pixel MOD14A2 marcado como foco no composto, condicionado a todos os 41×41 pixels terem máscara válida",
+  "probability": 0.284091979265213,
+  "probability_interval_95": [
+    0.2612594775855541,
+    0.31013930365443226
+  ],
+  "model_version": "modis_native41_v6",
+  "model_run_id": "maxcoverage_v6b_20261111",
+  "model_registry_sha256": "61d1c9b51614cf934a23feb53e3e5e74cc25e6b30e178266445100d3f6e9433e",
+  "preprocessing_sha256": "be9610a4bc70f158b6ff6b3bc69bf4fc134f4b559f7e331df7d18c3b294b9e26",
+  "is_predictive": true,
+  "spatial_adapter_version": "spatial-exploratory-1.0",
+  "spatial_adapter_sha256": "666ffb34d7be39beab57ce7af617ec27c1fe11f774a90ae96dd019804bf3e67f",
+  "location_seen_in_training": false,
+  "local_history_available": false,
+  "within_validated_coverage": false,
+  "locally_validated_for_this_query": false,
+  "prediction_type": "preditivo_exploratorio",
+  "exploratory": true,
+  "in_global_model_training_sample": false,
+  "predictive_event_interval_95": [
+    0,
+    1
+  ],
+  "probability_locally_calibrated": false,
+  "selected_model": "pyro_no_weather",
+  "mode": "spatial_extrapolation",
+  "issued_at": "2026-11-12T12:00:00+00:00",
+  "valid_from": "2026-11-17T00:00:00Z",
+  "valid_until": "2026-11-25T00:00:00Z",
+  "horizon_days": 8,
+  "lead_days": 5,
+  "future_observability": "unknown",
+  "weather_context": "not_used; no current or future weather inputs",
+  "local_history_used": false,
+  "missing_features": [
+    "past_modis_event",
+    "past_viirs_log_records"
+  ],
+  "history_missing_representation": "Imputação e indicadores de ausência salvos no treinamento; não são zeros observados.",
+  "nearest_global_training_cell_km": 1584.944576118844,
+  "outside_training_coordinate_range": [],
+  "land_cover_checked": false,
+  "uncertainty_method": "Posterior variacional Pyro; intervalo de parâmetros não cobre todo erro de transferência geográfica.",
+  "warning": "Estimativa preditiva exploratória: a calibração local não foi demonstrada. Não é chance validada de ignição; não houve consulta de clima, vegetação ou cobertura atual.",
+  "data_assembled_at": "2026-11-12T10:35:28+00:00",
+  "historical_projection": false
+}

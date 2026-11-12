@@ -63,3 +63,8 @@
 - Grade MERRA-2 identifica localização/contexto meteorológico; a probabilidade se refere somente à geometria sinusoidal real do recorte MODIS de aproximadamente 40 km. Não se atribui probabilidade ao restante da célula.
 - Comparar Pyro com/sem clima, logística, persistência, frequência e sazonalidade. Selecionar por Brier na validação das regiões de treino. Liberação por região exige na validação >=30 casos, >=5 de cada classe, erro médio de calibração <=0,10 e Brier <= referência sazonal. São critérios demonstrativos; não certificam uso operacional.
 - Orçamento separado de até oito horas, três treinamentos, CPU limitada a três threads, RAM a 60% dos recursos disponíveis no início, 600 consultas ORNL e 500 POWER; coleta serial, cache verificado e retomada. Nenhum dado original será alterado.
+
+
+## Adaptador espacial exploratorio — 12/11/2026
+
+Por solicitacao do usuario, a consulta passa a permitir novas localizacoes com saida explicitamente exploratoria. Usa o Pyro sem clima existente, coordenadas, sazonalidade e indicadores aprendidos de historico ausente. Artefatos e motor v6 permanecem congelados. Nao se remove a distincao entre cobertura validada e extrapolacao. Nenhuma meteorologia e inventada ou baixada nesta consulta. Foram aprovados 79 testes na suite e repetidos os cinco contratos do novo adaptador apos os ajustes finais de metadados. Demonstracao real: Nova York, sem historico local registrado; resultado em docs/examples/forecast_unseen_new_york.json.

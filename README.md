@@ -1,3 +1,7 @@
+# Consulta em locais sem treinamento local
+
+Agora o comando de previsao permite estimativas exploratorias com o Pyro treinado e identifica essa condicao no JSON. A cobertura validada continua sendo 0,1409% do globo. [Uso e interpretacao](docs/previsao_espacial_exploratoria.md). Para limitar a consulta a areas validadas, use `--validated-only`.
+
 # Atualizacao: expansao v6
 
 498 celulas validadas em seis continentes; 0,140922% da superficie global. Projecao condicional sazonal, sem cobertura mundial completa. [Resultados e comandos](REPORT_MAXCOVERAGE_V6.md) · [Contratos](docs/contratos_v6.md).
