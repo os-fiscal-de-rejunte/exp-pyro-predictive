@@ -1,0 +1,20 @@
+{
+  "source_commit": "7085059",
+  "environment": "Python existente reutilizado; nao houve instalacao limpa de dependencias",
+  "clone_verification": {
+    "status": "passed",
+    "checked_utc": "2026-11-12T10:39:40+00:00",
+    "originals_rehashed": 0,
+    "feature_cells": 898,
+    "rows": 245957,
+    "unknown": 23229,
+    "weather_complete": 227810,
+    "test_rows": 74408,
+    "released_test_rows": 42968,
+    "released_cells": 498,
+    "currently_projectable_cells": 465,
+    "currently_projectable_area_km2": 671164.6874491634,
+    "historical_example_status": "ok",
+    "future_example_status": "ok"
+  }
+}

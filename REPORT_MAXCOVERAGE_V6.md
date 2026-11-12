@@ -81,3 +81,12 @@ O proximo passo de maior impacto e ampliar e validar a deteccao de eventos posit
 ```
 
 O pacote permite consulta offline, sem retreinamento. O teste e os artefatos finalizados nao devem receber novas particoes. Os caches brutos e logs locais foram preservados em `runs/maxcoverage_v6_20261111` e `runs/maxcoverage_v6b_20261111`.
+
+## Verificacao de distribuicao
+
+Checkout limpo do commit `7085059`: verificacao offline aprovada, modelos e arquivos conferidos, consultas historica e futura `ok`. Ambiente Python existente reutilizado; nao foi uma instalacao nova de dependencias. Evidencia: `docs/verification_v6.json`. Nenhum treinamento ou download permanece ativo.
+
+South America: acuracia 72.65%, recall 38.83%. Essa diferenca mostra por que a media global nao basta.
+
+Oceania: acuracia 84.70%, recall 10.52%. Essa diferenca mostra por que a media global nao basta.
+
