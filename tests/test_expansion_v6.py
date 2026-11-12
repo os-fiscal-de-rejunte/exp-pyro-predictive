@@ -208,11 +208,17 @@ def test_synthetic_finalization_and_future_projection(project, weather_available
     result = finalize(project)
     assert result["test_n"] == 78 and result["released_cells"] == 2
     prediction = forecast(
-        first["latitude"], first["longitude"], project.path, "2026-11-11T12:00:00Z"
+        first["latitude"], first["longitude"], project.path, "2026-01-11T12:00:00Z"
     )
     assert prediction["status"] == "ok" and 0 < prediction["probability"] < 1
     assert (
         prediction["horizon_days"] == 8 and prediction["mode"] == "seasonal_projection"
+    )
+    no_season = forecast(
+        first["latitude"], first["longitude"], project.path, "2026-07-01T00:00:00Z"
+    )
+    assert (
+        no_season["status"] == "insufficient_data" and no_season["probability"] is None
     )
     historical = predict(
         first["latitude"], first["longitude"], "2024-01-11", project.path

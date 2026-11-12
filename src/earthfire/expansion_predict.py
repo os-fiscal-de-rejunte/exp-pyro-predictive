@@ -187,7 +187,7 @@ def forecast(
     if not (root / "model_registry.json").exists():
         result["reason"] = "Modelo ainda não disponível."
         return result
-    _, catalog, model = load(root)
+    registry, catalog, model = load(root)
     rid = result["cell"]["id"]
     info = catalog.get(rid)
     if info is None:
@@ -233,6 +233,11 @@ def forecast(
         start + timedelta(days=8), start.replace(year=start.year + 1, month=1, day=1)
     )
     ab = baseline_parameters(model, method, rid, start.month)
+    if start.month not in info["release"].get("static_projection_months", []):
+        result["reason"] = (
+            "Mês sem suporte observacional suficiente no treino e na validação."
+        )
+        return result
     probability = float(ab[0] / sum(ab))
     result.update(
         status="ok",
@@ -251,6 +256,10 @@ def forecast(
         uncertainty_method="posterior Beta; intervalo sobre a probabilidade, não sobre quantidade de incêndios",
         training_period=["2020-01-01", "2022-12-31"],
         validation_year=2023,
+        data_assembled_at=registry.get("created_utc"),
+        historical_projection=issued < pd.Timestamp(registry["created_utc"])
+        if registry.get("created_utc")
+        else True,
     )
     result["predictive_event_interval_95"] = (
         bernoulli.ppf([0.025, 0.975], probability).astype(int).tolist()

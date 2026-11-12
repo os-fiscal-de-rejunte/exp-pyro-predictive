@@ -50,6 +50,8 @@ Serão reportados Brier, log loss, acurácia, recall, precisão positiva, ROC AU
 
 Intervalos sobre a probabilidade vêm da posterior variacional Pyro, aproximação de Laplace ou posterior Beta da referência. Os intervalos do resultado binário são separados. Dependência espacial/temporal residual e seleção por observabilidade podem tornar os intervalos otimistas. Nenhuma probabilidade é somada entre células ou dias para representar um país inteiro.
 
+A projeção estática também exige suporte no mês consultado: pelo menos três compostos válidos no treino e um na validação naquela célula. Isso impede que a validação de uma estação seca seja usada para liberar automaticamente uma estação sem observações. O catálogo expõe `static_projection_months`. O relatório distingue a área validada em algum momento da área consultável na emissão atual. `data_assembled_at` registra quando o modelo ficou disponível; uma consulta anterior a essa data é uma reconstrução retrospectiva.
+
 ## Execução e rastreabilidade
 
 ```powershell

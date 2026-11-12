@@ -146,6 +146,11 @@ def finalize(run: Run) -> dict:
                 training_positive=int(tr.event.sum()),
                 release={"eligible": False, "static_projection_model": None},
                 history_only=True,
+                observed_training_months={
+                    str(int(m)): len(part)
+                    for m, part in tr.groupby(pd.to_datetime(tr.period_start).dt.month)
+                },
+                observed_validation_months={},
             )
     for path in files:
         frame = pd.read_parquet(path)
@@ -178,6 +183,20 @@ def finalize(run: Run) -> dict:
                 training_n=len(tr),
                 training_positive=int(tr.event.sum()),
                 history_only=False,
+                observed_training_months={
+                    str(int(m)): len(part)
+                    for m, part in tr.groupby(tr.period_start.dt.month)
+                },
+                observed_validation_months={
+                    str(int(m)): len(part)
+                    for m, part in g.loc[
+                        (g.split == "validation") & g.event.notna()
+                    ].groupby(
+                        g.loc[
+                            (g.split == "validation") & g.event.notna()
+                        ].period_start.dt.month
+                    )
+                },
             )
     holdout = {
         (v["native_row"], v["native_column"])
@@ -427,12 +446,21 @@ def finalize(run: Run) -> dict:
             if name in ("seasonal", "global_frequency")
         }
         projection = min(static, key=lambda k: static[k]["brier"]) if static else None
+        supported_months = [
+            int(month)
+            for month, n in meta[str(rid)]["observed_training_months"].items()
+            if n >= 3
+            and meta[str(rid)]["observed_validation_months"].get(month, 0) >= 1
+        ]
+        if not supported_months:
+            projection = None
         policy["groups"][str(rid)] = {
             "eligible": bool(valid),
             "selected_model": chosen,
             "validation": values[chosen],
             "seasonal_eligible": "seasonal" in valid,
             "static_projection_model": projection,
+            "static_projection_months": sorted(supported_months),
             "weather_available": bool(g.weather_complete.all()),
         }
     write_json(run.path / "release_policy.json", policy)
@@ -576,6 +604,7 @@ def finalize(run: Run) -> dict:
     registry = {
         "version": "modis_native41_v6",
         "config_sha256": run.config_hash,
+        "created_utc": utc_now(),
         "artifacts": {p: sha256_file(run.path / p) for p in artifacts},
         "features": {str(p.relative_to(run.path)): sha256_file(p) for p in files},
         "code": {
