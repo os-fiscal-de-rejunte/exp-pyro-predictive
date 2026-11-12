@@ -20,7 +20,81 @@ from matplotlib.collections import PolyCollection
 from matplotlib.patches import Patch
 
 from earthfire.expansion_evaluate import summarize
-from earthfire.io import read_json, utc_now, write_json
+from earthfire.io import read_json, sha256_file, utc_now, write_json
+
+
+def calendar(root: Path) -> dict:
+    """Calendário observado; a referência da anomalia exige publicação anterior."""
+    registry = read_json(root / "model_registry.json")
+    folder = root / "evaluation/calendar_parts"
+    folder.mkdir(parents=True, exist_ok=True)
+    manifest = {
+        "schema_version": "native41-calendar-1.0",
+        "time_standard": "UTC",
+        "product": "MOD14A2",
+        "event_unit": "evento binário por célula-composto; não incêndios independentes",
+        "anomaly_unit": "evento observado menos frequência anterior do mesmo mês",
+        "reference": "mesma célula e mês; fim do composto e produção anteriores à emissão; mínimo três alvos válidos",
+        "parts": {},
+    }
+    for name, digest in registry["features"].items():
+        source = root / name
+        if sha256_file(source) != digest:
+            raise ValueError("Features alteradas na exportação do calendário.")
+        frame = pd.read_parquet(source)
+        pieces = []
+        for rid, group in frame.groupby("region_id"):
+            group = group.sort_values("period_start").reset_index(drop=True)
+            reference_n, reference_rate = [], []
+            for row in group.itertuples():
+                past = group.loc[
+                    (group.period_end_exclusive <= row.period_start)
+                    & (group.produced_at < row.period_start)
+                    & (group.period_start.dt.month == row.period_start.month)
+                    & group.event.notna()
+                ]
+                reference_n.append(len(past))
+                reference_rate.append(
+                    (float(past.event.sum()) + 0.5) / (len(past) + 1)
+                    if len(past) >= 3
+                    else np.nan
+                )
+            columns = [
+                "region_id",
+                "parent_id",
+                "period_start",
+                "period_end_exclusive",
+                "produced_at",
+                "event",
+                "fire_pixels",
+                "valid_pixels",
+                "cloud_pixels",
+                "total_pixels",
+                "observation_state",
+                "weather_complete",
+            ]
+            one = group[columns].copy()
+            one["reference_n"] = reference_n
+            one["reference_probability"] = reference_rate
+            one["observed_anomaly"] = (
+                one.event.astype(float) - one.reference_probability
+            )
+            one["anomaly_status"] = np.where(
+                one.observed_anomaly.notna(), "ok", "insufficient_data"
+            )
+            one["valid_fraction"] = one.valid_pixels / one.total_pixels
+            pieces.append(one)
+        output = folder / source.name
+        result = pd.concat(pieces, ignore_index=True)
+        result.to_parquet(output, index=False, row_group_size=276)
+        manifest["parts"][output.relative_to(root).as_posix()] = {
+            "rows": len(result),
+            "sha256": sha256_file(output),
+            "source_sha256": digest,
+            "anomalies_supported": int(result.observed_anomaly.notna().sum()),
+        }
+    write_json(root / "evaluation/calendar_manifest.json", manifest)
+    return manifest
 
 
 def calibration(frame: pd.DataFrame, column: str) -> list[dict]:
@@ -202,6 +276,7 @@ def world_map(root: Path, metrics: dict) -> None:
 
 def report(root: Path) -> dict:
     metrics = read_json(root / "evaluation/metrics.json")
+    calendar_manifest = calendar(root)
     paths = sorted((root / "evaluation/test_parts").glob("*.parquet"))
     frame = pd.concat([pd.read_parquet(p) for p in paths], ignore_index=True)
     eligible = frame.loc[frame.release_eligible].copy()
@@ -231,6 +306,12 @@ def report(root: Path) -> dict:
         "by_parent": {},
         "coverage_by_continent": {},
         "full_test_baselines_by_continent": {},
+        "calendar": {
+            "rows": sum(v["rows"] for v in calendar_manifest["parts"].values()),
+            "anomalies_supported": sum(
+                v["anomalies_supported"] for v in calendar_manifest["parts"].values()
+            ),
+        },
     }
     eligible["month"] = eligible.period_start.dt.month
     following_year = pd.to_datetime(

@@ -207,11 +207,16 @@ def test_synthetic_finalization_and_future_projection(project, weather_available
         write_json(path.with_suffix(".json"), {"sha256": sha256_file(path)})
     result = finalize(project)
     assert result["test_n"] == 78 and result["released_cells"] == 2
+    assert result["spatial_holdout_unfiltered"]["all_baselines"]["seasonal"]["n"] == 39
     import json
 
     baselines = json.loads(
         (project.path / "baseline_model.json").read_text(encoding="utf-8")
     )
+    registry = json.loads(
+        (project.path / "model_registry.json").read_text(encoding="utf-8")
+    )
+    assert not any("\\" in p for p in [*registry["artifacts"], *registry["features"]])
     assert len(baselines["region_month"]) == 1
     trained = pd.read_parquet(project.path / "processed/mask_examples.parquet")
     assert (trained.spatial_group == "train").all()

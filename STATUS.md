@@ -4,6 +4,12 @@
 
 Em andamento, com orçamento próprio de oito horas. Acompanhe [EXPANSION_STATUS.md](EXPANSION_STATUS.md) e [o protocolo](docs/expansao_maxima_v6.md). O piloto v5 abaixo permanece preservado; as novas contagens são provisórias até a avaliação final.
 
+<!-- V6_PROGRESS_BEGIN -->
+
+Última atualização UTC: 2026-11-12T03:55:13+00:00. Etapa: coleta e preparação. Blocos preparados: 40; células com features: 512. Checkpoints: `runs\maxcoverage_v6b_20261111`. Dados provisórios; detalhes e recursos em `EXPANSION_STATUS.md` e `resources.json`.
+
+<!-- V6_PROGRESS_END -->
+
 ## Expansão v5 concluída — 2026-11-12T00:53:59+00:00
 
 - Etapa: coleta, preparação, treinamento, avaliação e verificação final concluídos. Nenhum treinamento ou download permanece ativo.

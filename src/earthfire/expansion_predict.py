@@ -76,6 +76,11 @@ def predict(
         result["reason"] = "Modelo ainda não disponível."
         return result
     registry, catalog, model = load(root)
+    result.update(
+        model_run_id=registry.get("run_id"),
+        model_registry_sha256=sha256_file(root / "model_registry.json"),
+        preprocessing_sha256=registry["code"]["expansion_features"],
+    )
     rid = result["cell"]["id"]
     info = catalog.get(rid)
     if info is None:
@@ -199,6 +204,11 @@ def forecast(
         result["reason"] = "Modelo ainda não disponível."
         return result
     registry, catalog, model = load(root)
+    result.update(
+        model_run_id=registry.get("run_id"),
+        model_registry_sha256=sha256_file(root / "model_registry.json"),
+        preprocessing_sha256=registry["code"]["expansion_features"],
+    )
     rid = result["cell"]["id"]
     info = catalog.get(rid)
     if info is None:

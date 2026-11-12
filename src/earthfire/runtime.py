@@ -5,6 +5,7 @@ import json
 import logging
 import os
 import shutil
+import threading
 import time
 from pathlib import Path
 from typing import Any
@@ -23,20 +24,33 @@ class Run:
         if not run_id or any(x in run_id for x in ("/", "\\", "..")):
             raise ValueError("run_id inválido")
         self.root = root.resolve()
+        self._resource_lock = threading.RLock()
         self.config = read_json(config_path)
         self.run_id = run_id
         self.path = self.root / self.config["runs_dir"] / run_id
         self.path.mkdir(parents=True, exist_ok=True)
+        resources_path = self.path / "resources.json"
+        self._peak_rss = (
+            read_json(resources_path).get("peak_sampled_rss_bytes", 0)
+            if resources_path.exists()
+            else 0
+        )
         # Um identificador compartilhado faz várias etapas obedecerem ao mesmo relógio.
         budget_id = os.environ.get("EARTHFIRE_BUDGET_ID", run_id)
         if not budget_id or any(x in budget_id for x in ("/", "\\", "..")):
             raise ValueError("EARTHFIRE_BUDGET_ID inválido")
-        self.budget_path = self.root / self.config["runs_dir"] / ("budget_" + budget_id + ".json")
+        self.budget_path = (
+            self.root / self.config["runs_dir"] / ("budget_" + budget_id + ".json")
+        )
         self.manifest_path = self.path / "run.json"
-        self.config_hash = hashlib.sha256(json.dumps(self.config, sort_keys=True).encode()).hexdigest()
+        self.config_hash = hashlib.sha256(
+            json.dumps(self.config, sort_keys=True).encode()
+        ).hexdigest()
         ops = self.config["operational"]
         os.environ["OMP_NUM_THREADS"] = str(ops["max_cpu_threads"])
         os.environ["MKL_NUM_THREADS"] = str(ops["max_cpu_threads"])
+        os.environ["OPENBLAS_NUM_THREADS"] = str(ops["max_cpu_threads"])
+        os.environ["NUMEXPR_NUM_THREADS"] = str(ops["max_cpu_threads"])
         if self.manifest_path.exists():
             self.manifest = read_json(self.manifest_path)
             if self.manifest["config_sha256"] != self.config_hash:
@@ -45,23 +59,62 @@ class Run:
             available = psutil.virtual_memory().available
             free = shutil.disk_usage(self.root).free
             self.manifest = {
-                "run_id": run_id, "started_utc": utc_now(), "started_epoch": time.time(),
-                "config_sha256": self.config_hash, "config": self.config,
-                "initial_available_ram": available, "memory_limit_bytes": int(available * ops["memory_fraction_initial_available"]),
-                "initial_free_disk": free, "new_files_limit_bytes": int(min(free * ops["new_files_fraction_initial_free"], ops["new_files_max_bytes"])),
-                "training_runs": 0, "stages": {}, "temporary_files": [],
+                "run_id": run_id,
+                "started_utc": utc_now(),
+                "started_epoch": time.time(),
+                "config_sha256": self.config_hash,
+                "config": self.config,
+                "initial_available_ram": available,
+                "memory_limit_bytes": int(
+                    available * ops["memory_fraction_initial_available"]
+                ),
+                "initial_free_disk": free,
+                "new_files_limit_bytes": int(
+                    min(
+                        free * ops["new_files_fraction_initial_free"],
+                        ops["new_files_max_bytes"],
+                    )
+                ),
+                "training_runs": 0,
+                "stages": {},
+                "temporary_files": [],
             }
             self.save()
         if not self.budget_path.exists():
             available = psutil.virtual_memory().available
             free = shutil.disk_usage(self.root).free
-            write_json(self.budget_path, {"budget_id": budget_id, "started_epoch": time.time(), "started_utc": utc_now(),
-                "initial_available_ram": available, "memory_limit_bytes": int(available * ops["memory_fraction_initial_available"]),
-                "initial_free_disk": free, "new_files_limit_bytes": int(min(free * ops["new_files_fraction_initial_free"], ops["new_files_max_bytes"])),
-                "training_jobs": []})
-        self.process_dir = self.root / self.config["runs_dir"] / ("processes_" + budget_id)
+            write_json(
+                self.budget_path,
+                {
+                    "budget_id": budget_id,
+                    "started_epoch": time.time(),
+                    "started_utc": utc_now(),
+                    "initial_available_ram": available,
+                    "memory_limit_bytes": int(
+                        available * ops["memory_fraction_initial_available"]
+                    ),
+                    "initial_free_disk": free,
+                    "new_files_limit_bytes": int(
+                        min(
+                            free * ops["new_files_fraction_initial_free"],
+                            ops["new_files_max_bytes"],
+                        )
+                    ),
+                    "training_jobs": [],
+                },
+            )
+        self.process_dir = (
+            self.root / self.config["runs_dir"] / ("processes_" + budget_id)
+        )
         process = psutil.Process()
-        write_json(self.process_dir / f"{process.pid}.json", {"pid": process.pid, "create_time": process.create_time(), "run_id": run_id})
+        write_json(
+            self.process_dir / f"{process.pid}.json",
+            {
+                "pid": process.pid,
+                "create_time": process.create_time(),
+                "run_id": run_id,
+            },
+        )
         self.logger = logging.getLogger("earthfire." + run_id)
         if not self.logger.handlers:
             h = logging.FileHandler(self.path / "pipeline.log", encoding="utf-8")
@@ -73,27 +126,77 @@ class Run:
         write_json(self.manifest_path, self.manifest)
 
     def guard(self, require_training_seconds: int = 0) -> None:
+        with self._resource_lock:
+            self._guard(require_training_seconds)
+
+    def _guard(self, require_training_seconds: int = 0) -> None:
         ops = self.config["operational"]
         budget = read_json(self.budget_path)
         remaining = ops["total_seconds"] - (time.time() - budget["started_epoch"])
         if remaining <= ops["reserve_seconds"] + require_training_seconds:
-            raise ResourceLimit("Reserva de encerramento atingida; checkpoint preservado.")
-        # Conta apenas arquivos do run, sem tocar em DATA ou em arquivos pessoais.
-        # Redução no espaço livre é conservadora e também inclui arquivos fora do run.
-        new_disk = max(0, budget["initial_free_disk"] - shutil.disk_usage(self.root).free)
-        if new_disk > budget["new_files_limit_bytes"]:
+            raise ResourceLimit(
+                "Reserva de encerramento atingida; checkpoint preservado."
+            )
+        # O espaço livre pode aumentar por ações externas. Também se mede o volume
+        # dos diretórios desta execução; assim uma limpeza externa não libera cota.
+        new_disk = max(
+            0, budget["initial_free_disk"] - shutil.disk_usage(self.root).free
+        )
+        checked_at = getattr(self, "_disk_checked_at", float("-inf"))
+        if time.monotonic() - checked_at >= 60:
+            runs_root = (self.root / self.config["runs_dir"]).resolve()
+            roots = {self.path.resolve()}
+            for record_path in self.process_dir.glob("*.json"):
+                identifier = read_json(record_path)["run_id"]
+                if identifier and not any(x in identifier for x in ("/", "\\", "..")):
+                    roots.add((runs_root / identifier).resolve())
+            if self.config.get("mask_storage_run"):
+                roots.add((runs_root / self.config["mask_storage_run"]).resolve())
+            if any(not path.is_relative_to(runs_root) for path in roots):
+                raise ResourceLimit(
+                    "Diretório de orçamento fora do armazenamento autorizado."
+                )
+            tracked = 0
+            for folder in roots:
+                for path in folder.rglob("*"):
+                    try:
+                        if path.is_file():
+                            tracked += path.stat().st_size
+                    except FileNotFoundError:
+                        # Escrita atômica de outro coletor pode renomear o temporário.
+                        continue
+            self._tracked_bytes = tracked
+            self._disk_checked_at = time.monotonic()
+        tracked_bytes = getattr(self, "_tracked_bytes", 0)
+        if max(new_disk, tracked_bytes) > budget["new_files_limit_bytes"]:
             raise ResourceLimit("Limite de arquivos da execução atingido.")
         rss = 0
         for record_path in self.process_dir.glob("*.json"):
             record = read_json(record_path)
             try:
                 process = psutil.Process(record["pid"])
-                if abs(process.create_time() - record["create_time"]) < .01:
+                if abs(process.create_time() - record["create_time"]) < 0.01:
                     rss += process.memory_info().rss
             except (psutil.NoSuchProcess, psutil.AccessDenied):
                 continue
         if rss > budget["memory_limit_bytes"]:
             raise ResourceLimit("Limite de memória dos processos registrados atingido.")
+        self._peak_rss = max(getattr(self, "_peak_rss", 0), rss)
+        if time.monotonic() - getattr(self, "_snapshot_at", float("-inf")) >= 60:
+            write_json(
+                self.path / "resources.json",
+                {
+                    "updated_utc": utc_now(),
+                    "remaining_seconds": remaining,
+                    "tracked_run_bytes": tracked_bytes,
+                    "net_disk_decrease_bytes": new_disk,
+                    "registered_process_rss_bytes": rss,
+                    "peak_sampled_rss_bytes": self._peak_rss,
+                    "new_files_limit_bytes": budget["new_files_limit_bytes"],
+                    "memory_limit_bytes": budget["memory_limit_bytes"],
+                },
+            )
+            self._snapshot_at = time.monotonic()
 
     def claim_training(self, variant: str) -> None:
         if self.run_id.startswith("quick_"):
@@ -101,12 +204,21 @@ class Run:
         budget = read_json(self.budget_path)
         job = self.run_id + ":" + variant
         if job not in budget["training_jobs"]:
-            if len(budget["training_jobs"]) >= self.config["operational"]["max_training_runs"]:
-                raise ResourceLimit("Limite compartilhado de treinamentos completos atingido.")
+            if (
+                len(budget["training_jobs"])
+                >= self.config["operational"]["max_training_runs"]
+            ):
+                raise ResourceLimit(
+                    "Limite compartilhado de treinamentos completos atingido."
+                )
             budget["training_jobs"].append(job)
             write_json(self.budget_path, budget)
 
     def stage(self, name: str, state: str, **details: Any) -> None:
-        self.manifest["stages"][name] = {"state": state, "updated_utc": utc_now(), **details}
+        self.manifest["stages"][name] = {
+            "state": state,
+            "updated_utc": utc_now(),
+            **details,
+        }
         self.save()
         self.logger.info("stage=%s state=%s details=%s", name, state, details)

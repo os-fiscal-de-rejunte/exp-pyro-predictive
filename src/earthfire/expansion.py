@@ -10,9 +10,6 @@ from pathlib import Path
 
 import psutil
 
-from .expansion_collect import BlockCollector
-from .expansion_features import prepare_parent
-from .expansion_sparse_weather import SparseWeather
 from .io import read_json, sha256_file, utc_now, write_json
 from .runtime import ResourceLimit, Run
 
@@ -29,8 +26,8 @@ def progress(run: Run, state: dict) -> None:
 - Atualização UTC: {state['updated_utc']}
 - Etapa: {state.get('stage','coleta')}
 - Blocos concluídos: {state.get('blocks',0)}
-- Células com features completas: {state.get('cells',0)}
-- Candidatas sazonais na validação (provisório): {state.get('provisional',0)}
+- Células com schema de features preparado: {state.get('cells',0)}; clima pode estar ausente.
+- Candidatas sazonais com clima na validação (provisório): {state.get('provisional',0)}
 - Área provisória: {state.get('provisional',0)*1443.3649192455174:,.1f} km²; ainda não é liberação final.
 - Consultas de máscara: {state.get('mask_requests',0)}
 - Tempo restante da janela: {max(0,remaining)/3600:.2f} h, incluindo reserva final.
@@ -40,6 +37,22 @@ def progress(run: Run, state: dict) -> None:
 O teste permanece reservado até a seleção final. O piloto v5 segue preservado.
 """
     (run.root / "EXPANSION_STATUS.md").write_text(text, encoding="utf-8")
+    status_path = run.root / "STATUS.md"
+    if status_path.exists():
+        status = status_path.read_text(encoding="utf-8")
+        begin, end = "<!-- V6_PROGRESS_BEGIN -->", "<!-- V6_PROGRESS_END -->"
+        summary = f"{begin}\n\nÚltima atualização UTC: {state['updated_utc']}. Etapa: {state.get('stage')}. Blocos preparados: {state.get('blocks',0)}; células com features: {state.get('cells',0)}. Checkpoints: `{run.path.relative_to(run.root)}`. Dados provisórios; detalhes e recursos em `EXPANSION_STATUS.md` e `resources.json`.\n\n{end}"
+        if begin in status and end in status:
+            status = (
+                status[: status.index(begin)]
+                + summary
+                + status[status.index(end) + len(end) :]
+            )
+        else:
+            position = status.find("\n## Expansão v5")
+            if position >= 0:
+                status = status[:position] + "\n" + summary + "\n" + status[position:]
+        status_path.write_text(status, encoding="utf-8")
 
 
 def execute(config: Path, run_id: str, selection: Path) -> dict:
@@ -61,6 +74,11 @@ def execute(config: Path, run_id: str, selection: Path) -> dict:
             break
         time.sleep(10)
     run = Run(config, run_id)
+    # Define os limites antes de carregar os backends numéricos.
+    from .expansion_collect import BlockCollector
+    from .expansion_features import prepare_parent
+    from .expansion_sparse_weather import SparseWeather
+
     plan = read_json(selection)
     write_json(run.path / "selection.json", plan)
     run.stage(

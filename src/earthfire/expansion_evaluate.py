@@ -110,7 +110,7 @@ def finalize(run: Run) -> dict:
     directory.mkdir(exist_ok=True)
     if (directory / "metrics.json").exists():
         registry = read_json(run.path / "model_registry.json")
-        current = {str(p.relative_to(run.path)): sha256_file(p) for p in files}
+        current = {p.relative_to(run.path).as_posix(): sha256_file(p) for p in files}
         if current != registry["features"]:
             raise ResourceLimit(
                 "Avaliação concluída está congelada; novas partições exigem outro run_id."
@@ -188,7 +188,7 @@ def finalize(run: Run) -> dict:
             }
             tr = g.loc[(g.split == "train") & g.event.notna()]
             meta[rid].update(
-                feature_file=str(path.relative_to(run.path)),
+                feature_file=path.relative_to(run.path).as_posix(),
                 training_n=len(tr),
                 training_positive=int(tr.event.sum()),
                 history_only=False,
@@ -414,6 +414,8 @@ def finalize(run: Run) -> dict:
 
     validations = [out for _, out in predict_split("validation")]
     validation = pd.concat(validations, ignore_index=True)
+    validation_path = directory / "validation_predictions.parquet"
+    validation.to_parquet(validation_path, index=False)
     common = validation.loc[
         (validation.spatial_group == "train") & validation.weather_complete
     ]
@@ -482,7 +484,16 @@ def finalize(run: Run) -> dict:
             "static_projection_months": sorted(supported_months),
             "weather_available": bool(g.weather_complete.all()),
         }
+    policy["frozen_utc"] = utc_now()
+    policy["validation_predictions_sha256"] = sha256_file(validation_path)
     write_json(run.path / "release_policy.json", policy)
+    run.stage(
+        "expansion_release_policy",
+        "complete",
+        before_test=True,
+        frozen_utc=policy["frozen_utc"],
+        sha256=sha256_file(run.path / "release_policy.json"),
+    )
     for rid, info in meta.items():
         info["release"] = policy["groups"].get(
             rid, {"eligible": False, "static_projection_model": None}
@@ -526,6 +537,7 @@ def finalize(run: Run) -> dict:
     test_parts = directory / "test_parts"
     test_parts.mkdir(exist_ok=True)
     tests = []
+    test_started_utc = utc_now()
     for frame, output in predict_split("test"):
         ood = np.zeros(len(frame), bool)
         for column, (low, high) in bounds.items():
@@ -559,6 +571,7 @@ def finalize(run: Run) -> dict:
     result = {
         "version": "modis_native41_v6",
         "finished_utc": utc_now(),
+        "test_started_utc": test_started_utc,
         "event": "ao menos um pixel MOD14A2 com foco, condicionado a todos os 41×41 pixels terem máscara válida",
         "trained_rows_available": total[1],
         "trained_positive_available": total[0],
@@ -651,13 +664,14 @@ def finalize(run: Run) -> dict:
         "training_sample.json",
         "coverage.geojson",
     ]
-    artifacts += [str(p.relative_to(run.path)) for p in models.values()]
+    artifacts += [p.relative_to(run.path).as_posix() for p in models.values()]
     registry = {
         "version": "modis_native41_v6",
+        "run_id": run.run_id,
         "config_sha256": run.config_hash,
         "created_utc": utc_now(),
         "artifacts": {p: sha256_file(run.path / p) for p in artifacts},
-        "features": {str(p.relative_to(run.path)): sha256_file(p) for p in files},
+        "features": {p.relative_to(run.path).as_posix(): sha256_file(p) for p in files},
         "code": {
             name: sha256_file(Path(__file__).with_name(name + ".py"))
             for name in (

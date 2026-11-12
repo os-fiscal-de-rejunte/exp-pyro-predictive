@@ -68,6 +68,10 @@ $env:EARTHFIRE_BUDGET_ID='maxcoverage_v6_20261111'
 
 O armazenamento compartilhado de máscaras fica em `runs/maxcoverage_v6_20261111`; features, modelos e avaliação em `runs/maxcoverage_v6b_20261111`. A seleção e seus hashes ficam em `runs/maxcoverage_v6b_20261111_selection/selection.json`. O protocolo de cache é independente do nome do lote e retoma escritas interrompidas somente quando o hash pendente confere. Até três tentativas por consulta; HTTP 429 interrompe a coleta. Tempo, disco e RAM são verificados antes de novas operações.
 
+O controle de disco mede também o tamanho dos diretórios associados ao orçamento, a cada minuto. Uma liberação de espaço externa não reinicia a cota. Os snapshots em `resources.json` registram RAM dos processos conhecidos, pico amostrado e volume rastreado. Bibliotecas numéricas são carregadas após definir limites de threads. Esses monitores não são medições contínuas do pico instantâneo.
+
+O calendário exportado em `evaluation/calendar_parts/` preserva os compostos observados e as ausências. Sua anomalia exige ao menos três compostos anteriores do mesmo mês cuja data de produção anteceda a emissão. Reprocessamentos recentes podem impedir reconstruir essa referência: nesse caso a anomalia fica ausente. Os caminhos dos registros e manifestos v6 usam barras portáveis entre Windows e Linux.
+
 Progresso: `EXPANSION_STATUS.md`, `progress.json` e logs em `runs/maxcoverage_v6b_sparse_pipeline.log`. Modelos finalizados ficam congelados; acrescentar partições requer novo identificador, mantendo o orçamento explícito. Os resultados medidos e as causas reais de encerramento serão registrados em `REPORT_MAXCOVERAGE_V6.md` ao concluir.
 
 Fontes oficiais consultadas: [serviço ORNL](https://modis.ornl.gov/data/modis_webservice.html), [campos MODIS FIRMS](https://firms.modaps.eosdis.nasa.gov/content/descriptions/FIRMS_MODIS_Firehotspots.html), [NASA POWER](https://power.larc.nasa.gov/docs/services/api/temporal/daily/). Respostas e hashes são preservados, sem credenciais nos arquivos versionados.
